@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Update LineageOS on beryllium
+title: Update PixelExperience on beryllium
 folder: update
 permalink: /devices/beryllium/update
 device: beryllium

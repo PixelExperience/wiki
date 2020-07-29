@@ -2,7 +2,6 @@
 layout: default
 title: Devices
 permalink: devices/
-redirect_from: devices.html
 search: exclude
 ---
 
@@ -68,21 +67,19 @@ Select a vendor to jump to:<br/>
   <tr>
     <th scope="col" class="first"><b>Device</b></th>
     <th scope="col"><b>Codename</b></th>
-    <th scope="col" class="last"><b>Type</b></th>
   </tr>
   </thead>
 {% endif %}
 {% if device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
 {% else %}{% assign deviceName = device.name %}{% endif %}
 {% assign url = "devices/" | append: device.codename | relative_url %}
-{%- if device.maintainers == empty %}{% assign class="discontinued" %}
+{%- if device.deprecated == true %}{% assign class="discontinued" %}
 {%- else %}
 {%- assign class="" %}
 {%- endif %}
   <tr class="{{ class }}">
     <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
-    <td>{{ device.type | capitalize }}</td>
   </tr>
 {% if sorted[forloop.index].vendor != lastVendor %}</table>{% endif %}
 {% endfor %}

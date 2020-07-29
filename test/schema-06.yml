@@ -54,11 +54,10 @@ definitions:
   valid_branches:
     description: Valid branches a device can be on
     enum:
-    - 13.0
-    - 14.1
-    - 15.1
-    - 16.0
-    - 17.1
+    - pie
+    - pie-plus
+    - ten
+    - ten-plus
     type: number
   valid_dimension:
     oneOf:
@@ -250,9 +249,6 @@ properties:
     "$id": "/properties/cpu_freq"
     minLength: 3
     type: string
-  current_branch:
-    "$id": "/properties/current_branch"
-    "$ref": "#/definitions/valid_branches"
   custom_recovery_codename:
     "$id": "/properties/custom_recovery_codename"
     type: string
@@ -328,10 +324,6 @@ properties:
   height:
     "$id": "/properties/height"
     "$ref": "#/definitions/valid_dimension"
-  image:
-    "$id": "/properties/image"
-    pattern: ^\w*\.(png|jpg)$
-    type: string
   install_method:
     "$id": "/properties/install_method"
     enum:
@@ -359,14 +351,9 @@ properties:
   is_unlockable:
     "$id": "/properties/is_unlockable"
     type: boolean
-  kernel:
-    "$id": "/properties/kernel"
-    pattern: ^(android_kernel(_\w*){2}(-common)?|lge-kernel-\w*)$
-    type: string
-  maintainers:
-    "$id": "/properties/maintainers"
-    minItems: 0
-    type: array
+  deprecated:
+    "$id": "/properties/deprecated"
+    type: boolean
   models:
     "$id": "/properties/models"
     type: array
@@ -421,19 +408,6 @@ properties:
     - "$ref": "#/definitions/valid_dimension"
     - enum:
       - None
-  tree:
-    "$id": "/properties/tree"
-    pattern: ^android_device_(.*)$
-    type: string
-  type:
-    "$id": "/properties/type"
-    enum:
-    - Handheld game console
-    - Set top box
-    - phablet
-    - phone
-    - phone (slider)
-    - tablet
   uses_twrp:
     "$id": "/properties/uses_twrp"
     type: boolean
@@ -469,49 +443,6 @@ properties:
     - YU
     - ZTE
     - ZUK
-  vendor_short:
-    "$id": "/properties/vendor_short"
-    enum:
-    - ark
-    - asus
-    - bq
-    - essential
-    - fairphone
-    - fxtec
-    - google
-    - htc
-    - huawei
-    - leeco
-    - lenovo
-    - lge
-    - moto
-    - motorola
-    - nextbit
-    - nubia
-    - nvidia
-    - oneplus
-    - oppo
-    - razer
-    - realme
-    - samsung
-    - sony
-    - wileyfox
-    - wingtech
-    - xiaomi
-    - yandex
-    - yu
-    - zte
-    - zuk
-  versions:
-    "$id": "/properties/versions"
-    items:
-      "$id": "/properties/versions/items"
-      "$ref": "#/definitions/valid_branches"
-    minItems: 1
-    type: array
-  width:
-    "$id": "/properties/width"
-    "$ref": "#/definitions/valid_dimension"
 required:
 - architecture
 - battery
@@ -520,20 +451,14 @@ required:
 - cpu
 - cpu_cores
 - cpu_freq
-- current_branch
 - gpu
-- image
 - install_method
-- kernel
-- maintainers
+- deprecated
 - name
 - peripherals
 - release
 - screen
-- tree
 - type
 - vendor
-- vendor_short
-- versions
 title: device
 type: object

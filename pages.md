@@ -1,14 +1,14 @@
 ---
 title: All Content
 sidebar: home_sidebar
-permalink: pages.html
+permalink: pages/
 toc: false
 tags:
  - noindex
 ---
 
 {% assign sorted_pages = site.pages | sort: 'title' %}
-{% assign ignore_tags = "noindex|how-to|sdk" | split: "|" %}
+{% assign ignore_tags = "noindex|how-to" | split: "|" %}
 
 {% for page in sorted_pages %}
 {% assign ignore = false %}

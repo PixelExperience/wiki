@@ -1,5 +1,5 @@
 [gerrit]
-host=review.lineageos.org
+host=gerrit.pixelexperience.org
 port=29418
-project=LineageOS/lineage_wiki
+project=PixelExperience/wiki
 defaultbranch=master

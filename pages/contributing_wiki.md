@@ -2,19 +2,11 @@
 sidebar: home_sidebar
 title: Contributing to the wiki
 folder: meta
-permalink: contributing_wiki.html
+permalink: help/contributing/wiki/
 ---
 So, you've decided you want to edit the wiki. Awesome! This page will show you how to get started. Please follow the instructions that are most appropriate for you.
 
 ## Cloning the wiki
-
-### Using repo
-
-If you already have a LineageOS source tree checked out, then this step is done for you. The wiki's git repository is present under `$LINEAGE_SRC/lineage/wiki`.
-
-### Using git
-
-If you don't have a LineageOS source tree on your device, then you can clone the wiki from GitHub to any directory you like. In this example, we'll use `~/lineage_wiki`.
 
 #### Install Git
 
@@ -45,12 +37,12 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
 
-{% include alerts/tip.html content="Before this step, you can fork the LineageOS wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace LineageOS in the `git clone` command with your GitHub username." %}
+{% include alerts/tip.html content="Before this step, you can fork the PixelExperience wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace PixelExperience in the `git clone` command with your GitHub username." %}
 
 ```
-git clone https://github.com/LineageOS/lineage_wiki ~/lineage_wiki
-cd ~/lineage_wiki
-curl -Lo .git/hooks/commit-msg https://review.lineageos.org/tools/hooks/commit-msg
+git clone https://github.com/PixelExperience/wiki ~/wiki
+cd ~/wiki
+curl -Lo .git/hooks/commit-msg https://gerrit.pixelexperience.org/tools/hooks/commit-msg
 chmod +x .git/hooks/commit-msg
 ```
 
@@ -89,7 +81,7 @@ Save the file and exit the editor. Now upload your changes to GitHub:
 git push origin
 ```
 
-Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
+Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/wiki`.
 
 #### Fixing mistakes
 
@@ -139,8 +131,8 @@ Then log out of your user account and log back in or reboot to make the group me
 This builds the docker image, which should only need to be done once:
 
 ```
-cd $LINEAGE_SRC/lineage/wiki #Or to wherever you cloned the repository
-docker build -t lineageos/wiki .
+cd ~/wiki
+docker build -t pixelexperience/wiki .
 ```
 
 #### Edit the wiki
@@ -148,8 +140,8 @@ docker build -t lineageos/wiki .
 Each time that you want to edit the wiki, you will need to start a local web server running Jekyll:
 
 ```
-cd $LINEAGE_SRC/lineage/wiki
-docker run -p 4000:4000 -v $(pwd):/src -it lineageos/wiki
+cd ~/wiki
+docker run -p 4000:4000 -v $(pwd):/src -it pixelexperience/wiki
 ```
 
 At this point you should be able to view the [local Jekyll server](http://127.0.0.1:4000).
@@ -169,12 +161,12 @@ curl -sSL https://get.rvm.io | bash -s stable
 
 #### Configure `ruby` for editing the wiki
 
-These steps will configure and install the latest version of ruby MRI via `rvm`. All gems (modules) are stored in the namespace `lineage_wiki` and the environment will be configured to allow remote access to GitHub. Once configured, `ruby` will be installed and the required gems downloaded:
+These steps will configure and install the latest version of ruby MRI via `rvm`. All gems (modules) are stored in the namespace `wiki` and the environment will be configured to allow remote access to GitHub. Once configured, `ruby` will be installed and the required gems downloaded:
 
 ```
-cd $LINEAGE_SRC/lineage/wiki
+cd ~/wiki
 echo ruby > .ruby-version
-echo lineage_wiki > .ruby-gemset
+echo wiki > .ruby-gemset
 rvm install ruby
 gem install bundler rails
 bundle install
@@ -186,7 +178,7 @@ Each time that you want to edit the wiki, you will need to start a local web ser
 
 ```
 source ~/.rvm/scripts/rvm
-cd $LINEAGE_SRC/lineage/wiki
+cd ~/wiki
 bundle exec jekyll serve --incremental
 ```
 
@@ -199,18 +191,17 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ## Uploading your changes
 
-LineageOS uses [Gerrit](https://review.lineageos.org/) to review proposed changes. Before you begin,
-you'll need to [create an account](https://review.lineageos.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen),
-and [configure an SSH key](https://review.lineageos.org/Documentation/user-upload.html#ssh).
+PixelExperience uses [Gerrit](https://gerrit.pixelexperience.org/) to review proposed changes. Before you begin,
+you'll need to [create an account](https://gerrit.pixelexperience.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen),
+and [configure an SSH key](https://gerrit.pixelexperience.org/Documentation/user-upload.html#ssh).
 
 After you've done this, you can push your commits to Gerrit:
 
 ```
-git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/lineage_wiki
+git remote add gerrit ssh://<gerritusername>@gerrit.pixelexperience.org:29418/wiki
 git push gerrit HEAD:refs/for/master
 ```
 
-You can add the "Wiki Editors" group as reviewers (click on the little person to the right of "reviewers").
 Someone will either: comment on the patch, asking for clarification or pointing out typos.
 You can reply to them, or [fix any issues they point out](#fixing-mistakes), and then re-run:
 

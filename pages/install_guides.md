@@ -1,7 +1,7 @@
 ---
 title: Install guides
 sidebar: home_sidebar
-permalink: install_guides.html
+permalink: help/install/
 toc: false
 ---
 

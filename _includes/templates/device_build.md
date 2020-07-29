@@ -4,8 +4,8 @@
 ## Introduction
 
 These instructions will hopefully assist you to start with a stock {{ device.vendor }} {{ device.name }}, unlock the bootloader (if necessary), and then download
-the required tools as well as the very latest source code for LineageOS (based on Google’s Android operating system) for your device. Using these, you can build both
-a LineageOS installation zip and a LineageOS Recovery image and install them on your device.
+the required tools as well as the very latest source code for PixelExperience (based on Google’s Android operating system) for your device. Using these, you can build both
+a PixelExperience installation zip and a PixelExperience Recovery image and install them on your device.
 
 It is difficult to say how much experience is necessary to follow these instructions. While this guide is certainly not for the extremely uninitiated,
 these steps shouldn’t require a PhD in software development either. Some readers will have no difficulty and breeze through the steps easily.
@@ -34,7 +34,7 @@ Any recent 64-bit version should work great, but the latest Long Term Support (L
 
 Let's begin!
 
-## Build LineageOS and LineageOS Recovery
+## Build PixelExperience and PixelExperience Recovery
 
 {% include alerts/note.html content="You only need to do these steps once. If you have already prepared your build environment and downloaded the source code,
 skip to [Prepare the device-specific code](#prepare-the-device-specific-code)" %}
@@ -63,7 +63,7 @@ Then, run `source ~/.profile` to update your environment.
 
 ### Install the build packages
 
-Several packages are needed to build LineageOS. You can install these using your distribution's package manager.
+Several packages are needed to build PixelExperience. You can install these using your distribution's package manager.
 
 {% include alerts/tip.html content="A [package manager](https://en.wikipedia.org/wiki/Package_manager) in Linux is a system used to install or remove software
 (usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the `apt-get install`
@@ -77,19 +77,13 @@ command directly in the Terminal." %}
 {%- endif -%}
 {%- endcapture -%}
 
-To build LineageOS, you'll need:
+To build PixelExperience, you'll need:
 
 * `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
    lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev
    libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync
    schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
    zip zlib1g-dev`
-
-{% if device.versions contains 13.0 %}
-To build LineageOS 13.0, you'll also need:
-
-* `maven`
-{% endif %}
 
 For Ubuntu versions older than 20.04 (focal), install also:
 
@@ -101,13 +95,9 @@ While for Ubuntu versions older than 16.04 (xenial), install:
 
 #### Java
 
-Different versions of LineageOS require different JDK (Java Development Kit) versions.
+Different versions of PixelExperience require different JDK (Java Development Kit) versions.
 
-* LineageOS 16.0-17.1: OpenJDK 1.9 (included by default)
-* LineageOS 14.1-15.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
-* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
-
-\* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
+* PixelExperience Pie-Ten: OpenJDK 1.9 (included by default)
 
 ### Create the directories
 
@@ -117,10 +107,10 @@ To create them:
 
 ```
 mkdir -p ~/bin
-mkdir -p ~/android/lineage
+mkdir -p ~/android/pe
 ```
 
-The `~/bin` directory will contain the git-repo tool (commonly named "repo") and the `~/android/lineage` directory will contain the source code of LineageOS.
+The `~/bin` directory will contain the git-repo tool (commonly named "repo") and the `~/android/pe` directory will contain the source code of PixelExperience.
 
 ### Install the `repo` command
 
@@ -152,29 +142,26 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-### Initialize the LineageOS source repository
+### Choosing version
 
-{% if device.maintainers != empty %}
-The following branches are officially supported for the {{ device.vendor }} {{ device.name }}:
-{% else %}
-The following branches can be used to build for the {{ device.vendor }} {{ device.name }}:
-{% endif %}
+You can check which version can be used to build for the {{ device.vendor }} {{ device.name }} by checking [this url](https://download.pixelexperience.org/{{ device.codename }}).
 
-{% for version in device.versions %}
-{% if version < 15 %}
-* cm-{{ version }}
-{% else %}
-* lineage-{{ version }}
-{% endif %}
-{% endfor %}
+
+| version            | branch_name |
+|--------------------|-------------|
+| 10                 | ten         |
+| 10 (Plus edition)  | ten_plus    |
+
+
+### Initialize the PixelExperience source repository
 
 Enter the following to initialize the repository:
 
 {% include alerts/note.html content="Make sure the branch you enter here is the one you wish to build!" %}
 
 ```
-cd ~/android/lineage
-repo init -u https://github.com/LineageOS/android.git -b {% if device.current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ device.current_branch }}
+cd ~/android/pe
+repo init -u https://github.com/PixelExperience/manifest -b branch_name
 ```
 
 ### Download the source code
@@ -182,50 +169,24 @@ repo init -u https://github.com/LineageOS/android.git -b {% if device.current_br
 To start the download of the source code to your computer, type the following:
 
 ```
-repo sync
+repo sync -j$(nproc --all) -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
-
-The LineageOS manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
-For reference, our default values are `-j 4` and `-c`. The `-j 4` part means that there will be four simultaneous threads/connections. If you experience
-problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch instead of all branches that are available on GitHub.
 
 {% include alerts/note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
-{% include alerts/tip.html content="The `repo sync` command is used to update the latest source code from LineageOS and Google. Remember it, as you may want to
+{% include alerts/tip.html content="The `repo sync` command is used to update the latest source code from PixelExperience. Remember it, as you may want to
 do it every few days to keep your code base fresh and up-to-date." %}
 
 ### Prepare the device-specific code
 
-After the source downloads, ensure you're in the root of the source code (`cd ~/android/lineage`), then type:
+After the source downloads, ensure you're in the root of the source code (`cd ~/android/pe`), then type:
 
 ```
 source build/envsetup.sh
-breakfast {{ device.codename }}
+lunch {{ device.codename }}-userdebug
 ```
 
-This will download your device's [device specific configuration](https://github.com/LineageOS/{{ device.tree }}) and
-[kernel](https://github.com/LineageOS/{{ device.kernel }}).
-
-{% include alerts/important.html content="Some devices require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
-makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeeded, and after completing you can [rerun
-`breakfast`](#prepare-the-device-specific-code)" %}
-
-### Extract proprietary blobs
-
-{% capture extracting_blobs_from_zips %}
-This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip]({{ "extracting_blobs_from_zips.html" | relative_url }}).
-{% endcapture %}
-{% include alerts/note.html content=extracting_blobs_from_zips %}
-
-Now ensure your {{ device.name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
-`~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` folder. Then run the `extract-files.sh` script:
-
-```
-./extract-files.sh
-```
-
-The blobs should be pulled into the `~/android/lineage/vendor/{{ device.vendor_short }}` folder. If you see "command not found" errors, `adb` may
-need to be placed in `~/bin`.
+This will download your device's necessary dependencies.
 
 ### Turn on caching to speed up build
 
@@ -257,34 +218,16 @@ or add that line to your `~/.bashrc` file.
 
 {% include alerts/note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
 
-
-{% if device.current_branch >= 14 and device.current_branch < 16 %}
-### Configure jack
-
-[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1 and 15.1. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
-
-```
-export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
-```
-
-Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory (in this case, 4GB).
-{% endif %}
-
 ### Start the build
 
 Time to start building! Now, type:
 
 ```
 croot
-brunch {{device.codename}}
+mka bacon -j$(nproc --all)
 ```
 
 The build should begin.
-
-{% capture signing_builds %}
-Want to learn how to sign your own builds? Take a look at [Signing builds]({{ "signing_builds.html" | relative_url }}).
-{% endcapture %}
-{% include alerts/tip.html content=signing_builds %}
 
 ## Install the build
 
@@ -297,11 +240,11 @@ cd $OUT
 There you'll find all the files that were created. The two files of more interest are:
 
 {% if device.is_ab_device %}
-1. `boot.img`, which is the LineageOS boot image, and contains the recovery-ramdisk.
+1. `boot.img`, which is the PixelExperience boot image, and contains the recovery-ramdisk.
 {% else %}
-1. `recovery.img`, which is the LineageOS recovery image.
+1. `recovery.img`, which is the PixelExperience recovery image.
 {% endif %}
-2. `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{ device.codename }}.zip`, which is the LineageOS
+2. A zip file whose name starts with 'PixelExperience_', which is the PixelExperience
 installer package.
 
 ### Success! So... what's next?
@@ -311,4 +254,4 @@ hopefully you've learned a bit on the way and had some fun too.
 
 ## To get assistance
 
-* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
+* [Telegram group](https://t.me/pixelexperiencechat)

@@ -1,8 +1,7 @@
 ---
 title: Upgrade guides
 sidebar: home_sidebar
-permalink: upgrade_guides.html
-redirect_from: upgrading.html
+permalink: help/upgrade/
 toc: false
 ---
 

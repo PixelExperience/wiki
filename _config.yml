@@ -2,10 +2,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-title: LineageOS Wiki
+title: PixelExperience Wiki
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: The LineageOS Project
+company_name: The PixelExperience Project
 # this appears in the footer
 
 host: 127.0.0.1
@@ -61,11 +61,11 @@ sass:
   style: :compressed # You might prefer to minify using :compressed
   sourcemap: true
 
-description: "The LineageOS Wiki"
+description: "The PixelExperience Wiki"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://wiki.lineageos.org
+url: https://wiki.pixelexperience.org
 
 plugins:
   - jekyll-redirect-from

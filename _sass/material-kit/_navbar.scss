@@ -5,7 +5,7 @@
     border-radius: $border-radius-base;
     padding: 0.315rem 0;
     margin-bottom: 20px;
-    @include navbar-colors($white-color, $navbar-color);
+    @include navbar-colors($custom-primary, $white-color);
 
     &.fixed-top{
         border-radius: 0;
@@ -18,7 +18,6 @@
             padding: $padding-general-x;
             font-weight: $font-weight-default;
             font-size: $mdb-btn-font-size-base;
-            text-transform: uppercase;
             border-radius: $border-radius-base;
             line-height: 20px;
 
@@ -115,10 +114,8 @@
     .navbar-brand {
         position: relative;
         color: inherit;
-        height: 50px;
         font-size: $navbar-brand-font-size - 0.125;
         line-height: 30px;
-        padding: $padding-general-y 0;
     }
 
     &.bg-primary{

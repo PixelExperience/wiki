@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on {codename}
+title: Install PixelExperience on {codename}
 folder: install
 permalink: /devices/{codename}/install
 device: {codename}

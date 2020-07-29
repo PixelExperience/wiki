@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: How to submit a patch
 folder: how-tos
-permalink: submitting-patch-howto.html
+permalink: help/submit-patch/
 tags:
  - how-to
 ---
@@ -10,16 +10,14 @@ tags:
 
 ## Initial setup
 
-If you haven't yet successfully downloaded the source and generated a build of LineageOS, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "/devices" | relative_url }}).
+If you haven't yet successfully downloaded the source and generated a build of PixelExperience, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "/devices" | relative_url }}).
 
-Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributor Agreement](https://review.lineageos.org/#/settings/agreements) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
-
-{% include alerts/important.html content="Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent." %}
+Setup an account on [Gerrit](https://gerrit.pixelexperience.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 
 Now make sure your local git username matches with your Gerrit username:
 
 ```
-git config --global review.review.lineageos.org.username "gerrit username"
+git config --global review.gerrit.pixelexperience.org.username "gerrit username"
 ```
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
@@ -48,7 +46,7 @@ The steps above have to be performed only once.
 Go to the root of the source code:
 
 ```
-cd ~/android/lineage
+cd ~/android/pe
 ```
 
 Setup your build environment:
@@ -63,14 +61,14 @@ The rest of this guide will rely on this being done. You can check the proper ex
 croot
 ```
 
-Your shell will then navigate to the root of the sources, `~/android/lineage` or give an error.
+Your shell will then navigate to the root of the sources, `~/android/pe` or give an error.
 
 
 ## Submitting to Gerrit
 
 ### Uploading your changes
 
-First, you need to start a topic branch. This branch holds the changes you make to the files on your computer that you will ultimately send to the LineageOS' Gerrit instance for review. Create your topic branch:
+First, you need to start a topic branch. This branch holds the changes you make to the files on your computer that you will ultimately send to the PixelExperience' Gerrit instance for review. Create your topic branch:
 
 ```
 repo start <branch name> <project path>
@@ -208,15 +206,13 @@ ssh-keygen -t dsa -C "your@email.com"
 
 ## Getting your submission reviewed/merged
 
-All submitted patches go through a code review process prior to being merged. In addition to peer reviews, certain project members have the capability to merge your changes into LineageOS.
+All submitted patches go through a code review process prior to being merged. In addition to peer reviews, certain project members have the capability to merge your changes into PixelExperience.
 To make sure they get informed:
 
 1) Add reviewers:
-  - For device/kernel repos, add the [maintainer of your device](contributors.html#device-maintainers)
-  - For changes to various special projects (like this wiki), see the maintainers listed [here](contributors.html#other-projects). Note that the wiki editors can be added directly by typing "Wiki Editors" into the reviewer field
-  - For all other repos, add the [Trusted Reviewers](contributors.html#trusted-reviewers) or [Committers](contributors.html#committers)
+  - For general repos, add the [Head Developers](https://download.pixelexperience.org/about#team)
 
-2) Set the [proper labels](usinggerrit-howto.html#reviewing-a-patch) to indicate your patch is ready
+2) Set the [proper labels](help/using-gerrit/#reviewing-a-patch) to indicate your patch is ready
 
 ## Common commands
 
@@ -266,4 +262,4 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 [Git and repo overview](https://source.android.com/source/developing)
 
-[Gerrit Documentation](https://review.lineageos.org/Documentation/index.html)
+[Gerrit Documentation](https://gerrit.pixelexperience.org/Documentation/index.html)

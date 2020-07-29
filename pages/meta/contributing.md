@@ -3,23 +3,27 @@ sidebar: home_sidebar
 title: Contributing
 folder: meta
 toc: false
-permalink: contributing.html
+permalink: help/contributing/
 ---
 
-So, you've decided you want to contribute to LineageOS. Awesome! This page will give you a quick overview of what you can do to contribute.
+So, you've decided you want to contribute to PixelExperience. Awesome! This page will give you a quick overview of what you can do to contribute.
 
 ## Source code and features
 
 To work with the source code, you can check the following links:
 
-- [Build for your device](build_guides.html)
-- [How to import the sources to Android Studio / IntelliJ](import-android-studio-howto.html)
-- [How to submit a patch](submitting-patch-howto.html)
+- [Build for your device]({{ site.baseurl }}/help/building/)
+- [How to import the sources to Android Studio / IntelliJ]({{ site.baseurl }}/help/import-android-studio/)
+- [How to submit a patch]({{ site.baseurl }}/help/submit-patch/)
 
 ## Translations
 
-Want to see LineageOS in your favorite language? Or it's already there but incomplete? Then [this guide](translate-howto.html) is for you!
+Want to see PixelExperience in your favorite language? Or it's already there but incomplete? Then [this guide]({{ site.baseurl }}/help/translate/) is for you.
 
 ## Wiki
 
-You can help us make this wiki a place where all information to work with and on LineageOS can easily be found. Click [here](contributing_wiki.html) to find out, how!
+You can help us make this wiki a place where all information to work with and on PixelExperience can easily be found. Click [here]({{ site.baseurl }}/help/contributing/wiki/) to find out.
+
+## Official devices
+
+If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url](https://github.com/PixelExperience/official_devices/blob/master/README.md). Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.

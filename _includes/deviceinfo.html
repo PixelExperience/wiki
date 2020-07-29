@@ -7,11 +7,7 @@
     </tr>
 
     <tr class="image">
-      {% if jekyll.environment == "development" or jekyll.environment == "production" %}
-      <td colspan="2"><img src="{{ "images/devices/" | append: device.image | relative_url }}" /></td>
-      {% else %}
-      <td colspan="2"><img src="{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image }}"/></td>
-      {% endif %}
+      <td colspan="2"><img src="https://raw.githubusercontent.com/PixelExperience/official_devices/master/images/{{ device.codename }}.png" /></td>
     </tr>
 
     <tr>
@@ -202,21 +198,6 @@
         </td>
     </tr>
     {%- endif %}
-    <!-- lineage info -->
-    {% if device.maintainers != empty %}
-    <tr>
-        <th scope="row" colspan="2">LineageOS info</td>
-    </tr>
-    <tr>
-        <th scope="row">Maintainers</td>
-        <td>
-            <ul>
-                {% for el in device.maintainers %}
-                    <li>{{ el }}</li>
-                {% endfor %}
-            </ul>
-        </td>
-    </tr>
     {% if device.models %}
     <tr>
         <th scope="row">Supported models</td>
@@ -225,17 +206,6 @@
             {% for model in device.models %}
             <li> {{ model }}
             {% endfor %}
-            </ul>
-        </td>
-    </tr>
-    {% endif %}
-    <tr>
-        <th scope="row">Supported versions</td>
-        <td>
-            <ul>
-                {% for el in device.versions %}
-                    <li>{{ el }}</li>
-                {% endfor %}
             </ul>
         </td>
     </tr>

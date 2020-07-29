@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-$bmd-label-color-focus: $brand-primary !default;
+$bmd-label-color-focus: $custom-primary-light !default;
 $bmd-invalid-underline: $brand-danger !default;
 $bmd-readonly-underline: $input-border-color !default;
 
@@ -15,7 +15,7 @@ $icon-color: rgba($black, 0.5) !default;
 
 // --------------------
 // inputs
-$mdb-input-placeholder-color: #AAAAAA !default;
+$mdb-input-placeholder-color: $grey-100 !default;
 $mdb-input-underline-color: #D2D2D2 !default;
 
 $mdb-input-font-size-base: 14px !default;
@@ -155,7 +155,7 @@ $padding-card-body-y: 0.9375rem !default;
 $padding-card-body-x: 1.875rem !default;
 
 // Buttons:
-$mdb-btn-font-size-base: 12px !default;
+$mdb-btn-font-size-base: 16px !default;
 $mdb-btn-font-size-lg: 14px !default;
 $mdb-btn-font-size-sm: 11px !default;
 $mdb-btn-font-size-xs: 10px !default;

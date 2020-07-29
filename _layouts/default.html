@@ -5,24 +5,39 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta name="description" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:site_name" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:image" content="https://download.pixelexperience.org/images/banner.png" />
+    <meta name="keywords" content="wiki,wiki pe,pixel experience,pixel,experience,oreo,google,google pixel,android 10,android q,pie,aosp,ten,android,custom rom,rom">
+    <meta name="msapplication-TileColor" content="#2D2D2D">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/ms-icon-144x144.png">
+    <meta name="theme-color" content="#2D2D2D">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.baseurl }}/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
     <link href="{{ site.baseurl }}/assets/css/material-kit.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:350,400,500,700|Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="{{ site.baseurl }}/assets/js/main.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js" integrity="sha256-WofcoLT8gToeaSmVRe28qpnlFxdBJH1n4K6Bk3YowvU=" crossorigin="anonymous"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/apple-touch-icon.png" | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-32x32.png" | relative_url }}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-16x16.png" | relative_url }}" sizes="16x16">
-    <link rel="manifest" href="{{ "images/favicons/manifest.json" | relative_url }}">
-    <link rel="mask-icon" href="{{ "images/favicons/safari-pinned-tab.svg" | relative_url }}" color="#167c80">
-    <link rel="shortcut icon" href="{{ "images/favicons/favicon.ico" | relative_url }}">
-    <meta name="msapplication-config" content="{{ "images/favicons/browserconfig.xml" | relative_url }}">
-    <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
 

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on dipper
+title: Install PixelExperience on dipper
 folder: install
 permalink: /devices/dipper/install
 device: dipper

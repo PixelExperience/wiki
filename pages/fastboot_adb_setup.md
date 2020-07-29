@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Using ADB and fastboot
-permalink: adb_fastboot_guide.html
+permalink: help/adb-fastboot-guide/
 ---
 ## What is `adb`?
 The [Android Debug Bridge](https://en.wikipedia.org/wiki/Android_Debug_Bridge) (`adb`) is a development tool that facilitates communication between an Android
@@ -89,4 +89,4 @@ and `adb logcat -C` to view logs in colour
 
 ## Need help?
 
-You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
+You can find assistance with PixelExperience on [our Telegram group](https://t.me/pixelexperiencechat).

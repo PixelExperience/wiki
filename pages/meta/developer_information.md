@@ -1,11 +1,11 @@
 ---
 sidebar: home_sidebar
-title: Information for Lineage Developers
+title: Information for maintainers
 folder: meta
 toc: false
-permalink: developer_information.html
+permalink: help/developer-information/
 ---
-So, you've decided you want to contribute to the Lineage software. Awesome! This page provides reference material that may be useful to help you.
+So, you've decided you want to contribute to the PixelExperience. Awesome! This page provides reference material that may be useful to help you.
 
 ## List of links
 

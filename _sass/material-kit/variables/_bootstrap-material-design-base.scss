@@ -24,7 +24,7 @@ $border-radius-label: 12px !default;
 $border-radius-extreme: 30px !default;
 
 // Typography elements
-$mdb-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+$mdb-font-family: 'Product Sans', 'Helvetica', 'Arial', sans-serif !default;
 $mdb-text-color-light:  $white !default;
 $mdb-text-color-light-hex: $white !default; // for contrast function in inverse
 $mdb-text-color-primary: unquote("rgba(#{$rgb-black}, 0.87)") !default;

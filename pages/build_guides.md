@@ -1,7 +1,7 @@
 ---
 title: Build guides
 sidebar: home_sidebar
-permalink: build_guides.html
+permalink: help/building/
 toc: false
 ---
 

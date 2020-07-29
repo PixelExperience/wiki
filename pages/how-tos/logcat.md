@@ -2,19 +2,19 @@
 sidebar: home_sidebar
 title: How to capture logs
 folder: how-tos
-permalink: logcat.html
+permalink: help/logcat/
 tags:
  - how-to
 ---
 
 ## Taking logs for bug reports
 
-These instructions will generate a `logcat` file which you can then attach to a [bug report](bugreport-howto.html#reporting-a-bug).
+These instructions will generate a `logcat` file which you can then attach to a [bug report](help/bugreport/#reporting-a-bug).
 That file basically consists of a log of system messages, including stack traces when the device throws an error, and debug messages from apps.
 
 ### With a computer
 
-{% include alerts/note.html content="This method requires that you have [`adb` installed](adb_fastboot_guide.html#installing-adb-and-fastboot).
+{% include alerts/note.html content="This method requires that you have [`adb` installed](help/adb-fastboot-guide/#installing-adb-and-fastboot).
 If you don't have it installed, please do that before continuing." %}
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS).
@@ -24,9 +24,9 @@ If you don't have it installed, please do that before continuing." %}
 
 ### On your device
 
-{% include alerts/note.html content="This method requires that your device is [rooted](https://download.lineageos.org/extras)." %}
+{% include alerts/note.html content="This method requires that your device is rooted." %}
 
-1. Open the Terminal app (you can enable the built-in terminal app in **Developer options**).
+1. Install and open some Terminal app, we recomend that: [https://play.google.com/store/apps/details?id=yarolegovich.materialterminal](https://play.google.com/store/apps/details?id=yarolegovich.materialterminal)
 2. Type `su` and confirm root access - you may have to turn on root access for apps in **Developer options**.
 3. Type `logcat -d -f /sdcard/logcat.txt`. This will save the log to `/sdcard/logcat.txt`.
 

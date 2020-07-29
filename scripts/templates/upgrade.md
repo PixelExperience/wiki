@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Upgrade LineageOS on {codename}
+title: Upgrade PixelExperience on {codename}
 folder: upgrade
 permalink: /devices/{codename}/upgrade
 device: {codename}

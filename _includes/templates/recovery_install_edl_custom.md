@@ -13,7 +13,7 @@
 {% if device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
 {% else %}
-1. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
+1. Download a custom recovery - you can download [PixelExperience Recovery](https://download.pixelexperience.org/{{ custom_recovery_codename }}). Simply download the latest recovery file.
 {% endif %}
 {% endif %}
 2. Connect your device to your PC via USB.

@@ -58,7 +58,7 @@
             height: 100%;
             width: 100%;
             position: absolute;
-            background-color: $white-color;
+            background-color: $custom-primary;
             display: block;
             content: "";
             z-index: 1;
@@ -98,7 +98,7 @@
                   display: block;
                   height: 1px;
                   margin-left: 15px;
-                  background-color: #e5e5e5;
+                  background-color: $hr-border-color;
                 }
 
                 &:last-child {
