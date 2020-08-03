@@ -19,7 +19,6 @@ image: lake.png
 install_method: fastboot_motorola
 deprecated: false
 is_ab_device: true
-kernel: android_kernel_motorola_msm8998
 models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
 name: 'Moto G7 Plus'
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -36,6 +35,5 @@ sdcard: Up to 256 GB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: Motorola
-versions: [17.1]
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
