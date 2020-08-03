@@ -1,5 +1,0 @@
-[gerrit]
-host=gerrit.pixelexperience.org
-port=29418
-project=PixelExperience/wiki
-defaultbranch=master
