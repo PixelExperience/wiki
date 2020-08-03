@@ -119,8 +119,7 @@ Additionally there are some optional properties which you might not need, but in
 
 ### Adding the device's image
 
-Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. The filename must match the
-entry in your YAML file. Also make sure the background of the image is transparent.
+Find a reasonably high-quality image of your device, and add it to `images/<codename>.png`. The filename must match the device codename. You should push the image to [this repository](https://github.com/PixelExperience/official_devices).
 
 ## Testing it works
 
