@@ -140,20 +140,14 @@ Given that `repo` requires you to identify yourself to sync Android, run the fol
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-```
-
-### Choosing version
-
-You can check which version can be used to build for the {{ device.vendor }} {{ device.name }} by checking [this url](https://download.pixelexperience.org/{{ device.codename }}).
-
-
-| version            | branch_name |
-|--------------------|-------------|
-| 10                 | ten         |
-| 10 (Plus edition)  | ten_plus    |
-
 
 ### Initialize the PixelExperience source repository
+
+The following branches can be used to build for the {{ device.vendor }} {{ device.name }}:
+
+{% for version in device.versions %}
+* {{ version | replace: "_", "-" }}
+{% endfor %}
 
 Enter the following to initialize the repository:
 

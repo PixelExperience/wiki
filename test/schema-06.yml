@@ -58,7 +58,7 @@ definitions:
     - pie-plus
     - ten
     - ten-plus
-    type: number
+    type: string
   valid_dimension:
     oneOf:
     - "$ref": "#/definitions/dimension_string"
@@ -354,6 +354,10 @@ properties:
   deprecated:
     "$id": "/properties/deprecated"
     type: boolean
+  maintainers:
+    "$id": "/properties/maintainers"
+    minItems: 0
+    type: array
   models:
     "$id": "/properties/models"
     type: array
@@ -443,6 +447,13 @@ properties:
     - YU
     - ZTE
     - ZUK
+  versions:
+    "$id": "/properties/versions"
+    items:
+      "$id": "/properties/versions/items"
+      "$ref": "#/definitions/valid_branches"
+    minItems: 1
+    type: array
 required:
 - architecture
 - battery
@@ -451,14 +462,16 @@ required:
 - cpu
 - cpu_cores
 - cpu_freq
+- deprecated
 - gpu
 - install_method
-- deprecated
+- maintainers
 - name
 - peripherals
 - release
 - screen
 - type
 - vendor
+- versions
 title: device
 type: object

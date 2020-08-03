@@ -34,3 +34,5 @@ uses_twrp: true
 vendor: Xiaomi
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
+maintainers: [test]
+versions: [test]

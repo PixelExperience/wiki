@@ -210,6 +210,31 @@
         </td>
     </tr>
     {% endif %}
+    {% if device.maintainers != empty %}
+    <tr>
+        <th scope="row" colspan="2">PixelExperience info</td>
+    </tr>
+    <tr>
+        <th scope="row">Maintainers</td>
+        <td>
+            <ul>
+                {% for el in device.maintainers %}
+                    <li>{{ el }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">Supported versions</td>
+        <td>
+            <ul>
+                {% for el in device.versions %}
+                    <li>{{ el }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endif %}
 
   </tbody>
 </table>

@@ -37,3 +37,5 @@ storage: 64 GB
 vendor: Motorola
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
+maintainers: [test]
+versions: [test]
