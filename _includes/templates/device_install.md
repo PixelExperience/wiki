@@ -38,14 +38,6 @@ There are no recovery installation instructions for this discontinued device.
 
 ## Installing PixelExperience from recovery
 
-{%- capture userspace_architecture -%}
-{%- if device.architecture.userspace -%}
-{{ device.architecture.userspace }}
-{%- else -%}
-{{ device.architecture }}
-{%- endif -%}
-{%- endcapture -%}
-
 1. Download the [PixelExperience installation package](https://download.pixelexperience.org/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}

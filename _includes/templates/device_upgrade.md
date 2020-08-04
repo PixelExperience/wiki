@@ -7,14 +7,6 @@
 {% include alerts/warning.html content="We recomend a factory reset before upgrading." %}
 {% include alerts/warning.html content=upgrade_only %}
 
-{%- capture userspace_architecture -%}
-{%- if device.architecture.userspace -%}
-{{ device.architecture.userspace }}
-{%- else -%}
-{{ device.architecture }}
-{%- endif -%}
-{%- endcapture -%}
-
 ## Manually upgrading PixelExperience
 
 {%- unless device.is_ab_device %}
