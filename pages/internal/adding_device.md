@@ -137,7 +137,7 @@ If the script doesn't give you an output, all the validated fields have a proper
 
 ## Submitting your device
 
-After verifying the device-specific pages, commit and upload your changes to Gerrit.
+After verifying the device-specific pages, commit it and open a pull request at [Github](https://github.com/PixelExperience/wiki/) to review proposed changes.
 
 ## Official devices
 
