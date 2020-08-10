@@ -25,6 +25,10 @@ permalink: help/faq/
 ## Where can I find the last build for _xxx_ device before support was dropped/its PixelExperience version was deprecated?
  - In short, you can't. We don't keep building, or keep builds around for any older version (e.g. when ten builds started, pie builds stopped and the builds were slowly removed). We don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
 
+## What is the difference between full packages and incremental packages?
+ - Full packages - are normal zip packages containing all files of the PixelExperience software, which is usually large.
+ - Incremental packages - also known as a delta update, is a package that contains only changes from the last official build. Therefore, this file is generally much smaller compared to the full package.
+
 ## I found a bug. What do I do?
  - You can report it! Please _carefully_ read the [How to submit a bug]({{ "help/bugreport/" | relative_url }}) page before reporting it.
 
