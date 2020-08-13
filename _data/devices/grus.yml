@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {removable: False, capacity: 3010, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '48-megapixel (f/1.75, 0.8-micron)'}
+- {flash: 'Dual LED', info: '12-megapixel (f/2.2, 1.0-micron)'}
+- {flash: 'Dual LED', info: '16-megapixel (f/2.2, 1.0-micron)'}
+- {flash: 'LED', info: ' 	20-megapixel (f/2.0, 0.9-micron)'}
+codename: grus
+cpu: Kryo 360
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+depth: 7.3 mm (0.29 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 616
+height: 147.7 mm (5.7 in)
+image: grus.png
+install_method: fastboot_xiaomi
+kernel: kernel_xiaomi_sdm710
+maintainers: [Luís Ferreira]
+name: 'Mi 9 SE'
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2018-04
+screen: 151 mm (5.97 in)
+screen_ppi: '403'
+screen_res: 1080x2160
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm SDM710 Snapdragon 712
+storage: 32/64/128 GB
+tree: device_xiaomi_grus
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [ten, ten-plus]
+width: 70.4 mm (2.7 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
