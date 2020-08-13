@@ -15,7 +15,6 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 630
 height: 154.9 mm (6.10 in)
 install_method: fastboot_xiaomi
-deprecated: true
 name: Mi 8
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Barometer, Gyroscope, Hall effect sensor, Light sensor, Proximity sensor, Compass, Dual-frequency GNSS, IR camera]
@@ -34,5 +33,5 @@ uses_twrp: true
 vendor: Xiaomi
 width: 74.8 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
-maintainers: [test]
-versions: [test]
+maintainers: [Henrique Pereira]
+versions: [ten, ten-plus]
