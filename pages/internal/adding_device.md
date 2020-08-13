@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: How to add a new device to the wiki
+title: How to submit a new device for official builds
 folder: internal
 permalink: help/adding-device/
 search: exclude
@@ -8,10 +8,11 @@ tags:
  - internal
 ---
 
-## Requirements for adding a device
+## Official devices
 
-The PixelExperience wiki provides instructions based on the assumption that your device has got its
-device tree and required depedencies under the [PixelExperience-Devices GitHub organization](https://github.com/PixelExperience-Devices).
+If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url](https://github.com/PixelExperience/official_devices/blob/master/README.md) for more instructions. Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
+
+The PixelExperience wiki provides instructions based on the assumption that your device has got its device tree and required depedencies under the [PixelExperience-Devices GitHub organization](https://github.com/PixelExperience-Devices).
 
 ## Setting up the wiki locally
 
@@ -117,10 +118,6 @@ Additionally there are some optional properties which you might not need, but in
 
 {% include alerts/note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
 
-### Adding the device's image
-
-Find a reasonably high-quality image of your device, and add it to `images/<codename>.png`. The filename must match the device codename. You should push the image to [this repository](https://github.com/PixelExperience/official_devices).
-
 ## Testing it works
 
 Start the wiki on your local Jekyll server, and navigate to [the devices list](http://localhost:4000/devices.html). Your device should be there.
@@ -135,10 +132,6 @@ ruby ./test/validate.rb
 
 If the script doesn't give you an output, all the validated fields have a proper format. Otherwise, read the messages carefully to see which fields have to be corrected.
 
-## Submitting your device
+## Submitting wiki changes
 
-After verifying the device-specific pages, commit and upload your changes to Gerrit.
-
-## Official devices
-
-If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url](https://github.com/PixelExperience/official_devices/blob/master/README.md). Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
+After verifying the device-specific pages, commit it and open a pull request at [wiki source code](https://github.com/PixelExperience/wiki/) to review proposed changes.

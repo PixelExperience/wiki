@@ -11,7 +11,7 @@ permalink: help/faq/
    - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install PixelExperience again_. This information should be listed on the device's wiki page.
    - Your recovery is outdated. _Flash the newest available version of the recommended recovery image for your device_.
  - If your error still persists after confirming these are not causing your issue, ask someone for help on [our Telegram group](https://t.me/pixelexperiencechat) and provide a recovery log.
-<!--  -->
+
 ## My device _is_ officially supported, but there's no zips for it on the download page. Where are they?
  - Be patient. Maintainers have busy lives, and sometimes an issue is holding it back. Please do not ask for ETAs.
 
@@ -24,6 +24,10 @@ permalink: help/faq/
 
 ## Where can I find the last build for _xxx_ device before support was dropped/its PixelExperience version was deprecated?
  - In short, you can't. We don't keep building, or keep builds around for any older version (e.g. when ten builds started, pie builds stopped and the builds were slowly removed). We don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
+
+## What is the difference between full packages and incremental packages?
+ - Full packages - are normal zip packages containing all files of the PixelExperience software, which is usually large.
+ - Incremental packages - also known as a delta update, is a package that contains only changes from the last official build. Therefore, this file is generally much smaller compared to the full package.
 
 ## I found a bug. What do I do?
  - You can report it! Please _carefully_ read the [How to submit a bug]({{ "help/bugreport/" | relative_url }}) page before reporting it.

@@ -42,8 +42,6 @@ git config --global user.email "youremail@example.com"
 ```
 git clone https://github.com/PixelExperience/wiki ~/wiki
 cd ~/wiki
-curl -Lo .git/hooks/commit-msg https://gerrit.pixelexperience.org/tools/hooks/commit-msg
-chmod +x .git/hooks/commit-msg
 ```
 
 ## Making and previewing changes
@@ -191,22 +189,4 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ## Uploading your changes
 
-PixelExperience uses [Gerrit](https://gerrit.pixelexperience.org/) to review proposed changes. Before you begin,
-you'll need to [create an account](https://gerrit.pixelexperience.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen),
-and [configure an SSH key](https://gerrit.pixelexperience.org/Documentation/user-upload.html#ssh).
-
-After you've done this, you can push your commits to Gerrit:
-
-```
-git remote add gerrit ssh://<gerritusername>@gerrit.pixelexperience.org:29418/wiki
-git push gerrit HEAD:refs/for/master
-```
-
-Someone will either: comment on the patch, asking for clarification or pointing out typos.
-You can reply to them, or [fix any issues they point out](#fixing-mistakes), and then re-run:
-
-```
-git push gerrit HEAD:refs/for/master
-```
-
-Eventually, when your change looks _perfect_, someone will approve it, and submit it to the wiki. Awesome!
+You need to open a pull request at [Github](https://github.com/PixelExperience/wiki/) to review proposed changes.
