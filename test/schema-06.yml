@@ -470,7 +470,6 @@ required:
 - peripherals
 - release
 - screen
-- type
 - vendor
 - versions
 title: device
