@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+before_install_custom: before_custom_install_raphael
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '48 MP'}
@@ -35,3 +36,5 @@ versions: [ten, ten-plus]
 maintainers: [Henrique Silva]
 width: 74.3 mm (2.93 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+uses_twrp: true
+custom_twrp_link: https://sourceforge.net/projects/mauronofrio-twrp/files/Raphael-Raphaelin/twrp-3.4.0-0-raphael-mauronofrio.img/download
