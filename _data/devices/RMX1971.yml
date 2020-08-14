@@ -7,7 +7,7 @@ cameras:
 - {flash: '', info: 8 MP, f/2.2, 13mm (ultrawide)}
 - {flash: '', info: 2 MP, f/2.4, (macro)}
 - {flash: '', info: 2 MP, f/2.4, (depth)}
-codename: RMX1851
+codename: RMX1971
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
