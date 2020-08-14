@@ -13,9 +13,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 505
 height: 139.3 mm (5.48 in)
-image: land.png
 install_method: fastboot_xiaomi
-kernel: kernel_xiaomi_msm8937
 maintainers: [Jacob Deepu]
 name: Redmi 3S/3X
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
@@ -30,11 +28,8 @@ screen_tech: IPS LCD
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB
-tree: device_xiaomi_land
-type: phone
 uses_twrp: true
 vendor: Xiaomi
-vendor_short: xiaomi
 versions: [ten, ten-plus]
 width: 69.6 mm (2.74 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

@@ -12,9 +12,7 @@ depth: 8.5 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
 height: 144.3 mm (5.68 in)
-image: potter.png
 install_method: fastboot_motorola
-kernel: kernel_motorola_potter
 maintainers: [Zilberto Junior]
 name: Moto G5S Plus
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -29,11 +27,8 @@ screen_tech: IPS LCD
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
-tree: device_motorola_potter
-type: phone
 uses_twrp: true
 vendor: Motorola
-vendor_short: moto
 versions: [ten, ten-plus]
 width: 73 mm (2.87 in)
 wifi: 802.11 a/b/g/n/ac

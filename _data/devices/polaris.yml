@@ -14,9 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 630
 height: 150.9 mm (5.94 in)
-image: polaris.png
 install_method: fastboot_xiaomi
-kernel: kernel_xiaomi_sdm845
 maintainers: [Chenyang Zhong]
 name: Mi MIX 2S
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
@@ -32,11 +30,8 @@ screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
-tree: device_xiaomi_polaris
-type: phone
 uses_twrp: true
 vendor: Xiaomi
-vendor_short: xiaomi
 versions: [ten, ten-plus]
 width: 74.9 mm (2.95 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

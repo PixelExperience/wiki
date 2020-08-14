@@ -15,9 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 618
 height: 158.258 mm (6.39 in)
-image: davinci.png
 install_method: fastboot_xiaomi
-kernel: kernel_xiaomi_sm6150
 maintainers: [trpsl, baalajimaestro]
 models: [M1903F10I, M1903F10G]
 name: Redmi K20 / Mi 9T
@@ -34,10 +32,7 @@ screen_tech: AMOLED
 sdcard:
 soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 64/128/256 GB
-tree: device_xiaomi_davinci
-type: phone
 vendor: Xiaomi
-vendor_short: xiaomi
 versions: [ten, ten-plus]
 width: 74.3 mm (2.93 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

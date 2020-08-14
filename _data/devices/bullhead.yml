@@ -13,9 +13,7 @@ depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
 height: 147 mm (5.79 in)
-image: bullhead.png
 install_method: fastboot_nexus
-kernel: kernel_lge_bullhead
 maintainers: [Lakshay Garg]
 name: Nexus 5X
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -30,11 +28,8 @@ screen_tech: LCD
 sdcard:
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
-tree: device_lge_bullhead
-type: phone
 uses_twrp: true
 vendor: Google
-vendor_short: lge
 versions: [ten, ten-plus]
 width: 72.6 mm (2.86 in)
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

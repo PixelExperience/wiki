@@ -462,7 +462,6 @@ required:
 - cpu
 - cpu_cores
 - cpu_freq
-- deprecated
 - gpu
 - install_method
 - maintainers

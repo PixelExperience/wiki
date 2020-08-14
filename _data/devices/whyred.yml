@@ -15,7 +15,6 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 509
 height: 158.6 mm (6.24 in)
 install_method: fastboot_xiaomi
-deprecated: false
 name: Redmi Note 5 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]

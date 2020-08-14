@@ -13,9 +13,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 612
 height: 158.258 mm (6.27 in)
-image: violet.png
 install_method: fastboot_xiaomi
-kernel: kernel_xiaomi_violet
 maintainers: []
 name: Redmi Note 7 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
@@ -31,12 +29,9 @@ screen_tech: IPS LCD
 sdcard: up to 256GB
 soc: Qualcomm sm6150 Snapdragon 675
 storage: 64/128 GB
-tree: device_xiaomi_violet
-type: phone
 uses_twrp: true
 deprecated: true
 vendor: Xiaomi
-vendor_short: xiaomi
-versions: [16.0]
+versions: [ten, ten-plus]
 width: 75.184 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac

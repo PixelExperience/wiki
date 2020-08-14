@@ -14,9 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 512
 height: 157.9 mm (6.22 in)
-image: X01BD.png
 install_method: fastboot_zenfone
-kernel: kernel_asus_sdm660
 maintainers: [
     Rahul Krishna,
     Jayant Deshmukh
@@ -35,11 +33,8 @@ screen_tech: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64 GB
-tree: device_asus_X01BD
-type: phone
 uses_twrp: true
 vendor: Asus
-vendor_short: asus
 versions: [ten, ten-plus]
 width: 75.5 mm (2.97 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

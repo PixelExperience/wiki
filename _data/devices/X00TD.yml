@@ -14,9 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 509
 height: 159 mm (6.26 in)
-image: X00TD.png
 install_method: fastboot_zenfone
-kernel: kernel_asus_sdm660
 maintainers: [Rohan Salkar]
 name: Zenfone Max Pro M1
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -32,11 +30,8 @@ screen_tech: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
-tree: device_asus_X00TD
-type: phone
 uses_twrp: true
 vendor: Asus
-vendor_short: asus
 versions: [ten,ten-plus]
 width: 76 mm (2.99 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

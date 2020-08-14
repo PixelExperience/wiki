@@ -15,8 +15,6 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 616
 install_method: fastboot_realme
-image: RMX1971.png
-kernel: kernel_realme_sdm710
 maintainers: [
     Madhav Saladi,
     Tejas Nanavare
@@ -36,10 +34,7 @@ screen_tech: Full HD+ IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM712 Snapdragon 712
 storage: 64/128 GB eMMC5.1
-tree: device_realme_RMX1971
-type: phone
 uses_twrp: true
 vendor: Realme
-vendor_short: realme
 versions: [ten, ten-plus]
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot

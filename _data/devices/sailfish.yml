@@ -13,10 +13,8 @@ depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
 height: 143.8 mm (5.66 in)
-image: marlin.png
 install_method: fastboot_nexus
 is_ab_device: true
-kernel: kernel_google_marlin
 maintainers: [PixelBoot]
 name: Pixel
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -31,10 +29,7 @@ screen_tech: AMOLED
 sdcard:
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
-tree: device_google_sailfish
-type: phone
 vendor: Google
-vendor_short: google
 versions: [ten, ten-plus]
 width: 69.5 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

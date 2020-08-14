@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
-before_install_custom: before_install_ab_copy_partitions
+before_install_custom: before_custom_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
@@ -14,9 +14,7 @@ depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509
 height: 157 mm (6.18 in)
-image: lake.png
 install_method: fastboot_motorola
-deprecated: false
 is_ab_device: true
 models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
 name: 'Moto G7 Plus'

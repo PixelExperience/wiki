@@ -15,9 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 640
 height: 158.7 mm (6.25 in)
-image: cepheus.png
 install_method: fastboot_xiaomi
-kernel: kernel_xiaomi_sm8150
 maintainers: [markakash]
 name: 'Mi 9'
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -33,10 +31,7 @@ screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 32/64/128 GB
-tree: device_xiaomi_cepheus
-type: phone
 vendor: Xiaomi
-vendor_short: xiaomi
 versions: [ten, ten-plus]
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

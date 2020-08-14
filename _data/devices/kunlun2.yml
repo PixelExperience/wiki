@@ -16,9 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 format_on_upgrade: true
 gpu: Adreno 506
 height: 156.6 mm (6.1 in)
-image: kunlun2.png
 install_method: fastboot_lenovo
-kernel: kernel_lenovo_kunlun2
 maintainers: [
     Giammarco Senatore
 ]
@@ -35,11 +33,8 @@ screen_tech: Super AMOLED
 sdcard: up to 256 GB
 soc: Qualcomm Snapdragon 710 
 storage: 32/64 GB
-tree: device_lenovo_kunlun2
-type: phone
 uses_twrp: true
 vendor: Lenovo
-vendor_short: lenovo
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [ten, ten-plus]
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

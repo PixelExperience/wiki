@@ -2,7 +2,7 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 before_install: before_install_needs_specific_android_fw
 before_install_args: {version: 10}
-before_lineage_install: before_lineage_install_ab_copy_partitions
+before_install_custom: before_custom_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 8 MP (telephoto) + 16 MP (ultrawide)'}
@@ -15,10 +15,8 @@ depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 640
 height: 162.6 mm (6.40 in)
-image: guacamole.png
 install_method: fastboot_nexus
 is_ab_device: true
-kernel: kernel_oneplus_sm8150
 maintainers: [
     Chandra Chaganti,
     idkwhoiam322
@@ -36,10 +34,7 @@ screen_tech: Fluid AMOLED
 sdcard:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
-tree: device_oneplus_guacamole
-type: phone
 vendor: OnePlus
-vendor_short: oneplus
 versions: [ten, ten-plus]
 width: 75.9 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
