@@ -140,6 +140,7 @@ Given that `repo` requires you to identify yourself to sync Android, run the fol
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+```
 
 ### Initialize the PixelExperience source repository
 
