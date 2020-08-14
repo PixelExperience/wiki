@@ -8,7 +8,6 @@ codename: s2
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.8 GHz
-current_branch: 16.0
 custom_unlock_cmd: 'fastboot oem unlock-go'
 depth: 7.5 mm (0.3 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
