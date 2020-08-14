@@ -50,10 +50,12 @@ As a proofreader, you also have to make sure that the submitted strings match th
 
 {% include alerts/note.html content="You need to be an active translator for at least one month in order to apply as a proofreader!" %}
 
-Besides the responsibility to only approve strings appropriate for use in the system and to make sure to avoid approving strings mentioned in [What not to translate](#what-not-to-translate), there are other things to pay attention to:
+Contact one of the managers [here](https://crowdin.com/project/pixelexperience) if you want to be a proofreader.
 
-### Quantity and product strings
+Besides the responsibility to only approve strings appropriate for use in the system and to make sure to avoid approving strings mentioned in [What not to translate](#what-not-to-translate), there is another thing that you should pay attention:
 
-Various strings exist multiple times for different products (mostly `tablet`, `phone`, `device` or `other`) and quantities (`one`, `two`, `many`, `few`, `other`).
+### Quantity strings
+
+Various strings exist multiple times for different quantities (`one`, `two`, `many`, `few`, `other`).
 Once a string for one of them is translated and approved, the Android build system (specifically `aapt2` for resource builds) requires the whole chain to be present.
 As a proofreader you have to make sure to approve all variants of a string.
