@@ -8,7 +8,8 @@ codename: ham
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-custom_recovery_link: https://androidfilehost.com/?fid=11410963190603913507
+custom_twrp_link: https://androidfilehost.com/?fid=11410963190603913507
+uses_twrp: true
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330

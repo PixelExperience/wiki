@@ -48,15 +48,15 @@ heimdall print-pit
 
 ## Installing a custom recovery using `heimdall`
 
-{% if device.custom_recovery_link %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
-{% else %}
 {% if device.uses_twrp %}
+{% if device.custom_twrp_link %}
+1. Download a custom recovery - you can download [TWRP]({{ device.custom_twrp_link }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% else %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% endif %}
 {% include alerts/tip.html content="Ensure you download the `.img` file and not the `.tar` or `.tar.md5` versions." %}
 {% else %}
 1. Download a custom recovery - you can download [PixelExperience Recovery](https://download.pixelexperience.org/{{ custom_recovery_codename }}). Simply download the latest recovery file.
-{% endif %}
 {% endif %}
 2. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}

@@ -7,14 +7,15 @@
 
 ## Installing a custom recovery using `edl`
 
-{% if device.custom_recovery_link %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
-{% else %}
+
 {% if device.uses_twrp %}
+{% if device.custom_twrp_link %}
+1. Download a custom recovery - you can download [TWRP]({{ device.custom_twrp_link }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% else %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% endif %}
 {% else %}
 1. Download a custom recovery - you can download [PixelExperience Recovery](https://download.pixelexperience.org/{{ custom_recovery_codename }}). Simply download the latest recovery file.
-{% endif %}
 {% endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:

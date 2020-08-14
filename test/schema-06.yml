@@ -252,8 +252,8 @@ properties:
   custom_recovery_codename:
     "$id": "/properties/custom_recovery_codename"
     type: string
-  custom_recovery_link:
-    "$id": "/properties/custom_recovery_link"
+  custom_twrp_link:
+    "$id": "/properties/custom_twrp_link"
     type: string
     pattern: ^https?:\/\/(.*)
   custom_unlock_cmd:
