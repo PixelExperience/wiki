@@ -16,6 +16,6 @@ tags:
 
 ## Reporting a bug
 
-[Logcats](help/logcat/) *must* be attached for all android bugs, and *must* be captured right after reproducing the issue.
+[Logcats]({{ site.baseurl }}/help/logcat/) *must* be attached for all android bugs, and *must* be captured right after reproducing the issue.
 
 We're working a on issue tracker portal, for now you can report bugs and tag your maintainer on [our Telegram group](https://t.me/pixelexperiencechat).
