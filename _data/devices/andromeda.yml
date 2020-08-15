@@ -15,9 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 640
 height: 157.9 mm (6.22 in)
-image: andromeda.png
 install_method: fastboot_xiaomi
-kernel: kernel_xiaomi_andromeda
 maintainers: [Nicholas Magill]
 name: Mi Mix 3 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G]
@@ -33,11 +31,8 @@ screen_tech: AMOLED
 sdcard:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB UFS2.1
-tree: device_xiaomi_andromeda
-type: phone
 uses_twrp: true
 vendor: Xiaomi
-vendor_short: xiaomi
 versions: [ten, ten-plus]
 width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
