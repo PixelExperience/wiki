@@ -9,12 +9,12 @@ tags:
 
 ## Taking logs for bug reports
 
-These instructions will generate a `logcat` file which you can then attach to a [bug report](help/bugreport/#reporting-a-bug).
+These instructions will generate a `logcat` file which you can then attach to a [bug report]({{ "help/bugreport/#reporting-a-bug" | relative_url}}).
 That file basically consists of a log of system messages, including stack traces when the device throws an error, and debug messages from apps.
 
 ### With a computer
 
-{% include alerts/note.html content="This method requires that you have [`adb` installed](help/adb-fastboot-guide/#installing-adb-and-fastboot).
+{% include alerts/note.html content="This method requires that you have [`adb` installed]({{ "help/adb-fastboot-guide/#installing-adb-and-fastboot" | relative_url}}).
 If you don't have it installed, please do that before continuing." %}
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS).
