@@ -14,7 +14,7 @@ gpu: Adreno 506
 height: 144.3 mm (5.68 in)
 install_method: fastboot_motorola
 maintainers: [Zilberto Junior]
-name: Moto G5S Plus
+name: Moto G5 Plus
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
 ram: 2/3/4 GB
