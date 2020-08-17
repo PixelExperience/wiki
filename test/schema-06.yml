@@ -236,6 +236,7 @@ properties:
     - Kryo 385
     - Kryo 460
     - Kryo 470
+    - Kryo 475
     - Kryo 485
     - Kryo 495
   cpu_cores:
@@ -287,6 +288,7 @@ properties:
     - Adreno 302
     - Adreno 305
     - Adreno 306
+    - Adreno 308
     - Adreno 320
     - Adreno 330
     - Adreno 405

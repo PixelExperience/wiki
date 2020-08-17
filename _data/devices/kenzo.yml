@@ -32,6 +32,7 @@ storage: 16/32 GB
 uses_twrp: true
 deprecated: true
 vendor: Xiaomi
+versions: [pie]
 vendor_short: xiaomi
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac
