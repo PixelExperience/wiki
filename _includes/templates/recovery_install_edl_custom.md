@@ -27,4 +27,4 @@ adb reboot edl
 
     * {{ device.edl_boot }}
     {% endif %}
-4. Flash recovery onto your device by following [this]({{ device.install_recovery_guide }}) guide.
+4. Flash recovery into your device by following [this]({{ device.install_recovery_guide }}) guide.

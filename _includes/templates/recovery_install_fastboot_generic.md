@@ -31,7 +31,7 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-5. Flash recovery onto your device:
+5. Flash recovery into your device:
 ```
 fastboot flash recovery <recovery_filename>.img
 ```
