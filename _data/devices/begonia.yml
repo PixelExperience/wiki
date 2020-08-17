@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '64 MP, f/1.9, 26mm (wide)'}
+- {flash: 'Dual LED', info: '8 MP, f/2.2, 13mm (ultrawide)'}
+- {flash: 'Dual LED', info: '2 MP (macro)'}
+- {flash: 'Dual LED', info: '2 MP (depth)'}
+- {flash: '', info: '20 MP'}
+codename: begonia
+cpu: Helio G90T
+cpu_cores: '8'
+cpu_freq: 2 x 2.05 GHz & 6 x 2.0 GHz
+depth: 8.8 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: ARM Mali-G76 MC4
+height: 161.4 mm (6.35 in)
+install_method: fastboot_xiaomi_begonia
+maintainers: [Zinadin Zidan]
+name: 'Redmi Note 8 Pro'
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2019-08
+screen: 165 mm (6.53 in)
+screen_ppi: '395'
+screen_res: 1080x2340
+screen_tech: IPS LCD
+sdcard: up to 512 GB
+soc: Mediatek Helio G90T
+storage: 64/128/256 GB
+vendor: Xiaomi
+versions: [ten, ten-plus]
+width: 76.4 mm (3.01 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
+uses_twrp: true
+custom_twrp_link: https://sourceforge.net/projects/begonia-oss/files/CFW-TWRP/twrp-CFW-3.3.1-0-begonia_UNOFFICIAL_0506.img/download
