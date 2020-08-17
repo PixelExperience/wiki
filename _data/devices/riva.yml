@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+before_install: before_install_riva
 bluetooth: {spec: '4.1 + LE', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
@@ -20,6 +21,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Accelerometer, Proximity sensor, Compass, IR blaster, FM radio, GPS]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2017-11
 screen: 127 mm (5.0 in)
 screen_ppi: '296'
