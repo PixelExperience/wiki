@@ -178,7 +178,7 @@ After the source downloads, ensure you're in the root of the source code (`cd ~/
 
 ```
 source build/envsetup.sh
-lunch {{ device.codename }}-userdebug
+lunch aosp_{{ device.codename }}-userdebug
 ```
 
 This will download your device's necessary dependencies.
