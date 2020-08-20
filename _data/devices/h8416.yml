@@ -1,0 +1,40 @@
+architecture: arm64
+battery:
+- 3300mAh Li-ion
+bluetooth: 5.0 + LE
+cameras:
+- 19 MP, f/2.0, 25mm (wide), 1/2.3", 1.22µm, predictive PDAF, Laser AF
+- 13 MP, f/1.9, 23mm (wide), 1/3.1", 1.12µm
+codename: akatsuki
+cpu: sdm845 4xKryo 385 Gold & 4xKryo 385 Silver
+cpu_cores: 8 (Big.little 4+4)
+cpu_freq: 4x2.7 GHz + 4x1.7 GHz
+custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
+depth: 9.9 mm (0.39 inch)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
+gpu: Adreno 630
+height: 158 mm (6.22 in)
+install_method: provided recovery or Payload dumper
+models: [H8416, H9436]
+name: Sony Xperia XZ3
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Fingerprint reader, Motion Coprocessor, Accelerometer,
+  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
+  RGB ambient light, GPS, NFC]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the Sony Logo appears, release the buttons.
+release: 2018-10-05
+required_bootloader: ['Android 10 base bootloader version']
+screen: 92.9cm² (6.0 in)
+screen_ppi: 537
+screen_res: 2880x1440
+screen_tech: 1440p P-OLED
+sdcard: up to 512 GB
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64 GB
+vendor: Sony
+width: 73 mm (2.87 in)
+wifi: 802.11 a/b/g/n/ac
+maintainers: [Paul Bouchara ,AngeloGioacchino Del Regno]
+versions: [ten,ten-plus]
