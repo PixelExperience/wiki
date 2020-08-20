@@ -1,4 +1,4 @@
-FROM shreejoy/pex-wiki:latest
+FROM pixelexperience/wiki_ci:latest
 
 COPY . /app
 
