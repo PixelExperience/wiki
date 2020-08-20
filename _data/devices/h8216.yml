@@ -1,20 +1,19 @@
 architecture: arm64
-battery:
-- 3180mAh Li-ion
-bluetooth: 5.0 + LE
+battery: {removable: false, capacity: 3180, tech: 'Li-Ion'}
+bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
 cameras:
 - 19 MP, f/2.0, 25mm (wide), 1/2.3", 1.22µm, predictive PDAF, Laser AF
 - 5 MP, f/2.2, 23mm (wide), 1/5"
 codename: akari
-cpu: sdm845 4xKryo 385 Gold & 4xKryo 385 Silver
+cpu: Kryo 385
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.7 GHz + 4x1.7 GHz
 custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
-depth: 11.1 mm (0.44 inch)
+depth: 11.1 mm (0.44 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
 gpu: Adreno 630
 height: 153 mm (6.02 in)
-install_method: provided recovery or Payload dumper
+install_method: fastboot_sony
 models: [H8216, H8266]
 name: Sony Xperia XZ2
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -26,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   When the Sony Logo appears, release the buttons.
 release: 2018-04-20
 required_bootloader: ['Android 10 base bootloader version']
-screen: 83.8cm² (5.7 in)
+screen: 144.78 mm (5.7 in)
 screen_ppi: 424
 screen_res: 2160x1080
 screen_tech: 1080p LCD

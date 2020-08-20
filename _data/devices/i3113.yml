@@ -1,21 +1,20 @@
 architecture: arm64
-battery:
-- 2870mAh Li-ion
-bluetooth: 5.0 + LE
+battery: {removable: false, capacity: 2870, tech: 'Li-Ion'}
+bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
 cameras:
 - 12 MP, f/1.8, 27mm (wide), 1/2.8", 1.25µm, PDAF
 - 5 MP, f/2.4, (depth)
 - 8 MP, f/2.0, 24mm (selfie), 1/4", 1.12µm
 codename: kirin
-cpu: sdm630 8x Cortex-A53
+cpu: Cortex-A53
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 8x2.2 GHz
 custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
-depth: 8.4 mm (0.33 inch)
+depth: 8.4 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
 gpu: Adreno 508
 height: 156 mm (6.14 in)
-install_method: provided recovery or Payload dumper
+install_method: fastboot_sony
 models: [I3113, I4113]
 name: Sony Xperia 10
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -27,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   When the Sony Logo appears, release the buttons.
 release: 2019-02-25
 required_bootloader: ['Android 9 base bootloader version']
-screen: 84.1cm² (6.0 in)
+screen: 152 mm (6.0 in)
 screen_ppi: 457
 screen_res: 2520x1080
 screen_tech: 21:9 1080p LCD

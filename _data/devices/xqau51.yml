@@ -1,22 +1,21 @@
 architecture: arm64
-battery:
-- 3600mAh Li-Po
-bluetooth: 5.0 + LE
+battery: {removable: false, capacity: 3600, tech: 'Li-Ion'}
+bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
 cameras:
 - 12 MP, f/2.0, 26mm (wide), 1/2.8", PDAF
 - 8 MP, f/2.4, 52mm (telephoto), 1/4.0", PDAF, 2x optical zoom
 - 8 MP, f/2.2, 120˚, 16mm (ultrawide), 1/4.0"
 - 8 MP, f/2.0, 24mm (selfie), 1/4", 1.12µm
 codename: pdx201
-cpu: sm6125 4xKryo 260 Gold + 4xKyro 260 Silver
+cpu: Kryo 260
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.00 GHz + 4x1.8 GHz
 custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
-depth: 8.2 mm (0.32 inch)
+depth: 8.2 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
 gpu: Adreno 610
 height: 157 mm (6.18 in)
-install_method: provided recovery or Payload dumper
+install_method: fastboot_sony
 models: [XQ51AU, XQ52AU]
 name: Sony Xperia 10 mk 2
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -28,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   When the Sony Logo appears, release the buttons.
 release: 2020-05-05
 required_bootloader: ['Android 10 base bootloader']
-screen: 84.1cm² (6.0 in)
+screen: 152.4 mm (6.0 in)
 screen_ppi: 457
 screen_res: 2560x1080
 screen_tech: 21:9 1080p OLED
