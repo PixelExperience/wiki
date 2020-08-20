@@ -1,20 +1,19 @@
 architecture: arm64
-battery:
-- 2700 mAh Li-ion
-bluetooth: 5.0 + LE
+battery: {removable: false, capacity: 2700, tech: 'Li-Ion'}
+bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
 cameras:
-- 19 MP, f/2.0, 25mm (wide), 1/2.3", 1.22µm, predictive PDAF, Laser AF
-- 13 MP, f/2.0, 22mm (selfie), 1/3"
+- {flash : 'LED', info : '19 MP, f/2.0, 25mm (wide), 1/2.3", 1.22µm, predictive PDAF, Laser AF'}
+- {flash : '', info : '13 MP, f/2.0, 22mm (selfie), 1/3"'}
 codename: poplar
-cpu: sdm835 4xKryo + 4xKryo 
+cpu: 'Kryo' 
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.45 GHz + 4x1.9 GHz
 custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
-depth: 7.4 mm (0.29 inch)
+depth: 7.4 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
 gpu: Adreno 540
 height: 148 mm (5.83 in)
-install_method: provided recovery or Payload dumper
+install_method: fastboot_sony
 models: [G8341, G8342]
 name: Sony Xperia XZ1
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -26,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   When the Sony Logo appears, release the buttons.
 release: 2017-09-19
 required_bootloader: ['Android 8 or 9 base bootloader version']
-screen: 74.5cm² (5.2 in)
+screen: 132.08 mm (5.2 in)
 screen_ppi: 424
 screen_res: 1920x1080
 screen_tech: 1080p LCD

@@ -1,20 +1,19 @@
 architecture: arm64
-battery:
-- 3300 mAh Li-ion
-bluetooth: 5.0 + LE
+battery: {removable: false, capacity: 3330, tech: 'Li-Ion'}
+bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
 cameras:
 - 23 MP, f/2.0, 24mm (wide), 1/2.3", PDAF
 - 8 MP, f/2.4, 1/4" (selfie)
 codename: pioneer
-cpu: sdm630 8x Cortex-A53
+cpu: Cortex-A53
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 8x2.2 GHz
 custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
-depth: 9.7 mm (0.38 inch)
+depth: 9.7 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
 gpu: Adreno 508
 height: 142 mm (5.59 in)
-install_method: provided recovery or Payload dumper
+install_method: fastboot_sony
 models: [H3113, H4113]
 name: Sony Xperia XA2
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -26,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   When the Sony Logo appears, release the buttons.
 release: 2018-01-05
 required_bootloader: ['Android 9 base bootloader version']
-screen: 74.5cm² (5.2 in)
+screen: 132.08 mm (5.2 in)
 screen_ppi: 424
 screen_res: 1920x1080
 screen_tech: 1080p LCD
