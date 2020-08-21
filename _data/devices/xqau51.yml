@@ -6,7 +6,7 @@ cameras:
 - 8 MP, f/2.4, 52mm (telephoto), 1/4.0", PDAF, 2x optical zoom
 - 8 MP, f/2.2, 120˚, 16mm (ultrawide), 1/4.0"
 - 8 MP, f/2.0, 24mm (selfie), 1/4", 1.12µm
-codename: pdx201
+codename: xqau51
 cpu: Kryo 260
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.00 GHz + 4x1.8 GHz
@@ -16,8 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug u
 gpu: Adreno 610
 height: 157 mm (6.18 in)
 install_method: fastboot_sony
-models: [XQ51AU, XQ52AU]
-name: Sony Xperia 10 mk 2
+name: Xperia 10 II RoW
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Fingerprint reader, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
@@ -37,5 +36,5 @@ storage: 128 GB
 vendor: Sony
 width: 69 mm (2.72 in)
 wifi: 802.11 a/b/g/n/ac
-maintainers: [Paul Bouchara ,AngeloGioacchino Del Regno]
+maintainers: [Paul Bouchara, AngeloGioacchino Del Regno]
 versions: [ten,ten-plus]

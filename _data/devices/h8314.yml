@@ -4,7 +4,7 @@ bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
 cameras:
 - 19 MP, f/2.0, 25mm (wide), 1/2.3", 1.22µm, predictive PDAF, Laser AF
 - 5 MP, f/2.2, 23mm (wide), 1/5"
-codename: apollo
+codename: h8314
 cpu: Kryo 385
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.7 GHz + 4x1.7 GHz
@@ -14,8 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug u
 gpu: Adreno 630
 height: 135 mm (5.31 in)
 install_method: fastboot_sony
-models: [H8314, H8324]
-name: Sony Xperia XZ2 Compact
+name: Xperia XZ2 Compact RoW
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Fingerprint reader, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
@@ -35,5 +34,5 @@ storage: 64 GB
 vendor: Sony
 width: 65 mm (2.56 in)
 wifi: 802.11 a/b/g/n/ac
-maintainers: [Paul Bouchara ,AngeloGioacchino Del Regno]
+maintainers: [Paul Bouchara, AngeloGioacchino Del Regno]
 versions: [ten,ten-plus]
