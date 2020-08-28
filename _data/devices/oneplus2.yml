@@ -51,8 +51,6 @@ uses_twrp: true
 vendor: OnePlus
 versions:
 - pie
-- pie-plus
-- pie
 - pie_plus
 width: 74.9 mm (2.9 in)
 wifi: 2.4GHz 802.11 b/g/n and 5GHz 802.11 a/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

@@ -55,8 +55,6 @@ storage: 32/128 GB
 vendor: Google
 versions:
 - ten
-- ten-plus
-- ten
 - ten_plus
 width: 69.5 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

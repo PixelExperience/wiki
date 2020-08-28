@@ -66,8 +66,6 @@ uses_twrp: true
 vendor: Samsung
 versions:
 - ten
-- ten-plus
-- ten
 - ten_plus
 width: 77.6 mm (3.06 in)
 wifi: 802.11 a/b/g/n/ac

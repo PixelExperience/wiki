@@ -55,8 +55,6 @@ uses_twrp: true
 vendor: Xiaomi
 versions:
 - ten
-- ten-plus
-- ten
 - ten_plus
 width: 70.1 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

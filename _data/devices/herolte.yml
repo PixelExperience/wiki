@@ -64,8 +64,6 @@ uses_twrp: true
 vendor: Samsung
 versions:
 - ten
-- ten-plus
-- ten
 - ten_plus
 width: 69.6 mm (2.7 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot

@@ -55,8 +55,6 @@ uses_twrp: true
 vendor: Asus
 versions:
 - ten
-- ten-plus
-- ten
 - ten_plus
 width: 75.5 mm (2.97 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

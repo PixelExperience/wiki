@@ -57,8 +57,6 @@ uses_twrp: true
 vendor: Motorola
 versions:
 - pie
-- pie-plus
-- pie
 - pie_plus
 width: 73.5 mm (2.89 in)
 wifi: 802.11 a/b/g/n/ac

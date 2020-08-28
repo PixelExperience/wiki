@@ -55,6 +55,5 @@ vendor: Xiaomi
 vendor_short: xiaomi
 versions:
 - pie
-- pie
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac

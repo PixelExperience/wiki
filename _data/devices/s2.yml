@@ -55,8 +55,6 @@ uses_twrp: true
 vendor: LeEco
 versions:
 - pie
-- pie-plus
-- pie
 - pie_plus
 width: 74.2 mm (2.9 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
