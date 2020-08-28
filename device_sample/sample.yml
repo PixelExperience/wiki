@@ -73,6 +73,6 @@ storage: 16/32 GB
 vendor: LG
 versions:
 - ten
-- ten-plus
+- ten_plus
 width: 69.2 mm (2.72 in)
 wifi: 802.11 a/b/g/n/ac
