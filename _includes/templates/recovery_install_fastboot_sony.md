@@ -74,10 +74,17 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+{% if device.has_recovery_partition %}
+5. Flash TWRP to `recovery` partition:
+```
+fastboot flash recovery twrp-x.x.x-x-{{ custom_recovery_codename }}.img
+```
+{% else %}
 5. Temporarily flash TWRP to `boot`:
 ```
 fastboot flash boot twrp-x.x.x-x-{{ custom_recovery_codename }}.img
 ```
+{% endif %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. Remember to adjust the filename in the following commands as well." %}
 6. Reboot to the TWRP recovery:
 ```

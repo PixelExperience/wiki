@@ -5,7 +5,11 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
+{% if device.has_recovery_partition %}
+## Booting a custom recovery using `fastboot`
+{% else %}
 ## Temporarily booting a custom recovery using `fastboot`
+{% endif %}
 
 {% if device.uses_twrp %}
 {% if device.custom_twrp_link %}
@@ -32,13 +36,19 @@ fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
     {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar .. `, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
-
+{% if device.has_recovery_partition %}
+5. Flash the recovery on your device by typing:
+```
+fastboot flash recovery <recovery_filename>.img
+```
+{% else %}
 5. Temporarily flash a recovery on your device by typing:
 ```
 fastboot flash boot <recovery_filename>.img
 ```
     {% include alerts/note.html content="Newer fastboot releases dropped legacy A/B support, so it might attempt to flash to `boot__a` / `boot__b` rather than `boot_a` / `boot_b` if you try to flash `boot`. In this case, you must manually specify which slot to flash to based on what slot fastboot failed to flash to. For example, if fastboot fails to flash to `boot__a`, you must flash to `boot_a`." %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+{% endif %}
 6. {{ device.recovery_boot }}
 
 {% unless site.data.devices[page.device].no_fastboot_boot %}
