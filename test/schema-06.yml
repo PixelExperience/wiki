@@ -55,9 +55,9 @@ definitions:
     description: Valid branches a device can be on
     enum:
     - pie
-    - pie-plus
+    - pie_plus
     - ten
-    - ten-plus
+    - ten_plus
     type: string
   valid_dimension:
     oneOf:
