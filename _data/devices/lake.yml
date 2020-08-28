@@ -1,11 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
+battery:
+  capacity: 3000
+  removable: false
+  tech: Li-Ion
 before_install_custom: before_custom_install_ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'Dual LED (dual tone)', info: 'Depth Sensor 5 MP'}
-- {flash: '', info: '12 MP'}
+- flash: Dual LED (dual tone)
+  info: 16 MP
+- flash: Dual LED (dual tone)
+  info: Depth Sensor 5 MP
+- flash: ''
+  info: 12 MP
 codename: lake
 cpu: Kryo 260
 cpu_cores: '8'
@@ -16,13 +25,34 @@ gpu: Adreno 509
 height: 157 mm (6.18 in)
 install_method: fastboot_motorola
 is_ab_device: true
-models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
-name: 'Moto G7 Plus'
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+maintainers:
+- Jorge Lucas
+- Henrique Silva
+models:
+- XT1965-2
+- XT1965-3
+- XT1965-6
+- XT1965-T
+name: Moto G7 Plus
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- NFC
+- Hall effect sensor
+- Sensor hub
+- Light sensor
+- GPS
+- FM radio
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
+  then select "Recovery mode" using Volume keys.
 release: 2019-02
 screen: 96.2 mm (6.2 in)
 screen_ppi: '405'
@@ -32,10 +62,10 @@ sdcard: Up to 256 GB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: Motorola
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
-maintainers: [
-    Jorge Lucas,
-    Henrique Silva
-]
-versions: [ten, ten-plus]

@@ -1,30 +1,56 @@
 architecture: arm64
-battery: {removable: false, capacity: 2870, tech: 'Li-Ion'}
-bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
+battery:
+  capacity: 2870
+  removable: false
+  tech: Li-Ion
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
 cameras:
-- 12 MP, f/1.8, 27mm (wide), 1/2.8", 1.25µm, PDAF
+- "12 MP, f/1.8, 27mm (wide), 1/2.8\", 1.25\xB5m, PDAF"
 - 5 MP, f/2.4, (depth)
-- 8 MP, f/2.0, 24mm (selfie), 1/4", 1.12µm
+- "8 MP, f/2.0, 24mm (selfie), 1/4\", 1.12\xB5m"
 codename: i4113
 cpu: Cortex-A53
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 8x2.2 GHz
-custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
+custom_unlock_cmd: fastboot oem unlock [UNLOCK CODE]
 depth: 8.4 mm (0.33 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb
+  cable.
 gpu: Adreno 508
 height: 156 mm (6.14 in)
 install_method: fastboot_sony
+maintainers:
+- Paul Bouchara
+- AngeloGioacchino Del Regno
 name: Xperia 10 DSDS
-network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Fingerprint reader, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  RGB ambient light, GPS, NFC]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Motion Coprocessor
+- Accelerometer
+- Gesture sensor
+- Gyroscope
+- Proximity sensor
+- Compass
+- Barometer
+- Hall effect sensor
+- RGB ambient light
+- GPS
+- NFC
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the Sony Logo appears, release the buttons.
 release: 2019-02-25
-required_bootloader: ['Android 9 base bootloader version']
+required_bootloader:
+- Android 9 base bootloader version
 screen: 152 mm (6.0 in)
 screen_ppi: 457
 screen_res: 2520x1080
@@ -33,7 +59,10 @@ sdcard: up to 512 GB
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB
 vendor: Sony
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 68 mm (2.68 in)
 wifi: 802.11 a/b/g/n/ac
-maintainers: [Paul Bouchara, AngeloGioacchino Del Regno]
-versions: [ten,ten-plus]

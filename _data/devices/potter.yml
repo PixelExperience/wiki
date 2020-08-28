@@ -1,9 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery:
+  capacity: 4100
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.1'
 cameras:
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: '', info: '5 MP'}
+- flash: Dual LED
+  info: 12 MP
+- flash: ''
+  info: 5 MP
 codename: potter
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -13,12 +21,25 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 height: 144.3 mm (5.68 in)
 install_method: fastboot_motorola
-maintainers: [Zilberto Junior]
+maintainers:
+- Zilberto Junior
 name: Moto G5 Plus
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- GPS
+- Infrared sensor
+- FM radio
 ram: 2/3/4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
+  then select "Recovery mode" using Volume keys.
 release: 2017-01
 screen: 139.7 mm (5.5 in)
 screen_ppi: '403'
@@ -29,6 +50,10 @@ soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 uses_twrp: true
 vendor: Motorola
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 73 mm (2.87 in)
 wifi: 802.11 a/b/g/n/ac

@@ -1,25 +1,53 @@
 architecture: arm64
-battery: {removable: False, capacity: 3800, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery:
+  capacity: 3800
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
 cameras:
-- {flash: 'LED', info: '12 MP (wide), f/1.8, 1/2.55", 1.4µm, Dual Pixel PDAF, 4-axis OIS'}
-- {flash: 'LED', info: '12 MP (telephoto), 1/3.4", 1.0µm'}
-- {flash: '', info: '24 MP, f/2.0, 26mm (wide), 1/2.8", 0.9µm'}
-- {flash: '', info: '2 MP, depth sensor'}
+- flash: LED
+  info: "12 MP (wide), f/1.8, 1/2.55\", 1.4\xB5m, Dual Pixel PDAF, 4-axis OIS"
+- flash: LED
+  info: "12 MP (telephoto), 1/3.4\", 1.0\xB5m"
+- flash: ''
+  info: "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9\xB5m"
+- flash: ''
+  info: 2 MP, depth sensor
 codename: andromeda
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 depth: 9.4 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 640
 height: 157.9 mm (6.22 in)
 install_method: fastboot_xiaomi
-maintainers: [Nicholas Magill]
+maintainers:
+- Nicholas Magill
 name: Mi Mix 3 5G
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G]
-peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+- 5G
+peripherals:
+- A-GPS
+- Accelerometer
+- Compass
+- Fingerprint reader
+- GLONASS
+- GPS
+- Gyroscope
+- Light sensor
+- NFC
+- Ultrasound proximity sensor
+- USB OTG
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -28,11 +56,15 @@ screen: 162.306 mm (6.39 in)
 screen_ppi: 403
 screen_res: 1080x2340
 screen_tech: AMOLED
-sdcard:
+sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB UFS2.1
 uses_twrp: true
 vendor: Xiaomi
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

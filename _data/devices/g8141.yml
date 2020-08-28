@@ -1,29 +1,57 @@
 architecture: arm64
-battery: {removable: false, capacity: 3230, tech: 'Li-Ion'}
-bluetooth: {spec : '5' , profiles: [A2DP + aptX HD]}
+battery:
+  capacity: 3230
+  removable: false
+  tech: Li-Ion
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
 cameras:
-- {flash : 'LED', info : '19 MP, f/2.0, 25mm (wide), 1/2.3", 1.22µm, predictive PDAF, Laser AF'}
-- {flash : '', info : '13 MP, f/2.0, 22mm (selfie), 1/3"'}
+- flash: LED
+  info: "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22\xB5m, predictive PDAF, Laser AF"
+- flash: ''
+  info: 13 MP, f/2.0, 22mm (selfie), 1/3"
 codename: g8141
-cpu: 'Kryo' 
+cpu: Kryo
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.45 GHz + 4x1.9 GHz
-custom_unlock_cmd: 'fastboot oem unlock [UNLOCK CODE]'
+custom_unlock_cmd: fastboot oem unlock [UNLOCK CODE]
 depth: 7.9 mm (0.31 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb cable.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb
+  cable.
 gpu: Adreno 540
 height: 156 mm (6.14 in)
 install_method: fastboot_sony
+maintainers:
+- Paul Bouchara
+- AngeloGioacchino Del Regno
 name: Xperia XZ Premium RoW
-network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Fingerprint reader, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  RGB ambient light, GPS, NFC]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Motion Coprocessor
+- Accelerometer
+- Gesture sensor
+- Gyroscope
+- Proximity sensor
+- Compass
+- Barometer
+- Hall effect sensor
+- RGB ambient light
+- GPS
+- NFC
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the Sony Logo appears, release the buttons.
 release: 2017-06-18
-required_bootloader: ['Android 8 or 9 base bootloader version']
+required_bootloader:
+- Android 8 or 9 base bootloader version
 screen: 127 mm (5.46 in)
 screen_ppi: 807
 screen_res: 3840x2160
@@ -32,7 +60,10 @@ sdcard: up to 256 GB
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64 GB
 vendor: Sony
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 77 mm (3.03 in)
 wifi: 802.11 a/b/g/n/ac
-maintainers: [Paul Bouchara, AngeloGioacchino Del Regno]
-versions: [ten,ten-plus]

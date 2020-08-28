@@ -1,23 +1,44 @@
 architecture: arm64
-battery: {removable: False, capacity: 4050, tech: 'Li-Po'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery:
+  capacity: 4050
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.1'
 cameras:
-- {flash: 'LED (dual-tone)', info: '16 MP'}
-- {flash: '', info: '5 MP'}
+- flash: LED (dual-tone)
+  info: 16 MP
+- flash: ''
+  info: 5 MP
 codename: kenzo
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
+deprecated: true
 depth: 8.7 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 510
 height: 150 mm (5.91 in)
 install_method: fastboot_xiaomi
 maintainers: []
 name: Redmi Note 3 Pro
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- GPS
+- Infrared sensor
+- FM radio
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -25,14 +46,15 @@ release: 2016-02
 screen: 139.7 mm (5.5 in)
 screen_ppi: '403'
 screen_res: 1080x1920
-screen_tech:
+screen_tech: null
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8956 Snapdragon 650
 storage: 16/32 GB
 uses_twrp: true
-deprecated: true
 vendor: Xiaomi
-versions: [pie]
 vendor_short: xiaomi
+versions:
+- pie
+- pie
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac

@@ -1,26 +1,58 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery:
+  capacity: 4000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.2'
 cameras:
-- {flash: 'Dual LED', info: '48 MP or 12 MP'}
-- {flash: 'Dual LED', info: 'Ultra Wide Sensor 2 MP'}
-- {flash: 'Dual LED', info: 'Depth Sensor 2 MP'}
-- {flash: 'Dual LED', info: 'Macro Sensor 2 MP'}
-- {flash: '', info: '13 MP'}
+- flash: Dual LED
+  info: 48 MP or 12 MP
+- flash: Dual LED
+  info: Ultra Wide Sensor 2 MP
+- flash: Dual LED
+  info: Depth Sensor 2 MP
+- flash: Dual LED
+  info: Macro Sensor 2 MP
+- flash: ''
+  info: 13 MP
 codename: ginkgo
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 depth: 8.4 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 610
 height: 158.3 mm (6.23 in)
 install_method: fastboot_xiaomi
-maintainers: [Shreejoy Dash, Billaids]
-name: 'Redmi Note 8'
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+maintainers:
+- Shreejoy Dash
+- Billaids
+name: Redmi Note 8
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- A-GPS
+- Accelerometer
+- Barometer
+- Compass
+- Dual SIM
+- Fingerprint reader
+- GLONASS
+- GPS
+- Gyroscope
+- IR blaster
+- Light sensor
+- Pedometer
+- Proximity sensor
+- USB OTG
+- Wi-Fi Display
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -33,6 +65,10 @@ sdcard: up to 256 GB
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB
 vendor: Xiaomi
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

@@ -1,25 +1,45 @@
 architecture: arm
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
-bluetooth: {spec: '4.1'}
+battery:
+  capacity: 4100
+  removable: false
+  tech: Li-Po
+bluetooth:
+  spec: '4.1'
 cameras:
-- {flash: 'Dual LED', info: '13 MP F/2.2'}
-- {flash: '', info: '8 MP'}
+- flash: Dual LED
+  info: 13 MP F/2.2
+- flash: ''
+  info: 8 MP
 codename: ham
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 custom_twrp_link: https://androidfilehost.com/?fid=11410963190603913507
-uses_twrp: true
+deprecated: true
 depth: 8.9 mm (0.35 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
+  Up</kbd> and connect the USB cable.
 gpu: Adreno 330
 height: 155.7 mm (6.13 in)
 install_method: fastboot_nexus
+maintainers: []
 name: Z1
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, GPS, Accelerometer, Gyroscope, Compass, Light sensor, Proximity sensor]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- GPS
+- Accelerometer
+- Gyroscope
+- Compass
+- Light sensor
+- Proximity sensor
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
+  Up</kbd> + <kbd>Power</kbd>.
 release: 2015-10-14
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
@@ -29,9 +49,11 @@ sdcard: none
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 64 GB
 uses_twrp: true
-deprecated: true
 vendor: ZUK
-versions: [pie, pie-plus]
-maintainers: []
+versions:
+- pie
+- pie-plus
+- pie
+- pie_plus
 width: 77.3 mm (3.04 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Hotspot

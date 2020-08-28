@@ -1,28 +1,60 @@
-architecture: 'arm64'
-battery: {removable: True, capacity: 5020, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+architecture: arm64
+battery:
+  capacity: 5020
+  removable: true
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
 cameras:
-- {flash: 'LED', info: '48 MP'}
-- {flash: 'LED', info: '8 MP'}
-- {flash: 'LED', info: '5 MP'}
-- {flash: 'LED', info: '2 MP'}
-- {flash: '', info: '16 MP'}
+- flash: LED
+  info: 48 MP
+- flash: LED
+  info: 8 MP
+- flash: LED
+  info: 5 MP
+- flash: LED
+  info: 2 MP
+- flash: ''
+  info: 16 MP
 codename: curtana
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
+custom_twrp_link: https://sourceforge.net/projects/lrtwrp-curtana/files/recovery-redmi_note9s-3.4.1-10.0-b5.img/download
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 618
 height: 165.8 mm (6.53 in)
 install_method: fastboot_xiaomi
+maintainers:
+- pqhaz
+- ctwoon
 name: Redmi Note 9S
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- A-GPS
+- Accelerometer
+- Compass
+- Dual SIM
+- FM radio
+- Fingerprint reader
+- GLONASS
+- GPS
+- Gyroscope
+- Light sensor
+- Proximity sensor
+- USB OTG
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the "MI" logo appears on the screen, then release.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2020-04-30
 screen: 165.8 mm (6.67 in)
 screen_ppi: 395
@@ -31,10 +63,12 @@ screen_tech: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SM6250 Snapdragon 720G
 storage: 64/128 GB
+uses_twrp: true
 vendor: Xiaomi
-versions: [ten, ten-plus]
-maintainers: [pqhaz, ctwoon]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 76.7 mm (3.02 in)
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
-uses_twrp: true
-custom_twrp_link: https://sourceforge.net/projects/lrtwrp-curtana/files/recovery-redmi_note9s-3.4.1-10.0-b5.img/download

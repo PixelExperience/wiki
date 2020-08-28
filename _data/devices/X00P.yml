@@ -1,24 +1,44 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery:
+  capacity: 5000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '5 MP'}
-- {flash: 'LED', info: '8 MP'}
+- flash: LED
+  info: 13 MP
+- flash: LED
+  info: 5 MP
+- flash: LED
+  info: 8 MP
 codename: X00P
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 509
 height: 159 mm (6.26 in)
 install_method: fastboot_zenfone
-maintainers: [Saalim]
+maintainers:
+- Saalim
 name: Zenfone Max M1
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Accelerometer
+- Proximity sensor
+- Compass
+- GPS
+- FM radio
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
@@ -32,6 +52,10 @@ soc: Qualcomm Snapdragon 425
 storage: 64 GB
 uses_twrp: true
 vendor: Asus
-versions: [ten,ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 76 mm (2.99 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

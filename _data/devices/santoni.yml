@@ -1,25 +1,49 @@
 architecture: arm64
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery:
+  capacity: 4100
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.2'
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: LED
+  info: 13 MP
+- flash: ''
+  info: 5 MP
 codename: santoni
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
+deprecated: true
 depth: 8.7 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 505
 height: 139.2 mm (5.48 in)
 install_method: fastboot_xiaomi
 maintainers: []
 name: Redmi 4(X)
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- IR blaster
+- FM radio
+- GPS
 ram: 2/3/4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd>.
 release: 2017-05
 screen: 127 mm (5.0 in)
 screen_ppi: '294'
@@ -28,9 +52,12 @@ screen_tech: IPS LCD
 sdcard: up to 128 GB (hybrid SIM slot)
 soc: Qualcomm MSM8940 Snapdragon 435
 storage: 16/32/64 GB
-deprecated: true
 uses_twrp: true
 vendor: Xiaomi
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 70 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

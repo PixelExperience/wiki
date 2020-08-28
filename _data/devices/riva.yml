@@ -1,24 +1,45 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+battery:
+  capacity: 3000
+  removable: false
+  tech: Li-Ion
 before_install: before_install_riva
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.1'
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: LED
+  info: 13 MP
+- flash: ''
+  info: 5 MP
 codename: riva
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
 depth: 8.4 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 308
 height: 140.4 mm (5.53 in)
 install_method: fastboot_xiaomi
-maintainers: [Ahmad Rulim]
+maintainers:
+- Ahmad Rulim
 name: Redmi 5A
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Accelerometer, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Accelerometer
+- Proximity sensor
+- Compass
+- IR blaster
+- FM radio
+- GPS
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -32,6 +53,10 @@ soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16/32 GB
 uses_twrp: true
 vendor: Xiaomi
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 70.1 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

@@ -1,25 +1,49 @@
 architecture: arm64
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery:
+  capacity: 4100
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.1'
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: LED
+  info: 13 MP
+- flash: ''
+  info: 5 MP
 codename: land
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 505
 height: 139.3 mm (5.48 in)
 install_method: fastboot_xiaomi
-maintainers: [Jacob Deepu]
+maintainers:
+- Jacob Deepu
 name: Redmi 3S/3X
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- IR blaster
+- FM radio
+- GPS
 ram: 2/3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd>.
 release: 2016-06
 screen: 127 mm (5.0 in)
 screen_ppi: '294'
@@ -30,6 +54,10 @@ soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB
 uses_twrp: true
 vendor: Xiaomi
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten_plus
+- ten
 width: 69.6 mm (2.74 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

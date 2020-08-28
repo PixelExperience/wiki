@@ -1,25 +1,50 @@
 architecture: arm64
-battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
+battery:
+  capacity: 3300
+  removable: false
+  tech: Li-Po
 before_install_custom: before_custom_install_dumpling
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
 cameras:
-- {flash: 'LED', info: '20 MP'}
-- {flash: 'LED', info: '16 MP'}
-- {flash: '', info: '16MP'}
+- flash: LED
+  info: 20 MP
+- flash: LED
+  info: 16 MP
+- flash: ''
+  info: 16MP
 codename: dumpling
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+deprecated: true
 depth: 7.30 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-deprecated: true
 gpu: Adreno 540
 height: 156.1 mm (6.15 in)
 install_method: fastboot_nexus
-maintainers: [itsjoeui, idkwhoiam322]
-name: '5T'
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]
+maintainers:
+- itsjoeui
+- idkwhoiam322
+name: 5T
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- NFC
+- Hall effect sensor
+- Sensor hub
+- Light sensor
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-11
@@ -27,11 +52,15 @@ screen: 152.7 mm (6.01 in)
 screen_ppi: '401'
 screen_res: 1080x2160
 screen_tech: Optic AMOLED
-sdcard:
+sdcard: null
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
 uses_twrp: true
 vendor: OnePlus
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 75.0 mm (2.95 in)
 wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot

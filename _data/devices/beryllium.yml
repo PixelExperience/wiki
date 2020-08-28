@@ -1,22 +1,47 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery:
+  capacity: 4000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP + 5 MP'}
-- {flash: '', info: '5 MP'}
+- flash: Dual LED (dual tone)
+  info: 12 MP + 5 MP
+- flash: ''
+  info: 5 MP
 codename: beryllium
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 630
 height: 155.5 mm (6.12 in)
 install_method: fastboot_xiaomi
+maintainers:
+- Lakshay Garg
 name: Poco F1
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, IR camera, FM radio]
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Light sensor
+- Proximity sensor
+- Compass
+- GPS
+- IR camera
+- FM radio
 ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "POCO" logo appears on the screen, then release.
@@ -29,7 +54,10 @@ sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 vendor: Xiaomi
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
-maintainers: [Lakshay Garg]
-versions: [ten, ten-plus]

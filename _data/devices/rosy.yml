@@ -1,23 +1,46 @@
 architecture: arm64
-battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery:
+  capacity: 3300
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.2'
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '5 MP'}
+- flash: LED
+  info: 12 MP
+- flash: LED
+  info: 5 MP
 codename: rosy
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
+custom_twrp_link: https://sourceforge.net/projects/redmi5rosy/files/KewL-TWRP-3.4.0-rosy.img/download
 depth: 7.7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 506
 height: 151.8 mm (5.98 in)
 install_method: fastboot_xiaomi
-maintainers: [Pulkit Agarwal]
+maintainers:
+- Pulkit Agarwal
 name: Redmi 5
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- IR blaster
+- FM radio
+- GPS
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -31,7 +54,10 @@ soc: Qualcomm MSM8953 Snapdragon 450
 storage: 16/32 GB
 uses_twrp: true
 vendor: Xiaomi
-versions: [ten, ten-plus]
+versions:
+- ten
+- ten-plus
+- ten
+- ten_plus
 width: 72.8 mm (2.87 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
-custom_twrp_link: https://sourceforge.net/projects/redmi5rosy/files/KewL-TWRP-3.4.0-rosy.img/download
