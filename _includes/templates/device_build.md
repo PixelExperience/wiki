@@ -235,7 +235,11 @@ cd $OUT
 There you'll find all the files that were created. The two files of more interest are:
 
 {% if device.is_ab_device %}
+{% if device.has_recovery_partition %}
+1. `recovery.img`, which is the PixelExperience recovery image.
+{% else %}
 1. `boot.img`, which is the PixelExperience boot image, and contains the recovery-ramdisk.
+{% endif %}
 {% else %}
 1. `recovery.img`, which is the PixelExperience recovery image.
 {% endif %}

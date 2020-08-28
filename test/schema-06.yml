@@ -353,6 +353,9 @@ properties:
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean
+  has_recovery_partition:
+    "$id": "/properties/has_recovery_partition"
+    type: boolean
   is_unlockable:
     "$id": "/properties/is_unlockable"
     type: boolean
