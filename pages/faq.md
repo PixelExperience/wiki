@@ -17,7 +17,7 @@ permalink: help/faq/
 
 ## My device is _not_ officially supported, but I'd really like to give PixelExperience a try. Can you support my device?
  - All devices are maintained by open source contributors - [sorry, we don't take device requests]({{ "help/device-requests/" | relative_url }}). If you would like to bring-up PixelExperience for a device, and can meet some basic standards, we'll happily look into making it official.
- - If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url](https://github.com/PixelExperience/official_devices/blob/master/README.md). Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
+ - If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url]({{ site.baseurl }}/help/adding-device/). Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
 
 ## A build for my device disappeared? Where'd it go?
  - Occasionally a build is broken. If this happens, we remove it until the next build cycle. It is also possible the device is no longer in the official build roster and its old builds are being purged, or that the version it supported is no longer supported. You can check your device's wiki page to confirm support status.

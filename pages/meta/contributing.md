@@ -26,4 +26,4 @@ You can help us make this wiki a place where all information to work with and on
 
 ## Official devices
 
-If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url](https://github.com/PixelExperience/official_devices/blob/master/README.md). Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
+If you have a working device tree/kernel, and would like to submit it for official builds, please check [this url]({{ site.baseurl }}/help/adding-device/). Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
