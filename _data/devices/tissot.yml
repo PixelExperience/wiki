@@ -27,7 +27,7 @@ height: 155.4 mm (6.12 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- abhinavgupta371
+- Abhinav Gupta
 name: Mi A1
 network:
 - 2G GSM

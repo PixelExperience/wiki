@@ -24,8 +24,8 @@ gpu: Adreno 540
 height: 148 mm (5.83 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia XZ1 DSDS
 network:
 - 2G GSM

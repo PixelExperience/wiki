@@ -23,8 +23,8 @@ gpu: Adreno 508
 height: 156 mm (6.14 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia 10 RoW
 network:
 - 2G GSM

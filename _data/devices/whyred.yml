@@ -28,7 +28,7 @@ install_method: fastboot_xiaomi
 maintainers:
 - Rohan Hasabe (Hasaber8)
 - Keertesh
-name: Redmi Note 5 Pro
+name: Redmi Note 5 Global/Pro
 network:
 - 2G GSM
 - 3G UMTS

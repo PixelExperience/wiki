@@ -22,8 +22,8 @@ gpu: Adreno 630
 height: 158 mm (6.22 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia XZ3 RoW
 network:
 - 2G GSM

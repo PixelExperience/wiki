@@ -31,7 +31,7 @@ maintainers:
 models:
 - A3000
 - A3003
-name: 3 / 3T
+name: 3/3T
 network:
 - 2G GSM
 - 2G CDMA

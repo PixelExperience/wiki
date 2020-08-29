@@ -31,7 +31,7 @@ models:
 - SM-A520L
 - SM-A520S
 - SM-A520W
-name: Galaxy A5 (2017)
+name: Galaxy A5
 network:
 - 2G GSM
 - 3G UMTS

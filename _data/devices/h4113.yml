@@ -22,8 +22,8 @@ gpu: Adreno 508
 height: 142 mm (5.59 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia XA2 DSDS
 network:
 - 2G GSM

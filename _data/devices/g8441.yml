@@ -22,8 +22,8 @@ gpu: Adreno 540
 height: 129 mm (5.09 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia XZ1 Compact RoW
 network:
 - 2G GSM

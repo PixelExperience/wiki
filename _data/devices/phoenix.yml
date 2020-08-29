@@ -25,8 +25,8 @@ height: 165.3 mm (6.50 in)
 install_method: fastboot_xiaomi
 maintainers:
 - CryllicBuster273
-- jhenrique09
-name: Poco X2/Redmi K30
+- Henrique Silva
+name: Redmi K30/Poco X2
 network:
 - 2G GSM
 - 2G CDMA

@@ -31,7 +31,7 @@ height: 156.7 mm (6.17 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Henrique Silva
-name: Redmi K20 Pro / Mi 9T Pro
+name: Redmi K20 Pro/Mi 9T Pro
 network:
 - 2G GSM
 - 2G CDMA

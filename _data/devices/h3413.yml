@@ -22,8 +22,8 @@ gpu: Adreno 508
 height: 157 mm (6.18 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia XA2 Plus RoW
 network:
 - 2G GSM

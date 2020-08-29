@@ -22,8 +22,8 @@ gpu: Adreno 630
 height: 153 mm (6.02 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia XZ2 DSDS
 network:
 - 2G GSM

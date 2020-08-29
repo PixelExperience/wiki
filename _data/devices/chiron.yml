@@ -25,7 +25,7 @@ height: 151.8 mm (5.98 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Angga Satya Putra
-name: Mi MIX 2
+name: Mi Mix 2
 network:
 - 2G GSM
 - 2G CDMA

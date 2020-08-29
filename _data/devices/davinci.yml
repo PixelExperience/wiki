@@ -28,9 +28,9 @@ gpu: Adreno 618
 height: 158.258 mm (6.39 in)
 install_method: fastboot_xiaomi
 maintainers:
-- trpsl
-- baalajimaestro
-name: Redmi K20 / Mi 9T
+- Baalaji Balasubramani
+- nmomcilo5
+name: Redmi K20/Mi 9T
 network:
 - 2G GSM
 - 2G CDMA

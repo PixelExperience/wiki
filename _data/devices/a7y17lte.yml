@@ -28,7 +28,7 @@ models:
 - SM-A720F
 - SM-A720F/DS
 - SM-A720S
-name: Galaxy A7 (2017)
+name: Galaxy A7
 network:
 - 2G GSM
 - 3G UMTS

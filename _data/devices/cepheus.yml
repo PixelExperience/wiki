@@ -28,7 +28,7 @@ gpu: Adreno 640
 height: 158.7 mm (6.25 in)
 install_method: fastboot_xiaomi
 maintainers:
-- markakash
+- Akash Srivastava
 name: Mi 9
 network:
 - 2G GSM

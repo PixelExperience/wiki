@@ -23,8 +23,8 @@ gpu: Adreno 640
 height: 167 mm (6.57 in)
 install_method: fastboot_sony
 maintainers:
-- Paul Bouchara
 - AngeloGioacchino Del Regno
+- Paul Bouchara
 name: Xperia 10 Plus RoW
 network:
 - 2G GSM

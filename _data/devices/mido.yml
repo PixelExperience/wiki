@@ -25,7 +25,7 @@ height: 151 mm (5.94 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Giammarco Senatore
-name: Redmi Note 4
+name: Redmi Note 4/4X
 network:
 - 2G GSM
 - 3G UMTS
