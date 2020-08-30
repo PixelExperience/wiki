@@ -46,7 +46,7 @@ peripherals:
 - Light sensor
 - Proximity sensor
 - Compass
-- IR camera
+- IR Blaster
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Mi 8 SE" logo appears on the screen, then release.
