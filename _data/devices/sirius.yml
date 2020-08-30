@@ -1,0 +1,65 @@
+architecture:
+  cpu: arm64
+  userspace: arm
+battery:
+- A0001:
+    capacity: 3120
+    removable: false
+    tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
+cameras:
+- flash: LED
+  info: 12 MP
+- flash: LED
+  info: 5 MP
+- flash: ''
+  info: 5 MP
+codename: sirius
+cpu: Kryo 360
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
+depth: 7.5 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: Adreno 616
+height: 147.3 mm (5.80 in)
+install_method: fastboot_xiaomi
+maintainers:
+- solidv
+name: Mi 8 SE
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Barometer
+- Gyroscope
+- Hall effect sensor
+- Light sensor
+- Proximity sensor
+- Compass
+- IR
+ram: 4/6 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Mi 8 SE" logo appears on the screen, then release.
+release: 2018-06
+screen: 130 mm (5.1 in)
+screen_ppi: 423
+screen_res: 1080 x 2244
+screen_tech: Super AMOLED
+soc: Qualcomm SDM710 Snapdragon 710
+storage: 64/128 GB
+vendor: Xiaomi
+versions:
+- ten
+- ten_plus
+width: 73.1 mm (2.88 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
