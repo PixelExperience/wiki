@@ -57,6 +57,7 @@ screen_res: 1080 x 2244
 screen_tech: Super AMOLED
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB
+uses_twrp: true
 vendor: Xiaomi
 versions:
 - ten
