@@ -21,6 +21,7 @@ codename: sirius
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
+custom_recovery_codename: xmsirius
 custom_twrp_link: https://dl.twrp.me/xmsirius/
 depth: 7.5 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
