@@ -23,7 +23,7 @@ gpu: Adreno 506
 height: 157 mm (6.2 in)
 install_method: fastboot_motorola
 maintainers:
-- JarlPenguin
+- Jarl-Penguin
 models:
 - XT1962-01
 - XT1962-04
