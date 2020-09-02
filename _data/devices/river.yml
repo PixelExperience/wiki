@@ -22,6 +22,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 height: 157 mm (6.2 in)
 install_method: fastboot_motorola
+is_ab_device : true
 maintainers:
 - Jarl-Penguin
 models:
