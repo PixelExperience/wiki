@@ -26,7 +26,8 @@ gpu: Adreno 512
 height: 158.7 mm (6.25 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Jean Graff
 name: Mi A2
 network:
 - 2G GSM
