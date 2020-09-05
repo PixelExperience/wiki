@@ -47,7 +47,7 @@ peripherals:
 - GPS
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-release: 2014-04-11
+release: 2019-04-11
 required_bootloader:
 - 11.7.0
 screen: 176.04 mm (6.26 in)
