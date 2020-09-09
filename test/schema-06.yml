@@ -58,6 +58,7 @@ definitions:
     - pie_plus
     - ten
     - ten_plus
+    - eleven
     type: string
   valid_dimension:
     oneOf:
