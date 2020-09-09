@@ -61,43 +61,23 @@ fi
 
 Then, run `source ~/.profile` to update your environment.
 
-### Install the build packages
+### Preparing your system to build
 
-Several packages are needed to build PixelExperience. You can install these using your distribution's package manager.
+{% include alerts/tip.html content="This guide assumes that you have Ubuntu 18 (or higher) installed." %}
 
-{% include alerts/tip.html content="A [package manager](https://en.wikipedia.org/wiki/Package_manager) in Linux is a system used to install or remove software
-(usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the `apt-get install`
-command directly in the Terminal." %}
+Installing git:
 
-{%- capture cpu_architecture %}
-{%- if device.architecture.cpu -%}
-   {{ device.architecture.cpu }}
-{%- else -%}
-   {{ device.architecture }}
-{%- endif -%}
-{%- endcapture -%}
+```
+sudo apt install git
+```
 
-To build PixelExperience, you'll need:
-
-* `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
-   lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev
-   libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync
-   schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
-   zip zlib1g-dev`
-
-For Ubuntu versions older than 20.04 (focal), install also:
-
-* `libwxgtk3.0-dev`
-
-While for Ubuntu versions older than 16.04 (xenial), install:
-
-* `libwxgtk2.8-dev`
-
-#### Java
-
-Different versions of PixelExperience require different JDK (Java Development Kit) versions.
-
-* PixelExperience Pie-Ten: OpenJDK 1.9 (included by default)
+Running configuration script:
+```
+cd ~/
+git clone https://github.com/akhilnarang/scripts
+cd scripts
+./setup/android_build_env.sh
+```
 
 ### Create the directories
 
