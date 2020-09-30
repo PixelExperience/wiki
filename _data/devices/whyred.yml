@@ -25,9 +25,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 509
 height: 158.6 mm (6.24 in)
 install_method: fastboot_xiaomi
-maintainers:
-- Rohan Hasabe (Hasaber8)
-- Keertesh
+maintainers: []
 name: Redmi Note 5 Global/Pro
 network:
 - 2G GSM
