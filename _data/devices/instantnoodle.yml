@@ -12,16 +12,17 @@ bluetooth:
   - A2DP + aptX HD
   spec: '5.1'
 cameras:
-- flash: 'Dual LED (dual tone)'
-  info: '48 MP (wide) + 2 MP (macro) + 16 MP (ultrawide)'
+- flash: Dual LED (dual tone)
+  info: 48 MP (wide) + 2 MP (macro) + 16 MP (ultrawide)
 - flash: ''
-  info: '16 MP'
+  info: 16 MP
 codename: instantnoodle
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 depth: 8.0 mm (0.31 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 650
 height: 160.2 mm (6.31 in)
 install_method: fastboot_nexus
