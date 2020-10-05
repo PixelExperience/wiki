@@ -31,8 +31,8 @@ gpu: Adreno 618
 height: 165.8 mm (6.53 in)
 install_method: fastboot_xiaomi
 maintainers:
-- pqhaz
 - ctwoon
+- pqhaz
 name: Redmi Note 9S
 network:
 - 2G GSM
