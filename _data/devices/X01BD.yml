@@ -28,7 +28,6 @@ install_method: fastboot_zenfone
 maintainers:
 - Rahul Krishna
 - Gaurav
-- Jayant Deshmukh
 name: Zenfone Max Pro M2
 network:
 - 2G GSM
