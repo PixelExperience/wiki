@@ -25,8 +25,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 512
 height: 156.4 mm (6.16 in)
 install_method: fastboot_xiaomi
-maintainers:
-- nysascape
+maintainers: []
 name: Mi 8 Lite
 network:
 - 2G GSM
