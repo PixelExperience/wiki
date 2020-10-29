@@ -42,6 +42,8 @@ The updater app does not support upgrades from one version of PixelExperience to
 {% include alerts/tip.html content="If the installation process reports the message \"(~47%) adb: failed to read the command: No error\", do not worry, the process was completed successfully and you can restart the device." %}
 {% endif %}
 
+{% include alerts/warning_recovery_app.html %}
+
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our Telegram group](https://t.me/pixelexperiencechat).
