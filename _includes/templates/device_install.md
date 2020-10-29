@@ -71,7 +71,7 @@ There are no recovery installation instructions for this discontinued device.
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 
-{% include alerts/warning_recovery_app.html %}
+{% include alerts/specific/warning_recovery_app.html %}
 {% if device.is_ab_device %}
 {% include alerts/tip.html content="If the installation process reports the message \"(~47%) adb: failed to read the command: No error\", do not worry, the process was completed successfully and you can restart the device." %}
 {% endif %}
