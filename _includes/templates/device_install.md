@@ -72,6 +72,9 @@ There are no recovery installation instructions for this discontinued device.
 {% endif %}
 
     {% include alerts/warning.html content="Depending on which recovery you use, you may be prompted to install additional apps and services. We strongly advise you to opt out of installing these, as they may cause your device to bootloop, as well as attempt to access or corrupt your data." %}
+    {% if device.is_ab_device %}
+    {% include alerts/tip.html content="If the installation process reports the message \"(~47%) adb: failed to read the command: No error\", do not worry, the process was completed successfully and you can restart the device." %}
+    {% endif %}
 
 ## Get assistance
 
