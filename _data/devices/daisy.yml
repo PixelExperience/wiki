@@ -26,8 +26,7 @@ gpu: Adreno 506
 height: 149.3 mm (5.88 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Zinadin Zidan
+maintainers: []
 name: Mi A2 Lite
 network:
 - 2G GSM

@@ -25,8 +25,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 height: 149.3 mm (5.88 in)
 install_method: fastboot_xiaomi
-maintainers:
-- Zinadin Zidan
+maintainers: []
 name: Redmi 6 Pro
 network:
 - 2G GSM
