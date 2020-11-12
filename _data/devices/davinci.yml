@@ -29,7 +29,7 @@ height: 158.258 mm (6.39 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Baalaji Balasubramani
-- nmomcilo5
+- trpsl
 name: Redmi K20/Mi 9T
 network:
 - 2G GSM
