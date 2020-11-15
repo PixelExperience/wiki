@@ -28,8 +28,7 @@ gpu: Adreno 610
 height: 153.5 mm (6.04 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Kuba Wojciechowski
+maintainers: []
 name: Mi A3
 network:
 - 2G GSM
