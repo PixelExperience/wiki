@@ -54,6 +54,7 @@ storage: 32/64 GB
 uses_twrp: true
 vendor: Asus
 versions:
+- eleven
 - ten
 - ten_plus
 width: 75.5 mm (2.97 in)

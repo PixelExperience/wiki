@@ -55,6 +55,7 @@ storage: 16/32 GB
 uses_twrp: true
 vendor: Xiaomi
 versions:
+- eleven
 - ten
 - ten_plus
 width: 72.8 mm (2.87 in)

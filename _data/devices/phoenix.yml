@@ -25,7 +25,6 @@ height: 165.3 mm (6.50 in)
 install_method: fastboot_xiaomi
 maintainers:
 - CryllicBuster273
-- Henrique Silva
 name: Redmi K30/Poco X2
 network:
 - 2G GSM
@@ -61,6 +60,7 @@ storage: 64/128/256 GB
 uses_twrp: false
 vendor: Xiaomi
 versions:
+- eleven
 - ten
 - ten_plus
 width: 76.6 mm (3.01 in)

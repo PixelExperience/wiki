@@ -60,6 +60,7 @@ storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 uses_twrp: true
 vendor: OnePlus
 versions:
+- eleven
 - ten
 - ten_plus
 width: 74.7 mm (2.94 in)

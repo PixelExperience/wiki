@@ -51,6 +51,7 @@ storage: 32/64 GB
 uses_twrp: true
 vendor: Motorola
 versions:
+- eleven
 - ten
 - ten_plus
 width: 73 mm (2.87 in)

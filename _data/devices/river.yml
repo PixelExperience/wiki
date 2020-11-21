@@ -60,6 +60,7 @@ soc: Qualcomm MSM8953 Snapdragon 632
 storage: 64 GB
 vendor: Motorola
 versions:
+- eleven
 - ten
 - ten_plus
 width: 75.3 mm (3 in)

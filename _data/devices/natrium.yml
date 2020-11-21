@@ -58,6 +58,7 @@ storage: 64/128 GB UFS2.0
 uses_twrp: true
 vendor: Xiaomi
 versions:
+- eleven
 - ten
 - ten_plus
 width: 77.7 mm (3.06 in)

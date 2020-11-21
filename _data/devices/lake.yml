@@ -27,7 +27,6 @@ install_method: fastboot_motorola
 is_ab_device: true
 maintainers:
 - Jorge Lucas
-- Henrique Silva
 models:
 - XT1965-2
 - XT1965-3
@@ -63,6 +62,7 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: Motorola
 versions:
+- eleven
 - ten
 - ten_plus
 width: 75.3 mm (2.96 in)
