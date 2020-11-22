@@ -61,5 +61,6 @@ vendor: Sony
 versions:
 - ten
 - ten_plus
+- eleven
 width: 65 mm (2.56 in)
 wifi: 802.11 a/b/g/n/ac
