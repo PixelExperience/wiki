@@ -3,7 +3,8 @@ battery:
   capacity: 3000
   removable: false
   tech: Li-Ion
-before_install: before_install_evert_and_payton
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 9}
 before_install_custom: before_custom_install_ab_copy_partitions
 bluetooth:
   profiles:
