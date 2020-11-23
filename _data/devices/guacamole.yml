@@ -28,7 +28,7 @@ height: 162.6 mm (6.40 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- itsjoeoui
+- Joey Yu
 - Chandra Chaganti
 - idkwhoiam322
 name: 7 Pro
@@ -58,6 +58,7 @@ soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
 versions:
+- eleven
 - ten
 - ten_plus
 width: 75.9 mm (2.99 in)

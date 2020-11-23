@@ -26,7 +26,7 @@ gpu: Adreno 540
 height: 156.1 mm (6.15 in)
 install_method: fastboot_nexus
 maintainers:
-- itsjoeoui
+- Joey Yu
 - idkwhoiam322
 name: 5T
 network:
