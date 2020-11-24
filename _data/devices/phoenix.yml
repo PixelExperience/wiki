@@ -24,7 +24,7 @@ gpu: Adreno 618
 height: 165.3 mm (6.50 in)
 install_method: fastboot_xiaomi
 maintainers:
-- CryllicBuster273
+- Akshay Kakatkar
 name: Redmi K30/Poco X2
 network:
 - 2G GSM

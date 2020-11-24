@@ -27,7 +27,7 @@ height: 158.3 mm (6.23 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- CryllicBuster273
+- Akshay Kakatkar
 name: Nord
 network:
 - 2G GSM
