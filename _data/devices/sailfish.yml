@@ -54,6 +54,7 @@ soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
 vendor: Google
 versions:
+- eleven
 - ten
 - ten_plus
 width: 69.5 mm (2.74 in)
