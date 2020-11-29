@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Upgrade LineageOS on angler
+title: Upgrade PixelExperience on angler
 folder: upgrade
 permalink: /devices/angler/upgrade
 device: angler
