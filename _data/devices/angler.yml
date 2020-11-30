@@ -1,78 +1,54 @@
-architecture:
-  cpu: arm64
-  userspace: arm
+architecture: arm64
 battery:
-- A0001:
-    capacity: 2800
-    removable: true
-    tech: Li-Ion
-- SM-6900F:
-    capacity: 3000
-    removable: true
+    capacity: 3450
+    removable: false
     tech: Li-Po
 bluetooth:
-  spec: 4.0 + LE
+  profiles: A2DP
+  spec: 4.2
 cameras:
-- flash: LED
-  info: 16 MP
+- flash: Dual LED (dual tone)
+  info: 12.3MP, laser autofocus
 - flash: ''
-  info: 2 MP
+  info: 8 MP
 codename: angler
-cpu: Krait 400
-cpu_cores: '4'
-cpu_freq: 2.5 GHz
-custom_unlock_cmd: fastboot oem let-me-free
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '8'
+cpu_freq: 1.55 GHz & 2.0 GHz
+custom_unlock_cmd: fastboot flashing unlock
 depth: 7.3 mm (0.29 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
-  + <kbd>Power</kbd>.
-gpu: Adreno 330
-height: 144.6 mm (5.69 in)
-install_method: heimdall
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 430
+height: 159.3 mm (6.27 in)
+install_method: fastboot_nexus
 maintainers:
-- People1
-- People2
-models:
-- A0001
-- SM-G900F
-name: Galaxy Note Sample
+- PixelBoot
+name: Google Nexus 6P
 network:
 - 2G GSM
-- 2G CDMA
 - 3G UMTS
-- 3G CDMA2000
 - 4G LTE
 peripherals:
 - Fingerprint reader
-- Heart rate sensor
-- Motion Coprocessor
 - Accelerometer
-- Gesture sensor
 - Gyroscope
 - Proximity sensor
 - Compass
 - Barometer
-- Hall effect sensor
-- RGB ambient light
-- Infrared sensor
-- GPS
 - NFC
-ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd>
-  + <kbd>Power</kbd>. When the blue text appears, release the buttons.
-release: 2014-04-11
-required_bootloader:
-- T713XXU2BQCO
-- T713XXU2BQCP
-screen: 130 mm (5.1 in)
-screen_ppi: 432
-screen_res: 1920x1080
-screen_tech: Full HD Super AMOLED
-sdcard: up to 128 GB
-soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 16/32 GB
-vendor: LG
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and choose Recovery Mode.
+release: 2015-09-29
+screen: 145 mm (5.7 in)
+screen_ppi: ~518
+screen_res: 1440x2560
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm MSM8994 Snapdragon 810
+storage: 32/64/128 GB
+vendor: Google
 versions:
 - ten
 - ten_plus
-width: 69.2 mm (2.72 in)
-wifi: 802.11 a/b/g/n/ac
+width: 77.8 mm (3.06 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
