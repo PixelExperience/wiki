@@ -4,8 +4,9 @@ battery:
     removable: false
     tech: Li-Po
 bluetooth:
-  profiles: A2DP
-  spec: 4.2
+  profiles: 
+  - A2DP
+  spec: '4.2'
 cameras:
 - flash: Dual LED (dual tone)
   info: 12.3MP, laser autofocus
