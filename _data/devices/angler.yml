@@ -24,7 +24,7 @@ height: 159.3 mm (6.27 in)
 install_method: fastboot_nexus
 maintainers:
 - PixelBoot
-name: Google Nexus 6P
+name: Nexus 6P
 network:
 - 2G GSM
 - 3G UMTS
