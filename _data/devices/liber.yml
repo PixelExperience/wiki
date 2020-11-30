@@ -35,7 +35,6 @@ network:
 - 3G UMTS
 - 3G CDMA2000
 - 4G LTE
-- 5G
 peripherals:
 - Dual SIM
 - Fingerprint reader
