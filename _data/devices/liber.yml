@@ -27,7 +27,7 @@ height: 162.9 mm (6.41 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- Rohan Hasabe
+- Rohan Hasabe (Hasaber8)
 name: One Fusion +
 network:
 - 2G GSM
