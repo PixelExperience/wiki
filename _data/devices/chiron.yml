@@ -59,7 +59,7 @@ screen_tech: IPS LCD
 sdcard: null
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128/256 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - ten

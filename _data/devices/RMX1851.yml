@@ -50,7 +50,7 @@ screen_tech: Full HD+ IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB eMMC5.1
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Realme
 versions:
 - eleven

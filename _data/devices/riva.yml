@@ -51,7 +51,7 @@ screen_tech: IPS LCD
 sdcard: microSDXC (dedicated slot)
 soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16/32 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - ten

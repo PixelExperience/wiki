@@ -55,7 +55,7 @@ sdcard: null
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB UFS2.0 (Standard edition) / 64 GB UFS2.0 (Pro edition) / 128 GB UFS2.0
   (Exclusive edition)
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

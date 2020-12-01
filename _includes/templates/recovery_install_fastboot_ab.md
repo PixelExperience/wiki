@@ -1,8 +1,8 @@
 {%- assign device = site.data.devices[page.device] -%}
-{% if device.custom_recovery_codename %}
-{% assign custom_recovery_codename = device.custom_recovery_codename %}
+{% if device.custom_recovery_link %}
+{% assign custom_recovery_link = device.custom_recovery_link %}
 {% else %}
-{% assign custom_recovery_codename = device.codename %}
+{% assign custom_recovery_link = "https://dl.twrp.me/" | append: device.codename %}
 {% endif %}
 
 {% if device.has_recovery_partition %}
@@ -11,14 +11,10 @@
 ## Temporarily booting a custom recovery using `fastboot`
 {% endif %}
 
-{% if device.uses_twrp %}
-{% if device.custom_twrp_link %}
-1. Download a custom recovery - you can download [TWRP]({{ device.custom_twrp_link }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% if device.uses_custom_recovery %}
+1. Download the [custom recovery]({{ custom_recovery_link }}).
 {% else %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
-{% endif %}
-{% else %}
-1. Download a custom recovery - you can download [PixelExperience Recovery](https://download.pixelexperience.org/{{ custom_recovery_codename }}). Simply download the latest recovery file.
+1. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 {% endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
@@ -52,7 +48,7 @@ fastboot flash boot <recovery_filename>.img
 6. {{ device.recovery_boot }}
 
 {% unless site.data.devices[page.device].no_fastboot_boot %}
-{% if device.uses_twrp %}
+{% if device.uses_custom_recovery %}
     Alternatively, on some devices and recoveries you can use fastboot to boot directly into the freshly flashed or any other desired recovery:
 ```
 fastboot boot <recovery_filename>.img

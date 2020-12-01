@@ -52,7 +52,7 @@ screen_tech: IPS LCD
 sdcard: null
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/64/128 GB UFS 2.0
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

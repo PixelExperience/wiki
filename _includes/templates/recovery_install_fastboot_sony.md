@@ -1,4 +1,9 @@
 {%- assign device = site.data.devices[page.device] -%}
+{% if device.custom_recovery_link %}
+{% assign custom_recovery_link = device.custom_recovery_link %}
+{% else %}
+{% assign custom_recovery_link = "https://dl.twrp.me/" | append: device.codename %}
+{% endif %}
 
 ## Unlocking the bootloader
 
@@ -42,22 +47,13 @@ fastboot oem unlock <your_unlock_code>
 
 {% if device.install_variant and device.install_variant contains "sony_init_fota" %}
 
-{% if device.custom_recovery_codename %}
-{% assign custom_recovery_codename = device.custom_recovery_codename %}
-{% else %}
-{% assign custom_recovery_codename = device.codename %}
-{% endif %}
 
 ## Installing a custom recovery using `fastboot`
 
-{% if device.uses_twrp %}
-{% if device.custom_twrp_link %}
-1. Download a custom recovery - you can download [TWRP]({{ device.custom_twrp_link }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% if device.uses_custom_recovery %}
+1. Download the [custom recovery]({{ custom_recovery_link }}).
 {% else %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
-{% endif %}
-{% else %}
-1. Download a custom recovery - you can download [PixelExperience Recovery](https://download.pixelexperience.org/{{ custom_recovery_codename }}). Simply download the latest recovery file.
+1. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 {% endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
@@ -75,32 +71,32 @@ fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 {% if device.has_recovery_partition %}
-5. Flash TWRP to `recovery` partition:
+5. Flash the custom recovery to `recovery` partition:
 ```
-fastboot flash recovery twrp-x.x.x-x-{{ custom_recovery_codename }}.img
+fastboot flash recovery path-to-recovery-file.img
 ```
 {% else %}
-5. Temporarily flash TWRP to `boot`:
+5. Temporarily flash the custom recovery to `boot`:
 ```
-fastboot flash boot twrp-x.x.x-x-{{ custom_recovery_codename }}.img
+fastboot flash boot path-to-recovery-file.img
 ```
 {% endif %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. Remember to adjust the filename in the following commands as well." %}
-6. Reboot to the TWRP recovery:
+6. Reboot to the custom recovery:
 ```
 fastboot reboot
 ```
-7. Push the TWRP image to your device:
+7. Push the custom recovery image to your device:
 ```
-adb push twrp-x.x.x-x-{{ custom_recovery_codename }}.img /sdcard
+adb push path-to-recovery-file.img /sdcard
 ```
 8. Enter shell on the device:
 ```
 adb shell
 ```
-9. Flash TWRP to `recovery` permanently:
+9. Flash custom recovery to `recovery` permanently:
 ```
-dd if=/sdcard/twrp-x.x.x-x-{{ custom_recovery_codename }}.img of=/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+dd if=/sdcard/path-to-recovery-file.img of=/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ```
 10. Exit the adb shell:
 ```

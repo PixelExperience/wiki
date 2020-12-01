@@ -22,7 +22,7 @@ codename: begonia
 cpu: Helio G90T
 cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz & 6 x 2.0 GHz
-custom_twrp_link: https://sourceforge.net/projects/begonia-oss/files/CFW-TWRP/twrp-CFW-3.3.1-0-begonia_UNOFFICIAL_0506.img/download
+custom_recovery_link: https://sourceforge.net/projects/begonia-oss/files/CFW-TWRP/twrp-CFW-3.3.1-0-begonia_UNOFFICIAL_0506.img/download
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
@@ -64,7 +64,7 @@ screen_tech: IPS LCD
 sdcard: up to 512 GB
 soc: Mediatek Helio G90T
 storage: 64/128/256 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

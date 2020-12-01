@@ -23,17 +23,17 @@ The updater app does not support upgrades from one version of PixelExperience to
 4. Run `adb reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
 5. Run `adb sideload /path/to/zip` (inserting the path to your PixelExperience package).
-{% if device.is_ab_device and device.uses_twrp %}
+{% if device.is_ab_device and device.uses_custom_recovery %}
 6. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
 {% elsif device.is_ab_device %}
 6. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
-{% elsif device.uses_twrp %}
+{% elsif device.uses_custom_recovery %}
 6. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb sideload /path/to/zip` those packages in sequence.
 {% else %}
 6. _(Optionally)_: If you want to install any additional add-ons, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
 
-{% if device.uses_twrp and device.is_ab_device != true %}
+{% if device.uses_custom_recovery and device.is_ab_device != true %}
 7. Once you have installed everything successfully, run `adb reboot`.
 {% else %}
 7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".

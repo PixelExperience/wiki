@@ -47,7 +47,7 @@ screen_tech: LCD
 sdcard: null
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Google
 versions:
 - ten

@@ -14,7 +14,7 @@ codename: ham
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-custom_twrp_link: https://androidfilehost.com/?fid=11410963190603913507
+custom_recovery_link: https://androidfilehost.com/?fid=11410963190603913507
 deprecated: true
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
@@ -48,7 +48,7 @@ screen_tech: JDI IPS
 sdcard: none
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 64 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: ZUK
 versions:
 - pie

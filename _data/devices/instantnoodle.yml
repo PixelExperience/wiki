@@ -55,7 +55,7 @@ screen_tech: Fluid AMOLED
 sdcard: null
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.0
-uses_twrp: false
+uses_custom_recovery: false
 vendor: OnePlus
 versions:
 - eleven

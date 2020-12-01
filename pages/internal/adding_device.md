@@ -102,8 +102,7 @@ For `tech` you can use:
 Additionally there are some optional properties which you might not need, but in case you do, they are documented below:
 
 * `carrier`: If the device was released for a specific carrier, the name of that carrier. Remove this if not used!
-* `custom_twrp_link`: A custom twrp recovery link in case no official recovery exists for the specific device or it doesn't work properly. Remove this if not used!
-* `custom_recovery_codename`: If an official recovery exists for the device, but it uses a different codename, specify the used one here. Remove this if not used!
+* `custom_recovery_link`: A custom twrp recovery link in case no official recovery exists for the specific device or it doesn't work properly. Remove this if not used!
 * `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`. Remove this if not used!
 * `format_on_upgrade`: Used if the device needs to wiped on major PixelExperience version due to unfixable device specific issues. Remove if not used!
 * `is_ab_device`: Used if the device has an A/B partition scheme. Remove this if not applicable to your device!
@@ -114,7 +113,7 @@ Additionally there are some optional properties which you might not need, but in
   required_bootloader: [Version1, Version2]
   ```
 
-* `uses_twrp`: Used if the device doesn't use PixelExperience Recovery (the default)
+* `uses_custom_recovery`: Used if the device doesn't use PixelExperience Recovery (the default)
 
 {% include alerts/note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
 

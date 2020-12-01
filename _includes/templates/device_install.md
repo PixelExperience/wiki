@@ -41,7 +41,7 @@ There are no recovery installation instructions for this discontinued device.
 1. Download the [PixelExperience installation package](https://download.pixelexperience.org/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-{% if device.uses_twrp %}
+{% if device.uses_custom_recovery %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
 {% if device.is_ab_device %}
@@ -58,14 +58,14 @@ There are no recovery installation instructions for this discontinued device.
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% endif %}
-{% if device.is_ab_device and device.uses_twrp %}
+{% if device.is_ab_device and device.uses_custom_recovery %}
 7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
 {% elsif device.is_ab_device %}
 7. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
 {% else %}
 7. _(Optionally)_: If you want to install any additional add-ons, repeat the sideload steps above for those packages in sequence.
 {% endif %}
-{% if device.uses_twrp and device.is_ab_device != true %}
+{% if device.uses_custom_recovery and device.is_ab_device != true %}
 8. Once you have installed everything successfully, run 'adb reboot'.
 {% else %}
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".

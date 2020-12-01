@@ -22,7 +22,7 @@ codename: curtana
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
-custom_twrp_link: https://sourceforge.net/projects/lrtwrp-curtana/files/recovery-redmi_note9s-3.4.1-10.0-b5.img/download
+custom_recovery_link: https://sourceforge.net/projects/lrtwrp-curtana/files/recovery-redmi_note9s-3.4.1-10.0-b5.img/download
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
@@ -61,7 +61,7 @@ screen_tech: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SM6250 Snapdragon 720G
 storage: 64/128 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

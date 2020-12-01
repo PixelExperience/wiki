@@ -16,7 +16,7 @@ codename: TP1803
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-custom_twrp_link: https://t.me/mini5gjustforpewiki/2
+custom_recovery_link: https://t.me/mini5gjustforpewiki/2
 depth: 7.6 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 640
@@ -48,7 +48,7 @@ screen_tech: IPS LCD
 sdcard: null
 soc: Qualcomm SM8150-AC Snapdragon 855+
 storage: 64GB UFS 2.1
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Nubia
 versions:
 - eleven

@@ -53,7 +53,7 @@ screen_tech: IPS LCD
 sdcard: null
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
-uses_twrp: false
+uses_custom_recovery: false
 vendor: Xiaomi
 versions:
 - eleven

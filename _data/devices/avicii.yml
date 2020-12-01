@@ -55,7 +55,7 @@ screen_res: 2400x1080
 screen_tech: Fluid AMOLED
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 64/128/256 GB
-uses_twrp: false
+uses_custom_recovery: false
 vendor: OnePlus
 versions:
 - eleven

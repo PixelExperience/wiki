@@ -59,7 +59,7 @@ screen_tech: AMOLED
 sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB UFS2.1
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - ten

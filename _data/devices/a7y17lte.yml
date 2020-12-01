@@ -62,7 +62,7 @@ screen_tech: Super AMOLED
 sdcard: up to 256 GB
 soc: Samsung Exynos 7880
 storage: 32/64 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Samsung
 versions:
 - ten

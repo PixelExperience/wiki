@@ -4,7 +4,7 @@ In some cases slot `b` can be unpopulated or contain much older firmware than sl
 
 To do this, sideload the copy-partitions.zip package by doing the following:
 1. Download the `copy-partitions.zip` file from [here](https://androidfilehost.com/?fid=4349826312261712574).
-{% if device.uses_twrp %}
+{% if device.uses_custom_recovery %}
 2. Sideload the `copy-partitions.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload
     * On the host machine, sideload the package using: `adb sideload filename.zip`

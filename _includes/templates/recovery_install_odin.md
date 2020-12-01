@@ -1,8 +1,8 @@
 {%- assign device = site.data.devices[page.device] -%}
-{% if device.custom_recovery_codename %}
-{% assign custom_recovery_codename = device.custom_recovery_codename %}
+{% if device.custom_recovery_link %}
+{% assign custom_recovery_link = device.custom_recovery_link %}
 {% else %}
-{% assign custom_recovery_codename = device.codename %}
+{% assign custom_recovery_link = "https://dl.twrp.me/" | append: device.codename %}
 {% endif %}
 
 ## Important Information
@@ -29,11 +29,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 1. Enable Developer Options by pressing the "Build Number" option 10 times, in the "Settings" app within the "About" menu
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
-{% if device.custom_twrp_link %}
-2. Download a custom recovery - you can download [TWRP]({{ device.custom_twrp_link }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.tar`.
-{% else %}
-2. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.tar`.
-{% endif %}
+2. Download the [custom recovery]({{ custom_recovery_link }}).
     {% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}

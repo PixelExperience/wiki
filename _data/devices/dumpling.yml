@@ -55,7 +55,7 @@ screen_tech: Optic AMOLED
 sdcard: null
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
-uses_twrp: true
+uses_custom_recovery: true
 vendor: OnePlus
 versions:
 - ten

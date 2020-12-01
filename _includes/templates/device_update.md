@@ -17,7 +17,7 @@
 2. Enable [USB debugging]({{ "help/adb-fastboot-guide/#setting-up-adb" | relative_url }}) on your device.
 5. Run: `adb reboot sideload`
 6. Run: `adb sideload /path/to/zip`
-{% if device.uses_twrp %}
+{% if device.uses_custom_recovery %}
 7. Run: `adb reboot`
 {% else %}
 7. Click the back arrow in the top left of the screen, then "Reboot system now".

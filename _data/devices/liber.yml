@@ -52,7 +52,7 @@ screen_res: 2340x1080
 screen_tech: IPS LCD
 soc: Qualcomm SM7150 Snapdragon 730G
 storage: 64/128 GB
-uses_twrp: false
+uses_custom_recovery: false
 vendor: Motorola
 versions:
 - eleven

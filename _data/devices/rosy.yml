@@ -16,7 +16,7 @@ codename: rosy
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-custom_twrp_link: https://sourceforge.net/projects/redmi5rosy/files/KewL-TWRP-3.4.0-rosy.img/download
+custom_recovery_link: https://sourceforge.net/projects/redmi5rosy/files/KewL-TWRP-3.4.0-rosy.img/download
 depth: 7.7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
@@ -52,7 +52,7 @@ screen_tech: IPS LCD
 sdcard: up to 128 GB (hybrid SIM slot)
 soc: Qualcomm MSM8953 Snapdragon 450
 storage: 16/32 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

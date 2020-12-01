@@ -254,11 +254,8 @@ properties:
     "$id": "/properties/cpu_freq"
     minLength: 3
     type: string
-  custom_recovery_codename:
-    "$id": "/properties/custom_recovery_codename"
-    type: string
-  custom_twrp_link:
-    "$id": "/properties/custom_twrp_link"
+  custom_recovery_link:
+    "$id": "/properties/custom_recovery_link"
     type: string
     pattern: ^https?:\/\/(.*)
   custom_unlock_cmd:
@@ -424,8 +421,8 @@ properties:
     - "$ref": "#/definitions/valid_dimension"
     - enum:
       - None
-  uses_twrp:
-    "$id": "/properties/uses_twrp"
+  uses_custom_recovery:
+    "$id": "/properties/uses_custom_recovery"
     type: boolean
   vendor:
     "$id": "/properties/vendor"

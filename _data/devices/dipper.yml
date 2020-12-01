@@ -57,7 +57,7 @@ screen_tech: AMOLED
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

@@ -51,7 +51,7 @@ screen_tech: IPS LCD
 sdcard: null
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: LeEco
 versions:
 - pie

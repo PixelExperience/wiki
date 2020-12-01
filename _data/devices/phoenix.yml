@@ -57,7 +57,7 @@ screen_tech: Full HD IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 64/128/256 GB
-uses_twrp: false
+uses_custom_recovery: false
 vendor: Xiaomi
 versions:
 - eleven

@@ -50,7 +50,7 @@ screen_tech: IPS LCD
 sdcard: up to 1 TB
 soc: Qualcomm Snapdragon 632
 storage: 64 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Asus
 versions:
 - ten

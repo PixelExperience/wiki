@@ -59,7 +59,7 @@ screen_tech: IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm Snapdragon 710
 storage: 64/128 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Lenovo
 versions:
 - eleven

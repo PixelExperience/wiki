@@ -21,7 +21,7 @@ codename: raphael
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-custom_twrp_link: https://sourceforge.net/projects/mauronofrio-twrp/files/Raphael-Raphaelin/twrp-3.4.0-0-raphael-mauronofrio.img/download
+custom_recovery_link: https://sourceforge.net/projects/mauronofrio-twrp/files/Raphael-Raphaelin/twrp-3.4.0-0-raphael-mauronofrio.img/download
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
@@ -63,7 +63,7 @@ screen_tech: AMOLED
 sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128/256 GB
-uses_twrp: true
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
