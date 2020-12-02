@@ -18,6 +18,7 @@ codename: lavender
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+custom_recovery_link: https://orangefox.download/device/lavender
 depth: 8.1 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
@@ -59,6 +60,7 @@ screen_tech: IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64/128 GB
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
@@ -66,5 +68,3 @@ versions:
 - ten_plus
 width: 75.2 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
-uses_custom_recovery: true
-custom_recovery_link: https://orangefox.download/device/lavender
