@@ -17,8 +17,11 @@ Setup an account on [Gerrit](https://gerrit.pixelexperience.org) and configure y
 Now make sure your local git username matches with your Gerrit username:
 
 ```
-git config --global review.gerrit.pixelexperience.org.username "gerrit username"
+git config --global user.email 'you@yourDomain.com'
+git config --global review.gerrit.pixelexperience.org.username "gerritUsername"
 ```
+
+{% include alerts/note.html content="Your Gerrit username is case-sensitive." %}
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
