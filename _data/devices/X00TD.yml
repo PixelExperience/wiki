@@ -25,8 +25,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Adreno 509
 height: 159 mm (6.26 in)
 install_method: fastboot_zenfone
-maintainers:
-- Rohan Salkar
+maintainers: []
 name: Zenfone Max Pro M1
 network:
 - 2G GSM
