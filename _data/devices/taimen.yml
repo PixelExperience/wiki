@@ -24,9 +24,6 @@ height: 157.9 mm (6.22 in)
 install_method: fastboot_nexus
 maintainers:
 - PixelBoot
-models:
-- A0001
-- SM-G900F
 name: Pixel 2XL
 network:
 - 2G GSM
