@@ -1,0 +1,66 @@
+architecture: arm64
+battery:
+    capacity: 3520
+    removable: false
+    tech: Li-Ion
+bluetooth:
+  profiles: 
+  - A2DP
+  - aptX HD
+  spec: '5'
+cameras:
+- flash: Dual LED
+  info: 12.2 MP
+- flash: ''
+  info: 8 MP
+codename: taimen
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq:  4 x 2.35 GHz + 4 x 1.9 GHz
+custom_unlock_cmd: fastboot flashing unlock
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 540
+height: 157.9 mm (6.22 in)
+install_method: fastboot_nexus
+maintainers:
+- PixelBoot
+models:
+- A0001
+- SM-G900F
+name: Pixel 2XL
+network:
+- 2G GSM
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- Accelerometer
+- Barometer
+- BeiDou
+- Compass
+- Dual front speakers
+- Fingerprint reader
+- Galileo
+- GLONASS
+- GPS
+- Gyroscope
+- Light sensor
+- NFC
+- Proximity sensor
+- USB OTG
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2017-10
+screen: 152.4 mm (6 in)
+screen_ppi: 538
+screen_res: 1440x2880
+screen_tech: AMOLED
+sdcard: null
+soc: Qualcomm SDM835 Snapdragon 835
+storage: 64/128 GB
+vendor: Google
+versions:
+- eleven
+width: 76.7 mm (3.02 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
