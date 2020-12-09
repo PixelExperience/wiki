@@ -53,7 +53,7 @@ screen_ppi: 441
 screen_res: 1080x1920
 screen_tech: AMOLED
 sdcard: null
-soc: Qualcomm SDM835 Snapdragon 835
+soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 vendor: Google
 versions:
