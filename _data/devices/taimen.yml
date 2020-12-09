@@ -5,8 +5,7 @@ battery:
     tech: Li-Ion
 bluetooth:
   profiles: 
-  - A2DP
-  - aptX HD
+  - A2DP + aptX HD
   spec: '5'
 cameras:
 - flash: Dual LED
