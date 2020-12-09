@@ -69,3 +69,5 @@ url: https://wiki.pixelexperience.org
 
 plugins:
   - jekyll-redirect-from
+
+exclude: ['vendor']
