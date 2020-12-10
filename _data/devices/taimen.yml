@@ -1,10 +1,10 @@
 architecture: arm64
 battery:
-    capacity: 3520
-    removable: false
-    tech: Li-Ion
+  capacity: 3520
+  removable: false
+  tech: Li-Ion
 bluetooth:
-  profiles: 
+  profiles:
   - A2DP + aptX HD
   spec: '5'
 cameras:
@@ -15,7 +15,7 @@ cameras:
 codename: taimen
 cpu: Kryo 280
 cpu_cores: '8'
-cpu_freq:  4 x 2.35 GHz + 4 x 1.9 GHz
+cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
 custom_unlock_cmd: fastboot flashing unlock
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

@@ -29,7 +29,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - Chandra Chaganti
-name: '8T'
+name: 8T
 network:
 - 2G GSM
 - 3G UMTS
