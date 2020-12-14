@@ -23,8 +23,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 530
 height: 158.8 mm (6.25 in)
 install_method: fastboot_xiaomi
-maintainers:
-- Nicholas Magill
+maintainers: []
 name: Mi Mix
 network:
 - 2G GSM
