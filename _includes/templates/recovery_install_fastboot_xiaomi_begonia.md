@@ -38,7 +38,7 @@ Furthermore, the A10 kernel source released by Xiaomi does not work with the fac
 
 In short, the CFW enables you to use the new builds without worrying about bricks while running newer proprietary vendor software.
 
-1. Download CFW zip from [here](https://sourceforge.net/projects/begonia-pe/files/flash_CFW%2BTWRP.zip/download)
+1. Download CFW zip from [here](https://sourceforge.net/projects/begonia-pe/files/PE%20_A10/Flash_CFW%2BTWRP%5BOnly%20For%20PE%20A10%5D.zip/download)
 2. Unpack the `.zip` package
 3. Run `!_FLASH_IT_W.bat` on Windows or `!_FLASH_IT_L.sh` on Linux
 
