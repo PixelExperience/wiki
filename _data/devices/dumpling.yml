@@ -3,7 +3,6 @@ battery:
   capacity: 3300
   removable: false
   tech: Li-Po
-before_install_custom: before_custom_install_dumpling
 bluetooth:
   profiles:
   - A2DP
