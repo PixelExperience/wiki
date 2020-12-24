@@ -26,7 +26,6 @@ gpu: Adreno 630
 height: 154.9 mm (6.10 in)
 install_method: fastboot_xiaomi
 maintainers:
-- Henrique Pereira
 - Giammarco Senatore
 name: Mi 8
 network:
