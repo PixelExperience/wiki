@@ -1,12 +1,12 @@
 architecture: arm64
 battery:
-    capacity: 3000
-    removable: false
-    tech: Li-Ion
+  capacity: 3000
+  removable: false
+  tech: Li-Ion
 bluetooth:
-  spec: '4.2'
   profiles:
   - A2DP + aptX
+  spec: '4.2'
 cameras:
 - flash: Dual LED (dual tone)
   info: 12 MP
@@ -23,7 +23,7 @@ gpu: Adreno 506
 height: 156.2 mm (6.15 in)
 install_method: fastboot_motorola
 maintainers:
-- JeanGraff30
+- Jean Graff
 models:
 - XT1710-01
 - XT1710-02

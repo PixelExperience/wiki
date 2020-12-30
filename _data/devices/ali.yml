@@ -1,12 +1,12 @@
 architecture: arm64
 battery:
-    capacity: 3000
-    removable: false
-    tech: Li-Ion
+  capacity: 3000
+  removable: false
+  tech: Li-Ion
 bluetooth:
-  spec: '4.2' 
   profiles:
   - A2DP
+  spec: '4.2'
 cameras:
 - flash: Dual-LED (dual tone)
   info: 12 MP
@@ -25,7 +25,7 @@ gpu: Adreno 506
 height: 153.8 mm (6.06 in)
 install_method: fastboot_motorola
 maintainers:
-- jeangraff30
+- Jean Graff
 models:
 - XT1925-2
 - XT1925-3
