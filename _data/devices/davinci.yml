@@ -61,6 +61,7 @@ screen_tech: AMOLED
 sdcard: null
 soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 64/128/256 GB
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
