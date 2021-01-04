@@ -64,6 +64,7 @@ screen_tech: IPS LCD
 sdcard: Up to 256 GB
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64/128 GB
+uses_twrp: true
 vendor: Motorola
 versions:
 - eleven
