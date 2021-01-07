@@ -14,11 +14,16 @@ That file basically consists of a log of system messages, including stack traces
 
 ### With a computer
 
-{% include alerts/note.html content="This method requires that you have [`adb` installed](/help/adb-fastboot-guide/#installing-adb-and-fastboot).
-If you don't have it installed, please do that before continuing." %}
+{% capture content -%}
+This method requires that you have [`adb` installed]({{ site.baseurl }}/help/adb-fastboot-guide).
+If you don't have it installed, please do that before continuing.
+{% endcapture -%}
+
+{% include alerts/note.html content=content %}
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS).
-2. Type `adb logcat -d > logcat.txt`. This will save the log to `logcat.txt`.
+2. Connect your device via cable or [over WiFi]({{ site.baseurl }}/help/adb-over-wifi)
+3. Type `adb logcat -d > logcat.txt`. This will save the log to `logcat.txt`.
 
    Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `adb logcat -db radio > radio.txt` to save it to `radio.txt`.
 
