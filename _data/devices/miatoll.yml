@@ -31,7 +31,7 @@ gpu: Adreno 618
 height: 165.8 mm (6.53 in)
 install_method: fastboot_xiaomi
 maintainers: []
-name: Redmi Note 9S/9 Pro/Pro Max / Poco M2 Pro
+name: Redmi Note 9S/9 Pro/Pro Max / POCO M2 Pro
 network:
 - 2G GSM
 - 2G CDMA
