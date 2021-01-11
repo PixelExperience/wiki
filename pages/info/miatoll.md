@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: Info about curtana
+title: Info about miatoll
 folder: info
 layout: deviceinfo
-permalink: /devices/curtana/
-device: curtana
+permalink: /devices/miatoll/
+device: miatoll
 ---
 {% include templates/device_info.md %}
