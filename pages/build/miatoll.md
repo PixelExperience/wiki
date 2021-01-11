@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Build for curtana
+title: Build for miatoll
 folder: build
-permalink: /devices/curtana/build/
-device: curtana
+permalink: /devices/miatoll/build/
+device: miatoll
 ---
 {% include templates/device_build.md %}

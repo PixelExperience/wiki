@@ -9,7 +9,7 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: LED
-  info: 48 MP
+  info: 48 MP (9S/Poco M2 Pro) / 64MP (9 Pro/Pro Max)
 - flash: LED
   info: 8 MP
 - flash: LED
@@ -18,11 +18,11 @@ cameras:
   info: 2 MP
 - flash: ''
   info: 16 MP
-codename: curtana
+codename: miatoll
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
-custom_recovery_link: https://sourceforge.net/projects/lrtwrp-curtana/files/recovery-redmi_note9s-3.4.1-10.0-b5.img/download
+custom_recovery_link: https://orangefox.download/device/miatoll
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
@@ -31,7 +31,7 @@ gpu: Adreno 618
 height: 165.8 mm (6.53 in)
 install_method: fastboot_xiaomi
 maintainers: []
-name: Redmi Note 9S
+name: Redmi Note 9S/9 Pro/Pro Max / POCO M2 Pro
 network:
 - 2G GSM
 - 2G CDMA
@@ -50,6 +50,7 @@ peripherals:
 - Light sensor
 - Proximity sensor
 - USB OTG
+- NFC
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
