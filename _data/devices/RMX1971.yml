@@ -35,9 +35,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 616
 install_method: fastboot_realme
-maintainers:
-- Madhav Saladi
-- Tejas Nanavare
+maintainers: []
 models:
 - RMX1971
 name: 5 Pro
