@@ -51,7 +51,6 @@ peripherals:
 - Proximity sensor
 - USB OTG
 - NFC
-  info: 9 Pro/Pro Max
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
