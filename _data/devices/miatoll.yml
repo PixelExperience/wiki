@@ -1,8 +1,7 @@
 architecture: arm64
 battery:
-  capacity: 5020
-  removable: true
-  tech: Li-Po
+- POCO M2 Pro: {removable: true, capacity: 5000, tech: 'Li-Po'}
+- Redmi Note 9S/9 Pro/Pro Max: {removable: true, capacity: 5020, tech: 'Li-Po'}
 bluetooth:
   profiles:
   - A2DP
@@ -51,7 +50,7 @@ peripherals:
 - Light sensor
 - Proximity sensor
 - USB OTG
-- NFC
+- NFC (Redmi Note 9 Pro/Pro Max)
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.

@@ -182,15 +182,19 @@
         <th scope="row">Battery</td>
         <td>
             {% if device.battery.first.size == 1 -%}
+            <ul>
             {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
                 {% for model in device.battery -%}
+                <li>
                     {%- assign modelname = model.first[0] %}
                     {%- assign battery_data = model.first[1] %}
                     {% include snippets/battery.html %}
                     {%- unless forloop.last -%}
                     <br/>
                     {%- endunless %}
+                </li>
                 {% endfor -%}
+            </ul>
             {%- else %}
                 {%- assign battery_data = device.battery %}
                 {% include snippets/battery.html %}
