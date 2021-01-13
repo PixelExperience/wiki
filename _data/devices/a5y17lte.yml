@@ -4,7 +4,8 @@ battery:
   removable: false
   tech: Li-Ion
 before_install: before_install_needs_specific_android_fw
-before_install_args: {version: 8.0}
+before_install_args:
+  version: 8.0
 bluetooth:
   profiles:
   - A2DP
