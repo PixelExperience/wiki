@@ -18,8 +18,8 @@ cpu_cores: '8'
 cpu_freq: 8 x 2.0 GHz
 depth: 7.7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the menu "Select Boot Mode" appears on the screen, then
-  release and choose "Fastboot Mode".
+  Keep holding both buttons until the menu "Select Boot Mode" appears on the screen,
+  then release and choose "Fastboot Mode".
 gpu: ARM Mali-G72 MP3
 height: 157 mm (6.18 in)
 install_method: fastboot_generic
@@ -45,8 +45,8 @@ peripherals:
 - USB OTG
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the menu "Select Boot Mode" appears on the screen, then
-  release and choose "Recovery Mode".
+  Keep holding both buttons until the menu "Select Boot Mode" appears on the screen,
+  then release and choose "Recovery Mode".
 release: 2020-02
 screen: 158 mm (6.23 in)
 screen_ppi: 405
