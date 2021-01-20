@@ -30,6 +30,7 @@ gpu: Adreno 610
 height: 158.3 mm (6.23 in)
 install_method: fastboot_xiaomi
 maintainers:
+- Andriel Ferreira
 - ManoloRey
 name: Redmi Note 8/8T
 network:
@@ -65,6 +66,7 @@ soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB
 vendor: Xiaomi
 versions:
+- eleven
 - ten
 - ten_plus
 width: 75.3 mm (2.96 in)
