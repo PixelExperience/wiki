@@ -23,8 +23,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 618
 height: 165.3 mm (6.50 in)
 install_method: fastboot_xiaomi
-maintainers:
-- Akshay Kakatkar
+maintainers: []
 name: Redmi K30/Poco X2
 network:
 - 2G GSM
@@ -60,7 +59,6 @@ storage: 64/128/256 GB
 uses_custom_recovery: false
 vendor: Xiaomi
 versions:
-- eleven
 - ten
 - ten_plus
 width: 76.6 mm (3.01 in)
