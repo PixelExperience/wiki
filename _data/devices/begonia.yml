@@ -22,14 +22,14 @@ codename: begonia
 cpu: Helio G90T
 cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz & 6 x 2.0 GHz
-custom_recovery_link: https://sourceforge.net/projects/begonia-oss/files/CFW-TWRP/twrp-CFW-3.3.1-0-begonia_UNOFFICIAL_0506.img/download
+custom_recovery_link: https://sourceforge.net/projects/begonia-oss/files/Unified/twrp-3.5.0_10-UNIFIED_UNOFFICIAL.img/download
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: ARM Mali-G76 MC4
 height: 161.4 mm (6.35 in)
-install_method: fastboot_xiaomi_begonia
+install_method: fastboot_xiaomi
 maintainers:
 - Zinadin Zidan
 name: Redmi Note 8 Pro
