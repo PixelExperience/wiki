@@ -24,8 +24,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 308
 height: 140.4 mm (5.53 in)
 install_method: fastboot_xiaomi
-maintainers:
-- Ahmad Rulim
+maintainers: []
 name: Redmi 5A
 network:
 - 2G GSM
