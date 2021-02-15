@@ -41,6 +41,9 @@ There are no recovery installation instructions for this discontinued device.
 1. Download the [PixelExperience installation package](https://download.pixelexperience.org/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
+    {% if device.vendor == "LG" %}
+        {% include templates/recovery_boot_lge.md %}
+    {% endif %}
 {% if device.uses_custom_recovery %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
