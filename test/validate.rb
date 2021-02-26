@@ -32,16 +32,7 @@ def load_template(template_file)
 end
 
 def validate_template(template, path, codename)
-  if File.file?(path)
-    template_content = template.gsub('{codename}', codename)
-    file_content = File.open(path, 'r') { |file| file.read }
-    # remove redirects from the file, because we want to allow them if necessary
-    file_content.sub!(/^redirect_from:.+?( +- *[a-zA-Z0-9.\/]+$.)+/m, '')
-    if not template_content == file_content
-      puts to_relative_path(path) + ': Not generated from template'
-      at_exit { exit false }
-    end
-  else
+  if not File.file?(path)
     puts 'Missing file for ' + codename + ' at ' + path
     at_exit { exit false }
   end
