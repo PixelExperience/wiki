@@ -7,7 +7,7 @@ before_install: before_custom_install_ab_copy_partitions
 bluetooth:
   profiles:
   - A2DP + aptX HD
-  spec: 5
+  spec: '5'
 cameras:
 - flash: Dual LED (dual tone)
   info: 12 MP
