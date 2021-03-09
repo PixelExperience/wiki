@@ -25,7 +25,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 height: 149.3 mm (5.88 in)
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Zinadin Zidan
 name: Redmi 6 Pro
 network:
 - 2G GSM
@@ -55,6 +56,7 @@ storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
+- eleven
 - ten
 - ten_plus
 width: 72.8 mm (2.87 in)

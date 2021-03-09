@@ -52,6 +52,7 @@ uses_custom_recovery: true
 vendor: Motorola
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 73 mm (2.87 in)

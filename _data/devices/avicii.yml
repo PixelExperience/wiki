@@ -59,6 +59,7 @@ uses_custom_recovery: false
 vendor: OnePlus
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 63.3 mm (2.88 in)
