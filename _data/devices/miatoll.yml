@@ -35,8 +35,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 618
 height: 165.8 mm (6.53 in)
 install_method: fastboot_xiaomi
-maintainers:
-- Emma
+maintainers: []
 name: Redmi Note 9S/9 Pro/Pro Max / POCO M2 Pro
 network:
 - 2G GSM
