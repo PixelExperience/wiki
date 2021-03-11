@@ -55,6 +55,7 @@ uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 75.4 mm (2.97 in)

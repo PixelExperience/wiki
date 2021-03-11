@@ -55,6 +55,7 @@ uses_custom_recovery: true
 vendor: Asus
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 75.5 mm (2.97 in)

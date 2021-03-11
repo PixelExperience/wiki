@@ -52,6 +52,7 @@ uses_custom_recovery: true
 vendor: Nubia
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 70.6 mm (2.78 in)

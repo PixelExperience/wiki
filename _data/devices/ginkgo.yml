@@ -29,8 +29,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 610
 height: 158.3 mm (6.23 in)
 install_method: fastboot_xiaomi
-maintainers:
-- ManoloRey
+maintainers: []
 name: Redmi Note 8/8T
 network:
 - 2G GSM
