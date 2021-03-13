@@ -25,7 +25,6 @@ height: 165.3 mm (6.51 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Kuba Wojciechowski
-- Zinadin Zidan
 name: Poco X3
 network:
 - 2G GSM
