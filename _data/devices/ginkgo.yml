@@ -29,7 +29,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 610
 height: 158.3 mm (6.23 in)
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Saalim
 name: Redmi Note 8/8T
 network:
 - 2G GSM
@@ -65,6 +66,7 @@ storage: 32/64/128 GB
 vendor: Xiaomi
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 75.3 mm (2.96 in)

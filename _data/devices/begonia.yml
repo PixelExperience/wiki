@@ -32,6 +32,7 @@ height: 161.4 mm (6.35 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Zinadin Zidan
+- Elias
 name: Redmi Note 8 Pro
 network:
 - 2G GSM
