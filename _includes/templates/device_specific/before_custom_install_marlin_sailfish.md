@@ -6,8 +6,8 @@ Starting with Android 11, you must re-partition the device for PixelExperience t
 {% include alerts/note.html content="If you install the stock rom again, you must repeat the procedure." %}
 
 1. Download the correct zip according to the version of your phone:
-    * [Pixel/Pixel XL (32GB)](#)
-    * [Pixel/Pixel XL (128GB)](#)
+    * [Pixel/Pixel XL (32GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/repartition-ogpixel-32gb.zip)
+    * [Pixel/Pixel XL (128GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/repartition-ogpixel-128gb.zip)
 2. Sideload the `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
