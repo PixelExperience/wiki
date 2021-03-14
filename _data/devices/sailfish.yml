@@ -12,6 +12,7 @@ cameras:
   info: 12 MP
 - flash: ''
   info: 8 MP
+before_install_custom: before_custom_install_marlin_sailfish
 codename: sailfish
 cpu: Kryo
 cpu_cores: '4'
