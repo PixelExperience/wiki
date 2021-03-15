@@ -3,6 +3,7 @@ battery:
   capacity: 3450
   removable: false
   tech: Li-Ion
+before_install_custom: before_custom_install_marlin_sailfish
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -12,7 +13,6 @@ cameras:
   info: 12 MP
 - flash: ''
   info: 8 MP
-before_install_custom: before_custom_install_marlin_sailfish
 codename: marlin
 cpu: Kryo
 cpu_cores: '4'
@@ -56,6 +56,7 @@ storage: 32/128 GB
 vendor: Google
 versions:
 - eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 75.7 mm (2.98 in)

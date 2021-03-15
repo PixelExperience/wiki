@@ -16,8 +16,8 @@ codename: apollo
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 4 x 1.80 GHz
-depth: 7 mm (0.30 in)
 custom_recovery_link: https://sourceforge.net/projects/apollo-pro/files/TWRP/recovery-TWRP-3.4.2B-1206.img/download
+depth: 7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
@@ -26,7 +26,7 @@ height: 153.82 mm (6.06 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Zinadin Zidan
-name: Redmi K30S/Mi 10T/Mi 10T Pro
+name: Mi 10T
 network:
 - 2G GSM
 - 2G CDMA
