@@ -79,6 +79,11 @@ There are no recovery installation instructions for this discontinued device.
 {% include alerts/specific/warning_recovery_app.html %}
 {% include alerts/specific/tip_sideload_stuck_47.html %}
 
+{% if device.after_install_custom %}
+{% capture path %}templates/device_specific/{{ device.after_install_custom }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our Telegram group](https://t.me/pixelexperiencechat).
