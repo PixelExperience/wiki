@@ -1,4 +1,4 @@
-architecture: arm64
+aarchitecture: arm64
 battery:
   capacity: 3450
   removable: false
