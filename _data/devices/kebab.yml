@@ -1,3 +1,4 @@
+after_install_custom: after_custom_install_avb_key
 architecture: arm64
 battery:
   capacity: 4500
@@ -27,7 +28,6 @@ gpu: Adreno 650
 has_recovery_partition: true
 height: 160.7 mm (6.33 in)
 install_method: fastboot_nexus
-after_install_custom: after_custom_install_avb_key
 is_ab_device: true
 maintainers:
 - Chandra Chaganti

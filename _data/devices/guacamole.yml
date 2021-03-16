@@ -29,7 +29,6 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - Joey Yu
-- Chandra Chaganti
 - idkwhoiam322
 name: 7 Pro
 network:

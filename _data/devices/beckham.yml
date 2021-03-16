@@ -26,7 +26,7 @@ height: 156.5 mm (6.16 in)
 install_method: fastboot_motorola
 is_ab_device: true
 maintainers:
-- ' jro1979oliver'
+- jro1979oliver
 models:
 - XT1929-2
 - XT1929-3

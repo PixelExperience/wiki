@@ -22,8 +22,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: ARM Mali-T880 MP12
 height: 150.9 mm (5.9 in)
 install_method: heimdall
-maintainers:
-- Luke WIlliams
+maintainers: []
 models:
 - SM-G935F
 - SM-G935FD

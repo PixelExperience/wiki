@@ -25,8 +25,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: ARM Mali-T830 MP3
 height: 156.8 mm (6.17 in)
 install_method: heimdall
-maintainers:
-- Nafid Faham
+maintainers: []
 models:
 - SM-A720F
 - SM-A720F/DS

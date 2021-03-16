@@ -22,8 +22,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 430
 height: 159.3 mm (6.27 in)
 install_method: fastboot_nexus
-maintainers:
-- PixelBoot
+maintainers: []
 name: Nexus 6P
 network:
 - 2G GSM

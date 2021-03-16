@@ -1,3 +1,4 @@
+after_install_custom: after_custom_install_avb_key
 architecture:
   cpu: arm64
   userspace: arm
@@ -25,7 +26,6 @@ gpu: Adreno 620
 has_recovery_partition: true
 height: 158.3 mm (6.23 in)
 install_method: fastboot_nexus
-after_install_custom: after_custom_install_avb_key
 is_ab_device: true
 maintainers:
 - Akshay Kakatkar

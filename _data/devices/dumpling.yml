@@ -24,9 +24,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Adreno 540
 height: 156.1 mm (6.15 in)
 install_method: fastboot_nexus
-maintainers:
-- Joey Yu
-- idkwhoiam322
+maintainers: []
 name: 5T
 network:
 - 2G GSM
