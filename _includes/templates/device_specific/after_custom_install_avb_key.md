@@ -1,5 +1,5 @@
 ## Post-install instructions
-In some devices flashing a custom avb key to avb_custom_key is supported. Doing this will allow you to lock your bootloader. This setp is OPTIONAL.
+In some devices flashing a custom avb key to avb_custom_key is supported. Doing this will allow you to lock your bootloader. This step is OPTIONAL.
 
 {% include alerts/warning.html content="Your data will be lost, please do a backup." %}
 
