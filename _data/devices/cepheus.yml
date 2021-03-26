@@ -27,7 +27,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 640
 height: 158.7 mm (6.25 in)
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Evasi0n Xiao
 name: Mi 9
 network:
 - 2G GSM
@@ -64,5 +65,7 @@ vendor: Xiaomi
 versions:
 - ten
 - ten_plus
+- eleven
+- eleven_plus
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
