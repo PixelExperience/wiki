@@ -1,31 +1,31 @@
 architecture: arm64
 battery:
-  capacity: 3010
+  capacity: 3300
   removable: false
   tech: Li-Po
 bluetooth:
   profiles:
-  - A2DP
+  - A2DP + aptX HD
   spec: '5'
 cameras:
-- flash: Dual LED
+- flash: Dual LED (Single-tone)
   info: 48-megapixel (f/1.75, 0.8-micron)
-- flash: Dual LED
+- flash: Dual LED (Single-tone)
   info: 12-megapixel (f/2.2, 1.0-micron)
-- flash: Dual LED
+- flash: Dual LED (Single-tone)
   info: 16-megapixel (f/2.2, 1.0-micron)
-- flash: LED
-  info: " \t20-megapixel (f/2.0, 0.9-micron)"
+- flash: ''
+  info: 20-megapixel (f/2.0, 0.9-micron)
 codename: cepheus
 cpu: Kryo 485
 cpu_cores: '8'
-cpu_freq: 1x2.84 GHz + 3x2.42 GHz + 4x1.78 GHz
-depth: 7.3 mm (0.29 in)
+cpu_freq: 1x2.84 GHz + 3x2.42 GHz + 4x1.79 GHz
+depth: 7.61 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 640
-height: 158.7 mm (6.25 in)
+height: 157.5 mm (6.20 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Evasi0n Xiao
@@ -37,7 +37,6 @@ network:
 peripherals:
 - A-GPS
 - Accelerometer
-- Barometer
 - Compass
 - Dual SIM
 - Fingerprint reader
@@ -56,8 +55,8 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2018-04
 screen: 162 mm (6.39 in)
 screen_ppi: '403'
-screen_res: 1080x2160
-screen_tech: Super AMOLED Display
+screen_res: 1080x2340
+screen_tech: AMOLED Display
 sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128/256 GB
@@ -67,5 +66,5 @@ versions:
 - eleven_plus
 - ten
 - ten_plus
-width: 75.4 mm (2.97 in)
+width: 74.67 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
