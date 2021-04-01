@@ -20,6 +20,15 @@ The updater app does not support upgrades from one version of PixelExperience to
 1. Download the [PixelExperience install package](https://download.pixelexperience.org/{{ device.codename }}) that you'd like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "help/adb-fastboot-guide/" | relative_url }}).
 3. Enable [USB debugging]({{ "help/adb-fastboot-guide/#setting-up-adb" | relative_url }}) on your device.
+{%- if device.format_on_upgrade %}
+4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
+    * {{ device.recovery_boot }}
+5. Wipe your data partition (this is usually named "Wipe", or "Format")
+    {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
+{%- if device.uses_twrp != true %}
+6. Click `Advanced`, then `Enable ADB`.
+{%- endif %}
+{%- endif %}
 4. Run `adb reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
 5. Run `adb sideload /path/to/zip` (inserting the path to your PixelExperience package).
