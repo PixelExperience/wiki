@@ -10,7 +10,7 @@ tags:
 
 ## Initial setup
 
-If you haven't yet successfully downloaded the source and generated a build of PixelExperience, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "/devices" | relative_url }}).
+If you haven't yet successfully downloaded the source and generated a build of PixelExperience, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "devices/" | relative_url }}).
 
 Setup an account on [Gerrit](https://gerrit.pixelexperience.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 

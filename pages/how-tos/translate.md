@@ -28,7 +28,7 @@ After the validation of the strings, they will be merged into the next official 
 
 Sometimes you will notice translated strings which seem to be slightly different from what you'd expect or simply wrong. There are various reasons to how this can happen, but still, the only relevant thing is how to improve the translation. Just suggest your translation like you would do for any untranslated string. After saving it you will have the possibility to "Notify the proofreader".
 
-{% include alerts/note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [Managers](https://download.pixelexperience.org/about#team) about it." %}
+{% include alerts/note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [core team members](https://download.pixelexperience.org/about#team) about it." %}
 
 ### Original strings
 
