@@ -14,6 +14,9 @@
 
 - [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
 - [Build for yourself]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+{%- if device.firmware_update %}
+- [Update to a newer vendor firmware version]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
+{%- endif %}
 - [Update to a newer build of the same PixelExperience version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 - [Upgrade to a higher Android version (e.g. Android 10 -> Android 11)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 
