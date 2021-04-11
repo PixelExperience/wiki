@@ -27,8 +27,7 @@ gpu: Adreno 640
 height: 162.6 mm (6.40 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- idkwhoiam322
+maintainers: []
 name: 7 Pro
 network:
 - 2G GSM
@@ -56,8 +55,6 @@ soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
 versions:
-- eleven
-- eleven_plus
 - ten
 - ten_plus
 width: 75.9 mm (2.99 in)
