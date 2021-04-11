@@ -54,9 +54,9 @@ screen: 163.32 mm (6.43 in)
 screen_ppi: 409
 screen_res: 1080x2400
 screen_tech: Super AMOLED
+sdcard: microSDXC (dedicated slot)
 soc: Qualcomm SDM678 Snapdragon 678
 storage: 128 GB
-sdcard: microSDXC (dedicated slot)
 uses_custom_recovery: false
 vendor: Xiaomi
 versions:
