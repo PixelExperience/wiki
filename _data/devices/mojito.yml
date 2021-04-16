@@ -22,7 +22,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 612
 height: 160.46 mm (6.317 in)
-install_method: fastboot_xiaomi
+install_method: fastboot_xiaomi_virtual_ab
 is_ab_device: true
 maintainers:
 - Zinadin Zidan
