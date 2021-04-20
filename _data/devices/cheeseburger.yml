@@ -24,7 +24,8 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Adreno 540
 height: 154.2 mm (6.07 in)
 install_method: fastboot_nexus
-maintainers: []
+maintainers: 
+- Protowise
 name: '5'
 network:
 - 2G GSM
@@ -55,6 +56,7 @@ storage: 64/128 GB UFS 2.1 2-LANE
 uses_custom_recovery: true
 vendor: OnePlus
 versions:
+- eleven
 - ten
 - ten_plus
 width: 74.1 mm (2.92 in)
