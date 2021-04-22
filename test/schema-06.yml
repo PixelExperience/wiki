@@ -246,6 +246,7 @@ properties:
     - Kryo 485
     - Kryo 495
     - Kryo 560
+    - Kryo 570
     - Kryo 585
   cpu_cores:
     "$id": "/properties/cpu_cores"
