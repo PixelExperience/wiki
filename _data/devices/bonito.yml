@@ -1,16 +1,25 @@
 architecture: arm64
-battery: {removable: False, capacity: 3700, tech: 'Li-Po'}
+battery:
+  capacity: 3700
+  removable: false
+  tech: Li-Po
 before_install: before_install_needs_specific_android_fw
-before_install_args: {version: 11}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+before_install_args:
+  version: 11
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
 cameras:
-- {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: '', info: '8 MP'}
+- flash: Dual LED
+  info: 12.2 MP
+- flash: ''
+  info: 8 MP
 codename: bonito
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.7 GHz
-custom_unlock_cmd: 'fastboot flashing unlock'
+custom_unlock_cmd: fastboot flashing unlock
 depth: 7.6 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 615
@@ -20,16 +29,36 @@ is_ab_device: true
 maintainers:
 - Henrique Silva
 name: Pixel 3A XL
-network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Accelerometer, Barometer, BeiDou, Compass, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+network:
+- 2G GSM
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- Accelerometer
+- Barometer
+- BeiDou
+- Compass
+- Dual front speakers
+- Fingerprint reader
+- Galileo
+- GLONASS
+- GPS
+- Gyroscope
+- Light sensor
+- NFC
+- Proximity sensor
+- Qi wireless charging
+- USB OTG
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Then use the menu to select *Recovery Mode*.
 release: 2019-04
 screen: 152.4 mm (6.0 in)
 screen_ppi: 402
 screen_res: 2160x1080
 screen_tech: AMOLED
-sdcard:
+sdcard: null
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 vendor: Google
