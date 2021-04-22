@@ -1,18 +1,19 @@
 architecture: arm64
 battery:
-    capacity: 4820
-    removable: false
-    tech: Li-Po
+  capacity: 4820
+  removable: false
+  tech: Li-Po
+before_install_custom: before_custom_install_gauguin
 bluetooth:
   spec: '5.1'
 cameras:
 - flash: Dual LED (dual tone)
-  info: (Redmi Note 9 Pro 5G / Mi 10i) 108 MP (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP(depth)
+  info: (Redmi Note 9 Pro 5G / Mi 10i) 108 MP (wide) + 8 MP (ultrawide) + 2 MP (macro)
+    + 2 MP(depth)
 - flash: Dual LED (dual tone)
   info: (Mi 10T Lite) 64 MP (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth)
 - flash: ''
   info: 16 MP
-before_install_custom: before_custom_install_gauguin
 codename: gauguin
 cpu: Kryo 570
 cpu_cores: '8'
@@ -30,7 +31,7 @@ models:
 - Redmi Note 9 Pro 5G
 - Xiaomi Mi 10i
 - Xiaomi Mi 10T Lite
-name: Redmi Note 9 Pro 5G / Xiaomi Mi 10i / Mi 10T Lite
+name: Redmi Note 9 Pro 5G/Mi 10i/Mi 10T Lite
 network:
 - 2G GSM
 - 2G CDMA
