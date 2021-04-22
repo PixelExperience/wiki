@@ -52,7 +52,6 @@ soc: Qualcomm MSM8956 Snapdragon 650
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-vendor_short: xiaomi
 versions:
 - pie
 width: 76 mm (2.99 in)
