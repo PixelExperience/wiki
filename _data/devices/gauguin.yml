@@ -57,7 +57,6 @@ screen_tech: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SM7225 Snapdragon 750G 5G
 storage: 64/128/256 GB
-uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven

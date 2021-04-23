@@ -12,10 +12,8 @@ Starting with PixelExperience, you must install the stable Android 11 MIUI first
 2. If you are not in recovery, reboot into recovery: 
     * With the device powered off, hold `Volume Up` + `Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 3. Sideload the `.zip` package:
-    * On the device, select “Advanced”, “ADB Sideload”, then swipe to begin sideload.
+    * On the device, select “Apply Update”, then “Apply from ADB” to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
         {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
 4. Return to the main menu.
-5. Now tap Wipe.
-6. Now tap Format Data and continue with the formatting process. 
-    This will remove encryption and delete all files stored in the internal storage. 
+5. Now tap Factory Reset, then Format data / factory reset and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
