@@ -25,7 +25,7 @@ height: 154.5 mm (6.8 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Zinadin Zidan
-name: Redmi Note 10 pro
+name: Redmi Note 10 Pro
 network:
 - 2G GSM
 - 2G CDMA
