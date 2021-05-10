@@ -69,7 +69,15 @@ Your shell will then navigate to the root of the sources, `~/android/pe` or give
 
 ## Submitting to Gerrit
 
-### Uploading your changes
+### Uploading your changes (using git command)
+
+Run this command on project path:
+
+```
+git push ssh://<username>@gerrit.pixelexperience.org:29418/<project> HEAD:refs/for/<branch>
+```
+
+### Uploading your changes (using repo)
 
 First, you need to start a topic branch. This branch holds the changes you make to the files on your computer that you will ultimately send to the PixelExperience' Gerrit instance for review. Create your topic branch:
 
