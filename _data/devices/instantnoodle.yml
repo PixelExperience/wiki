@@ -32,7 +32,6 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - Chandra Chaganti
-- Akshay Kakatkar
 name: '8'
 network:
 - 2G GSM
