@@ -25,7 +25,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - PixelBoot
-name: Pixel 2XL
+name: Pixel 2 XL
 network:
 - 2G GSM
 - 3G UMTS
