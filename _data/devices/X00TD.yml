@@ -50,7 +50,6 @@ screen_tech: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
-uses_custom_recovery: true
 vendor: Asus
 versions:
 - eleven
