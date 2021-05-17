@@ -27,7 +27,8 @@ gpu: Adreno 640
 height: 157.7 mm (6.21 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Baalaji Balasubramani
 name: '7'
 network:
 - 2G GSM
