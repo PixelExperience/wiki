@@ -27,7 +27,8 @@ gpu: Adreno 630
 height: 157.5 mm (6.20 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Alexander Chycherin
 name: 6T
 network:
 - 2G GSM
@@ -55,6 +56,7 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 128/256 GB UFS2.1
 vendor: OnePlus
 versions:
+- eleven
 - ten
 - ten_plus
 width: 74.8 mm (2.94 in)
