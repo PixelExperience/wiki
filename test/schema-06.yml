@@ -131,6 +131,7 @@ definitions:
       - Pedometer
       - Proximity sensor
       - Qi wireless charging
+      - Qi reverse wireless charging
       - RGB ambient light
       - SNS integration
       - Sensor hub
