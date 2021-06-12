@@ -38,7 +38,7 @@ install_method: fastboot_realme
 maintainers:
 - MadhavSaladi(BabluS)
 models:
-- r5x
+- Realme 5,Realme 5i,Realme 5s
 name: 5 Series
 network:
 - 2G GSM
