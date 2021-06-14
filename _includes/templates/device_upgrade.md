@@ -2,12 +2,9 @@
 
 {% include alerts/important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
 
-{% capture upgrade_only %}These instructions only apply to version upgrades. If you wish to downgrade to an earlier version of PixelExperience, follow your [device's]({{ "devices/" | append: device.codename | append: "/install" | relative_url }}) instructions for installing PixelExperience the first time.{% endcapture %}
-
 ## Manually upgrading PixelExperience
 
 {% include alerts/warning.html content="You should do a factory reset before upgrading, so consider doing a backup of your internal storage." %}
-{% include alerts/warning.html content=upgrade_only %}
 
 {%- unless device.is_ab_device %}
 {%- capture recovery_update %}In some cases, a newer PixelExperience version may not install due to an outdated recovery.
