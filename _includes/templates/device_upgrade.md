@@ -4,7 +4,7 @@
 
 ## Manually upgrading PixelExperience
 
-{% include alerts/warning.html content="You should do a factory reset before upgrading, so consider doing a backup of your internal storage." %}
+{% include alerts/warning.html content="You must do a factory reset before upgrading, so consider backing up your internal storage." %}
 
 {%- unless device.is_ab_device %}
 {%- capture recovery_update %}In some cases, a newer PixelExperience version may not install due to an outdated recovery.
