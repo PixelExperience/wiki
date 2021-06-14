@@ -47,30 +47,19 @@ There are no recovery installation instructions for this discontinued device.
 {% if device.uses_custom_recovery %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
-{% if device.is_ab_device %}
-{% else %}
-5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
-{% endif %}
-6. Sideload the PixelExperience `.zip` package:
+5. Sideload the PixelExperience `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
         {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
 {% else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
-5. Return to the main menu.
-6. Sideload the PixelExperience `.zip` package:
+4. Return to the main menu.
+5. Sideload the PixelExperience `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
         {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
 {% endif %}
-{% if device.is_ab_device and device.uses_custom_recovery %}
-7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
-{% elsif device.is_ab_device %}
-7. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
-{% else %}
-7. _(Optionally)_: If you want to install any additional add-ons, repeat the sideload steps above for those packages in sequence.
-{% endif %}
-{% if device.uses_custom_recovery and device.is_ab_device != true %}
+{% if device.uses_custom_recovery %}
 8. Once you have installed everything successfully, run 'adb reboot'.
 {% else %}
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
