@@ -28,7 +28,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - Rohan Hasabe (Hasaber8)
-name: One Fusion +
+name: Moto One Fusion +
 network:
 - 2G GSM
 - 2G CDMA
