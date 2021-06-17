@@ -1,0 +1,61 @@
+architecture:
+  cpu: arm64
+  userspace: arm
+battery:
+  capacity: 4000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
+cameras:
+- flash: LED
+  info: 48 MP + 16 MP (Ultra Wide) + 8 MP (Telephoto) + 5 MP (Depth)
+- flash: ''
+  info: 25 MP
+codename: parker
+cpu: Kryo 460
+cpu_cores: '8'
+cpu_freq: 2.2 GHz
+depth: 8.8 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 612
+has_recovery_partition: false
+height: 158 mm (6.22 in)
+install_method: fastboot_nexus
+is_ab_device: true
+maintainers:
+- Rohan Hasabe (Hasaber8)
+name: Moto One Zoom
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Light sensor
+- Proximity sensor
+- GPS
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2019-09-05
+screen: 162.3 mm (6.39 in)
+screen_ppi: 403
+screen_res: 2340x1080
+screen_tech: AMOLED
+soc: Qualcomm SM6150 Snapdragon 675
+storage: 64/128 GB
+uses_custom_recovery: false
+vendor: Motorola
+versions:
+- eleven
+- eleven_plus
+width: 75 mm (2.951 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
