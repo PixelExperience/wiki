@@ -1,0 +1,73 @@
+architecture: arm64
+battery:
+  capacity: 5000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
+cameras:
+- (wide): null
+  "1.25\xB5m": null
+  1/2.9": null
+  PDAF: null
+  f/1.8: null
+  flash: LED
+  info: 12,48 MP
+- 13mm (ultrawide): null
+  f/2.2: null
+  flash: ''
+  info: 8 MP
+- (macro): null
+  f/2.4: null
+  flash: ''
+  info: 2 MP
+- (depth): null
+  f/2.4: null
+  flash: ''
+  info: 2 MP
+codename: r5x
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose between the modes.
+gpu: Adreno 610
+install_method: fastboot_realme
+maintainers:
+- MadhavSaladi(BabluS)
+models:
+- Realme 5,Realme 5i,Realme 5s
+name: 5 Series
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- Light sensor
+- GPS
+- FM radio
+- USB OTG
+ram: 3/4/6 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose between the modes.
+release: 2019-08-20
+screen: 160 mm (6.3 in)
+screen_ppi: ~269
+screen_res: 1600x720
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM665 Snapdragon 665
+storage: 32/64/128 GB eMMC
+uses_custom_recovery: true
+vendor: Realme
+versions:
+- eleven
+- eleven_plus
+wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
