@@ -26,8 +26,7 @@ has_recovery_partition: false
 height: 158 mm (6.22 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Rohan Hasabe (Hasaber8)
+maintainers: []
 name: Moto One Zoom
 network:
 - 2G GSM
