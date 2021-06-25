@@ -25,7 +25,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 512
 height: 156.4 mm (6.16 in)
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Allan Pereira
 name: Mi 8 Lite
 network:
 - 2G GSM
@@ -59,6 +60,8 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB
 vendor: Xiaomi
 versions:
+- eleven
+- eleven_plus
 - ten
 - ten_plus
 width: 75.2 mm (2.96 in)
