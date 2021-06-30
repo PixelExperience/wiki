@@ -1,0 +1,58 @@
+architecture: arm64
+battery:
+  capacity: 4000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.2'
+cameras:
+- flash: LED
+  info: 12/13 MP
+- flash: ''
+  info: 5 MP
+codename: pine
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.95 GHz + 4 x 1.45 GHz
+custom_recovery_link: https://androidfilehost.com/?fid=17248734326145707008
+depth: 8.8 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: Adreno 505
+height: 146.3 mm (5.74 in)
+install_method: fastboot_xiaomi
+maintainers:
+- Elias
+name: Redmi 7A
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Accelerometer
+- Proximity sensor
+- Compass
+- FM radio
+- GPS
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2018-07
+screen: 127 mm (5.45 in)
+screen_ppi: '295'
+screen_res: 720x1440
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM439 Snapdragon 439
+storage: 16/32 GB
+uses_custom_recovery: true
+vendor: Xiaomi
+versions:
+- eleven
+- eleven_plus
+width: 9.55 mm (0.35 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
