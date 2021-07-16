@@ -5,8 +5,7 @@ battery:
   tech: Li-Po
 before_install: before_install_needs_specific_android_fw
 before_install_args:
-  version: 10
-before_install_custom: before_custom_install_ab_copy_partitions
+  version: 11
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -26,6 +25,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 gpu: Adreno 640
 height: 157.7 mm (6.21 in)
 install_method: fastboot_nexus
+after_install_custom: after_custom_install_guacamoleb
 is_ab_device: true
 maintainers:
 - Baalaji Balasubramani
