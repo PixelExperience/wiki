@@ -1,3 +1,4 @@
+after_install_custom: after_custom_install_guacamoleb
 architecture: arm64
 battery:
   capacity: 3700
@@ -25,7 +26,6 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 gpu: Adreno 640
 height: 157.7 mm (6.21 in)
 install_method: fastboot_nexus
-after_install_custom: after_custom_install_guacamoleb
 is_ab_device: true
 maintainers:
 - Baalaji Balasubramani
