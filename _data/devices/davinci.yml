@@ -30,6 +30,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 618
 height: 158.258 mm (6.39 in)
 install_method: fastboot_xiaomi
+after_install_custom: after_custom_install_davinci
 maintainers:
 - Baalaji Balasubramani
 name: Redmi K20/Mi 9T
