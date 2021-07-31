@@ -24,8 +24,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: Adreno 506
 height: 153.8 mm (6.06 in)
 install_method: fastboot_motorola
-maintainers:
-- Jean Graff
+maintainers: []
 models:
 - XT1925-2
 - XT1925-3
