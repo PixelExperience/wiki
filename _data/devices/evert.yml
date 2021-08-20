@@ -28,8 +28,7 @@ gpu: Adreno 508
 height: 160 mm (6.3 in)
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- Juampapo546
+maintainers: []
 models:
 - XT1926-2
 - XT1926-3
