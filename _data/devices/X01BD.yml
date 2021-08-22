@@ -26,8 +26,8 @@ gpu: Adreno 512
 height: 157.9 mm (6.22 in)
 install_method: fastboot_zenfone
 maintainers:
-- Rahul Krishna
 - Gaurav
+- Rahul Krishna
 name: Zenfone Max Pro M2
 network:
 - 2G GSM
