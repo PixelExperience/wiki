@@ -25,7 +25,7 @@ height: 163.7 mm (6.44 in)
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Zinadin Zidan
-name: POCO F3 / Redmi K40 / Mi 11X
+name: Mi 11X
 network:
 - 2G GSM
 - 2G CDMA
