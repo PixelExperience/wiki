@@ -24,7 +24,7 @@ gpu: Adreno 512
 height: 156.7 mm (6.17 in)
 install_method: fastboot_realme
 maintainers:
-- Aditya
+- Aditya Singh
 name: 2 Pro
 network:
 - 2G GSM
