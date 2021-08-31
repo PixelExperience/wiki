@@ -1,0 +1,59 @@
+architecture: arm64
+battery:
+  capacity: 3500
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
+cameras:
+- flash: LED
+  info: 16 MP (IMX398) f/1.7 + 2 MP Depth sensor f/2.4
+- flash: ''
+  info: 16 MP f/2.0
+codename: r2p
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
+custom_recovery_link: https://sourceforge.net/projects/romj/files/r2p/SHRP/SHRP_v3.1_stable-Official_RMX1801-1629950983.zip/download
+depth: 8.5 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose between the modes.
+gpu: Adreno 512
+height: 156.7 mm (6.17 in)
+install_method: fastboot_realme
+maintainers:
+- Aditya
+name: 2 Pro
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Dual SIM
+- Accelerometer
+- Proximity sensor
+- Compass
+- Light sensor
+- GPS
+- USB OTG
+ram: 4/6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose between the modes.
+release: 2018-09
+screen: 160 mm (6.3 in)
+screen_ppi: ~409
+screen_res: 2340x1080
+screen_tech: Full HD+ IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 64/128 GB
+uses_custom_recovery: true
+vendor: Realme
+versions:
+- eleven
+- eleven_plus
+width: 74.0 mm (2.91 in)
+wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Wi-Fi Direct, Hotspot
