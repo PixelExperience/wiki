@@ -5,7 +5,7 @@ battery:
   tech: Li-Po
 before_install: before_install_needs_specific_android_fw
 before_install_args:
-  version: 10
+  version: 11
 before_install_custom: before_custom_install_ab_copy_partitions
 bluetooth:
   profiles:
