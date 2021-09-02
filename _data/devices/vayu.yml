@@ -25,7 +25,7 @@ height: 165.3 mm (6.50 in)
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Alisson Grizotti
-name: POCO X3 Pro
+name: Poco X3 Pro
 network:
 - 2G GSM
 - 2G CDMA
