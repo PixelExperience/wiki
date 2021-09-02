@@ -199,7 +199,7 @@ cd external/wpa_supplicant
 repo start mychanges-wpa_supplicant .
 ```
 
-Make changes, edit a few files, add new drivers.. etc.
+Make changes, edit a few files, add new drivers... etc.
 
 ```
 git add .
