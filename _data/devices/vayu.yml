@@ -1,0 +1,66 @@
+architecture: arm64
+battery:
+  capacity: 5160
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  - aptX
+  spec: '5.0'
+cameras:
+- flash: Dual LED
+  info: 48 MP (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth)
+- flash: ''
+  info: 20 MP
+codename: alioth
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 2 x 2.96 GHz + 6 x 1.8 GHz
+depth: 9.4 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: Adreno 640
+height: 165.3 mm (6.50 in)
+install_method: fastboot_xiaomi_virtual_ab
+maintainers:
+- Alisson Grizotti
+name: POCO X3 Pro
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- A-GPS
+- Accelerometer
+- Compass
+- Dual SIM
+- FM radio
+- Fingerprint reader
+- GLONASS
+- GPS
+- Gyroscope
+- Light sensor
+- NFC
+- Proximity sensor
+- USB OTG
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2021-03-27
+screen: 169.4 mm (6.67 in)
+screen_ppi: 386
+screen_res: 1080x2400
+screen_tech: 120Hz LCD IPS
+soc: Qualcomm SM8150 Snapdragon 860
+storage: 128/256 GB
+uses_custom_recovery: false
+vendor: Xiaomi
+versions:
+- eleven
+- eleven_plus
+width: 76.8 mm (3.02 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
