@@ -6,7 +6,7 @@ battery:
 bluetooth:
   profiles:
   - A2DP + aptX
-  spec: '5.0'
+  spec: '5'
 cameras:
 - flash: Dual LED
   info: 48 MP (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth)
