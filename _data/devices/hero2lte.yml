@@ -62,8 +62,6 @@ storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Samsung
 versions:
-- ten
-- ten_plus
 - eleven
 - eleven_plus
 width: 72.6 mm (2.9 in)

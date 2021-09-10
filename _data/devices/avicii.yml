@@ -62,7 +62,5 @@ vendor: OnePlus
 versions:
 - eleven
 - eleven_plus
-- ten
-- ten_plus
 width: 63.3 mm (2.88 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

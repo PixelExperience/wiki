@@ -55,7 +55,5 @@ vendor: Asus
 versions:
 - eleven
 - eleven_plus
-- ten
-- ten_plus
 width: 76 mm (2.99 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

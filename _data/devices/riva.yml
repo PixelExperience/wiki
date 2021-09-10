@@ -54,7 +54,5 @@ uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
-- ten
-- ten_plus
 width: 70.1 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

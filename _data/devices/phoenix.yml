@@ -60,8 +60,6 @@ storage: 64/128/256 GB
 uses_custom_recovery: false
 vendor: Xiaomi
 versions:
-- ten
-- ten_plus
 - eleven
 - eleven_plus
 width: 76.6 mm (3.01 in)
