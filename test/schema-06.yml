@@ -449,7 +449,7 @@ properties:
     "$id": "/properties/vendor"
     enum:
     - ARK
-    - Asus
+    - ASUS
     - BQ
     - Essential
     - Fairphone

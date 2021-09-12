@@ -51,7 +51,7 @@ sdcard: up to 1 TB
 soc: Qualcomm Snapdragon 632
 storage: 64 GB
 uses_custom_recovery: true
-vendor: Asus
+vendor: ASUS
 versions:
 - eleven
 - eleven_plus

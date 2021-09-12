@@ -50,7 +50,7 @@ sdcard: up to 2 TB
 soc: Qualcomm Snapdragon 425
 storage: 64 GB
 uses_custom_recovery: true
-vendor: Asus
+vendor: ASUS
 versions:
 - eleven
 width: 76 mm (2.99 in)
