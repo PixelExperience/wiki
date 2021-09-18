@@ -26,8 +26,7 @@ has_recovery_partition: true
 height: 162.9 mm (6.41 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Rohan Hasabe (Hasaber8)
+maintainers: []
 name: Moto One Fusion +
 network:
 - 2G GSM

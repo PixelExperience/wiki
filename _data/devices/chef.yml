@@ -22,8 +22,7 @@ gpu: Adreno 509
 height: 158.258 mm (6.27 in)
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- Rohan Hasabe (Hasaber8)
+maintainers: []
 models:
 - XT1942-1
 - XT1942-2
