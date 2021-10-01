@@ -31,7 +31,7 @@ height: 160.7 mm (6.33 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- Chandra Chaganti
+- Rohan Hasabe (Hasaber8)
 name: 8T
 network:
 - 2G GSM

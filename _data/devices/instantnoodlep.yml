@@ -30,8 +30,7 @@ has_recovery_partition: true
 height: 165.3 mm (6.51 in)
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Chandra Chaganti
+maintainers: []
 name: 8 Pro
 network:
 - 2G GSM
