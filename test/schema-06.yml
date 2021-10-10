@@ -60,6 +60,7 @@ definitions:
     - ten_plus
     - eleven
     - eleven_plus
+    - twelve
     type: string
   valid_dimension:
     oneOf:
