@@ -22,8 +22,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 640
 height: 148.0 mm (5.83 in)
 install_method: fastboot_nexus
-maintainers:
-- Kuba Wojciechowski
+maintainers: []
 name: Mini 5G
 network:
 - 2G GSM
