@@ -57,7 +57,7 @@ screen_ppi: 405
 screen_res: 2270x1080
 screen_tech: LTPS IPS LCD
 sdcard: up to 256 GB
-soc: Qualcomm MSM8953 Snapdragon 632
+soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 vendor: Motorola
 versions:
