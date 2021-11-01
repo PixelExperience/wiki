@@ -50,14 +50,14 @@ There are no recovery installation instructions for this discontinued device.
 5. Sideload the PixelExperience `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`. In some cases it will report `adb: failed to read command: No error` which is also fine." %}
+        {% include alerts/tip.html content="Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`. In some cases it will report `adb: failed to read command: No error` which is also fine." %}
 {% else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
 5. Sideload the PixelExperience `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`. In some cases it will report `adb: failed to read command: No error` which is also fine." %}
+        {% include alerts/tip.html content="Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if `adb: failed to read command: Success/No error`. In some cases it will report `adb: failed to read command: No error` which is also fine." %}
 {% endif %}
 {% if device.uses_custom_recovery %}
 8. Once you have installed everything successfully, run 'adb reboot'.
