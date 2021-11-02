@@ -7,7 +7,7 @@
 
 ## Important Information
 
-{% include alerts/note.html content="The following instructions **require** a machine running Windows 7 or newer." %}
+{% include alerts/note.html content="The following instructions **require** a machine running Windows 10 build 17063 or newer." %}
 
 Samsung devices come with a unique boot mode called "Download mode", which is very similar to "Fastboot mode" on some devices with unlocked bootloaders.
 Odin is a Samsung-made tool for interfacing with Download mode on Samsung devices.
@@ -29,8 +29,14 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 1. Enable Developer Options by pressing the "Build Number" option 10 times, in the "Settings" app within the "About" menu
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
+{% if device.uses_custom_recovery %}
 2. Download the [custom recovery]({{ custom_recovery_link }}).
     {% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
+{% else %}
+2. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
+3. Rename the downloaded image to "recovery.img", open a Command Prompt and TAR the file by running `tar -cvzf %USERPROFILE%\Downloads\recovery.tar %USERPROFILE%\Downloads\recovery.img`.
+    {% include alerts/tip.html content="The path may vary depending on where you download the recovery image." %}
+{% endif %}
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue", and insert the USB cable into the device.
@@ -45,7 +51,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 9. In the left side of the Odin window, you will see an "Options" tab, click it, and then un-check the "Auto Reboot" option.
 10. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
     * In the menu that pops up, select the newly downloaded custom recovery `.tar` or `.tar.md5`.
-    {% include alerts/tip.html content="The filename may very depending on your device, and the version of your custom recovery." %}
+    {% include alerts/tip.html content="The filename may vary depending on your device, and the version of your custom recovery." %}
 11. A blue transfer bar will appear on the device showing the recovery image being flashed.
     {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete. When the status message in the top left of the devices's display reports that the process is complete, you may proceed." %}
 12. Unplug the USB cable from your device.
