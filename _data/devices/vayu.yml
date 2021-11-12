@@ -51,10 +51,11 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2021-03-27
-screen: 169.4 mm (6.67 in)
-screen_ppi: 386
-screen_res: 1080x2400
-screen_tech: 120Hz LCD IPS
+screen:
+  density: 386
+  resolution: 1080x2400
+  size: 169.4 mm (6.67 in)
+  technology: 120Hz LCD IPS
 soc: Qualcomm SM8150 Snapdragon 860
 storage: 128/256 GB
 uses_custom_recovery: false

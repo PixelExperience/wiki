@@ -59,10 +59,11 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2019-08
-screen: 165 mm (6.53 in)
-screen_ppi: '395'
-screen_res: 1080x2340
-screen_tech: IPS LCD
+screen:
+  density: 395
+  resolution: 1080x2340
+  size: 165 mm (6.53 in)
+  technology: IPS LCD
 sdcard: up to 512 GB
 soc: Mediatek Helio G90T
 storage: 64/128/256 GB

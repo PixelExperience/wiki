@@ -55,10 +55,11 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
   then select "Recovery mode" using Volume keys.
 release: 2019-03-25
-screen: 157.5 mm (6.2 in)
-screen_ppi: 279
-screen_res: 1570x720
-screen_tech: LTPS IPS LCD
+screen:
+  density: 279
+  resolution: 1570x720
+  size: 157.5 mm (6.2 in)
+  technology: LTPS IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32/64 GB

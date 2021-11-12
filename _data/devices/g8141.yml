@@ -52,10 +52,11 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release: 2017-06-18
 required_bootloader:
 - Android 8 or 9 base bootloader version
-screen: 127 mm (5.46 in)
-screen_ppi: 807
-screen_res: 3840x2160
-screen_tech: 4K HDR LCD
+screen:
+  density: 807
+  resolution: 3840x2160
+  size: 127 mm (5.46 in)
+  technology: 4K HDR LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64 GB

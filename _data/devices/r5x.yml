@@ -59,10 +59,11 @@ ram: 3/4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
 release: 2019-08-20
-screen: 160 mm (6.3 in)
-screen_ppi: ~269
-screen_res: 1600x720
-screen_tech: IPS LCD
+screen:
+  density: 269
+  resolution: 1600x720
+  size: 160 mm (6.3 in)
+  technology: IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB eMMC

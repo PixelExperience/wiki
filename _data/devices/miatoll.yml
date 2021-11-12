@@ -60,10 +60,11 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2020-04-30
-screen: 165.8 mm (6.67 in)
-screen_ppi: 395
-screen_res: 1080x2400
-screen_tech: IPS LCD
+screen:
+  density: 395
+  resolution: 1080x2400
+  size: 165.8 mm (6.67 in)
+  technology: IPS LCD
 sdcard: up to 2 TB
 soc: Qualcomm SM6250 Snapdragon 720G
 storage: 64/128 GB

@@ -46,10 +46,11 @@ ram: 4/6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2016-10
-screen: 162.56 mm (6.4 in)
-screen_ppi: '362'
-screen_res: 1080x2040
-screen_tech: IPS LCD
+screen:
+  density: 362
+  resolution: 1080x2040
+  size: 162.56 mm (6.4 in)
+  technology: IPS LCD
 sdcard: null
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 128/256 GB UFS2.0

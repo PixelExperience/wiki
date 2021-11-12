@@ -46,10 +46,11 @@ peripherals:
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2019-09-05
-screen: 162.3 mm (6.39 in)
-screen_ppi: 403
-screen_res: 2340x1080
-screen_tech: AMOLED
+screen:
+  density: 403
+  resolution: 2340x1080
+  size: 162.3 mm (6.39 in)
+  technology: AMOLED
 soc: Qualcomm SM6150 Snapdragon 675
 storage: 64/128 GB
 uses_custom_recovery: false

@@ -44,10 +44,11 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2017-11
-screen: 127 mm (5.0 in)
-screen_ppi: '296'
-screen_res: 720x1280
-screen_tech: IPS LCD
+screen:
+  density: 296
+  resolution: 720x1280
+  size: 127 mm (5.0 in)
+  technology: IPS LCD
 sdcard: microSDXC (dedicated slot)
 soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16/32 GB

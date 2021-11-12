@@ -46,10 +46,11 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
   then select "Recovery mode" using Volume keys.
 release: 2017-08
-screen: 132.08 mm (5.2 in)
-screen_ppi: '424'
-screen_res: 1080x1920
-screen_tech: IPS LCD
+screen:
+  density: 424
+  resolution: 1080x1920
+  size: 132.08 mm (5.2 in)
+  technology: IPS LCD
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 32 GB

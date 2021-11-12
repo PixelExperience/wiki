@@ -50,10 +50,11 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release: 2018-10-05
 required_bootloader:
 - Android 10 base bootloader version
-screen: 152 mm (6.0 in)
-screen_ppi: 537
-screen_res: 2880x1440
-screen_tech: 1440p P-OLED
+screen:
+  density: 537
+  resolution: 2880x1440
+  size: 152 mm (6.0 in)
+  technology: 1440p P-OLED
 sdcard: up to 512 GB
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB

@@ -59,10 +59,11 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2019-09-05
-screen: 164 mm (6.47 in)
-screen_ppi: 386
-screen_res: 2340x1080
-screen_tech: AMOLED
+screen:
+  density: 386
+  resolution: 2340x1080
+  size: 164 mm (6.47 in)
+  technology: AMOLED
 soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 128/256 GB
 uses_custom_recovery: true

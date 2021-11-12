@@ -44,10 +44,11 @@ ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
 release: 2018-09
-screen: 160 mm (6.3 in)
-screen_ppi: ~409
-screen_res: 2340x1080
-screen_tech: Full HD+ IPS LCD
+screen:
+  density: 409
+  resolution: 2340x1080
+  size: 160 mm (6.3 in)
+  technology: Full HD+ IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB

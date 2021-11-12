@@ -45,10 +45,11 @@ ram: 4 GB, 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
   then select "Recovery mode" using Volume keys.
 release: 2018-10-10
-screen: 157.48 mm (6.14 in)
-screen_ppi: 403
-screen_res: 2246x1080
-screen_tech: LTPS IPS LCD
+screen:
+  density: 403
+  resolution: 2246x1080
+  size: 157.48 mm (6.14 in)
+  technology: LTPS IPS LCD
 sdcard: up to 256GB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB

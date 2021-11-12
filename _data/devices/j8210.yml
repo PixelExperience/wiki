@@ -53,10 +53,11 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release: 2019-10-05
 required_bootloader:
 - 55.1.XXX base bootloader
-screen: 154.94 mm (6.1 in)
-screen_ppi: 449
-screen_res: 2560x1080
-screen_tech: 21:9 1080p OLED
+screen:
+  density: 449
+  resolution: 2560x1080
+  size: 154.94 mm (6.1 in)
+  technology: 21:9 1080p OLED
 sdcard: up to 512 GB
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128 GB

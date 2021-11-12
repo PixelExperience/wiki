@@ -41,10 +41,11 @@ peripherals:
 ram: 6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2020-05
-screen: 144 mm (5.7 in)
-screen_ppi: 440
-screen_res: 1080x2160
-screen_tech: IPS LCD
+screen:
+  density: 440
+  resolution: 1080x2160
+  size: 144 mm (5.7 in)
+  technology: IPS LCD
 sdcard: null
 soc: Qualcomm SM8150-AC Snapdragon 855+
 storage: 64GB UFS 2.1
