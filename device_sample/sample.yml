@@ -22,11 +22,9 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 custom_unlock_cmd: fastboot oem let-me-free
-depth: 7.3 mm (0.29 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
-  + <kbd>Power</kbd>.
+dimensions: {width: '69.2 mm (2.72 in)', height: '144.6 mm (5.69 in)', depth: '7.3 mm (0.29 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
-height: 144.6 mm (5.69 in)
 install_method: heimdall
 maintainers:
 - People1
@@ -69,5 +67,4 @@ vendor: LG
 versions:
 - ten
 - ten_plus
-width: 69.2 mm (2.72 in)
 wifi: 802.11 a/b/g/n/ac

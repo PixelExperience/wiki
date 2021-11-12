@@ -19,12 +19,14 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 deprecated: false
-depth: 8.1 mm (0.32 in)
+dimensions:
+  depth: 8.1 mm (0.32 in)
+  height: 158.6 mm (6.24 in)
+  width: 75.4 mm (2.97 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 509
-height: 158.6 mm (6.24 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Abdul Sakil Mondal
@@ -59,5 +61,4 @@ versions:
 - twelve
 - eleven
 - eleven_plus
-width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

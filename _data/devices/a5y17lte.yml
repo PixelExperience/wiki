@@ -20,11 +20,13 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
 deprecated: true
-depth: 7.9 mm (0.31 in)
+dimensions:
+  depth: 7.9 mm (0.31 in)
+  height: 146.1 mm (5.75 in)
+  width: 71.4 mm (2.81 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
   + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
-height: 146.1 mm (5.75 in)
 install_method: heimdall
 maintainers: []
 models:
@@ -74,5 +76,4 @@ vendor: Samsung
 versions:
 - ten
 - ten_plus
-width: 71.4 mm (2.81 in)
 wifi: 802.11 a/b/g/n/ac

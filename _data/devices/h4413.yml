@@ -15,11 +15,13 @@ cpu: Cortex-A53
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 8x2.2 GHz
 custom_unlock_cmd: fastboot oem unlock [UNLOCK CODE]
-depth: 9.7 mm (0.38 in)
+dimensions:
+  depth: 9.7 mm (0.38 in)
+  height: 157 mm (6.18 in)
+  width: 75 mm (2.95 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb
   cable.
 gpu: Adreno 508
-height: 157 mm (6.18 in)
 install_method: fastboot_sony
 maintainers:
 - AngeloGioacchino Del Regno
@@ -63,5 +65,4 @@ versions:
 - ten
 - ten_plus
 - eleven
-width: 75 mm (2.95 in)
 wifi: 802.11 a/b/g/n/ac

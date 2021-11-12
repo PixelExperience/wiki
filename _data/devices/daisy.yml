@@ -19,12 +19,14 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 deprecated: true
-depth: 8.8 mm (0.35 in)
+dimensions:
+  depth: 8.8 mm (0.35 in)
+  height: 149.3 mm (5.88 in)
+  width: 72.8 mm (2.87 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 506
-height: 149.3 mm (5.88 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers: []
@@ -59,5 +61,4 @@ vendor: Xiaomi
 versions:
 - ten
 - ten_plus
-width: 72.8 mm (2.87 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

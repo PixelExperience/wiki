@@ -32,6 +32,10 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 deprecated: false
+dimensions:
+  depth: 8.9 mm (0.35 in)
+  height: 157 mm (6.18 in)
+  width: 74.2 mm (2.92 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 616

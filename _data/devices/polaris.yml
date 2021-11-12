@@ -17,12 +17,14 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 deprecated: false
-depth: 8.1 mm (0.32 in)
+dimensions:
+  depth: 8.1 mm (0.32 in)
+  height: 150.9 mm (5.94 in)
+  width: 74.9 mm (2.95 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 630
-height: 150.9 mm (5.94 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Chenyang Zhong
@@ -61,5 +63,4 @@ versions:
 - twelve
 - eleven
 - eleven_plus
-width: 74.9 mm (2.95 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

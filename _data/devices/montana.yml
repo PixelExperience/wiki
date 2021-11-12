@@ -17,10 +17,12 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.4 GHz
 deprecated: true
-depth: 9.5 mm (0.37 in)
+dimensions:
+  depth: 9.5 mm (0.37 in)
+  height: 150 mm (5.91 in)
+  width: 73.5 mm (2.89 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 505
-height: 150 mm (5.91 in)
 install_method: fastboot_motorola
 maintainers: []
 models:
@@ -59,5 +61,4 @@ vendor: Motorola
 versions:
 - pie
 - pie_plus
-width: 73.5 mm (2.89 in)
 wifi: 802.11 a/b/g/n/ac

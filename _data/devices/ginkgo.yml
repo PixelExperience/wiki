@@ -23,12 +23,14 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 deprecated: false
-depth: 8.4 mm (0.34 in)
+dimensions:
+  depth: 8.4 mm (0.34 in)
+  height: 158.3 mm (6.23 in)
+  width: 75.3 mm (2.96 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 610
-height: 158.3 mm (6.23 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Saalim
@@ -71,5 +73,4 @@ versions:
 - twelve
 - eleven
 - eleven_plus
-width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

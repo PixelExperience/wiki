@@ -18,12 +18,14 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.95 GHz + 4 x 1.45 GHz
 custom_recovery_link: https://androidfilehost.com/?fid=17248734326145707008
 deprecated: false
-depth: 8.8 mm (0.35 in)
+dimensions:
+  depth: 8.8 mm (0.35 in)
+  height: 146.3 mm (5.74 in)
+  width: 9.55 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 505
-height: 146.3 mm (5.74 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Elias
@@ -56,5 +58,4 @@ vendor: Xiaomi
 versions:
 - eleven
 - eleven_plus
-width: 9.55 mm (0.35 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

@@ -18,10 +18,12 @@ cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: true
-depth: 7.9 mm (0.31 in)
+dimensions:
+  depth: 7.9 mm (0.31 in)
+  height: 147 mm (5.79 in)
+  width: 72.6 mm (2.86 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
-height: 147 mm (5.79 in)
 install_method: fastboot_nexus
 maintainers: []
 name: Nexus 5X
@@ -53,5 +55,4 @@ vendor: Google
 versions:
 - ten
 - ten_plus
-width: 72.6 mm (2.86 in)
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

@@ -17,12 +17,14 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 deprecated: true
-depth: 8.7 mm (0.34 in)
+dimensions:
+  depth: 8.7 mm (0.34 in)
+  height: 150 mm (5.91 in)
+  width: 76 mm (2.99 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 510
-height: 150 mm (5.91 in)
 install_method: fastboot_xiaomi
 maintainers: []
 name: Redmi Note 3 Pro
@@ -55,5 +57,4 @@ uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - pie
-width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac

@@ -21,10 +21,12 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.7 GHz
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: false
-depth: 7.6 mm (0.30 in)
+dimensions:
+  depth: 7.6 mm (0.30 in)
+  height: 152.4 mm (6.0 in)
+  width: 71.1 mm (2.8 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 615
-height: 152.4 mm (6.0 in)
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
@@ -68,5 +70,4 @@ versions:
 - twelve
 - eleven
 - eleven_plus
-width: 71.1 mm (2.8 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

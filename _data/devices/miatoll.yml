@@ -28,12 +28,14 @@ cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
 custom_recovery_link: https://orangefox.download/device/miatoll
-depth: 8.8 mm (0.35 in)
+dimensions:
+  depth: 8.8 mm (0.35 in)
+  height: 165.8 mm (6.53 in)
+  width: 76.7 mm (3.02 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 618
-height: 165.8 mm (6.53 in)
 install_method: fastboot_xiaomi
 maintainers: []
 name: Redmi Note 9S/9 Pro/Pro Max / POCO M2 Pro
@@ -73,5 +75,4 @@ vendor: Xiaomi
 versions:
 - eleven
 - eleven_plus
-width: 76.7 mm (3.02 in)
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

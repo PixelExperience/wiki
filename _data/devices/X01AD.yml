@@ -19,12 +19,14 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 deprecated: false
-depth: 8.5 mm (0.33 in)
+dimensions:
+  depth: 8.5 mm (0.33 in)
+  height: 159 mm (6.26 in)
+  width: 76 mm (2.99 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 506
-height: 159 mm (6.26 in)
 install_method: fastboot_zenfone
 maintainers:
 - Saalim
@@ -57,5 +59,4 @@ vendor: ASUS
 versions:
 - eleven
 - eleven_plus
-width: 76 mm (2.99 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

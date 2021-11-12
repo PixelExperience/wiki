@@ -17,12 +17,14 @@ cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 deprecated: false
-depth: 11 mm (0.43 in)
+dimensions:
+  depth: 11 mm (0.43 in)
+  height: 160.46 mm (6.317 in)
+  width: 74.5 mm (2.933 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 612
-height: 160.46 mm (6.317 in)
 install_method: fastboot_xiaomi_virtual_ab
 is_ab_device: true
 maintainers:
@@ -64,5 +66,4 @@ vendor: Xiaomi
 versions:
 - eleven
 - eleven_plus
-width: 74.5 mm (2.933 in)
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

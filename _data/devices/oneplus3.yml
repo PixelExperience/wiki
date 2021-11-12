@@ -22,10 +22,12 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz (3) / 2 x 2.35 GHz + 2 x 1.6 GHz (3T)
 deprecated: false
-depth: 7.4 mm (0.29 in)
+dimensions:
+  depth: 7.4 mm (0.29 in)
+  height: 152.7 mm (6.01 in)
+  width: 74.7 mm (2.94 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
-height: 152.7 mm (6.01 in)
 install_method: fastboot_nexus
 maintainers:
 - Gaurav
@@ -65,5 +67,4 @@ versions:
 - twelve
 - eleven
 - eleven_plus
-width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, Hotspot

@@ -17,12 +17,14 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 deprecated: false
-depth: 7.8 mm (0.31 in)
+dimensions:
+  depth: 7.8 mm (0.31 in)
+  height: 163.7 mm (6.44 in)
+  width: 76.4 mm (3.01 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 650
-height: 163.7 mm (6.44 in)
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Zinadin Zidan
@@ -64,5 +66,4 @@ vendor: Xiaomi
 versions:
 - eleven
 - eleven_plus
-width: 76.4 mm (3.01 in)
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

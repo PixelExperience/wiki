@@ -25,12 +25,14 @@ cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 deprecated: false
-depth: 9.65 mm (0.38 in)
+dimensions:
+  depth: 9.65 mm (0.38 in)
+  height: 157.73 mm (6.21 in)
+  width: 74.2 mm (2.92 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 618
-height: 157.73 mm (6.21 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Henrique Pereira
@@ -72,5 +74,4 @@ versions:
 - twelve
 - eleven
 - eleven_plus
-width: 74.2 mm (2.92 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

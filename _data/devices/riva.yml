@@ -18,12 +18,14 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
 deprecated: true
-depth: 8.4 mm (0.33 in)
+dimensions:
+  depth: 8.4 mm (0.33 in)
+  height: 140.4 mm (5.53 in)
+  width: 70.1 mm (2.76 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 308
-height: 140.4 mm (5.53 in)
 install_method: fastboot_xiaomi
 maintainers: []
 name: Redmi 5A
@@ -56,5 +58,4 @@ uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - eleven
-width: 70.1 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

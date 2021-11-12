@@ -15,10 +15,12 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 1.8 Ghz
 deprecated: true
-depth: 9.85 mm (0.39 in)
+dimensions:
+  depth: 9.85 mm (0.39 in)
+  height: 151.8 mm (6 in)
+  width: 74.9 mm (2.9 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 430
-height: 151.8 mm (6 in)
 install_method: fastboot_nexus
 maintainers: []
 name: '2'
@@ -53,5 +55,4 @@ vendor: OnePlus
 versions:
 - pie
 - pie_plus
-width: 74.9 mm (2.9 in)
 wifi: 2.4GHz 802.11 b/g/n and 5GHz 802.11 a/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

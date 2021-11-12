@@ -18,12 +18,14 @@ cpu_cores: '8'
 cpu_freq: 1.8 GHz
 custom_recovery_link: https://sourceforge.net/projects/redmi5rosy/files/KewL-TWRP-3.4.0-rosy.img/download
 deprecated: false
-depth: 7.7 mm (0.30 in)
+dimensions:
+  depth: 7.7 mm (0.30 in)
+  height: 151.8 mm (5.98 in)
+  width: 72.8 mm (2.87 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 506
-height: 151.8 mm (5.98 in)
 install_method: fastboot_xiaomi
 maintainers:
 - Pulkit Agarwal
@@ -59,5 +61,4 @@ vendor: Xiaomi
 versions:
 - eleven
 - eleven_plus
-width: 72.8 mm (2.87 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

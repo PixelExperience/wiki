@@ -17,12 +17,14 @@ cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 deprecated: true
-depth: 8.7 mm (0.34 in)
+dimensions:
+  depth: 8.7 mm (0.34 in)
+  height: 139.2 mm (5.48 in)
+  width: 70 mm (2.76 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 505
-height: 139.2 mm (5.48 in)
 install_method: fastboot_xiaomi
 maintainers: []
 name: Redmi 4X
@@ -58,5 +60,4 @@ vendor: Xiaomi
 versions:
 - ten
 - ten_plus
-width: 70 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

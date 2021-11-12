@@ -15,11 +15,13 @@ cpu: Kryo 385
 cpu_cores: 8 (Big.little 4+4)
 cpu_freq: 4x2.7 GHz + 4x1.7 GHz
 custom_unlock_cmd: fastboot oem unlock [UNLOCK CODE]
-depth: 9.9 mm (0.39 in)
+dimensions:
+  depth: 9.9 mm (0.39 in)
+  height: 158 mm (6.22 in)
+  width: 73 mm (2.87 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + plug usb
   cable.
 gpu: Adreno 630
-height: 158 mm (6.22 in)
 install_method: fastboot_sony
 maintainers:
 - AngeloGioacchino Del Regno
@@ -63,5 +65,4 @@ versions:
 - ten
 - ten_plus
 - eleven
-width: 73 mm (2.87 in)
 wifi: 802.11 a/b/g/n/ac
