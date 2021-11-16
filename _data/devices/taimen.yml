@@ -58,7 +58,6 @@ screen:
   resolution: 1440x2880
   size: 152.4 mm (6 in)
   technology: AMOLED
-sdcard: null
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 vendor: Google

@@ -66,7 +66,8 @@ screen:
   resolution: 1080x1920
   size: 84.5 mm (5.2 in)
   technology: IPS LCD
-sdcard: Up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64/128 GB
 vendor: Motorola

@@ -50,7 +50,8 @@ screen:
   resolution: 720x1440
   size: 127 mm (5.45 in)
   technology: IPS LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM439 Snapdragon 439
 storage: 16/32 GB
 uses_custom_recovery: true

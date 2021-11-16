@@ -61,7 +61,6 @@ screen:
   resolution: 1080x2340
   size: 162.306 mm (6.39 in)
   technology: AMOLED
-sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128/256 GB
 uses_custom_recovery: true

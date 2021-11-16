@@ -53,7 +53,8 @@ screen:
   resolution: 720x1440
   size: 144.78 mm (5.7 in)
   technology: IPS LCD
-sdcard: up to 128 GB (hybrid SIM slot)
+sdcard:
+  sizeMax: 128 GB (hybrid SIM slot)
 soc: Qualcomm MSM8953 Snapdragon 450
 storage: 16/32 GB
 uses_custom_recovery: true

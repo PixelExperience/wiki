@@ -68,7 +68,8 @@ screen:
   resolution: 1920x1080
   size: 132 mm (5.2 in)
   technology: Super AMOLED
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Samsung Exynos 7880
 storage: 32/64 GB
 uses_custom_recovery: true

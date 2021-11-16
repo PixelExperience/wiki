@@ -57,7 +57,8 @@ screen:
   resolution: 1080x2248
   size: 157.73 mm (6.21 in)
   technology: AMOLED
-sdcard: up to 256 GB (hybrid SIM slot)
+sdcard:
+  sizeMax: 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 uses_custom_recovery: true

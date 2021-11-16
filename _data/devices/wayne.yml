@@ -59,7 +59,6 @@ screen:
   resolution: 1080x2160
   size: 152.1 mm (5.99 in)
   technology: IPS LCD
-sdcard: null
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64/128 GB
 vendor: Xiaomi

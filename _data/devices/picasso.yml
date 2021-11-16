@@ -64,7 +64,6 @@ screen:
   resolution: 1080x2400
   size: 107.4 mm (6.67 in)
   technology: IPS LCD
-sdcard: null
 soc: Qualcomm SM7250 Snapdragon 765G 5G
 storage: 64/128/256 GB
 vendor: Xiaomi

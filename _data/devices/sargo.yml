@@ -62,7 +62,6 @@ screen:
   resolution: 2220x1080
   size: 142.2 mm (5.6 in)
   technology: AMOLED
-sdcard: null
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 vendor: Google

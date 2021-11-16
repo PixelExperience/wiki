@@ -48,7 +48,6 @@ screen:
   resolution: 1440x2560
   size: 145 mm (5.7 in)
   technology: AMOLED
-sdcard: null
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32/64/128 GB
 vendor: Google

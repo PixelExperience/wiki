@@ -52,7 +52,8 @@ screen:
   resolution: 1080x2280
   size: 159 mm (6.26 in)
   technology: IPS LCD
-sdcard: up to 2 TB
+sdcard:
+  sizeMax: 2 TB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64 GB
 vendor: ASUS

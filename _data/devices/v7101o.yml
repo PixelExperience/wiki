@@ -55,7 +55,8 @@ screen:
   resolution: 1080x2280
   size: 158 mm (6.23 in)
   technology: Full HD IPS LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Mediatek Helio P60
 storage: 128 GB
 uses_custom_recovery: false

@@ -58,7 +58,9 @@ screen:
   resolution: 1080x2400
   size: 163.32 mm (6.43 in)
   technology: Super AMOLED
-sdcard: microSDXC (dedicated slot)
+sdcard:
+  sizeMax: 512 GB
+  slot: dedicated
 soc: Qualcomm SDM678 Snapdragon 678
 storage: 128 GB
 uses_custom_recovery: false

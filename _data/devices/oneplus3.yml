@@ -58,7 +58,6 @@ screen:
   resolution: 1080x1920
   size: 139.7 mm (5.5 in)
   technology: Optic AMOLED
-sdcard: null
 soc: Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (3T)
 storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 uses_custom_recovery: true

@@ -52,7 +52,8 @@ screen:
   resolution: 2160x1080
   size: 152.1 mm (5.99 in)
   technology: IPS LCD
-sdcard: up to 256 GB (hybrid SIM slot)
+sdcard:
+  sizeMax: 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 / 64 / 128 GB eMMC 5.1 flash storage
 uses_custom_recovery: true

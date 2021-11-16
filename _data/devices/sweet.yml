@@ -57,7 +57,9 @@ screen:
   resolution: 1080x2400
   size: 169.42 mm (6.67 in)
   technology: Super AMOLED
-sdcard: microSDXC (dedicated slot)
+sdcard:
+  sizeMax: 512 GB
+  slot: dedicated
 soc: Qualcomm SM7150 Snapdragon 732
 storage: 64/128 GB
 uses_custom_recovery: false

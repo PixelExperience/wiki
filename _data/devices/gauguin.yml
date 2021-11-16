@@ -58,7 +58,8 @@ screen:
   resolution: 1080x2400
   size: 165.4 mm (6.51 in)
   technology: IPS LCD
-sdcard: up to 2 TB
+sdcard:
+  sizeMax: 2 TB
 soc: Qualcomm SM7225 Snapdragon 750G 5G
 storage: 64/128/256 GB
 vendor: Xiaomi

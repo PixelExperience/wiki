@@ -57,7 +57,8 @@ screen:
   resolution: 2160x1080
   size: 127 mm (5.0 in)
   technology: 1080p LCD
-sdcard: up to 512 GB
+sdcard:
+  sizeMax: 512 GB
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB
 vendor: Sony

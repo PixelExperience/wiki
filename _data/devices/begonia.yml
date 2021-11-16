@@ -66,7 +66,8 @@ screen:
   resolution: 1080x2340
   size: 165 mm (6.53 in)
   technology: IPS LCD
-sdcard: up to 512 GB
+sdcard:
+  sizeMax: 512 GB
 soc: Mediatek Helio G90T
 storage: 64/128/256 GB
 uses_custom_recovery: true

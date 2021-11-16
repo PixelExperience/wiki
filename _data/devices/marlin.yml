@@ -54,7 +54,6 @@ screen:
   resolution: 1440x2560
   size: 139.7 mm (5.5 in)
   technology: AMOLED
-sdcard: null
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
 vendor: Google

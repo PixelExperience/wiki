@@ -63,7 +63,6 @@ screen:
   resolution: 2340x1080
   size: 162.306 mm (6.39 in)
   technology: AMOLED
-sdcard: null
 soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 64/128/256 GB
 vendor: Xiaomi

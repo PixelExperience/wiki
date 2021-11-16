@@ -61,7 +61,6 @@ screen:
   resolution: 1080x2160
   size: 151 mm (5.97 in)
   technology: IPS LCD
-sdcard: null
 soc: Qualcomm SDM710 Snapdragon 712
 storage: 32/64/128 GB
 vendor: Xiaomi

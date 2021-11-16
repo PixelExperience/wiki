@@ -47,7 +47,6 @@ screen:
   resolution: 1080x1920
   size: 132 mm (5.2 in)
   technology: LCD
-sdcard: null
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
 uses_custom_recovery: true

@@ -63,7 +63,6 @@ screen:
   resolution: 1440x3120
   size: 169.418 mm (6.67 in)
   technology: Fluid AMOLED
-sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus

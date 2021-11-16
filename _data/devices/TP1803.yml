@@ -48,7 +48,6 @@ screen:
   resolution: 1080x2160
   size: 144 mm (5.7 in)
   technology: IPS LCD
-sdcard: null
 soc: Qualcomm SM8150-AC Snapdragon 855+
 storage: 64GB UFS 2.1
 uses_custom_recovery: true

@@ -50,7 +50,8 @@ screen:
   resolution: 2160x1080
   size: 152.1 mm (5.99 in)
   technology: IPS LCD
-sdcard: up to 2 TB
+sdcard:
+  sizeMax: 2 TB
 soc: Qualcomm Snapdragon 425
 storage: 64 GB
 uses_custom_recovery: true

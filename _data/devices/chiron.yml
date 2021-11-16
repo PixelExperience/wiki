@@ -59,7 +59,6 @@ screen:
   resolution: 2160x1080
   size: 152.1 mm (5.99 in)
   technology: IPS LCD
-sdcard: null
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128/256 GB
 uses_custom_recovery: true

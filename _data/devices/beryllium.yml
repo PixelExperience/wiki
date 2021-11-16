@@ -54,7 +54,8 @@ screen:
   resolution: 1080x2160
   size: 156.97 mm (6.18 in)
   technology: IPS LCD
-sdcard: up to 256 GB (hybrid SIM slot)
+sdcard:
+  sizeMax: 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 vendor: Xiaomi

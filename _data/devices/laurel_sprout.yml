@@ -62,7 +62,6 @@ screen:
   resolution: 720x1560
   size: 154.68 mm (6.09 in)
   technology: Super AMOLED
-sdcard: null
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 64/128 GB
 vendor: Xiaomi

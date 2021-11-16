@@ -53,7 +53,6 @@ screen:
   resolution: 1080x1920
   size: 130.81 mm (5.15 in)
   technology: IPS LCD
-sdcard: null
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/64/128 GB UFS 2.0
 uses_custom_recovery: true

@@ -58,7 +58,8 @@ screen:
   resolution: 2520x1080
   size: 152 mm (6.0 in)
   technology: 21:9 1080p LCD
-sdcard: up to 512 GB
+sdcard:
+  sizeMax: 512 GB
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB
 vendor: Sony

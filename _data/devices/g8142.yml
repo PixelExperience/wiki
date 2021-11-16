@@ -57,7 +57,8 @@ screen:
   resolution: 3840x2160
   size: 127 mm (5.46 in)
   technology: 4K HDR LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64 GB
 vendor: Sony

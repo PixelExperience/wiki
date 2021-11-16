@@ -68,7 +68,8 @@ screen:
   resolution: 2340x1080
   size: 160 mm (6.3 in)
   technology: Full HD+ IPS LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM712 Snapdragon 712
 storage: 64/128 GB eMMC5.1
 uses_custom_recovery: true

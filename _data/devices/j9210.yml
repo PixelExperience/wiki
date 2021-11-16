@@ -60,7 +60,8 @@ screen:
   resolution: 2560x1080
   size: 154.94 mm (6.1 in)
   technology: 21:9 1080p OLED
-sdcard: up to 512 GB
+sdcard:
+  sizeMax: 512 GB
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128 GB
 vendor: Sony

@@ -48,7 +48,6 @@ screen:
   resolution: 1920x1080
   size: 139.7 mm (5.5 in)
   technology: JDI IPS
-sdcard: none
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 64 GB
 uses_custom_recovery: true

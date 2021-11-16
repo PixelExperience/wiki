@@ -62,7 +62,8 @@ screen:
   resolution: 1570x720
   size: 157.5 mm (6.2 in)
   technology: LTPS IPS LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32/64 GB
 vendor: Motorola

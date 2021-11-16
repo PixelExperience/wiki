@@ -59,7 +59,8 @@ screen:
   resolution: 1920x2160
   size: 83.8 mm (5.7 in)
   technology: IPS LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM450 Snapdragon 450
 storage: 32/64 GB
 vendor: Motorola

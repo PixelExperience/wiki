@@ -67,7 +67,8 @@ screen:
   resolution: 1080x2400
   size: 165.8 mm (6.67 in)
   technology: IPS LCD
-sdcard: up to 2 TB
+sdcard:
+  sizeMax: 2 TB
 soc: Qualcomm SM6250 Snapdragon 720G
 storage: 64/128 GB
 uses_custom_recovery: true

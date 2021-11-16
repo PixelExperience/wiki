@@ -59,7 +59,6 @@ screen:
   resolution: 1080x2400
   size: 166.37 mm (6.55 in)
   technology: Fluid AMOLED
-sdcard: null
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.1
 uses_custom_recovery: false

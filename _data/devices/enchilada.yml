@@ -54,7 +54,6 @@ screen:
   resolution: 1080x2280
   size: 159.512 mm (6.28 in)
   technology: Optic AMOLED
-sdcard: null
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 vendor: OnePlus

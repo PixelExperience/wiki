@@ -59,7 +59,8 @@ screen:
   resolution: 1080x1920
   size: 83.4 mm (5.5 in)
   technology: Full HD Super AMOLED
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm MSM8953-Pro Snapdragon 626
 storage: 32/64 GB
 vendor: Motorola

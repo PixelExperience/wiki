@@ -57,7 +57,8 @@ screen:
   resolution: 1280x720
   size: 116.84 mm (4.6 in)
   technology: 720p LCD
-sdcard: up to 256 GB
+sdcard:
+  sizeMax: 256 GB
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64 GB
 vendor: Sony

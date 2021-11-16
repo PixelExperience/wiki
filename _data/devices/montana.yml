@@ -53,7 +53,8 @@ screen:
   resolution: 1080x1920
   size: 132.08 mm (5.2 in)
   technology: IPS LCD
-sdcard: up to 256 GB (hybrid SIM slot)
+sdcard:
+  sizeMax: 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 32 GB
 uses_custom_recovery: true

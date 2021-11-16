@@ -47,7 +47,6 @@ screen:
   resolution: 1920x1080
   size: 139.7 mm (5.5 in)
   technology: LTPS IPS LCD
-sdcard: null
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 16/64 GB
 uses_custom_recovery: true
