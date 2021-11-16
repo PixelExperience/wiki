@@ -3,7 +3,7 @@ battery:
   capacity: 2770
   removable: false
   tech: Li-Ion
-before_install_custom: before_custom_install_marlin_sailfish
+before_install_custom: marlin_sailfish
 bluetooth:
   profiles:
   - A2DP + aptX HD

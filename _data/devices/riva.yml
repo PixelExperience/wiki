@@ -3,7 +3,7 @@ battery:
   capacity: 3000
   removable: false
   tech: Li-Ion
-before_install: before_install_riva
+before_install: riva
 bluetooth:
   profiles:
   - A2DP

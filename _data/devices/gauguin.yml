@@ -3,7 +3,7 @@ battery:
   capacity: 4820
   removable: false
   tech: Li-Po
-before_install_custom: before_custom_install_gauguin
+before_install_custom: gauguin
 bluetooth:
   spec: '5.1'
 cameras:

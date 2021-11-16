@@ -1,4 +1,4 @@
-after_install_custom: after_custom_install_avb_key
+after_install_custom: avb_key
 architecture:
   cpu: arm64
   userspace: arm

@@ -8,7 +8,7 @@
 2. Enable [USB debugging]({{ "help/adb-fastboot-guide/#setting-up-adb" | relative_url }}) on your device.
 
 {%- if device.before_install %}
-{% capture path %}templates/device_specific/{{ device.before_install }}.md{% endcapture %}
+{% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
 {% include {{ path }} %}
 {%- endif %}
 
@@ -32,7 +32,7 @@ There are no recovery installation instructions for this discontinued device.
 {% endif %}
 
 {% if device.before_install_custom %}
-{% capture path %}templates/device_specific/{{ device.before_install_custom }}.md{% endcapture %}
+{% capture path %}templates/device_specific/before_install_custom_{{ device.before_install_custom }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endif %}
 
@@ -69,7 +69,7 @@ There are no recovery installation instructions for this discontinued device.
 {% include alerts/specific/tip_sideload_stuck_47.html %}
 
 {% if device.after_install_custom %}
-{% capture path %}templates/device_specific/{{ device.after_install_custom }}.md{% endcapture %}
+{% capture path %}templates/device_specific/after_install_custom_{{ device.after_install_custom }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endif %}
 

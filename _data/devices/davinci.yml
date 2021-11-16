@@ -1,10 +1,10 @@
-after_install_custom: after_custom_install_davinci
+after_install_custom: davinci
 architecture: arm64
 battery:
   capacity: 4000
   removable: false
   tech: Li-Po
-before_install: before_install_davinci
+before_install: davinci
 bluetooth:
   profiles:
   - A2DP + aptX HD

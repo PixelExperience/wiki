@@ -209,6 +209,18 @@ properties:
       type: array
     - enum:
       - None
+  before_install:
+    "$id": "/properties/before_install"
+    minLength: 3
+    type: string
+  before_install_custom:
+    "$id": "/properties/before_install_custom"
+    minLength: 3
+    type: string
+  before_recovery_install:
+    "$id": "/properties/before_recovery_install"
+    minLength: 3
+    type: string
   bluetooth:
     "$id": "/properties/bluetooth"
     properties:
