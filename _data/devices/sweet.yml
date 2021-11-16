@@ -62,7 +62,6 @@ sdcard:
   slot: dedicated
 soc: Qualcomm SM7150 Snapdragon 732
 storage: 64/128 GB
-uses_custom_recovery: false
 vendor: Xiaomi
 versions:
 - eleven

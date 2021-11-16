@@ -63,7 +63,6 @@ sdcard:
   slot: dedicated
 soc: Qualcomm SDM678 Snapdragon 678
 storage: 128 GB
-uses_custom_recovery: false
 vendor: Xiaomi
 versions:
 - eleven

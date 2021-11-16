@@ -55,7 +55,6 @@ screen:
   technology: AMOLED
 soc: Qualcomm SM6150 Snapdragon 675
 storage: 64/128 GB
-uses_custom_recovery: false
 vendor: Motorola
 versions:
 - eleven

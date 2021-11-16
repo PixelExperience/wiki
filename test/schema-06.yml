@@ -537,7 +537,8 @@ properties:
     "$ref": "#/definitions/sdcard_data"
   uses_custom_recovery:
     "$id": "/properties/uses_custom_recovery"
-    type: boolean
+    enum:
+    - true
   vendor:
     "$id": "/properties/vendor"
     enum:

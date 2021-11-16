@@ -61,7 +61,6 @@ screen:
   technology: 120Hz Super AMOLED
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB
-uses_custom_recovery: false
 vendor: Xiaomi
 versions:
 - eleven

@@ -59,7 +59,6 @@ sdcard:
   sizeMax: 256 GB
 soc: Mediatek Helio P60
 storage: 128 GB
-uses_custom_recovery: false
 vendor: Teracube
 versions:
 - eleven

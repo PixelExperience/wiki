@@ -60,7 +60,6 @@ screen:
   technology: 120Hz LCD IPS
 soc: Qualcomm SM8150 Snapdragon 860
 storage: 128/256 GB
-uses_custom_recovery: false
 vendor: Xiaomi
 versions:
 - twelve
