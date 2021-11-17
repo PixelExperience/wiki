@@ -21,6 +21,7 @@ codename: kebab
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+deprecated: false
 depth: 8.4 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.

@@ -17,6 +17,7 @@ codename: riva
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
+deprecated: true
 depth: 8.4 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then

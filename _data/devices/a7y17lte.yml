@@ -19,6 +19,7 @@ codename: a7y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
+deprecated: true
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
   + <kbd>Power</kbd>.

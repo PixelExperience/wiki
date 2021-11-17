@@ -16,6 +16,7 @@ codename: albus
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
+deprecated: false
 depth: 6 mm (0.24 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
   + <kbd>Power</kbd>.

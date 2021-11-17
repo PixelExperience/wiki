@@ -18,6 +18,7 @@ codename: daisy
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
+deprecated: true
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then

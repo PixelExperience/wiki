@@ -18,6 +18,7 @@ codename: liber
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
+deprecated: false
 depth: 9.6 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.

@@ -19,6 +19,7 @@ codename: beckham
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
+deprecated: false
 depth: 6.8 mm (0.27 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509

@@ -20,6 +20,7 @@ codename: cepheus
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1x2.84 GHz + 3x2.42 GHz + 4x1.79 GHz
+deprecated: false
 depth: 7.61 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then

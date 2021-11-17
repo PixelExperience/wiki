@@ -23,6 +23,7 @@ codename: picasso
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz & 1 x 2.2 GHz & 6 x 1.8 Ghz
+deprecated: false
 depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then

@@ -17,6 +17,7 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 custom_recovery_link: https://sourceforge.net/projects/romj/files/r2p/SHRP/SHRP_v3.1_stable-Official_RMX1801-1629950983.zip/download
+deprecated: false
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.

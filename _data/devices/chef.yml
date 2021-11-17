@@ -16,6 +16,7 @@ codename: chef
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
+deprecated: false
 depth: 8.4 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509

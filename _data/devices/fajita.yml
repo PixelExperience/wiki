@@ -20,6 +20,7 @@ codename: fajita
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
+deprecated: false
 depth: 8.2 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.

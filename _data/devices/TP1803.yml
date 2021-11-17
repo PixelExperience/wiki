@@ -17,6 +17,7 @@ cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 custom_recovery_link: https://androidfilehost.com/?fid=10763459528675595032
+deprecated: false
 depth: 7.6 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 640

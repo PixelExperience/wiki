@@ -31,6 +31,7 @@ codename: r5x
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
+deprecated: false
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 610

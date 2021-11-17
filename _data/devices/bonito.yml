@@ -20,6 +20,7 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.7 GHz
 custom_unlock_cmd: fastboot flashing unlock
+deprecated: false
 depth: 7.6 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 615

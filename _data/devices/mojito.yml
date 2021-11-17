@@ -16,6 +16,7 @@ codename: mojito
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+deprecated: false
 depth: 11 mm (0.43 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then

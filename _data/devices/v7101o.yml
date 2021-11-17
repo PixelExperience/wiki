@@ -16,6 +16,7 @@ codename: v7101o
 cpu: Helio P60
 cpu_cores: '8'
 cpu_freq: 8 x 2.0 GHz
+deprecated: true
 depth: 7.7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the menu "Select Boot Mode" appears on the screen,

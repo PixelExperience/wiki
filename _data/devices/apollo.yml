@@ -17,6 +17,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 4 x 1.80 GHz
 custom_recovery_link: https://sourceforge.net/projects/apollo-pro/files/TWRP/recovery-TWRP-3.4.2B-1206.img/download
+deprecated: false
 depth: 7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then

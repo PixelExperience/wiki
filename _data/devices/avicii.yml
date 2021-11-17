@@ -19,6 +19,7 @@ codename: avicii
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 2.4 GHz
+deprecated: false
 depth: 8.2 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.

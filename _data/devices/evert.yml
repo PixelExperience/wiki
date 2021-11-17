@@ -22,6 +22,7 @@ codename: evert
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
+deprecated: true
 depth: 8.0 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 508

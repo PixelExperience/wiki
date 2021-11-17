@@ -16,6 +16,7 @@ codename: violet
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.7 GHz
+deprecated: false
 depth: 8.1 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
