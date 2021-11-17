@@ -18,7 +18,7 @@ codename: liber
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-deprecated: false
+deprecated: true
 depth: 9.6 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
@@ -54,8 +54,6 @@ soc: Qualcomm SM7150 Snapdragon 730G
 storage: 64/128 GB
 uses_custom_recovery: false
 vendor: Motorola
-versions:
-- eleven
-- eleven_plus
+versions: []
 width: 76.4 mm (3.01 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

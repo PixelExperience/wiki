@@ -70,8 +70,6 @@ soc: Samsung Exynos 7880
 storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Samsung
-versions:
-- ten
-- ten_plus
+versions: []
 width: 71.4 mm (2.81 in)
 wifi: 802.11 a/b/g/n/ac
