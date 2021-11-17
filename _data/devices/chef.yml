@@ -53,6 +53,8 @@ sdcard: up to 256GB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: Motorola
-versions: []
+versions:
+- eleven
+- eleven_plus
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
