@@ -233,7 +233,8 @@
         <td>
             <ul>
                 {% for el in device.versions %}
-                    <li>{{ el }}</li>
+                    {% assign version_str = site.data.versions[el].name %}
+                    <li>{{ version_str }}</li>
                 {% endfor %}
             </ul>
         </td>
