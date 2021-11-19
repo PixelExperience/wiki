@@ -53,7 +53,7 @@ storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
-- '11'
-- 11 (Plus edition)
+- eleven
+- eleven_plus
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac

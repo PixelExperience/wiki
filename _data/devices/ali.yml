@@ -61,7 +61,7 @@ soc: Qualcomm SDM450 Snapdragon 450
 storage: 32/64 GB
 vendor: Motorola
 versions:
-- '11'
-- 11 (Plus edition)
+- eleven
+- eleven_plus
 width: 72.3 mm (2.85 in)
 wifi: 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot

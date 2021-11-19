@@ -54,7 +54,7 @@ storage: 64/128 GB
 uses_custom_recovery: true
 vendor: Realme
 versions:
-- '11'
-- 11 (Plus edition)
+- eleven
+- eleven_plus
 width: 74.0 mm (2.91 in)
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Wi-Fi Direct, Hotspot

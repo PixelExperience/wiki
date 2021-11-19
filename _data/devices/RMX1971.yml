@@ -69,6 +69,6 @@ storage: 64/128 GB eMMC5.1
 uses_custom_recovery: true
 vendor: Realme
 versions:
-- '11'
-- 11 (Plus edition)
+- eleven
+- eleven_plus
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot

@@ -62,7 +62,7 @@ storage: 64/128/256 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
-- '10'
-- 10 (Plus edition)
+- ten
+- ten_plus
 width: 75.5 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

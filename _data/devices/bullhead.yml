@@ -50,7 +50,7 @@ storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Google
 versions:
-- '10'
-- 10 (Plus edition)
+- ten
+- ten_plus
 width: 72.6 mm (2.86 in)
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

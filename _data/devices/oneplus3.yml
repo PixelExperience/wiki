@@ -61,7 +61,7 @@ storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 uses_custom_recovery: true
 vendor: OnePlus
 versions:
-- '11'
-- 11 (Plus edition)
+- eleven
+- eleven_plus
 width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, Hotspot

@@ -53,7 +53,7 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: ASUS
 versions:
-- '11'
-- 11 (Plus edition)
+- eleven
+- eleven_plus
 width: 76 mm (2.99 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot
