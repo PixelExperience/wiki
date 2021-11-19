@@ -15,7 +15,7 @@ cameras:
 codename: vayu
 cpu: Kryo 485
 cpu_cores: '8'
-cpu_freq: 2 x 2.96 GHz + 6 x 1.8 GHz
+cpu_freq: 1 x 2.96 GHz + 3 x 2.42GHz + 4 x 1.8 GHz
 deprecated: false
 depth: 9.4 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
