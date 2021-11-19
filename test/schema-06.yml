@@ -54,13 +54,14 @@ definitions:
   valid_branches:
     description: Valid branches a device can be on
     enum:
-    - pie
-    - pie_plus
-    - ten
-    - ten_plus
-    - eleven
-    - eleven_plus
-    - twelve
+    - 9
+    - 9 (Plus edition)
+    - 10
+    - 10 (Plus edition)
+    - 11
+    - 11 (Plus edition)
+    - 12
+    - 12 (Plus edition)
     type: string
   valid_dimension:
     oneOf:
