@@ -54,6 +54,6 @@ storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
-- eleven
+- '11'
 width: 70.1 mm (2.76 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

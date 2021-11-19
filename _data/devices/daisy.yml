@@ -56,7 +56,7 @@ soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 vendor: Xiaomi
 versions:
-- ten
-- ten_plus
+- '10'
+- 10 (Plus edition)
 width: 72.8 mm (2.87 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

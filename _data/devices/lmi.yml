@@ -78,6 +78,6 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions:
-- twelve
+- '12'
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

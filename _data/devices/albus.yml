@@ -61,7 +61,7 @@ soc: Qualcomm MSM8953-Pro Snapdragon 626
 storage: 32/64 GB
 vendor: Motorola
 versions:
-- eleven
-- eleven_plus
+- '11'
+- 11 (Plus edition)
 width: 76.2 mm (3.00 in)
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, hotspot

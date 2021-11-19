@@ -50,7 +50,7 @@ soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32/64/128 GB
 vendor: Google
 versions:
-- ten
-- ten_plus
+- '10'
+- 10 (Plus edition)
 width: 77.8 mm (3.06 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

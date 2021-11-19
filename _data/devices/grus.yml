@@ -63,7 +63,7 @@ soc: Qualcomm SDM710 Snapdragon 712
 storage: 32/64/128 GB
 vendor: Xiaomi
 versions:
-- ten
-- ten_plus
+- '10'
+- 10 (Plus edition)
 width: 70.4 mm (2.7 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
