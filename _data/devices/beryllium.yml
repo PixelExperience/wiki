@@ -55,6 +55,8 @@ sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

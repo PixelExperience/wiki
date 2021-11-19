@@ -68,5 +68,7 @@ soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB eMMC
 uses_custom_recovery: true
 vendor: Realme
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot

@@ -55,6 +55,8 @@ soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 69.6 mm (2.74 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

@@ -56,6 +56,8 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 uses_custom_recovery: false
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 74.9 mm (2.95 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

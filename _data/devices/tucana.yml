@@ -67,6 +67,8 @@ soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 128/256 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 74.2 mm (2.92 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

@@ -62,6 +62,8 @@ soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB UFS2.1
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

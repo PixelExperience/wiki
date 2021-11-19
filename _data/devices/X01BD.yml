@@ -53,6 +53,8 @@ sdcard: up to 2 TB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64 GB
 vendor: ASUS
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75.5 mm (2.97 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

@@ -52,6 +52,7 @@ soc: Qualcomm Snapdragon 425
 storage: 64 GB
 uses_custom_recovery: true
 vendor: ASUS
-versions: null
+versions:
+- '11'
 width: 76 mm (2.99 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

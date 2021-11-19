@@ -55,6 +55,8 @@ sdcard: null
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
 vendor: Google
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75.7 mm (2.98 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

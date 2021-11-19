@@ -60,6 +60,8 @@ soc: Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (
 storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 uses_custom_recovery: true
 vendor: OnePlus
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, Hotspot

@@ -54,6 +54,8 @@ soc: Qualcomm SM6150 Snapdragon 675
 storage: 64/128 GB
 uses_custom_recovery: false
 vendor: Motorola
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75 mm (2.951 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

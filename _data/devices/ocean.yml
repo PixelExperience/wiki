@@ -63,6 +63,8 @@ sdcard: up to 256 GB
 soc: Qualcomm MSM8953 Snapdragon 632
 storage: 32/64 GB
 vendor: Motorola
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75.3 mm (3 in)
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

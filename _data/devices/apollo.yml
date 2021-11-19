@@ -61,6 +61,8 @@ soc: Qualcomm SM8250 Snapdragon 865
 storage: 128 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 74.8 mm (2.945 in)
 wifi: 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, DLNA, hotspot

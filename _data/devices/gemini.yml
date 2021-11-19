@@ -58,6 +58,8 @@ storage: 32 GB UFS2.0 (Standard edition) / 64 GB UFS2.0 (Pro edition) / 128 GB U
   (Exclusive edition)
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 69.2 mm (2.72 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

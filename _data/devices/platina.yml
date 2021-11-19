@@ -60,6 +60,8 @@ sdcard: up to 256 GB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75.2 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

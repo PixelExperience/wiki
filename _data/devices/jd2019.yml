@@ -63,6 +63,8 @@ soc: Qualcomm Snapdragon 710
 storage: 64/128 GB
 uses_custom_recovery: true
 vendor: Lenovo
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 74.5 mm (2.93 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

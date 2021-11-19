@@ -61,6 +61,9 @@ sdcard: Up to 256 GB
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 GB, 64 GB, 128 GB
 vendor: Motorola
-versions: null
+versions:
+- '12'
+- '11'
+- 11 (Plus edition)
 width: 76.5 mm (3.01 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot

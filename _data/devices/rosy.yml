@@ -55,6 +55,8 @@ soc: Qualcomm MSM8953 Snapdragon 450
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 72.8 mm (2.87 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

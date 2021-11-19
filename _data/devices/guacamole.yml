@@ -64,6 +64,8 @@ sdcard: null
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
-versions: null
+versions:
+- '11'
+- 11 (Plus edition)
 width: 75.9 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
