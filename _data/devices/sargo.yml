@@ -63,8 +63,6 @@ sdcard: null
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 vendor: Google
-versions:
-- '11'
-- 11 (Plus edition)
+versions: null
 width: 71.1 mm (2.8 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

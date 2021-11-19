@@ -50,8 +50,6 @@ soc: Qualcomm SM8150-AC Snapdragon 855+
 storage: 64GB UFS 2.1
 uses_custom_recovery: true
 vendor: Nubia
-versions:
-- '11'
-- 11 (Plus edition)
+versions: null
 width: 70.6 mm (2.78 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

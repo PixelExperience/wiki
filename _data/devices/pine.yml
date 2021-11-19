@@ -52,8 +52,6 @@ soc: Qualcomm SDM439 Snapdragon 439
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- '11'
-- 11 (Plus edition)
+versions: null
 width: 9.55 mm (0.35 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

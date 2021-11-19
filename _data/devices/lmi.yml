@@ -77,7 +77,6 @@ storage: 128/256/512 GB
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions:
-- '12'
+versions: null
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

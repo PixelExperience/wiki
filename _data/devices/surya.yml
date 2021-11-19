@@ -60,8 +60,6 @@ soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128 GB
 uses_custom_recovery: false
 vendor: Xiaomi
-versions:
-- '11'
-- 11 (Plus edition)
+versions: null
 width: 76.3 mm (3.02 in)
 wifi: 802.11 a/b/g/n/ac

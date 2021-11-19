@@ -52,7 +52,5 @@ soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB eMMC5.1
 uses_custom_recovery: true
 vendor: Realme
-versions:
-- '11'
-- 11 (Plus edition)
+versions: null
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
