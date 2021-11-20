@@ -65,6 +65,7 @@ soc: Qualcomm SM7250 Snapdragon 765G 5G
 storage: 64/128/256 GB
 vendor: Xiaomi
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 76.6 mm (3.02 in)
