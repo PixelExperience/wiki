@@ -60,6 +60,7 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 vendor: Google
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 69.7 mm (2.74 in)
