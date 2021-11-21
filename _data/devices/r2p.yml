@@ -54,6 +54,7 @@ storage: 64/128 GB
 uses_custom_recovery: true
 vendor: Realme
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 74.0 mm (2.91 in)
