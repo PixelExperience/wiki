@@ -63,6 +63,7 @@ soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128/256 GB
 vendor: Xiaomi
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 74.67 mm (2.94 in)
