@@ -61,6 +61,7 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB
 vendor: Xiaomi
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 75.2 mm (2.96 in)
