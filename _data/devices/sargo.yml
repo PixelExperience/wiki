@@ -64,6 +64,7 @@ soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 vendor: Google
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 71.1 mm (2.8 in)
