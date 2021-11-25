@@ -1,9 +1,10 @@
 architecture: arm64
+before_install_custom: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
 battery:
   capacity: 4500
   removable: false
   tech: Li-Po
-before_install_custom: before_custom_install_picasso
 bluetooth:
   profiles:
   - A2DP + aptX HD
