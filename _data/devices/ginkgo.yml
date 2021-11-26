@@ -67,6 +67,7 @@ soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB
 vendor: Xiaomi
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 75.3 mm (2.96 in)
