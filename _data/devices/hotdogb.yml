@@ -66,6 +66,7 @@ storage: 128/256 GB UFS3.0
 vendor: OnePlus
 vendor_short: oneplus
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 74.4 mm (2.93 in)

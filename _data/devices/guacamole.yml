@@ -65,6 +65,7 @@ soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 75.9 mm (2.99 in)
