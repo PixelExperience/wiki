@@ -61,6 +61,7 @@ storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 uses_custom_recovery: true
 vendor: OnePlus
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 74.7 mm (2.94 in)
