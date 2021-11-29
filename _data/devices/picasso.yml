@@ -1,16 +1,17 @@
 architecture: arm64
+before_install_custom: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
 battery:
   capacity: 4500
   removable: false
   tech: Li-Po
-before_install_custom: before_custom_install_picasso
 bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5.1'
 cameras:
 - flash: Dual LED (dual tone)
-  info: 64 MP(K30 5G)/48 MP(K30i) (Main)
+  info: 64 MP (Main)
 - flash: ''
   info: 8 MP (UltraWide)
 - flash: ''
@@ -35,7 +36,6 @@ maintainers:
 - baolong24
 models:
 - Redmi K30 5G
-- Redmi K30i
 name: Redmi K30 5G
 network:
 - 2G GSM
