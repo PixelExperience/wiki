@@ -61,6 +61,7 @@ soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 vendor: Motorola
 versions:
+- twelve
 - eleven
 - eleven_plus
 width: 75.3 mm (3 in)
