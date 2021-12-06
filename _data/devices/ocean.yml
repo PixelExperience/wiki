@@ -9,9 +9,9 @@ bluetooth:
   - A2DP
   spec: '4.2'
 cameras:
-- flash: LED Flash
+- flash: LED
   info: 12 MP
-- flash: ''
+- flash: None
   info: 8 MP
 codename: ocean
 cpu: Cortex-A53

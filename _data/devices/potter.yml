@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED
   info: 12 MP
-- flash: ''
+- flash: None
   info: 5 MP
 codename: potter
 cpu: Cortex-A53

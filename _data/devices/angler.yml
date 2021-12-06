@@ -9,8 +9,8 @@ bluetooth:
   spec: '4.2'
 cameras:
 - flash: Dual LED (dual tone)
-  info: 12.3MP, laser autofocus
-- flash: ''
+  info: 12.3 MP
+- flash: None
   info: 8 MP
 codename: angler
 cpu: Cortex-A53 & Cortex-A57

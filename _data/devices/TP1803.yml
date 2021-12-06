@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: LED
   info: 48 MP (IMX586)
-- flash: ''
+- flash: None
   info: 8 MP (OV8856)
 codename: TP1803
 cpu: Kryo 485

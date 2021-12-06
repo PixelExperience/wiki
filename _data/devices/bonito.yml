@@ -13,7 +13,7 @@ bluetooth:
 cameras:
 - flash: Dual LED
   info: 12.2 MP
-- flash: ''
+- flash: None
   info: 8 MP
 codename: bonito
 cpu: Kryo 360

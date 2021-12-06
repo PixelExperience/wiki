@@ -9,9 +9,17 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: LED
-  info: 64 MP + 8 MP (Ultra Wide) + 2 MP (Macro) + 2 MP (Depth)
-- flash: ''
-  info: 20 MP + 2 MP (Depth)
+  info: 64 MP (wide)
+- flash: LED
+  info: 8 MP (ultrawide)
+- flash: LED
+  info: 2 MP (macro)
+- flash: LED
+  info: 2 MP (depth)
+- flash: None
+  info: 20 MP
+- flash: None
+  info: 2 MP (depth)
 codename: phoenix
 cpu: Kryo 470
 cpu_cores: '8'

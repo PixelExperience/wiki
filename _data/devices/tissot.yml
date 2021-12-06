@@ -12,7 +12,7 @@ cameras:
   info: 12 MP
 - flash: Dual LED
   info: 12 MP
-- flash: ''
+- flash: None
   info: 5 MP
 codename: tissot
 cpu: Cortex-A53

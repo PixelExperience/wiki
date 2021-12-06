@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 64 MP (wide) + 13 MP (ultrawide) + 2 MP (macro) + 2 MP (depth)
-- flash: ''
+- flash: None
   info: 20 MP
 codename: surya
 cpu: Kryo 470

@@ -15,7 +15,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 48 MP (wide) + 16 MP (ultrawide) + 2 MP (macro)
-- flash: ''
+- flash: None
   info: 16 MP
 codename: instantnoodle
 cpu: Kryo 585

@@ -8,9 +8,9 @@ bluetooth:
   - A2DP
   spec: '4.2'
 cameras:
-- flash: Dual-LED (dual tone)
+- flash: Dual LED (dual tone)
   info: 12 MP
-- flash: Dual-LED (dual tone)
+- flash: Dual LED (dual tone)
   info: 05 MP (depth)
 - flash: LED
   info: 16 MP

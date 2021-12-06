@@ -21,7 +21,7 @@ cameras:
   info: 5 MP
 - flash: LED
   info: 2 MP
-- flash: ''
+- flash: None
   info: 16 MP
 codename: miatoll
 cpu: Kryo 460

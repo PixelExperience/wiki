@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED
   info: 48 MP (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth)
-- flash: ''
+- flash: None
   info: 20 MP
 codename: vayu
 cpu: Kryo 485

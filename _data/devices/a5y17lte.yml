@@ -13,7 +13,7 @@ bluetooth:
 cameras:
 - flash: LED
   info: 16 MP
-- flash: ''
+- flash: None
   info: 16 MP
 codename: a5y17lte
 cpu: Cortex-A53

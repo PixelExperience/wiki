@@ -8,11 +8,11 @@ bluetooth:
   - A2DP
   spec: '5'
 cameras:
-- flash: Dual LED
+- flash: LED
   info: 12 MP
-- flash: Dual LED
-  info: Depth Sensor 5 MP
-- flash: ''
+- flash: LED
+  info: 5 MP (depth)
+- flash: None
   info: 24 MP
 codename: platina
 cpu: Kryo 260

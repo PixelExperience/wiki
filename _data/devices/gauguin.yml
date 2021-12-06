@@ -8,11 +8,16 @@ bluetooth:
   spec: '5.1'
 cameras:
 - flash: Dual LED (dual tone)
-  info: (Redmi Note 9 Pro 5G / Mi 10i) 108 MP (wide) + 8 MP (ultrawide) + 2 MP (macro)
-    + 2 MP(depth)
+  info: 108 MP (wide; Redmi Note 9 Pro 5G / Mi 10i)
 - flash: Dual LED (dual tone)
-  info: (Mi 10T Lite) 64 MP (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth)
-- flash: ''
+  info: 64 MP (wide; Mi 10T Lite)
+- flash: Dual LED (dual tone)
+  info: 8 MP (ultrawide)
+- flash: Dual LED (dual tone)
+  info: 2 MP (macro)
+- flash: Dual LED (dual tone)
+  info: 2 MP (depth)
+- flash: None
   info: 16 MP
 codename: gauguin
 cpu: Kryo 570

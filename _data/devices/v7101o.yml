@@ -9,8 +9,10 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: Dual LED
-  info: 12.2 MP, f/1.7 + 5 MP
-- flash: ''
+  info: 12.2 MP
+- flash: Dual LED
+  info: 5 MP (depth)
+- flash: None
   info: 8 MP
 codename: v7101o
 cpu: Helio P60

@@ -12,10 +12,9 @@ bluetooth:
   - A2DP + aptX HD
   spec: '5'
 cameras:
-- flash: Dual LED (dual tone)
-  info: 16 MP + 20 MP (16 MP effective)
-- flash: ''
-  info: 16 MP
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: 'Dual LED (dual tone)', info: '20 MP (16 MP effective)'}
+- {flash: None, info: '16 MP'}
 codename: fajita
 cpu: Kryo 385
 cpu_cores: '8'

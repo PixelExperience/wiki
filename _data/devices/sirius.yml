@@ -15,7 +15,7 @@ cameras:
   info: 12 MP
 - flash: LED
   info: 5 MP
-- flash: ''
+- flash: None
   info: 5 MP
 codename: sirius
 cpu: Kryo 360

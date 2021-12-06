@@ -9,12 +9,12 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: Dual LED
-  info: "16\u2009MP f/1.8"
-- flash: ''
-  info: "8\u2009MP f/2.4 (Telephoto)"
-- flash: ''
-  info: "5\u2009MP f/2.2 (Ultra Wide)"
-- flash: ''
+  info: 16 MP
+- flash: None
+  info: 8 MP (telephoto)
+- flash: None
+  info: 5 MP (ultrawide)
+- flash: None
   info: 16 MP
 codename: kunlun2
 cpu: Kryo 360

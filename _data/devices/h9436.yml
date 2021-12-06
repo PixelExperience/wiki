@@ -7,9 +7,6 @@ bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5'
-cameras:
-- "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22\xB5m, predictive PDAF, Laser AF"
-- "13 MP, f/1.9, 23mm (wide), 1/3.1\", 1.12\xB5m"
 codename: h9436
 cpu: Kryo 385
 cpu_cores: 8 (Big.little 4+4)

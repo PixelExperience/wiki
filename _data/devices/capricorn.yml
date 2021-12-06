@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 12 MP
-- flash: ''
+- flash: None
   info: 4 MP
 codename: capricorn
 cpu: Kryo

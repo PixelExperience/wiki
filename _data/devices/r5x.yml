@@ -8,25 +8,18 @@ bluetooth:
   - A2DP
   spec: '5'
 cameras:
-- (wide): null
-  "1.25\xB5m": null
-  1/2.9": null
-  PDAF: null
-  f/1.8: null
-  flash: LED
-  info: 12,48 MP
-- 13mm (ultrawide): null
-  f/2.2: null
-  flash: ''
-  info: 8 MP
-- (macro): null
-  f/2.4: null
-  flash: ''
-  info: 2 MP
-- (depth): null
-  f/2.4: null
-  flash: ''
-  info: 2 MP
+- flash: LED
+  info: 48 MP (wide; Realme 5s)
+- flash: LED
+  info: 12 MP (wide; Realme 5/5i)
+- flash: LED
+  info: 8 MP (ultrawide)
+- flash: LED
+  info: 2 MP (macro)
+- flash: LED
+  info: 2 MP (depth)
+- flash: None
+  info: 13 MP
 codename: r5x
 cpu: Kryo 260
 cpu_cores: '8'

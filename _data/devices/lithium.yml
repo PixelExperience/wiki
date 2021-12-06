@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 16 MP
-- flash: ''
+- flash: None
   info: 5 MP
 codename: lithium
 cpu: Kryo

@@ -18,7 +18,7 @@ cameras:
   info: 8 MP (Telephoto)
 - flash: LED
   info: 2 MP (Macro)
-- flash: ''
+- flash: None
   info: 32 MP
 codename: tucana
 cpu: Kryo 470

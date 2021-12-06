@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 48 MP (wide) + 13 MP (ultrawide) + 5 MP (macro)
-- flash: ''
+- flash: None
   info: 20 MP
 codename: alioth
 cpu: Kryo 585

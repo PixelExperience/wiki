@@ -9,8 +9,10 @@ bluetooth:
   spec: '4.2'
 cameras:
 - flash: LED
-  info: 12/13 MP
-- flash: ''
+  info: 12 MP (Global/India)
+- flash: LED
+  info: 13 MP (China)
+- flash: None
   info: 5 MP
 codename: pine
 cpu: Cortex-A53

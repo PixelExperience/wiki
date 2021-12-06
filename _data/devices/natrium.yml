@@ -8,12 +8,8 @@ bluetooth:
   - A2DP + aptX
   spec: '4.2'
 cameras:
-- flash: Dual LED (dual tone)
-  info: 16 MP
-- flash: Dual LED (dual tone)
-  info: Monochromatic 16 MP
-- flash: ''
-  info: 4 MP
+- {flash: 'Dual LED (dual tone)', info: '16 MP (monochromatic)'}
+- {flash: None, info: '4 MP'}
 codename: natrium
 cpu: Kryo
 cpu_cores: '4'

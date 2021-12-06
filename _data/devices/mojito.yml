@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 48 MP (wide) + 8 MP (ultrawide) + 2 MP (depth-sensing) + 2 MP (macro)
-- flash: ''
+- flash: None
   info: 13 MP
 codename: mojito
 cpu: Kryo 460

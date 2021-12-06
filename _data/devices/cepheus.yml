@@ -8,14 +8,14 @@ bluetooth:
   - A2DP + aptX HD
   spec: '5'
 cameras:
-- flash: Dual LED (Single-tone)
-  info: 48-megapixel (f/1.75, 0.8-micron)
-- flash: Dual LED (Single-tone)
-  info: 12-megapixel (f/2.2, 1.0-micron)
-- flash: Dual LED (Single-tone)
-  info: 16-megapixel (f/2.2, 1.0-micron)
-- flash: ''
-  info: 20-megapixel (f/2.0, 0.9-micron)
+- flash: Dual LED
+  info: 48 MP
+- flash: Dual LED
+  info: 12 MP
+- flash: Dual LED
+  info: 16 MP
+- flash: None
+  info: 20 MP
 codename: cepheus
 cpu: Kryo 485
 cpu_cores: '8'

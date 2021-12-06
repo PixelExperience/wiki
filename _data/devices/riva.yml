@@ -11,7 +11,7 @@ bluetooth:
 cameras:
 - flash: LED
   info: 13 MP
-- flash: ''
+- flash: None
   info: 5 MP
 codename: riva
 cpu: Cortex-A53

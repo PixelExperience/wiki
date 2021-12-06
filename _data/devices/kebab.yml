@@ -15,7 +15,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 48 MP (wide) + 16 MP (ultrawide) + 5 MP (macro) + 2 MP (depth)
-- flash: ''
+- flash: None
   info: 16 MP
 codename: kebab
 cpu: Kryo 585

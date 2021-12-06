@@ -16,8 +16,8 @@ cameras:
   info: 8 MP
 - flash: LED
   info: 13 MP
-- flash: ''
-  info: 20 MP
+- flash: None
+  info: 20 MP (front popup)
 codename: davinci
 cpu: Kryo 470
 cpu_cores: '8'

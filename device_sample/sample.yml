@@ -15,7 +15,7 @@ bluetooth:
 cameras:
 - flash: LED
   info: 16 MP
-- flash: ''
+- flash: None
   info: 2 MP
 codename: sample
 cpu: Krait 400

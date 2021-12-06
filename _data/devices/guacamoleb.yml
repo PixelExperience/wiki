@@ -14,7 +14,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 48 MP (wide) + 5 MP (depth)
-- flash: ''
+- flash: None
   info: 16 MP
 codename: guacamoleb
 cpu: Kryo 485

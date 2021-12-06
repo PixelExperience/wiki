@@ -11,8 +11,8 @@ cameras:
 - flash: LED
   info: 12 MP
 - flash: LED
-  info: Depth Sensor 5 MP
-- flash: ''
+  info: 5 MP (Depth)
+- flash: None
   info: 5 MP
 codename: daisy
 cpu: Cortex-A53

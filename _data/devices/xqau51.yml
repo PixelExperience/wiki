@@ -7,11 +7,6 @@ bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5'
-cameras:
-- 12 MP, f/2.0, 26mm (wide), 1/2.8", PDAF
-- 8 MP, f/2.4, 52mm (telephoto), 1/4.0", PDAF, 2x optical zoom
-- "8 MP, f/2.2, 120\u02DA, 16mm (ultrawide), 1/4.0\""
-- "8 MP, f/2.0, 24mm (selfie), 1/4\", 1.12\xB5m"
 codename: xqau51
 cpu: Kryo 260
 cpu_cores: 8 (Big.little 4+4)

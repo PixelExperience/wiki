@@ -11,7 +11,7 @@ bluetooth:
 cameras:
 - flash: Dual LED
   info: 12 MP
-- flash: ''
+- flash: None
   info: 8 MP
 codename: marlin
 cpu: Kryo

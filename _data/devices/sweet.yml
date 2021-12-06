@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 108 MP (wide) + 8 MP (ultrawide) + 2 MP (depth-sensing) + 5 MP (macro)
-- flash: ''
+- flash: None
   info: 16 MP
 codename: sweet
 cpu: Kryo 470

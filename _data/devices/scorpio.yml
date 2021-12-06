@@ -10,7 +10,7 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 22.5 MP
-- flash: ''
+- flash: None
   info: 8 MP
 codename: scorpio
 cpu: Kryo

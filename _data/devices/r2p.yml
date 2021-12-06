@@ -9,9 +9,11 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: LED
-  info: 16 MP (IMX398) f/1.7 + 2 MP Depth sensor f/2.4
-- flash: ''
-  info: 16 MP f/2.0
+  info: 16 MP
+- flash: LED
+  info: 2 MP (depth)
+- flash: None
+  info: 16 MP
 codename: r2p
 cpu: Kryo 260
 cpu_cores: '8'

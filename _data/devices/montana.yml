@@ -8,9 +8,9 @@ bluetooth:
   - A2DP
   spec: '4.2'
 cameras:
-- flash: LED (dual-tone)
+- flash: Dual LED (dual tone)
   info: 13 MP
-- flash: ''
+- flash: None
   info: 8 MP
 codename: montana
 cpu: Cortex-A53

@@ -9,12 +9,12 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: Dual LED
-  info: "48 MP, f/1.8, (wide), 1/2.0\", 0.8\xB5m, PDAF"
+  info: 48 MP (wide)
 - flash: Dual LED
-  info: "8 MP, f/2.2, 13mm (ultrawide), 1/4.0\", 1.12\xB5m"
+  info: 8 MP (ultrawide)
 - flash: Dual LED
-  info: 2 MP, f/2.4, (depth)
-- flash: ''
+  info: 2 MP (depth)
+- flash: None
   info: 32 MP
 codename: laurel_sprout
 cpu: Kryo 260

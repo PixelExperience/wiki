@@ -17,15 +17,15 @@ cameras:
   info: 48 MP
 - 13mm (ultrawide): null
   f/2.2: null
-  flash: ''
+  flash: None
   info: 8 MP
 - (macro): null
   f/2.4: null
-  flash: ''
+  flash: None
   info: 2 MP
 - (depth): null
   f/2.4: null
-  flash: ''
+  flash: None
   info: 2 MP
 codename: RMX1971
 cpu: Kryo 360

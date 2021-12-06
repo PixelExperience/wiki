@@ -7,9 +7,6 @@ bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5'
-cameras:
-- 23 MP, f/2.0, 24mm (wide), 1/2.3", PDAF
-- 8 MP, f/2.4, 1/4" (selfie)
 codename: h3113
 cpu: Cortex-A53
 cpu_cores: 8 (Big.little 4+4)

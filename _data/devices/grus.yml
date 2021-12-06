@@ -9,13 +9,13 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: Dual LED
-  info: 48-megapixel (f/1.75, 0.8-micron)
+  info: 48 MP
 - flash: Dual LED
-  info: 12-megapixel (f/2.2, 1.0-micron)
+  info: 12 MP
 - flash: Dual LED
-  info: 16-megapixel (f/2.2, 1.0-micron)
+  info: 16 MP
 - flash: LED
-  info: " \t20-megapixel (f/2.0, 0.9-micron)"
+  info: 20 MP
 codename: grus
 cpu: Kryo 360
 cpu_cores: '8'

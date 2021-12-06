@@ -7,9 +7,6 @@ bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5'
-cameras:
-- "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22\xB5m, predictive PDAF, Laser AF"
-- 5 MP, f/2.2, 23mm (wide), 1/5"
 codename: h8266
 cpu: Kryo 385
 cpu_cores: 8 (Big.little 4+4)

@@ -7,10 +7,6 @@ bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5'
-cameras:
-- "12 MP, f/1.8, 27mm (wide), 1/2.8\", 1.25\xB5m, PDAF"
-- "8 MP, f/2.4, 53mm (telephoto), 1/4.0\", 1.12\xB5m, PDAF, 2x optical zoom"
-- "8 MP, f/2.0, 24mm (selfie), 1/4\", 1.12\xB5m"
 codename: i4213
 cpu: Kryo 260
 cpu_cores: 8 (Big.little 4+4)

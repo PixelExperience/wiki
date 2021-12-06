@@ -13,13 +13,13 @@ bluetooth:
 cameras:
 - flash: Dual LED (dual tone)
   info: 64 MP (Main)
-- flash: ''
+- flash: None
   info: 8 MP (UltraWide)
-- flash: ''
+- flash: None
   info: 5 MP (Macro)
-- flash: ''
+- flash: None
   info: 2 MP (Depth)
-- flash: ''
+- flash: None
   info: 16 MP
 codename: picasso
 cpu: Kryo 475

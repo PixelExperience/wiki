@@ -9,8 +9,8 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: Dual LED
-  info: 12.2MP
-- flash: ''
+  info: 12.2 MP
+- flash: None
   info: 8 MP
 codename: walleye
 cpu: Kryo 280
