@@ -20,7 +20,7 @@
 - [Update to a newer build of the same PixelExperience version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 - [Upgrade to a higher Android version (e.g. Android 10 -> Android 11)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 
-{% if device.note_show and device.note_show == true %}
+{% if device.note_title and device.note_title != "" %}
 {% include templates/device_info_note.md %}
 {% endif %}
 

@@ -30,7 +30,6 @@ network:
 - 4G LTE
 note_content: Builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi,
   Carrier video calling), due to compatibility issues with proprietary components.
-note_show: true
 note_title: ANT+ and IMS support
 peripherals:
 - GPS
