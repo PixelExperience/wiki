@@ -8,11 +8,16 @@ bluetooth:
   - A2DP
   spec: '4.2'
 cameras:
-- {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
-- {flash: 'Dual LED', info: '8 MP (ultrawide)'}
-- {flash: 'Dual LED', info: '2 MP (macro)'}
-- {flash: 'Dual LED', info: '2 MP (depth)'}
-- {flash: None, info: '13 MP'}
+- flash: Dual LED
+  info: 48 MP (or 12 MP)
+- flash: Dual LED
+  info: 8 MP (ultrawide)
+- flash: Dual LED
+  info: 2 MP (macro)
+- flash: Dual LED
+  info: 2 MP (depth)
+- flash: None
+  info: 13 MP
 codename: ginkgo
 cpu: Kryo 260
 cpu_cores: '8'

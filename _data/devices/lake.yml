@@ -9,8 +9,10 @@ bluetooth:
   - A2DP + aptX HD
   spec: '5'
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
-- {flash: None, info: '12 MP'}
+- flash: Dual LED (dual tone)
+  info: 5 MP (depth)
+- flash: None
+  info: 12 MP
 codename: lake
 cpu: Kryo 260
 cpu_cores: '8'

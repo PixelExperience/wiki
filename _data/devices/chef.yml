@@ -8,9 +8,12 @@ bluetooth:
   - A2DP
   spec: '5'
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
-- {flash: 'LED', info: '12 MP'}
+- flash: Dual LED (dual tone)
+  info: 16 MP
+- flash: Dual LED (dual tone)
+  info: 5 MP
+- flash: LED
+  info: 12 MP
 codename: chef
 cpu: Kryo 260
 cpu_cores: '8'

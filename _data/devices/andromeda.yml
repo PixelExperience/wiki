@@ -9,11 +9,11 @@ bluetooth:
   spec: '5'
 cameras:
 - flash: LED
-  info: "12 MP (wide)"
+  info: 12 MP (wide)
 - flash: LED
-  info: "12 MP (telephoto)"
+  info: 12 MP (telephoto)
 - flash: None
-  info: "24 MP (wide)"
+  info: 24 MP (wide)
 - flash: None
   info: 2 MP (depth sensor)
 codename: andromeda

@@ -9,9 +9,12 @@ bluetooth:
   - A2DP
   spec: '4.2'
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '5 MP (depth)'}
-- {flash: None, info: '8 MP'}
+- flash: LED
+  info: 12 MP
+- flash: LED
+  info: 5 MP (depth)
+- flash: None
+  info: 8 MP
 codename: river
 cpu: Cortex-A53
 cpu_cores: '8'

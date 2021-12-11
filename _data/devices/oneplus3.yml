@@ -13,8 +13,10 @@ bluetooth:
   - A2DP
   spec: '4.2'
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '8 MP (3; 3T: 16 MP)'}
+- flash: LED
+  info: 16 MP
+- flash: None
+  info: '8 MP (3; 3T: 16 MP)'
 codename: oneplus3
 cpu: Kryo
 cpu_cores: '4'
