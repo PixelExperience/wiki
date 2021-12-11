@@ -19,6 +19,9 @@ cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 9.6 mm (0.38 in)
   height: 162.9 mm (6.41 in)
@@ -56,7 +59,5 @@ screen:
 soc: Qualcomm SM7150 Snapdragon 730G
 storage: 64/128 GB
 vendor: Motorola
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

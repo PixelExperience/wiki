@@ -19,6 +19,8 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 deprecated: true
+deprecated_versions:
+- eleven
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 159 mm (6.26 in)
@@ -56,6 +58,5 @@ soc: Qualcomm Snapdragon 425
 storage: 64 GB
 uses_custom_recovery: true
 vendor: ASUS
-versions:
-- eleven
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

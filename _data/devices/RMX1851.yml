@@ -17,6 +17,9 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.3 mm (0.33 in)
   height: 156.8 mm (6.17 in)
@@ -58,7 +61,5 @@ soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB eMMC5.1
 uses_custom_recovery: true
 vendor: Realme
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot

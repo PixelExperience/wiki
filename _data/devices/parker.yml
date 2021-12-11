@@ -19,6 +19,9 @@ cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 158 mm (6.22 in)
@@ -56,7 +59,5 @@ screen:
 soc: Qualcomm SM6150 Snapdragon 675
 storage: 64/128 GB
 vendor: Motorola
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

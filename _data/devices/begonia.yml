@@ -24,6 +24,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz & 6 x 2.0 GHz
 custom_recovery_link: https://sourceforge.net/projects/begonia-oss/files/TWRP-MiUi12.5/twrp-3.5.2_11-0-UNOFFICIAL-begonia.img/download
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 161.4 mm (6.35 in)

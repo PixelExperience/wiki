@@ -22,6 +22,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz (3) / 2 x 2.35 GHz + 2 x 1.6 GHz (3T)
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.4 mm (0.29 in)
   height: 152.7 mm (6.01 in)

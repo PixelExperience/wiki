@@ -21,6 +21,7 @@ cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1x2.84 GHz + 3x2.42 GHz + 4x1.79 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.61 mm (0.30 in)
   height: 157.5 mm (6.20 in)

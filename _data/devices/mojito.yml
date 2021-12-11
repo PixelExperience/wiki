@@ -17,6 +17,7 @@ cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 11 mm (0.43 in)
   height: 160.46 mm (6.317 in)

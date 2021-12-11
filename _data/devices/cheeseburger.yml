@@ -19,6 +19,7 @@ cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.25 mm (0.28 in)
   height: 154.2 mm (6.07 in)

@@ -20,6 +20,9 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
 deprecated: true
+deprecated_versions:
+- ten
+- ten_plus
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 156.8 mm (6.17 in)
@@ -71,7 +74,5 @@ soc: Samsung Exynos 7880
 storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Samsung
-versions:
-- ten
-- ten_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac

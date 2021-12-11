@@ -19,6 +19,7 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 157.9 mm (6.22 in)

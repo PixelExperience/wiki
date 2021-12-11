@@ -19,6 +19,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.6 mm (0.29 in)
   height: 154.9 mm (6.10 in)

@@ -17,6 +17,9 @@ cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 deprecated: true
+deprecated_versions:
+- ten
+- ten_plus
 dimensions:
   depth: 8.7 mm (0.34 in)
   height: 139.2 mm (5.48 in)
@@ -58,7 +61,5 @@ soc: Qualcomm MSM8940 Snapdragon 435
 storage: 16/32/64 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- ten
-- ten_plus
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

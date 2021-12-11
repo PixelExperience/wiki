@@ -18,6 +18,9 @@ cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: true
+deprecated_versions:
+- ten
+- ten_plus
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 147 mm (5.79 in)
@@ -51,7 +54,5 @@ soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Google
-versions:
-- ten
-- ten_plus
+versions: []
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

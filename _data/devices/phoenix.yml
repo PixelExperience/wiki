@@ -17,6 +17,7 @@ cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.97 mm (0.35 in)
   height: 165.3 mm (6.50 in)

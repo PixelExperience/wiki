@@ -19,6 +19,7 @@ cpu: Kryo 570
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz & 6 x 1.8 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 9 mm (0.35 in)
   height: 165.4 mm (6.51 in)

@@ -18,6 +18,8 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
 deprecated: true
+deprecated_versions:
+- eleven
 dimensions:
   depth: 8.4 mm (0.33 in)
   height: 140.4 mm (5.53 in)
@@ -58,6 +60,5 @@ soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- eleven
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

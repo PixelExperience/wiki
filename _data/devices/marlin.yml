@@ -19,6 +19,7 @@ cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 154.7 mm (6.09 in)

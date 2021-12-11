@@ -18,6 +18,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 4 x 1.80 GHz
 custom_recovery_link: https://sourceforge.net/projects/apollo-pro/files/TWRP/recovery-TWRP-3.4.2B-1206.img/download
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7 mm (0.30 in)
   height: 153.82 mm (6.06 in)

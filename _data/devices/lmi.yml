@@ -18,6 +18,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.9 mm (0.35 in)
   height: 163.3 mm (6.43 in)
