@@ -21,7 +21,6 @@ codename: hotdogb
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.96 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-current_branch: 18.1
 deprecated: false
 dimensions:
   depth: 8.1 mm (0.32 in)
