@@ -577,7 +577,14 @@ properties:
     items:
       "$id": "/properties/versions/items"
       "$ref": "#/definitions/valid_branches"
-    minItems: 1
+    minItems: 0
+    type: array
+  deprecated_versions:
+    "$id": "/properties/deprecated_versions"
+    items:
+      "$id": "/properties/deprecated_versions/items"
+      "$ref": "#/definitions/valid_branches"
+    minItems: 0
     type: array
 required:
 - architecture

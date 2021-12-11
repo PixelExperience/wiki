@@ -129,6 +129,9 @@ The following branches can be used to build for the {{ device.vendor }} {{ devic
 {% for version in device.versions %}
 * {{ version | replace: "_", "-" }}
 {% endfor %}
+{% for version in device.deprecated_versions %}
+* {{ version | replace: "_", "-" }} (discontinued)
+{% endfor %}
 
 Enter the following to initialize the repository:
 

@@ -251,10 +251,10 @@
         </td>
     </tr>
     {%- endif %}
-    {% if device.maintainers != empty %}
     <tr>
         <th scope="row" colspan="2">PixelExperience info</th>
     </tr>
+{% if device.maintainers != empty and device.maintainers.size > 0 %}
     <tr>
         <th scope="row">Maintainer{% if device.maintainers.size > 1 %}s{% endif %}</th>
         <td>
@@ -265,6 +265,8 @@
             </ul>
         </td>
     </tr>
+{%- endif %}
+{% if device.versions != empty and device.versions.size > 0 %}
     <tr>
         <th scope="row">Supported versions</th>
         <td>
@@ -276,6 +278,19 @@
             </ul>
         </td>
     </tr>
-    {%- endif %}
+{%- endif %}
+{% if device.deprecated_versions != empty and device.deprecated_versions.size > 0 %}
+    <tr>
+        <th scope="row">Discontinued versions</th>
+        <td>
+            <ul>
+                {%- for el in device.deprecated_versions %}
+                    {% assign version_str = site.data.versions[el].name %}
+                    <li>{{ version_str }}</li>
+                {%- endfor %}
+            </ul>
+        </td>
+    </tr>
+{%- endif %}
   </tbody>
 </table>
