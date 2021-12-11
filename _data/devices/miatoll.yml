@@ -29,9 +29,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
 custom_recovery_link: https://orangefox.download/device/miatoll
 deprecated: true
-deprecated_versions:
-- eleven
-- eleven_plus
+deprecated_versions: []
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 165.8 mm (6.53 in)
