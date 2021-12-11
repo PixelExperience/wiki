@@ -8,9 +8,12 @@ bluetooth:
   - A2DP + aptX HD
   spec: '5'
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
-- {flash: None, info: '13 MP'}
+- flash: Dual LED (dual tone)
+  info: 48 MP
+- flash: Dual LED (dual tone)
+  info: 5 MP
+- flash: None
+  info: 13 MP
 codename: violet
 cpu: Kryo 460
 cpu_cores: '8'

@@ -8,11 +8,16 @@ bluetooth:
   - A2DP + aptX HD
   spec: '5.1'
 cameras:
-- {flash: 'Dual LED', info: '64 MP'}
-- {flash: 'Dual LED', info: '13 MP (ultrawide)'}
-- {flash: 'Dual LED', info: '5 MP (macro)'}
-- {flash: 'Dual LED', info: '2 MP (bokeh) or 8 MP (telephoto, zoom edition only)'}
-- {flash: None, info: '20 MP (front popup)'}
+- flash: Dual LED
+  info: 64 MP
+- flash: Dual LED
+  info: 13 MP (ultrawide)
+- flash: Dual LED
+  info: 5 MP (macro)
+- flash: Dual LED
+  info: 2 MP (bokeh) or 8 MP (telephoto, zoom edition only)
+- flash: None
+  info: 20 MP (front popup)
 codename: lmi
 cpu: Kryo 585
 cpu_cores: '8'
