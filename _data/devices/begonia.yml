@@ -74,6 +74,7 @@ storage: 64/128/256 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
+- twelve
 - eleven
 - eleven_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
