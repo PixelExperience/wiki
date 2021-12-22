@@ -16,8 +16,10 @@ codename: albus
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 6 mm (0.24 in)
   height: 156.2 mm (6.15 in)
@@ -26,8 +28,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
   + <kbd>Power</kbd>.
 gpu: Adreno 506
 install_method: fastboot_motorola
-maintainers:
-- Jean Graff
+maintainers: []
 models:
 - XT1710-01
 - XT1710-02
@@ -65,7 +66,5 @@ sdcard:
 soc: Qualcomm MSM8953-Pro Snapdragon 626
 storage: 32/64 GB
 vendor: Motorola
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, hotspot
