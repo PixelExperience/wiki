@@ -36,7 +36,7 @@ gpu: ARM Mali-G76 MC4
 install_method: fastboot_xiaomi
 maintainers:
 - Zinadin Zidan
-- Elias
+- Elias E. Gheeraert
 name: Redmi Note 8 Pro
 network:
 - 2G GSM

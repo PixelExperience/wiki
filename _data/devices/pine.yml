@@ -19,8 +19,10 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.95 GHz + 4 x 1.45 GHz
 custom_recovery_link: https://androidfilehost.com/?fid=17248734326145707008
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 146.3 mm (5.74 in)
@@ -30,8 +32,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 505
 install_method: fastboot_xiaomi
-maintainers:
-- Elias
+maintainers: []
 name: Redmi 7A
 network:
 - 2G GSM
@@ -59,7 +60,5 @@ soc: Qualcomm SDM439 Snapdragon 439
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
