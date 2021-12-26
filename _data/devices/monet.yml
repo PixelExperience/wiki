@@ -38,7 +38,7 @@ maintainers:
 - Marlon Alkan
 models:
 - M2002J9G
-name: Xiaomi Mi 10 Lite 5G
+name: Mi 10 Lite 5G
 network:
 - 2G GSM
 - 2G CDMA
