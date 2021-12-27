@@ -22,8 +22,10 @@ codename: fajita
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.2 mm (0.32 in)
   height: 157.5 mm (6.20 in)
@@ -33,8 +35,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 gpu: Adreno 630
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Alexander Chycherin
+maintainers: []
 name: 6T
 network:
 - 2G GSM
@@ -61,7 +62,5 @@ screen:
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 128/256 GB UFS2.1
 vendor: OnePlus
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
