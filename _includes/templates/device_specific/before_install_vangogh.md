@@ -1,0 +1,1 @@
+{% include alerts/warning.html content="Before following these instructions, please flash V12.1.7.0.RJVCNXM Stable firmware. You can download it from [here](https://xiaomifirmwareupdater.com/firmware/vangogh/stable/V12.1.7.0.RJVCNXM/)"%}
