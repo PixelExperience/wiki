@@ -321,6 +321,7 @@ properties:
     - Denver
     - Exynos M1 & Cortex-A53
     - Exynos M3 & Cortex-A55
+    - Helio G85
     - Helio G90T
     - Helio P60
     - Intel Atom
@@ -396,6 +397,7 @@ properties:
     enum:
     - ARM Mali-400 MP
     - ARM Mali-400 MP4
+    - ARM Mali-G52 MC2
     - ARM Mali-G72 MP3
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18

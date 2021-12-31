@@ -1,0 +1,77 @@
+architecture: arm64
+battery:
+  capacity: 5020
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
+cameras:
+- flash: Dual LED
+  info: 48 MP (wide)
+- flash: Dual LED
+  info: 8 MP (ultrawide)
+- flash: Dual LED
+  info: 2 MP (macro)
+- flash: Dual LED
+  info: 2 MP (depth)
+- flash: None
+  info: 13 MP
+codename: merlinx
+cpu: Helio G85
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz & 6 x 1.8 GHz
+custom_recovery_link: https://sourceforge.net/projects/boxaltroms/files/recovery/Merlin_TWRP_3.5.2_%40surblazer.img/download
+deprecated: false
+deprecated_versions: []
+dimensions:
+  depth: 8.9 mm (0.35 in)
+  height: 162.3 mm (6.39 in)
+  width: 77.2 mm (3.04 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: ARM Mali-G52 MC2
+install_method: fastboot_xiaomi
+maintainers:
+- Matsvei Niaverau
+name: Redmi Note 9
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- A-GPS
+- Accelerometer
+- Barometer
+- Compass
+- Dual SIM
+- Fingerprint reader
+- GLONASS
+- GPS
+- Gyroscope
+- IR blaster
+- Light sensor
+- Pedometer
+- Proximity sensor
+- USB OTG
+- Wi-Fi Display
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2019-08
+screen:
+  density: 395
+  resolution: 1080x2340
+  size: 165 mm (6.53 in)
+  technology: IPS LCD
+sdcard:
+  sizeMax: 512 GB
+soc: Mediatek Helio G85
+storage: 64/128 GB
+uses_custom_recovery: true
+vendor: Xiaomi
+versions:
+- twelve
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
