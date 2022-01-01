@@ -64,6 +64,7 @@ soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.1
 vendor: OnePlus
 versions:
+- twelve
 - eleven
 - eleven_plus
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
