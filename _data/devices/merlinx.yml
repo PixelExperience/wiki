@@ -57,7 +57,7 @@ peripherals:
 - Proximity sensor
 - USB OTG
 - Wi-Fi Display
-ram: 6/8 GB
+ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2020-05
