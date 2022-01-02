@@ -19,7 +19,9 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.1 mm (0.32 in)
   height: 150.9 mm (5.94 in)
@@ -62,6 +64,4 @@ storage: 64/128/256 GB UFS2.1
 vendor: Xiaomi
 versions:
 - twelve
-- eleven
-- eleven_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

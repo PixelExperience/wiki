@@ -18,8 +18,10 @@ codename: X00TD
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 159 mm (6.26 in)
@@ -29,8 +31,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   release.
 gpu: Adreno 509
 install_method: fastboot_zenfone
-maintainers:
-- Subins Mani
+maintainers: []
 name: Zenfone Max Pro M1
 network:
 - 2G GSM
@@ -57,7 +58,5 @@ sdcard:
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: ASUS
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot

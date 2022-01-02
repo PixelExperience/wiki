@@ -17,8 +17,10 @@ codename: ocean
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 9.3 mm (0.36 in)
   height: 154.94 mm (6.1 in)
@@ -27,8 +29,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- Luiz Dores
+maintainers: []
 models:
 - XT1955-01
 - XT1955-02
@@ -68,7 +69,5 @@ sdcard:
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32/64 GB
 vendor: Motorola
-versions:
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

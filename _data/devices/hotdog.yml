@@ -23,7 +23,6 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.96 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 deprecated: true
 deprecated_versions:
-- twelve
 - eleven
 - eleven_plus
 dimensions:
