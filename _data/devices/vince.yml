@@ -17,9 +17,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 deprecated: true
-deprecated_versions:
-- ten
-- ten_plus
+deprecated_versions: []
 dimensions:
   depth: 8.1 mm (0.32 in)
   height: 158.5 mm (6.24 in)

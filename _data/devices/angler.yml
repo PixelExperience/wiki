@@ -18,9 +18,7 @@ cpu_cores: '8'
 cpu_freq: 1.55 GHz & 2.0 GHz
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: true
-deprecated_versions:
-- ten
-- ten_plus
+deprecated_versions: []
 dimensions:
   depth: 7.3 mm (0.29 in)
   height: 159.3 mm (6.27 in)

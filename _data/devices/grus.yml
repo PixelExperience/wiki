@@ -21,9 +21,7 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 deprecated: true
-deprecated_versions:
-- ten
-- ten_plus
+deprecated_versions: []
 dimensions:
   depth: 7.3 mm (0.29 in)
   height: 147.7 mm (5.7 in)
