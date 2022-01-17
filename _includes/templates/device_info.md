@@ -12,13 +12,15 @@
 
 ## Guides
 
-- [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
-- [Build for yourself]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+{%- assign path_prefix = "devices/" | append: device.codename %}
+
+- [Installation]({{ path_prefix | append: "/install" | relative_url }})
+- [Build for yourself]({{ path_prefix | append: "/build" | relative_url }})
 {%- if device.firmware_update %}
-- [Update to a newer vendor firmware version]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
+- [Update to a newer vendor firmware version]({{ path_prefix | append: "/fw_update" | relative_url }})
 {%- endif %}
-- [Update to a newer build of the same PixelExperience version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
-- [Upgrade to a higher Android version (e.g. Android 10 -> Android 11)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
+- [Update to a newer build of the same PixelExperience version]({{ path_prefix | append: "/update" | relative_url }})
+- [Upgrade to a higher Android version (e.g. Android 11 -> Android 12)]({{ path_prefix | append: "/upgrade" | relative_url }})
 
 {% if device.note_title and device.note_title != "" %}
 {% include templates/device_info_note.md %}

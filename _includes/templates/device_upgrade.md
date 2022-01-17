@@ -1,4 +1,5 @@
-{% assign device = site.data.devices[page.device] %}
+{%- assign device = site.data.devices[page.device] %}
+{%- assign path_prefix = "devices/" | append: device.codename %}
 
 {% include alerts/important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
 
@@ -13,13 +14,13 @@
 
 {%- unless device.is_ab_device %}
 {%- capture recovery_update %}In some cases, a newer PixelExperience version may not install due to an outdated recovery.
-Follow your [device's installation guide]({{ "devices/" | append: device.codename | append: "/install" | relative_url }}) to see how you can update your recovery image.{% endcapture %}
+Follow your [device's installation guide]({{ path_prefix | append: "/install" | relative_url }}) to see how you can update your recovery image.{% endcapture %}
 {% include alerts/tip.html content=recovery_update %}
 {%- endunless %}
 
 The updater app does not support upgrades from one version of PixelExperience to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing PixelExperience for the first time.
 
-1. Download the [PixelExperience install package](https://download.pixelexperience.org/{{ device.codename }}) that you'd like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
+1. Download the [PixelExperience install package](https://download.pixelexperience.org/{{ device.codename }}) that you'd like to install or [build]({{ path_prefix | append: "/build" | relative_url }}) the package yourself.
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "help/adb-fastboot-guide/" | relative_url }}).
 3. Enable [USB debugging]({{ "help/adb-fastboot-guide/#setting-up-adb" | relative_url }}) on your device.
 4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
