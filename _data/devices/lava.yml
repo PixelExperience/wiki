@@ -1,0 +1,77 @@
+architecture: arm64
+battery:
+  capacity: 5020
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
+cameras:
+- flash: Dual LED
+  info: 13 MP (wide)
+- flash: Dual LED
+  info: 8 MP (ultrawide)
+- flash: Dual LED
+  info: 5 MP (macro)
+- flash: Dual LED
+  info: 2 MP (depth)
+- flash: None
+  info: 8 MP 
+codename: lava
+cpu: Helio G80
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz & 6 x 1.8 GHz
+custom_recovery_link: 
+deprecated: false
+deprecated_versions: []
+dimensions:
+  depth: 9.1 mm (0.36 in)
+  height: 163.3 mm (6.43 in)
+  width: 77 mm (3.03 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: ARM Mali-G52 MC2
+install_method: fastboot_xiaomi
+maintainers:
+- Sakthivel Nadar
+name: Redmi 9/Poco M2
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- A-GPS
+- Accelerometer
+- Barometer
+- Compass
+- Dual SIM
+- Fingerprint reader
+- GLONASS
+- GPS
+- Virtual Gyroscope
+- IR blaster
+- Light sensor
+- Pedometer
+- Proximity sensor
+- USB OTG
+- Wi-Fi Display
+ram: 3/4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Redmi/POCO" logo appears on the screen, then release.
+release: 2020-06
+screen:
+  density: 395
+  resolution: 1080x2340
+  size: 165 mm (6.53 in)
+  technology: IPS LCD
+sdcard:
+  sizeMax: 512 GB
+soc: Mediatek Helio G80
+storage: 32/64/128GB
+uses_custom_recovery: true
+vendor: Xiaomi
+versions:
+- twelve
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
