@@ -29,7 +29,7 @@ gpu: Adreno 630
 install_method: fastboot_nexus
 maintainers:
 - Alcatraz323
-name: Razer Phone 2
+name: Phone 2
 network:
 - 2G GSM
 - 2G CDMA
