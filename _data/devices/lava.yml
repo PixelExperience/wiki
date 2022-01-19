@@ -17,7 +17,7 @@ cameras:
 - flash: Dual LED
   info: 2 MP (depth)
 - flash: None
-  info: 8 MP 
+  info: 8 MP
 codename: lava
 cpu: Helio G80
 cpu_cores: '8'
@@ -36,7 +36,7 @@ gpu: ARM Mali-G52 MC2
 install_method: fastboot_xiaomi
 maintainers:
 - Sakthivel Nadar
-name: Redmi 9/Poco M2
+name: Redmi 9 Prime / Poco M2
 network:
 - 2G GSM
 - 3G UMTS
@@ -59,7 +59,8 @@ peripherals:
 - Wi-Fi Display
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "Redmi/POCO" logo appears on the screen, then release.
+  Keep holding both buttons until the "Redmi/POCO" logo appears on the screen, then
+  release.
 release: 2020-06
 screen:
   density: 395
