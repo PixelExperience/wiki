@@ -168,7 +168,10 @@ definitions:
       - Audio Coprocessor
       - Barometer
       - Color spectrum sensor
-      - Compass
+      - Compass	
+      - DP over USB-C
+      - Depth Sensor
+      - Dot Projector
       - Dual SIM
       - Dual front speakers
       - Dual side NFC
@@ -206,7 +209,8 @@ definitions:
       - Pedometer
       - Proximity sensor
       - Qi wireless charging
-      - Qi reverse wireless charging
+      - Qi reverse wireless charging	
+      - Radar
       - RGB ambient light
       - SNS integration
       - Sensor hub

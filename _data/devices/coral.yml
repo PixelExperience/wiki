@@ -1,0 +1,35 @@
+architecture: arm64
+battery: {removable: False, capacity: 3700, tech: 'Li-Po'}
+before_install: needs_specific_android_fw
+before_install_args: {version: 11}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12.2 MP'}
+- {flash: None, info: '16 MP'}
+- {flash: None, info: '8 MP'}
+codename: coral
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 18.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {width: '75.1 mm (2.96 in)', height: '160.4 mm (6.31 in)', depth: '8.2 mm (0.32 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 640
+install_method: fastboot_nexus
+is_ab_device: true
+name: Pixel 4 XL
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Accelerometer, Barometer, BeiDou, Compass, Depth Sensor, Dot Projector, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Radar, USB OTG]
+ram: 6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+release: 2019-09
+screen: {size: '160.02 mm (6.3 in)', density: 444, resolution: '2280x1080', technology: 'AMOLED'}
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 64/128 GB
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+vendor: Google
+maintainers:
+- PixelBoot
+versions:
+- twelve
