@@ -323,8 +323,10 @@ properties:
     - Cortex-A73 & Cortex-A53
     - Cortex-A9
     - Denver
+    - Denver 2 & Cortex-A57
     - Exynos M1 & Cortex-A53
     - Exynos M3 & Cortex-A55
+    - Exynos M4 & Cortex-A75 & Cortex-A55
     - Helio G80
     - Helio G85
     - Helio G90T
@@ -355,7 +357,6 @@ properties:
     - Kryo 585
     - Kryo 670
     - Kryo 680
-
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
