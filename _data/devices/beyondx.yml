@@ -23,8 +23,7 @@ cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
 deprecated: true
-deprecated_versions:
-- twelve
+deprecated_versions: []
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 162.6 mm (6.4 in)
