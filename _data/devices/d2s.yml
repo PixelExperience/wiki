@@ -4,9 +4,9 @@ battery:
   removable: false
   tech: Li-Ion
 bluetooth:
-  spec: '5'
   profiles:
   - A2DP + aptX
+  spec: '5'
 cameras:
 - flash: LED
   info: 12 MP
@@ -22,21 +22,23 @@ codename: d2s
 cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- twelve
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 162.3 mm (6.39 in)
   width: 77.2 mm (3.04 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
+  Up</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G76 MP12
 install_method: heimdall
 maintainers:
 - Orel6505
-name: Samsung Galaxy Note10+
 models:
 - SM-N975F
 - SM-N975F/DS
+name: Samsung Galaxy Note10+
 network:
 - 2G GSM
 - 2G CDMA
@@ -53,7 +55,8 @@ peripherals:
 - Qi wireless charging
 - Qi reverse wireless charging
 ram: 12 GB
-recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>
+  while the device is connected to a PC via USB cable.
 release: 2019-08-23
 screen:
   density: 498
@@ -65,6 +68,5 @@ sdcard:
 soc: Samsung Exynos 9825
 storage: 256/512 GB
 vendor: Samsung
-versions:
-- twelve
+versions: []
 wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot

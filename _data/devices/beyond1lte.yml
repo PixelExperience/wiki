@@ -4,9 +4,9 @@ battery:
   removable: false
   tech: Li-Ion
 bluetooth:
-  spec: '5'
   profiles:
   - A2DP + aptX
+  spec: '5'
 cameras:
 - flash: LED
   info: 12 MP
@@ -20,21 +20,23 @@ codename: beyond1lte
 cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- twelve
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 149.9 mm (5.9 in)
   width: 70.4 mm (2.77 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> and connect USB cable to PC.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd>
+  and connect USB cable to PC.
 gpu: ARM Mali-G76 MP12
 install_method: heimdall
 maintainers:
 - Orel6505
-name: Samsung Galaxy S10
 models:
 - SM-G973F
 - SM-G973F/DS
+name: Samsung Galaxy S10
 network:
 - 2G GSM
 - 2G CDMA
@@ -52,7 +54,8 @@ peripherals:
 - Qi wireless charging
 - Qi reverse wireless charging
 ram: 8 GB
-recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd>
+  + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2019-03-08
 screen:
   density: 550
@@ -64,6 +67,5 @@ sdcard:
 soc: Samsung Exynos 9820
 storage: 128/256 GB
 vendor: Samsung
-versions:
-- twelve
+versions: []
 wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
