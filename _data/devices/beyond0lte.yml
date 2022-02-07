@@ -33,7 +33,7 @@ maintainers:
 models:
 - SM-G970F
 - SM-G970F/DS
-name: Galaxy S10e
+name: Galaxy S10 5G
 network:
 - 2G GSM
 - 2G CDMA
