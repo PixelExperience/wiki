@@ -3,9 +3,9 @@ Starting with Android 12, you must re-partition the device for PixelExperience t
 
 {% include alerts/warning.html content="Your data will be lost, please do a backup." %}
 
-If you want to revert to the stock partition table, kindly download the correct zip according to the version of your phone:
-    * [Pixel 2 XL (64GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-64gb.zip)
-    * [Pixel 2 XL (128GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-128gb.zip)
+If you want to revert to the stock partition table, kindly download the correct zip according to the version of your phone:\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pixel 2 XL (64GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-64gb.zip)\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pixel 2 XL (128GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-128gb.zip)
 
 1. Download the correct zip according to the version of your phone:
     * [Pixel 2 XL (64GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/repartition-pixel2xl-64gb.zip)
