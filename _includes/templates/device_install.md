@@ -90,6 +90,12 @@ There are no recovery installation instructions for this discontinued device.
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 
+{%- capture first_boot %}
+The first boot usually takes no longer than 15 minutes, depending on the device.
+If it takes longer, you may have missed a step, otherwise feel free to [get assistance](#get-assistance)
+{%- endcapture %}
+{%- include alerts/note.html content=first_boot %}
+
 {% if device.custom_recovery_link or device.uses_custom_recovery %}
 {% include alerts/specific/warning_recovery_app.html %}
 {% endif %}
