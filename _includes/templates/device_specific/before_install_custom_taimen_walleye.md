@@ -18,4 +18,4 @@ If you want to revert to the stock partition table, kindly download the correct 
         {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
 4. Return to the main menu.
 5. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process.
-6. Reboot back to the bootloader and run `fastboot -w` before and after installing PixelExperience
+6. Reboot back to the bootloader and run `fastboot -w` before and after installing PixelExperience.
