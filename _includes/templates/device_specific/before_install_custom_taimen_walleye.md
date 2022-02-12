@@ -4,7 +4,7 @@ Starting with Android 12, you must re-partition the device for PixelExperience t
 {% include alerts/warning.html content="Your data will be lost, please do a backup." %}
 
 If you want to revert to the stock partition table, kindly download the correct zip according to the version of your phone:
-    [Pixel 2 XL (64GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-64gb.zip)
+    [Pixel 2 XL (64GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-64gb.zip),
     [Pixel 2 XL (128GB)](https://github.com/PixelExperience-Devices/blobs/raw/main/departition-pixel2xl-128gb.zip)
 
 1. Download the correct zip according to the version of your phone:
@@ -18,3 +18,4 @@ If you want to revert to the stock partition table, kindly download the correct 
         {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
 4. Return to the main menu.
 5. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process.
+6. Reboot back to the bootloader and run `fastboot -w` before and after installing PixelExperience
