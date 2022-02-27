@@ -16,8 +16,10 @@ codename: mido
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- eleven
+- eleven_plus
 dimensions:
   depth: 8.5 mm (0.35 in)
   height: 151 mm (5.94 in)
@@ -27,8 +29,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 506
 install_method: fastboot_xiaomi
-maintainers:
-- Henrique Silva
+maintainers: []
 name: Redmi Note 4/4X
 network:
 - 2G GSM
@@ -58,8 +59,5 @@ soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- twelve
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac
