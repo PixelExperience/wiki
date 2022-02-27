@@ -28,7 +28,9 @@ dimensions:
   width: 73.7 mm (2.90 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and connect to a computer.
 gpu: Adreno 540
-install_method: fastboot_nexus
+install_method: fastboot_NB1
+is_ab_device: true
+has_recovery_partition: false
 maintainers:
 - emufan
 name: Nokia 8

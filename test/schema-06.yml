@@ -475,6 +475,7 @@ properties:
     - fastboot_lg
     - fastboot_motorola
     - fastboot_nexus
+    - fastboot_NB1
     - fastboot_oppo
     - fastboot_sony
     - fastboot_realme
