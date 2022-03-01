@@ -1,4 +1,3 @@
-after_install_custom: avb_key
 architecture: arm64
 battery:
   capacity: 4300
@@ -36,7 +35,8 @@ gpu: Adreno 650
 has_recovery_partition: true
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Jeffrey Jagram 
 name: '8'
 network:
 - 2G GSM
@@ -64,5 +64,6 @@ screen:
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
-versions: []
+versions:
+- twelve
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
