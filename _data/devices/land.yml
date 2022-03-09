@@ -16,8 +16,9 @@ codename: land
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- twelve
 - eleven
 - eleven_plus
 dimensions:
@@ -29,8 +30,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 505
 install_method: fastboot_xiaomi
-maintainers:
-- Jacob Deepu
+maintainers: []
 name: Redmi 3S/3X
 network:
 - 2G GSM
@@ -62,6 +62,5 @@ soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- twelve
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
