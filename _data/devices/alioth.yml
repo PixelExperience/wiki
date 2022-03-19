@@ -56,7 +56,10 @@ peripherals:
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release: 2021-03-27
+release:
+- Redmi K40: 2021-03-04
+- Poco F3: 2021-03-27
+- Mi 11X: 2021-04-03
 screen:
   density: 395
   resolution: 1080x2400
