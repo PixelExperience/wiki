@@ -147,7 +147,7 @@ repo init -u https://github.com/PixelExperience/manifest -b branch_name
 To start the download of the source code to your computer, type the following:
 
 ```
-repo sync -j$(nproc --all) -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 {% include alerts/note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
