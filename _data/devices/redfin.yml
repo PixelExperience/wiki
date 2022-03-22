@@ -4,9 +4,9 @@ battery:
   removable: false
   tech: Li-Po
 before_install: needs_specific_android_fw
-before_recovery_install: vendor_boot
 before_install_args:
   version: 11
+before_recovery_install: vendor_boot
 bluetooth:
   profiles:
   - A2DP + aptX HD
