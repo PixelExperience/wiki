@@ -31,7 +31,7 @@ gpu: Adreno 650
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Chandra Chaganti
-name: Mi 11X
+name: Redmi K40/Poco F3/Mi 11X
 network:
 - 2G GSM
 - 2G CDMA
