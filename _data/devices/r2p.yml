@@ -33,7 +33,6 @@ gpu: Adreno 512
 install_method: fastboot_realme
 maintainers:
 - Aditya Singh
-- Debayan Kar
 name: 2 Pro
 network:
 - 2G GSM
