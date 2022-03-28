@@ -4,6 +4,8 @@ battery:
   removable: false
   tech: Li-Po
 before_install: needs_specific_android_fw
+before_recovery_install: vendor_boot
+vendor_boot_download_link: https://gitlab.com/PixelExperience/blobs/-/raw/main/bramble/android-12/vendor_boot.img
 before_install_args:
   version: 11
 bluetooth:
