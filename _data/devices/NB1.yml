@@ -22,15 +22,17 @@ cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 151.5 mm (5.96 in)
   width: 73.7 mm (2.90 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and connect to a computer.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and connect
+  to a computer.
 gpu: Adreno 540
+has_recovery_partition: false
 install_method: fastboot_NB1
 is_ab_device: true
-has_recovery_partition: false
 maintainers:
 - emufan
 name: Nokia 8
@@ -51,7 +53,8 @@ peripherals:
 - Sensor hub
 - Light sensor
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect to a computer.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  to a computer.
 release: 2017-09
 screen:
   density: 554
