@@ -28,8 +28,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 install_method: fastboot_xiaomi
 maintainers:
-- rk134
-name: Redmi Note 5/Plus
+- Rahul Kantrapally
+name: Redmi 5 Plus
 network:
 - 2G GSM
 - 3G UMTS
