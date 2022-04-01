@@ -21,9 +21,8 @@ codename: haydn
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
-deprecated: true
-deprecated_versions:
-- twelve
+deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.8 mm (0.31 in)
   height: 163.7 mm (6.44 in)
@@ -33,8 +32,9 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 660
 install_method: fastboot_xiaomi_virtual_ab
-maintainers: []
-name: Redmi K40 Pro / Pro+ / Mi 11X Pro / Mi 11i
+maintainers:
+- Adarsh Grewal
+name: Redmi K40 Pro / Redmi K40 Pro+ / Mi 11X Pro / Mi 11i
 network:
 - 2G GSM
 - 2G CDMA
@@ -70,5 +70,6 @@ screen:
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 vendor: Xiaomi
-versions: []
+versions:
+- twelve
 wifi: 802.11 a/b/g/n/ac/6e, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
