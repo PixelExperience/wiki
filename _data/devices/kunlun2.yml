@@ -72,4 +72,5 @@ uses_custom_recovery: true
 vendor: Lenovo
 versions:
 - twelve
+- twelve_plus
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
