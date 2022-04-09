@@ -62,4 +62,5 @@ storage: 32/64 GB
 vendor: ASUS
 versions:
 - twelve
+- twelve_plus
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot
