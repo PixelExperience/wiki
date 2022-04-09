@@ -67,4 +67,5 @@ storage: 64/128 GB
 vendor: Google
 versions:
 - twelve
+- twelve_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
