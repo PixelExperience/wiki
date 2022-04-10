@@ -70,4 +70,5 @@ storage: 128/512/1024 GB
 vendor: Samsung
 versions:
 - twelve
+- twelve_plus
 wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
