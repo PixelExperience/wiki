@@ -97,4 +97,5 @@ vendor: Xiaomi
 vendor_short: xiaomi
 versions:
 - twelve
+- twelve_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
