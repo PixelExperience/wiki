@@ -69,4 +69,5 @@ storage: 64/128/256 GB
 vendor: Xiaomi
 versions:
 - twelve
+- twelve_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
