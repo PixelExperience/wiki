@@ -3,13 +3,11 @@ Starting with Android 12, you must re-partition the device for PixelExperience t
 
 {% include alerts/warning.html content="Your data will be lost, please do a backup." %}
 
-If you want to revert to the stock partition table, kindly download the correct zip according to the version of your phone:
-    [Pixel 2 XL (64GB)](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/deproduction-pixel2xl-64gb.zip),
-    [Pixel 2 XL (128GB)](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/deproduction-pixel2xl-128gb.zip)
+If you want to revert to the stock partition table, kindly download and flash the following zip:
+    [Pixel 2 XL](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/deproduction-pixel2xl.zip),
 
-1. Download the correct zip according to the version of your phone:
-    * [Pixel 2 XL (64GB)](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2xl-64gb.zip)
-    * [Pixel 2 XL (128GB)](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2xl-128gb.zip)
+1. Download the following zip:
+    * [Pixel 2 XL](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2xl.zip)
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
 3. Sideload the `.zip` package:
