@@ -4,6 +4,7 @@ battery:
   removable: false
   tech: Li-Po
 before_install: haydn
+before_recovery_install: vendor_boot
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -70,6 +71,7 @@ screen:
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 vendor: Xiaomi
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_haydn/-/raw/twelve/android-12/vendor_boot.img
 versions:
 - twelve
 - twelve_plus
