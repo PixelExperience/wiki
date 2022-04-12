@@ -6,9 +6,8 @@ Starting with Android 12, you must re-partition the device for PixelExperience t
 If you want to revert to the stock partition table, kindly flash the official Google factory image:
     [Pixel 2 Official Factory Image](https://developers.google.com/android/images#walleye)
 
-1. Download the correct zip according to the version of your phone:
-    * [Pixel 2 (64GB)](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2-64gb.zip)
-    * [Pixel 2 (128GB)](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2-128gb.zip)
+1. Download the following zip:
+    * [Pixel 2](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2.zip)
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
 3. Sideload the `.zip` package:
