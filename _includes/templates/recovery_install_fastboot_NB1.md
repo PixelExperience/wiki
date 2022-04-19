@@ -43,9 +43,3 @@ Now you can use the previously generated OTP to unlock the bootloader of your de
 {% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endif %}
-
-{% if device.is_ab_device and device.has_recovery_partition != true %}
-{% include templates/recovery_install_fastboot_ab.md %}
-{% else %}
-{% include templates/recovery_install_fastboot_generic.md %}
-{% endif %}
