@@ -34,7 +34,7 @@ gpu: Adreno 642
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Patryk Zimnicki
-name: Mi 11 Lite 5G/Mi 11 Youth
+name: Mi 11 Lite 5G
 network:
 - 2G GSM
 - 2G CDMA
