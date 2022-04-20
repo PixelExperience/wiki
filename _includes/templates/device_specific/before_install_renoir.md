@@ -1,0 +1,1 @@
+{% include alerts/warning.html content="Before following these instructions, please flash V12.5.7.0.RKIEUXM Stable firmware. You can download it from [here](https://xiaomifirmwareupdater.com/firmware/renoir/stable/V12.5.7.0.RKIEUXM/)"%}
