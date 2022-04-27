@@ -4,6 +4,7 @@ battery:
   removable: false
   tech: Li-Po
 before_install: renoir
+before_recovery_install: vendor_boot
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -68,6 +69,7 @@ screen:
 soc: Qualcomm SM7350-AB Snapdragon 780
 storage: 64/128/256 GB
 vendor: Xiaomi
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_renoir/-/raw/twelve/twelve/vendor_boot.img
 versions:
 - twelve
 - twelve_plus
