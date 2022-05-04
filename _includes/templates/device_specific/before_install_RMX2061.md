@@ -1,0 +1,1 @@
+{% include alerts/warning.html content="Before trying to install this ROM, please make sure you've updated to RealmeUI 2.0 C.09 or later either by OTA or manual flashing from XDA. Do not flash on RealmeUI 1.0."%}
