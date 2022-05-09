@@ -56,8 +56,8 @@ peripherals:
 - GPS
 - FM radio
 ram: 3/4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
-  then select "Recovery mode" using Volume keys.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_reboot: fastboot_menu
 release: 2019-03-25
 screen:
   density: 279

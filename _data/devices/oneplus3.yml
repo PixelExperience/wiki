@@ -53,6 +53,7 @@ peripherals:
 - NFC
 ram: 6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release:
 - A3000: 2016-06
 - A3003: 2016-10

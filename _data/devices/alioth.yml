@@ -56,6 +56,7 @@ peripherals:
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_reboot: fastboot_reboot
 release:
 - Redmi K40: 2021-03-04
 - Poco F3: 2021-03-27

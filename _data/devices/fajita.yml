@@ -53,6 +53,7 @@ peripherals:
 - GPS
 ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release: 2018-11
 screen:
   density: 402

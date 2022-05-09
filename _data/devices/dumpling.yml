@@ -50,6 +50,7 @@ peripherals:
 - Light sensor
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release: 2017-11
 screen:
   density: 401
