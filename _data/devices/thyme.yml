@@ -1,15 +1,15 @@
+after_install_custom: thyme_samsung_storage
 architecture: arm64
 battery:
   capacity: 4780
   removable: false
   tech: Li-Po
+before_install: needs_specific_android_fw
+before_install_args: 11
 bluetooth:
   profiles:
   - A2DP
   spec: '5.1'
-before_install: needs_specific_android_fw
-before_install_args: 11
-after_install_custom: thyme_samsung_storage
 cameras:
 - flash: Dual LED (dual tone)
   info: 108 MP
@@ -26,6 +26,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 9 mm (0.35 in)
   height: 162.6 mm (6.40 in)
@@ -74,4 +75,5 @@ storage: 128/256 GB
 vendor: Xiaomi
 versions:
 - twelve
+- twelve_plus
 wifi: Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot

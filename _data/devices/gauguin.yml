@@ -25,10 +25,8 @@ codename: gauguin
 cpu: Kryo 570
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz & 6 x 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
-- twelve
-- twelve_plus
 - eleven
 - eleven_plus
 dimensions:
@@ -40,7 +38,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 619
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Lynnrin
 models:
 - Redmi Note 9 Pro 5G
 - Xiaomi Mi 10i
@@ -74,5 +73,7 @@ sdcard:
 soc: Qualcomm SM7225 Snapdragon 750G 5G
 storage: 64/128/256 GB
 vendor: Xiaomi
-versions: []
+versions:
+- twelve
+- twelve_plus
 wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
