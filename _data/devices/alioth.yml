@@ -3,9 +3,6 @@ battery:
   capacity: 4520
   removable: false
   tech: Li-Po
-before_install: needs_specific_android_fw
-before_install_args:
-  version: 11
 bluetooth:
   profiles:
   - A2DP
