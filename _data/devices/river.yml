@@ -19,10 +19,11 @@ codename: river
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
 - eleven
 - eleven_plus
+- twelve
 dimensions:
   depth: 8.0 mm (0.3 in)
   height: 157 mm (6.2 in)
@@ -31,8 +32,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- Jarl-Penguin
+maintainers: []
 models:
 - XT1962-01
 - XT1962-04
@@ -69,6 +69,5 @@ sdcard:
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 vendor: Motorola
-versions:
-- twelve
+versions: []
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
