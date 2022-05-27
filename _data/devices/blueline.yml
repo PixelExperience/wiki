@@ -33,6 +33,7 @@ is_ab_device: true
 maintainers:
 - ReallySnow
 - Lynnrin
+- PixelBoot
 name: Pixel 3
 network:
 - 2G GSM
