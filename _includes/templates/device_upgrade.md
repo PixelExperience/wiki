@@ -33,14 +33,14 @@ The updater app does not support upgrades from one version of PixelExperience to
 7. Sideload the PixelExperience `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
+        {% include alerts/specific/tip_adb_flash_success.html %}
 {% else %}
 5. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 6. Return to the main menu.
 7. Sideload the PixelExperience `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success/No error`." %}
+        {% include alerts/specific/tip_adb_flash_success.html %}
 {% endif %}
 {% if device.uses_custom_recovery %}
 8. Once you have installed everything successfully, run 'adb reboot'.
@@ -48,7 +48,9 @@ The updater app does not support upgrades from one version of PixelExperience to
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 
+{%- if device.custom_recovery_link or device.uses_twrp %}
 {% include alerts/specific/warning_recovery_app.html %}
+{%- endif %}
 {% include alerts/specific/tip_sideload_stuck_47.html %}
 
 ## Get assistance
