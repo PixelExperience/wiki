@@ -16,8 +16,10 @@ codename: starlte
 cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.8 GHz
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 147.7 mm (5.81 in)
@@ -25,8 +27,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd>.
 gpu: ARM Mali-G72 MP18
 install_method: heimdall
-maintainers:
-- Dylan Neve
+maintainers: []
 models:
 - SM-G960F
 - SM-G960N
@@ -58,7 +59,5 @@ sdcard:
 soc: Samsung Exynos 9810
 storage: 64/128/256 GB
 vendor: Samsung
-versions:
-- twelve
-- twelve_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
