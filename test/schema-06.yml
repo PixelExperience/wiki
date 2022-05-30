@@ -342,6 +342,7 @@ properties:
     - Kryo 240
     - Kryo 250
     - Kryo 260
+    - Kryo 265
     - Kryo 280
     - Kryo 360
     - Kryo 385
