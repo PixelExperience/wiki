@@ -24,8 +24,10 @@ codename: r5x
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- twelve
+- twelve_plus
 - eleven
 - eleven_plus
 dimensions:
@@ -36,8 +38,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 610
 install_method: fastboot_realme
-maintainers:
-- MadhavSaladi(BabluS)
+maintainers: []
 models:
 - Realme 5,Realme 5i,Realme 5s
 name: 5 Series (5/5s/5i)
@@ -70,7 +71,5 @@ soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB eMMC
 uses_custom_recovery: true
 vendor: Realme
-versions:
-- twelve
-- twelve_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot

@@ -19,8 +19,9 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 custom_recovery_link: https://sourceforge.net/projects/romj/files/r2p/SHRP/SHRP_v3.1_stable-Official_RMX1801-1629950983.zip/download
-deprecated: false
+deprecated: true
 deprecated_versions:
+- twelve
 - eleven
 - eleven_plus
 dimensions:
@@ -31,8 +32,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 512
 install_method: fastboot_realme
-maintainers:
-- Aditya Singh
+maintainers: []
 name: 2 Pro
 network:
 - 2G GSM
@@ -62,6 +62,5 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB
 uses_custom_recovery: true
 vendor: Realme
-versions:
-- twelve
+versions: []
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Wi-Fi Direct, Hotspot
