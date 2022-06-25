@@ -33,7 +33,7 @@ dimensions:
   width: 74.1 mm (2.92 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
-firmware_update: firmware_update_oneplus_kebab
+firmware_update: firmware_update_oneplus_sm8250
 gpu: Adreno 650
 has_recovery_partition: true
 install_method: fastboot_nexus
