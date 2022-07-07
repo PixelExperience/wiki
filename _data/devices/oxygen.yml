@@ -1,0 +1,66 @@
+architecture: arm64
+battery:
+  capacity: 5300
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '4.2'
+cameras:
+- flash: Dual LED (dual tone)
+  info: 13 MP
+- flash: None
+  info: 5 MP
+codename: oxygen
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.0 GHz
+deprecated: false
+deprecated_versions: []
+dimensions:
+  depth: 7.3 mm (0.30 in)
+  height: 150.9 mm (6.85 in)
+  width: 88.7 mm (3.49 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: Adreno 506
+install_method: fastboot_xiaomi
+maintainers:
+- Halibw
+name: Mi Max 2
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- Light sensor
+- Infrared sensor
+- GPS
+- FM radio
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2017-06
+screen:
+  density: 342
+  resolution: 1920x1080
+  size: 152 mm (6.44 in)
+  technology: IPS LCD
+sdcard:
+  sizeMax: 256 GB (hybrid SIM slot)
+soc: Qualcomm MSM8953 Snapdragon 625
+storage: 32/64/128 GB eMMC5.1
+uses_custom_recovery: true
+vendor: Xiaomi
+versions:
+- twelve
+- twelve_plus
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
