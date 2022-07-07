@@ -1,4 +1,4 @@
-after_install_custom: guacamoleb
+after_install_custom: avb_key
 architecture: arm64
 battery:
   capacity: 3700
@@ -7,6 +7,7 @@ battery:
 before_install: needs_specific_android_fw
 before_install_args:
   version: 11
+before_install_custom: ab_copy_partitions
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -20,7 +21,7 @@ codename: guacamoleb
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - eleven
 - eleven_plus
@@ -30,10 +31,12 @@ dimensions:
   width: 74.8 mm (2.94 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oneplus_sm8150
 gpu: Adreno 640
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Shantanu Sarkar
 name: '7'
 network:
 - 2G GSM
@@ -60,5 +63,7 @@ screen:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
-versions: []
+versions:
+- twelve
+- twelve_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
