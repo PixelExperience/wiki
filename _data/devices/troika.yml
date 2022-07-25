@@ -21,6 +21,8 @@ codename: troika
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
+deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.7 mm (0.34 in)
   height: 160.1 mm (6.3 in)
@@ -50,7 +52,8 @@ peripherals:
 - GPS
 - NFC
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Then use the menu to select *Recovery Mode*.
 release: 2019-10-31
 screen:
   density: 432
