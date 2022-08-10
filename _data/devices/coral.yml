@@ -62,8 +62,8 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_reboot: fastboot_menu
 release: 2019-09
 screen:
-  density: 444
-  resolution: 2280x1080
+  density: 537
+  resolution: 3040x1440
   size: 160.02 mm (6.3 in)
   technology: AMOLED
 soc: Qualcomm SM8150 Snapdragon 855
