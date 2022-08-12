@@ -3,7 +3,6 @@ battery:
   capacity: 4520
   removable: false
   tech: Li-Po
-before_install: haydn
 before_recovery_install: vendor_boot
 bluetooth:
   profiles:
