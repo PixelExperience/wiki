@@ -4,7 +4,9 @@ battery:
   removable: false
   tech: Li-Po
 before_install: needs_specific_android_fw
-before_install_args: {version: 12.1.0, ships_fw: True}
+before_install_args:
+  ships_fw: true
+  version: 12.1.0
 before_recovery_install: vendor_boot
 bluetooth:
   profiles:
@@ -56,7 +58,8 @@ peripherals:
 - Proximity sensor
 - USB OTG
 ram: 6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2020-10
 screen:

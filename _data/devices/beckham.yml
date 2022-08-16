@@ -53,7 +53,8 @@ peripherals:
 - GPS
 - Moto Mods
 ram: 4 GB, 6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
+  then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2018-06
 screen:

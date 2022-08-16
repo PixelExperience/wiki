@@ -69,7 +69,8 @@ peripherals:
 - USB OTG
 - Wi-Fi Display
 ram: 6/8 GB LPDDR5
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
+  then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2021-02-03
 screen:

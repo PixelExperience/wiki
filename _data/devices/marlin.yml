@@ -48,7 +48,8 @@ peripherals:
 - Barometer
 - NFC
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2016-10
 screen:
