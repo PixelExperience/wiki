@@ -33,8 +33,8 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - ReallySnow
-- Lynnrin
 - PixelBoot
+- Lynnrin
 name: Pixel 3
 network:
 - 2G GSM
