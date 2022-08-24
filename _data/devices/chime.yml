@@ -36,7 +36,7 @@ install_method: fastboot_xiaomi
 is_ab_device: false
 maintainers:
 - Alif Fathur
-name: POCO M3 / Redmi 9T
+name: POCO M3/Redmi 9T
 network:
 - 2G GSM
 - 2G CDMA
