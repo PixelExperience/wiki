@@ -1,0 +1,73 @@
+architecture: arm64
+battery:
+  capacity: 6000
+  removable: false
+  tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
+cameras:
+- flash: LED
+  info: 48 MP (wide)
+- flash: None
+  info: 2 MP (depth)
+- flash: None
+  info: 2 MP (macro)
+- flash: None
+  info: 8 MP (ultrawide, Redmi 9T)
+- flash: None
+  info: 8 MP
+codename: chime
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
+deprecated: false
+deprecated_versions: []
+dimensions:
+  depth: 9.6 mm (0.38 in)
+  height: 162.3 mm (6.39 in)
+  width: 3.04 mm (2.91 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: Adreno 640
+install_method: fastboot_xiaomi
+is_ab_device: false
+maintainers:
+- Alif Fathur
+name: POCO M3 / Redmi 9T
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 3G CDMA2000
+- 4G LTE
+peripherals:
+- A-GPS
+- Accelerometer
+- Compass
+- Dual SIM
+- Fingerprint reader
+- GLONASS
+- GPS
+- IR blaster
+- Light sensor
+- NFC
+- Proximity sensor
+- USB OTG
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2021-01-08
+screen:
+  density: 385
+  resolution: 1080x2340
+  size: 165.8 mm (6.53 in)
+  technology: IPS LCD
+soc: Qualcomm SM6115 Snapdragon 662
+storage: 64/128 GB
+vendor: Xiaomi
+versions:
+- twelve
+- twelve_plus
+wifi: 802.11 a/b/g/n/ac, Dual-band, Hotspot, Wi-Fi Direct, Wi-Fi Display
