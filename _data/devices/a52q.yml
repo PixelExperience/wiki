@@ -1,35 +1,74 @@
 architecture: arm64
-battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
+battery:
+  capacity: 4500
+  removable: false
+  tech: Li-Po
 before_install: needs_specific_android_fw
-before_install_args: {version: 12}
+before_install_args:
+  version: 12
 before_recovery_install: samsung_sm7125
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth:
+  profiles:
+  - A2DP
+  spec: '5'
 cameras:
-- {flash: 'LED', info: '64 MP'}
-- {flash: 'LED', info: '12 MP (ultrawide)'}
-- {flash: None, info: '5 MP (macro)'}
-- {flash: None, info: '5 MP (depth)'}
+- flash: LED
+  info: 64 MP
+- flash: LED
+  info: 12 MP (ultrawide)
+- flash: None
+  info: 5 MP (macro)
+- flash: None
+  info: 5 MP (depth)
 codename: a52q
 cpu: Kryo 465 Gold & Kryo 465 Silver
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
 current_branch: 19.1
-dimensions: {width: '75.1 mm (2.96 in)', height: '159.9 mm (6.3 in)', depth: '8.4 mm (0.33 in)'}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+deprecated: false
+deprecated_versions: []
+dimensions:
+  depth: 8.4 mm (0.33 in)
+  height: 159.9 mm (6.3 in)
+  width: 75.1 mm (2.96 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> and connect USB cable to PC.
 gpu: Adreno 618
 image: a52q.png
 install_method: odin
 kernel: android_kernel_samsung_sm7125
-maintainers: [Risen]
-models: [SM-A525F, SM-A525M, SM-A525F/DS, SM-A525M/DS]
-name: Galaxy A52 4G
-network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+maintainers:
+- Ruchit Marathe
+models:
+- SM-A525F
+- SM-A525M
+- SM-A525F/DS
+- SM-A525M/DS
+name: Samsung A52 4g
+network:
+- 2G GSM
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Fingerprint reader
+- GPS
+- Gyroscope
+- Proximity sensor
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>
+  while the device is connected to a PC via USB cable.
 release: 2021
-screen: {size: '165.1 mm (6.5 in)', density: 407, resolution: '1080x2800', technology: 'Super AMOLED'}
-sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
+screen:
+  density: 407
+  resolution: 1080x2800
+  size: 165.1 mm (6.5 in)
+  technology: Super AMOLED
+sdcard:
+  sizeMax: 512 GB
+  slot: hybrid
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 128/256 GB
 tree: android_device_samsung_a52q
