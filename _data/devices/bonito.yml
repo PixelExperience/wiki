@@ -21,8 +21,12 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.7 GHz
 custom_unlock_cmd: fastboot flashing unlock
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- twelve
+- twelve_plus
+- eleven
+- eleven_plus
 dimensions:
   depth: 7.6 mm (0.30 in)
   height: 160.0 mm (6.3 in)
@@ -31,8 +35,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 615
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Henrique Silva
+maintainers: []
 name: Pixel 3A XL
 network:
 - 2G GSM
@@ -68,9 +71,5 @@ screen:
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 vendor: Google
-versions:
-- twelve
-- twelve_plus
-- eleven
-- eleven_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
