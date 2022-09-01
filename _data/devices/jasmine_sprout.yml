@@ -19,6 +19,7 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.3 mm (0.29 in)
   height: 158.7 mm (6.25 in)
@@ -29,7 +30,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 512
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Immanuel Raj
 name: Mi A2
 network:
 - 2G GSM
