@@ -13,7 +13,7 @@ Do **not** continue after something fails!" %}
 {%- endif %}
 5. Boot your device with the stock OS at least once and check every functionality.
   Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on PixelExperience either!
-
+6. PixelExperience is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/PixelExperience/docs/blob/master/device_requirements.md) you are installing this at your own risk!
 
 {%- if device.before_install %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
