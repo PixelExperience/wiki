@@ -67,6 +67,9 @@ There are no recovery installation instructions for this discontinued device.
 ## Installing PixelExperience from recovery
 
 1. Download the [PixelExperience installation package](https://download.pixelexperience.org/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
+{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
+    * You will also need to flash an empty super image since your device uses retrofitted dynamic partitions: download super_empty.img from the directory named with the latest date [here](https://mirror.math.princeton.edu/pub/lineageos/full/{{ device.codename }}/)
+{%- endif %}
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
     {% if device.vendor == "LG" %}
@@ -82,6 +85,16 @@ There are no recovery installation instructions for this discontinued device.
 {% else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
+{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
+5. Flash empty super image:
+    * On the device, enter fastbootd mode by selecting **Advanced**, **Enter fastboot**.
+    * On the host machine, flash super_empty.img using: `fastboot wipe-super super_empty.img`.
+    * Once the command succeded, select **Enter recovery** on the device to return to recovery mode.
+        {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
+{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
+        {% include alerts/specific/note_retrofit_sideload_failed.html %}
+{%- endif %}
+{%- endif %}
 5. Sideload the PixelExperience `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
