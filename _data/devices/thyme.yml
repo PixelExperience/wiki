@@ -26,7 +26,9 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 9 mm (0.35 in)
   height: 162.6 mm (6.40 in)
@@ -74,6 +76,5 @@ soc: Qualcomm SM8250-AC Snapdragon 870 5G
 storage: 128/256 GB
 vendor: Xiaomi
 versions:
-- twelve
-- twelve_plus
+- thirteen
 wifi: Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot
