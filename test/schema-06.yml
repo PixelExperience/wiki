@@ -136,6 +136,7 @@ definitions:
     - eleven_plus
     - twelve
     - twelve_plus
+    - thirteen
     type: string
   valid_dimension:
     oneOf:
