@@ -20,6 +20,8 @@ cpu_cores: '8'
 cpu_freq: 2.0 GHz
 deprecated: false
 deprecated_versions:
+- twelve
+- twelve_plus
 - eleven
 - eleven_plus
 dimensions:
@@ -64,6 +66,5 @@ storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
-- twelve
-- twelve_plus
+- thirteen
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

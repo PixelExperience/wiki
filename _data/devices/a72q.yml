@@ -26,7 +26,9 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
 current_branch: 19.1
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 8.4 mm (0.33 in)
   height: 165 mm (6.5 in)
@@ -44,7 +46,7 @@ models:
 - SM-A725M
 - SM-A725F/DS
 - SM-A725M/DS
-name: Samsung A72
+name: A72
 network:
 - 2G GSM
 - 3G UMTS
@@ -76,6 +78,5 @@ type: phone
 vendor: Samsung
 vendor_short: samsung
 versions:
-- twelve
-- twelve_plus
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
