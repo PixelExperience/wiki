@@ -14,7 +14,7 @@ cameras:
   info: 13 MP (China)
 - flash: None
   info: 8 MP
-codename: olivewood
+codename: mi439
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.95 GHz + 4 x 1.45 GHz
@@ -30,8 +30,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 505
 install_method: fastboot_xiaomi
 maintainers:
-- Karthik
-name: Redmi 8A Dual
+- shield44
+name: Redmi 8/8A/8A Dual
 network:
 - 2G GSM
 - 3G UMTS
