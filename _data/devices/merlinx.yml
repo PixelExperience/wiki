@@ -24,7 +24,9 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz & 6 x 1.8 GHz
 custom_recovery_link: https://sourceforge.net/projects/boxaltroms/files/recovery/Merlin_TWRP_3.5.2_%40surblazer.img/download
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 8.9 mm (0.35 in)
   height: 162.3 mm (6.39 in)
@@ -73,6 +75,5 @@ storage: 64/128 GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
-- twelve
-- twelve_plus
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
