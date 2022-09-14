@@ -24,7 +24,9 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz & 6 x 1.8 GHz
 custom_recovery_link: https://sourceforge.net/projects/subodhroms/files/lancelot_recovery.img/download
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 9.1 mm (0.36 in)
   height: 163.3 mm (6.43 in)
@@ -74,6 +76,5 @@ storage: 32/64/128GB
 uses_custom_recovery: true
 vendor: Xiaomi
 versions:
-- twelve
-- twelve_plus
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
