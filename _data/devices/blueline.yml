@@ -22,7 +22,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.5 GHz + 4 x 1.6 GHz
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 145.6 mm (5.73 in)
@@ -33,8 +35,6 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - ReallySnow
-- PixelBoot
-- Lynnrin
 name: Pixel 3
 network:
 - 2G GSM
@@ -71,6 +71,5 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128 GB
 vendor: Google
 versions:
-- twelve
-- twelve_plus
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
