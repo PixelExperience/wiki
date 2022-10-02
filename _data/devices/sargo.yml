@@ -57,7 +57,6 @@ peripherals:
 - Light sensor
 - NFC
 - Proximity sensor
-- Qi wireless charging
 - USB OTG
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
