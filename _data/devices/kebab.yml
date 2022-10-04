@@ -55,7 +55,7 @@ peripherals:
 - Compass
 - NFC
 - GPS
-ram: 8/12GB GB LPDDR4X
+ram: 8/12GB GB LPDDR4X/LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2020-10
