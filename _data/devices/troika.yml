@@ -21,8 +21,9 @@ codename: troika
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
 - twelve
 - twelve_plus
 dimensions:
@@ -33,8 +34,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: ARM Mali-G72 MP3
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- Wiktor Rudzki
+maintainers: []
 models:
 - XT2013-1
 - XT2013-2
@@ -68,6 +68,5 @@ sdcard:
 soc: Samsung Exynos 9609
 storage: 128 GB
 vendor: Motorola
-versions:
-- thirteen
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
