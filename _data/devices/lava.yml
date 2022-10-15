@@ -23,9 +23,8 @@ cpu: Helio G80
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz & 6 x 1.8 GHz
 custom_recovery_link: https://sourceforge.net/projects/subodhroms/files/lancelot_recovery.img/download
-deprecated: true
+deprecated: false
 deprecated_versions:
-- thirteen
 - twelve
 - twelve_plus
 dimensions:
@@ -37,7 +36,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: ARM Mali-G52 MC2
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Sakthivel Nadar
 name: Redmi 9 Prime / Poco M2
 network:
 - 2G GSM
@@ -75,5 +75,6 @@ soc: Mediatek Helio G80
 storage: 32/64/128GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
