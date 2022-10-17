@@ -16,9 +16,8 @@ codename: spes
 cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz + 4 x 1.9 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
-- thirteen
 - twelve
 - twelve_plus
 dimensions:
@@ -30,7 +29,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 610
 install_method: fastboot_xiaomi_virtual_ab
-maintainers: []
+maintainers:
+- CHRISL7
 name: Redmi Note 11
 network:
 - 2G GSM
@@ -64,5 +64,6 @@ screen:
 soc: Qualcomm SM6225 Snapdragon 680
 storage: 64/128 GB
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, Hotspot, Wi-Fi Direct, Wi-Fi Display
