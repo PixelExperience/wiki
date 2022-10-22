@@ -23,9 +23,8 @@ cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.4 GHz + 3 x 1.8 GHz
 custom_unlock_cmd: fastboot oem unlock-go
-deprecated: true
+deprecated: false
 deprecated_versions:
-- thirteen
 - twelve
 - twelve_plus
 dimensions:
@@ -35,7 +34,8 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 640
 install_method: fastboot_lenovo
-maintainers: []
+maintainers:
+- Zhenxiang Chen
 name: Z6 Pro
 network:
 - 2G GSM
@@ -71,5 +71,6 @@ soc: Qualcomm Snapdragon 855
 storage: 128/256/512 GB
 uses_custom_recovery: true
 vendor: Lenovo
-versions: []
+versions:
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
