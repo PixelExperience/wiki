@@ -51,6 +51,34 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519 && ssh-add --apple-load-keychain
 
 After that, copy/paste the content of `~/.ssh/id_ed25519.pub` to your Gerrit SSH Settings under **Settings -> SSH Keys**.
 
+Now, try the following command to see if you can successfully authenticate to Gerrit:
+
+```
+ssh gerritUsername@gerrit.pixelexperience.org -p 29418
+```
+
+If the command above returns "Bad server host key: Invalid key length", you'll need to add the following lines to `~/.ssh/config`:
+
+```
+Host gerrit.pixelexperience.org
+    RSAMinSize 0
+```
+
+Otherwise, it should show:
+
+```
+  ****    Welcome to Gerrit Code Review    ****
+
+  Hi {name}, you have successfully connected over SSH.
+
+  Unfortunately, interactive shells are disabled.
+  To clone a hosted Git repository, use:
+
+  git clone ssh://gerritUsername@gerrit.pixelexperience.org:29418/REPOSITORY_NAME.git
+
+Connection to gerrit.pixelexperience.org closed.
+```
+
 The steps above have to be performed only once.
 
 
