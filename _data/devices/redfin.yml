@@ -6,7 +6,7 @@ battery:
 before_install: needs_specific_android_fw
 before_install_args:
   ships_fw: true
-  version: 12.1.0
+  version: 13.0
 before_recovery_install: vendor_boot
 bluetooth:
   profiles:
