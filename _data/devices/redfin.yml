@@ -25,7 +25,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 18.1
 custom_unlock_cmd: fastboot flashing unlock
-deprecated: true
+deprecated: false
 deprecated_versions:
 - twelve
 - twelve_plus
@@ -37,7 +37,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 620
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Henrique Silva
 name: Pixel 5
 network:
 - 2G GSM
@@ -74,5 +75,6 @@ soc: Qualcomm SM7250 Snapdragon 765G
 storage: 128 GB
 vendor: Google
 vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redbull/-/raw/main/redfin/android-12/vendor_boot.img
-versions: []
+versions:
+- thirteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
