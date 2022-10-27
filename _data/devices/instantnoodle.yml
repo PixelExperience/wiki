@@ -36,7 +36,7 @@ has_recovery_partition: true
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- Wiktor Rudzki
+- The Vision
 name: '8'
 network:
 - 2G GSM
