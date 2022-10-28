@@ -3,9 +3,10 @@ battery:
   capacity: 4300
   removable: false
   tech: Li-Po
+before_recovery_install: instantnoodle
 before_install: needs_specific_android_fw
 before_install_args:
-  version: 11
+  version: 12
 before_install_custom: ab_copy_partitions
 bluetooth:
   profiles:
