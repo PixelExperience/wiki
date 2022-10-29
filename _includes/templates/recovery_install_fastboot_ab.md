@@ -11,6 +11,7 @@
 
 {% if device.uses_custom_recovery %}
 ## Temporarily booting a custom recovery using `fastboot`
+{% include alerts/note.html content="This is temporary because the recovery is part of the OS and will be replaced once you install PixelExperience. It is not optional, though!" %}
 {% else %}
 ## Booting a custom recovery using `fastboot`
 {% endif %}
@@ -48,7 +49,7 @@ fastboot devices
 fastboot flash recovery <recovery_filename>.img
 ```
 {% else %}
-5. Temporarily flash a recovery on your device by typing (replace `<recovery_filename>` with the actual filename!):
+5. Flash a recovery on your device by typing (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash boot <recovery_filename>.img
 ```
