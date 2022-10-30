@@ -47,7 +47,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
     * {{ device.download_boot }}
     * Now, click the button that the onscreen instructions correlate to "Continue", and insert the USB cable into the device.
 4. Download and install the necessary drivers.
-    * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You will need to create a Samsung account and login to download them.
+    * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You might need to create a Samsung account and login to download them.
     * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
 5. Download [this](https://gitlab.com/Ryzen5950XT/odin_dl/-/raw/main/Odin3_v3.14.4.zip?inline=false) version of Odin.
 6. Extract "Odin_3.14.4.zip".
