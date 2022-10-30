@@ -49,9 +49,9 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 4. Download and install the necessary drivers.
     * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You will need to create a Samsung account and login to download them.
     * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
-5. Download [this](https://androidfilehost.com/?fid=4349826312261712202) version of Odin.
-6. Extract "Odin_3.13.1.zip".
-7. Run `Odin3 v3.13.1` found in the newly  extracted "Odin_3.13.1" folder.
+5. Download [this](https://gitlab.com/Ryzen5950XT/odin_dl/-/raw/main/Odin3_v3.14.4.zip?inline=false) version of Odin.
+6. Extract "Odin_3.14.4.zip".
+7. Run `Odin3_v3.14.4` found in the newly  extracted "Odin_3.14.4" folder.
 8. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
 9. In the left side of the Odin window, you will see an "Options" tab, click it, and then un-check the "Auto Reboot" option.
