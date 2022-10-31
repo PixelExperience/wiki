@@ -37,7 +37,7 @@ fastboot devices
 fastboot boot <recovery_filename>.img
 ```
 {% else %}
-5. Flash recovery onto your device  (replace `<recovery_filename>` with the actual filename!):
+5. Flash recovery onto your device (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash recovery <recovery_filename>.img
 ```

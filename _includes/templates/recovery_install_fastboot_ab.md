@@ -8,7 +8,13 @@
 {% if device.has_recovery_partition %}
 ## Booting a custom recovery using `fastboot`
 {% else %}
+
+{% if device.uses_custom_recovery %}
 ## Temporarily booting a custom recovery using `fastboot`
+{% else %}
+## Booting a custom recovery using `fastboot`
+{% endif %}
+
 {% endif %}
 
 {% if device.uses_custom_recovery %}
