@@ -75,4 +75,5 @@ vendor: Google
 vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redbull/-/raw/main/barbet/android-12/vendor_boot.img
 versions:
 - thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
