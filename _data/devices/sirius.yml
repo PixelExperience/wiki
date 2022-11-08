@@ -24,6 +24,7 @@ cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 custom_recovery_link: https://dl.twrp.me/xmsirius/
 deprecated: false
 deprecated_versions:
+- thirteen_plus
 - twelve
 - twelve_plus
 - eleven
