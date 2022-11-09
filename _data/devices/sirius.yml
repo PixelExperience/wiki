@@ -24,7 +24,6 @@ cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 custom_recovery_link: https://dl.twrp.me/xmsirius/
 deprecated: false
 deprecated_versions:
-- thirteen_plus
 - twelve
 - twelve_plus
 - eleven
@@ -71,4 +70,5 @@ storage: 64/128 GB
 vendor: Xiaomi
 versions:
 - thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
