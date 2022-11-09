@@ -71,4 +71,5 @@ uses_custom_recovery: true
 vendor: Motorola
 versions:
 - thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
