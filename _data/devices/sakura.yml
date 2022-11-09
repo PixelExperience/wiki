@@ -67,4 +67,5 @@ uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
+- thirteen_plus
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
