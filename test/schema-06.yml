@@ -361,6 +361,7 @@ properties:
     - Kryo 560
     - Kryo 570
     - Kryo 585
+    - Kryo 660
     - Kryo 670
     - Kryo 680
   cpu_cores:
