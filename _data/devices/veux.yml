@@ -21,10 +21,8 @@ codename: veux
 cpu: Kryo 660
 cpu_cores: '8'
 cpu_freq: 2 x 2.21 GHz + 6 x 1.80 GHz
-deprecated: true
-deprecated_versions:
-- thirteen
-- thirteen_plus
+deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 9.4 mm (0.31 in)
   height: 165.3 mm (6.50 in)
@@ -70,5 +68,7 @@ screen:
 soc: Qualcomm SM6375 Snapdragon 695
 storage: 128/256 GB
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct
