@@ -59,7 +59,7 @@ peripherals:
 - GPS
 - Gyroscope
 - Proximity sensor
-ram: 6/8 GB
+ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>
   while the device is connected to a PC via USB cable.
 release: 2021
