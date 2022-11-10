@@ -17,7 +17,7 @@ cameras:
   info: 2 MP (macro)
 - flash: None
   info: 16 MP
-codename: veux/peux
+codename: veux
 cpu: Kryo 660
 cpu_cores: '8'
 cpu_freq: 2 x 2.21 GHz + 6 x 1.80 GHz
