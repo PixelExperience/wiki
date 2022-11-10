@@ -25,8 +25,9 @@ codename: thyme
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
 - twelve
 - twelve_plus
 dimensions:
@@ -38,8 +39,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 650
 install_method: fastboot_xiaomi_virtual_ab
-maintainers:
-- Lynnrin
+maintainers: []
 models:
 - M2102J2SC
 name: Mi 10S
@@ -75,6 +75,5 @@ screen:
 soc: Qualcomm SM8250-AC Snapdragon 870 5G
 storage: 128/256 GB
 vendor: Xiaomi
-versions:
-- thirteen
+versions: []
 wifi: Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot
