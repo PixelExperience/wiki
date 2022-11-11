@@ -23,6 +23,7 @@ cpu_freq: 4 x 2.2 GHz + 4 x 1.7 GHz
 custom_unlock_cmd: fastboot oem unlock-go
 deprecated: false
 deprecated_versions:
+- thirteen_plus
 - twelve
 - twelve_plus
 - eleven
