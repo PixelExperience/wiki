@@ -27,7 +27,9 @@ cpu_cores: '8'
 cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
 current_branch: 18.1
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 165.7 mm (6.52 in)
@@ -46,7 +48,8 @@ models:
 - M2003J6B1I
 - M2003J6B2G
 - M2003J6CI
-name: POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max
+name: POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi
+  Note 10 Lite
 network:
 - 2G GSM
 - 3G UMTS
@@ -96,6 +99,6 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions:
-- twelve
-- twelve_plus
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
