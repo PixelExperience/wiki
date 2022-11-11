@@ -70,6 +70,7 @@ uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
