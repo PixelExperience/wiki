@@ -1,12 +1,12 @@
-after_install_custom: avb_key
 architecture: arm64
 battery:
   capacity: 4000
   removable: false
   tech: Li-Po
-before_install: needs_specific_android_fw
+before_install: needs_specific_android_fw_oplus
 before_install_args:
-  version: 11
+  ships_fw: true
+  version: 12.1
 before_install_custom: ab_copy_partitions
 bluetooth:
   profiles:
