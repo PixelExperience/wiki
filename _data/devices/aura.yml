@@ -2,31 +2,33 @@ architecture: arm64
 battery:
   capacity: 4000
   removable: false
-  tech: Li-Ion
+  tech: Li-Po
 bluetooth:
   spec: '5'
+  profiles:
+  - A2DP
 cameras:
 - flash: Dual LED (dual tone)
   info: 12 MP
-- flash: Dual LED (dual tone)
+- flash: None
   info: 12 MP
 - flash: None
-  info: 5 MP
+  info: 8 MP
 codename: aura
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
-custom_unlock_cmd: fastboot flashing unlock
+custom_unlock_cmd: fastboot flashing unlock && fastboot flashing unlock_critical
 deprecated: false
 deprecated_versions: []
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 158.5 mm (6.24 in)
   width: 79 mm (3.11 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
-  + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 630
 install_method: fastboot_nexus
+is_ab_device: true
 maintainers:
 - Alcatraz323
 name: Phone 2
@@ -36,16 +38,26 @@ network:
 - 3G UMTS
 - 4G LTE
 peripherals:
-- Fingerprint reader
+- A-GPS
 - Accelerometer
-- Gyroscope
-- Proximity sensor
 - Compass
+- Fingerprint reader
+- BeiDou
+- Galileo
+- GLONASS
+- GPS
+- SBAS
+- QZSS
+- Gyroscope
+- Hall effect sensor
+- Light sensor
 - NFC
-ram: 8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd>
-  + <kbd>Power</kbd>. When the blue text appears, release the buttons.
-release: 2018-08
+- USB OTG
+- Proximity sensor
+- Wi-Fi Display
+ram: 8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. 
+release: 2018-10
 screen:
   density: 513
   resolution: 2560x1440
@@ -59,4 +71,4 @@ vendor: Razer
 versions:
 - twelve
 - twelve_plus
-wifi: 802.11 a/b/g/n/ac, Wi-Fi Display, Hotspot
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
