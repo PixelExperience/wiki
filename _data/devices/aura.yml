@@ -4,9 +4,9 @@ battery:
   removable: false
   tech: Li-Po
 bluetooth:
-  spec: '5'
   profiles:
   - A2DP
+  spec: '5'
 cameras:
 - flash: Dual LED (dual tone)
   info: 12 MP
@@ -56,7 +56,7 @@ peripherals:
 - Proximity sensor
 - Wi-Fi Display
 ram: 8 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. 
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2018-10
 screen:
   density: 513
