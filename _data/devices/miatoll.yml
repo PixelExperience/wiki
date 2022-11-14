@@ -3,9 +3,6 @@ battery:
   capacity: 5020
   removable: false
   tech: Li-Po
-before_install: needs_specific_android_fw
-before_install_args:
-  version: 11
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -25,7 +22,6 @@ codename: miatoll
 cpu: Kryo 465
 cpu_cores: '8'
 cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
-current_branch: 18.1
 deprecated: false
 deprecated_versions:
 - twelve
@@ -43,7 +39,9 @@ install_method: fastboot_xiaomi
 maintainers:
 - Alexander Winkowski
 models:
+- 2109106A1I
 - M2003J6A1G
+- M2003J6A1R
 - M2003J6A1I
 - M2003J6B1I
 - M2003J6B2G
@@ -86,6 +84,7 @@ release:
 - Redmi Note 9 Pro (Global): 2020-05-05
 - Redmi Note 9 Pro (India): 2020-03-17
 - Redmi Note 9 Pro Max: 2020-05-12
+- Redmi Note 10 Lite: 2021-10-02
 screen:
   density: 395
   resolution: 1080x2400
