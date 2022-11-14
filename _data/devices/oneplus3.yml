@@ -21,7 +21,7 @@ codename: oneplus3
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz (3) / 2 x 2.35 GHz + 2 x 1.6 GHz (3T)
-deprecated: false
+deprecated: true
 deprecated_versions:
 - eleven
 - eleven_plus
@@ -66,6 +66,5 @@ soc: Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (
 storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 uses_custom_recovery: true
 vendor: OnePlus
-versions:
-- twelve
+versions: []
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, Hotspot
