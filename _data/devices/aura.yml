@@ -20,7 +20,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 custom_unlock_cmd: fastboot flashing unlock && fastboot flashing unlock_critical
 deprecated: false
-deprecated_versions: []
+deprecated_versions:
+- twelve
+- twelve_plus
 dimensions:
   depth: 8.5 mm (0.33 in)
   height: 158.5 mm (6.24 in)
@@ -69,6 +71,6 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB
 vendor: Razer
 versions:
-- twelve
-- twelve_plus
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
