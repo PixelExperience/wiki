@@ -33,7 +33,6 @@ gpu: Adreno 512
 install_method: fastboot_zenfone
 maintainers:
 - Gaurav
-- Rahul Krishna
 name: Zenfone Max Pro M2
 network:
 - 2G GSM
