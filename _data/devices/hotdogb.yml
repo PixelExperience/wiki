@@ -7,7 +7,6 @@ before_install: needs_specific_android_fw_oplus
 before_install_args:
   ships_fw: true
   version: 12.1
-before_install_custom: ab_copy_partitions
 bluetooth:
   profiles:
   - A2DP + aptX HD
