@@ -1,6 +1,6 @@
 architecture: arm64
 battery:
-  capacity: 6000 
+  capacity: 6000
   removable: false
   tech: Li-Po
 before_recovery_install: vendor_boot
@@ -18,11 +18,12 @@ cameras:
 codename: fog
 cpu: Kryo 265
 cpu_cores: '8'
-cpu_freq:  4 x 2.40 GHz + 4 x 1.90 GHz
+cpu_freq: 4 x 2.40 GHz + 4 x 1.90 GHz
 deprecated: false
 deprecated versions:
 - twelve
 - twelve_plus
+deprecated_versions: []
 dimensions:
   depth: 8.29 mm (0.083 in)
   height: 169.59 mm (1.7 in)
@@ -34,7 +35,7 @@ gpu: Adreno 610
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - shield44
-name: Redmi 10/10C/10 Power (fog) 
+name: Redmi 10/10C/10 Power
 network:
 - 2G GSM
 - 2G CDMA
