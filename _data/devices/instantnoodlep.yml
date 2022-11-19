@@ -1,4 +1,3 @@
-after_install_custom: avb_key
 architecture: arm64
 battery:
   capacity: 4510
