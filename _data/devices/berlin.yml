@@ -3,8 +3,8 @@ battery:
   capacity: 4000
   removable: false
   tech: Li-Po
-before_recovery_install: dtbo_and_vendor_boot 
-before_install_custom: ab_copy_partitions 
+before_install_custom: ab_copy_partitions
+before_recovery_install: dtbo_and_vendor_boot
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -29,6 +29,7 @@ dimensions:
   height: 163 mm (6.42 in)
   width: 76 mm (2.99 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+dtbo_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_berlin/-/raw/thirteen/android-13/dtbo.img
 gpu: Adreno 642L
 install_method: fastboot_motorola
 is_ab_device: true
@@ -60,7 +61,7 @@ peripherals:
 ram: 8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>,
   then select "Recovery mode" using Volume keys.
-recovery_reboot: fastboot_menu  
+recovery_reboot: fastboot_menu
 release: 2021-08
 screen:
   density: 385
@@ -70,7 +71,6 @@ screen:
 soc: Qualcomm SM7325 Snapdragon 778G
 storage: 128/256 GB
 vendor: Motorola
-dtbo_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_berlin/-/raw/thirteen/android-13/dtbo.img
 vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_berlin/-/raw/thirteen/android-13/vendor_boot.img
 versions:
 - thirteen
