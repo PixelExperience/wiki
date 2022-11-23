@@ -3,6 +3,7 @@ battery:
   capacity: 3010
   removable: false
   tech: Li-Po
+before_install_custom: ab_copy_partitions
 bluetooth:
   profiles:
   - A2DP
