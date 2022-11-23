@@ -34,7 +34,8 @@ gpu: Adreno 619
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Ahmad Rulim
-name: Poco X4 Pro 5G
+name: POCO X4 Pro 5G / Redmi Note 11E Pro / Redmi Note 11 Pro 5G / Redmi Note 11 Pro+
+  5G
 network:
 - 2G GSM
 - 2G CDMA
