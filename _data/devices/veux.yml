@@ -69,6 +69,7 @@ screen:
 soc: Qualcomm SM6375 Snapdragon 695
 storage: 128/256 GB
 vendor: Xiaomi
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_veux/-/raw/main/android-13/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
