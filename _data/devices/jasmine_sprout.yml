@@ -3,6 +3,10 @@ battery:
   capacity: 3010
   removable: false
   tech: Li-Po
+before_install: needs_specific_android_fw
+before_install_args:
+  version: 10
+before_install_custom: jasmine_sprout_rdp
 bluetooth:
   profiles:
   - A2DP
@@ -57,7 +61,7 @@ peripherals:
 - Wi-Fi Display
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release the power button while still holding the Volume Up button. Release when into recovery
 release: 2018-07
 screen:
   density: 403
