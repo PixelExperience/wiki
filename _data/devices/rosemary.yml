@@ -19,7 +19,6 @@ cpu_freq: 6 x 2.0 GHz + 2 x 2.05 GHz
 custom_recovery_link: https://t.me/PixelExperienceRosemaryChat/11954
 custom_unlock_cmd: python mtk da seccfg unlock
 deprecated: false
-deprecated_versions: 
 dimensions:
   depth: 8.3 mm (0.33 in)
   height: 160.5 mm (6.32 in)
