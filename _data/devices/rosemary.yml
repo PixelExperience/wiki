@@ -65,9 +65,9 @@ ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" or "MI" logo appears on the screen, then release.
 release:
-  M2101K7Bxx: 2021-04-28
-  22087RA4DI: 2022-08-31
-  2207117BPG: 2022-09-06
+- M2101K7Bxx: 2021-04-28
+- 22087RA4DI: 2022-08-31
+- 2207117BPG: 2022-09-06
 required_bootloader:
 - 12.5.16.0.RKLMIXM
 - 13.x.x.x.SKLMIXM
