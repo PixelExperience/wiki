@@ -60,7 +60,6 @@ sdcard:
   sizeMax: 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64/128 GB eMMC5.1
-uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
