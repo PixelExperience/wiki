@@ -18,8 +18,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
 deprecated: true
-deprecated_versions:
-- eleven
+deprecated_versions: []
 dimensions:
   depth: 8.4 mm (0.33 in)
   height: 140.4 mm (5.53 in)
