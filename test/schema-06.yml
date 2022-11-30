@@ -209,9 +209,11 @@ definitions:
       - Motion Coprocessor
       - Moto Mods
       - NFC
+      - NFC (Redmi Note 10S NFC)
       - NFC (Redmi Note 9 Pro/Pro Max)
       - Pedometer
       - Proximity sensor
+      - Proximity sensor (Virtual)
       - Qi wireless charging
       - Qi reverse wireless charging	
       - Radar
@@ -321,6 +323,7 @@ properties:
     - Cortex-A53 & Cortex-A53
     - Cortex-A53 & Cortex-A57
     - Cortex-A53 & Cortex-A72
+    - Cortex-A55 & Cortex-A76
     - Cortex-A57
     - Cortex-A7
     - Cortex-A72
