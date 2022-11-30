@@ -19,6 +19,7 @@ cpu_freq: 6 x 2.0 GHz + 2 x 2.05 GHz
 custom_recovery_link: https://t.me/PixelExperienceRosemaryChat/11954
 custom_unlock_cmd: python mtk da seccfg unlock
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.3 mm (0.33 in)
   height: 160.5 mm (6.32 in)
@@ -27,17 +28,17 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: ARM Mali-G76 MC4
+has_recovery_partition: false
 install_method: fastboot_xiaomi_virtual_ab
 is_ab_device: true
-has_recovery_partition: false
 is_unlockable: true
+maintainers:
+- windowz414
 models:
 - M2101K7Bxx
 - 22087RA4DI
 - 2207117BPG
-maintainers:
--  Bushra KURT (windowz414)
-name: Redmi Note 10S/11 SE/POCO M5S
+name: Redmi Note 10s
 network:
 - 2G GSM
 - 2G CDMA
@@ -62,7 +63,8 @@ peripherals:
 - Wi-Fi Display
 ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "Redmi" or "MI" logo appears on the screen, then release.
+  Keep holding both buttons until the "Redmi" or "MI" logo appears on the screen,
+  then release.
 release:
 - M2101K7Bxx: 2021-04-28
 - 22087RA4DI: 2022-08-31
