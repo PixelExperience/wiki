@@ -38,7 +38,7 @@ install_method: fastboot_xiaomi
 is_ab_device: false
 maintainers:
 - Alif Fathur
-name: POCO M3/Redmi 9T
+name: POCO M3/Redmi 9T/Redmi 9T NFC/Redmi 9 Power
 network:
 - 2G GSM
 - 2G CDMA
