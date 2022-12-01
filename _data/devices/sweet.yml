@@ -16,6 +16,7 @@ codename: sweet
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
+custom_recovery_link: https://sourceforge.net/projects/android-sweet/files/recovery/KewL_TWRP-3.6.2_12-sweet.img/download
 deprecated: false
 deprecated_versions:
 - twelve
@@ -67,6 +68,7 @@ sdcard:
   slot: dedicated
 soc: Qualcomm SM7150 Snapdragon 732
 storage: 64/128 GB
+uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
