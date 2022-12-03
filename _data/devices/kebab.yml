@@ -3,11 +3,11 @@ battery:
   capacity: 4500
   removable: false
   tech: Li-Po
-before_recovery_install: kebab
 before_install: needs_specific_android_fw
 before_install_args:
   version: 12
 before_install_custom: ab_copy_partitions
+before_recovery_install: kebab
 bluetooth:
   profiles:
   - A2DP + aptX HD
