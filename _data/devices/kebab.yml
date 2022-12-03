@@ -3,6 +3,7 @@ battery:
   capacity: 4500
   removable: false
   tech: Li-Po
+before_recovery_install: kebab
 before_install: needs_specific_android_fw
 before_install_args:
   version: 12
