@@ -17,6 +17,7 @@ codename: mido
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
+custom_recovery_link: https://sourceforge.net/projects/nranjan-17/files/FBE%20Recovery/twrp_3.7.0_12-0-mido.img/download
 deprecated: false
 deprecated_versions:
 - eleven
@@ -60,7 +61,6 @@ sdcard:
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 uses_custom_recovery: true
-custom_recovery_link: https://sourceforge.net/projects/nranjan-17/files/FBE%20Recovery/twrp_3.7.0_12-0-mido.img/download
 vendor: Xiaomi
 versions:
 - thirteen
