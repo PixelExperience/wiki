@@ -186,11 +186,24 @@ where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere fr
 for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
 into consideration.
 
+if you see build time errors which say something like `ccache: error: Failed to create temporary file for /home/user/.cache/ccache/tmp: Read-only file system`, follow this:
+first create a new mount point using `sudo mkdir /mnt/ccache`, then bind ccache directory to that mount point using `sudo mount --bind /home/<your_account_username>/.cache/ccache /mnt/ccache`
+replace `<your_account_username>` with the appropriate value. After this, add the following
+`export USE_CCACHE=1`
+`export CCACHE_EXEC=/usr/bin/ccache`
+`export CCACHE_DIR=/mnt/ccache`
+`ccache -M 50G`
+to your `~/.bashrc` file instead of what you added in previous step.
+Then to make sure this doesnt break after you reboot, we need to add the new mount point to auto mount at login. Edit fstab using `sudo nano /etc/fstab` and add
+`/home/<your_account_username>/.cache/ccache /mnt/ccache none defaults,bind,users,noauto 0 0`
+save change and add `mount /mnt/ccache` to your `~/.profile`. You should not see these errors ever again.
+
 You can also enable the optional `ccache` compression. While this may involve a slight performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
 
 ```
 ccache -o compression=true
 ```
+
 
 {% include alerts/note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
 
