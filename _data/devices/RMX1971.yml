@@ -31,8 +31,10 @@ codename: RMX1971
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- twelve
+- twelve_plus
 - eleven
 - eleven_plus
 dimensions:
@@ -43,8 +45,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 616
 install_method: fastboot_realme
-maintainers:
-- MadhavSaladi(BabluS)
+maintainers: []
 models:
 - RMX1971
 name: 5 Pro
@@ -77,7 +78,5 @@ soc: Qualcomm SDM712 Snapdragon 712
 storage: 64/128 GB eMMC5.1
 uses_custom_recovery: true
 vendor: Realme
-versions:
-- twelve
-- twelve_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
