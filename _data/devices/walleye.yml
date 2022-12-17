@@ -22,8 +22,6 @@ deprecated: false
 deprecated_versions:
 - twelve
 - twelve_plus
-- eleven
-- eleven_plus
 dimensions:
   depth: 7.8 mm (0.31 in)
   height: 145.7 mm (5.74 in)
