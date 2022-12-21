@@ -33,7 +33,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - hiper25
-name: Nothing Phone (1)
+name: Phone (1)
 network:
 - 2G GSM
 - 2G CDMA
@@ -57,7 +57,8 @@ peripherals:
 - Qi reverse wireless charging
 - USB OTG
 ram: 8/12 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2022-07-12
 screen:
