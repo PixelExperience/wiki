@@ -18,7 +18,6 @@ codename: lavender
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
-custom_recovery_link: https://orangefox.download/device/lavender
 deprecated: false
 deprecated_versions:
 - twelve
@@ -36,7 +35,7 @@ gpu: Adreno 509
 install_method: fastboot_xiaomi
 maintainers:
 - Aaradhay Vijay
-name: Redmi Note 7
+name: Redmi Note 7/7S
 network:
 - 2G GSM
 - 3G UMTS
@@ -70,7 +69,6 @@ sdcard:
   sizeMax: 256 GB
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64/128 GB
-uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
