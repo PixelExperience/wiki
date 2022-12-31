@@ -31,7 +31,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>B
 gpu: ARM Mali-G76 MP12
 install_method: heimdall
 maintainers:
-- ExpressLuke
+- expressluke
 models:
 - SM-G970F
 - SM-G970F/DS
