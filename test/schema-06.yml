@@ -495,6 +495,7 @@ properties:
     - fastboot_xiaomi
     - fastboot_xiaomi_virtual_ab
     - fastboot_zenfone
+    - fastboot_martini
     - heimdall
     - odin
   is_ab_device:
