@@ -12,7 +12,7 @@ Do **not** continue after something fails!" %}
 4. Make sure that your model is actually listed in the "Supported models" section [here]({{ "devices/" | append: device.codename | append: "#supported-models" | relative_url }}) (exact match required!)
 {%- endif %}
 5. Boot your device with the stock OS at least once and check every functionality.
-  Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on PixelExperience either!
+  Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on PixelExperience either! Additionally, some devices require that VoLTE/VoWi-Fi be utilized once on stock to provision IMS.
 6. PixelExperience is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/PixelExperience/docs/blob/master/device_requirements.md) you are installing this at your own risk!
 
 {%- if device.before_install %}
