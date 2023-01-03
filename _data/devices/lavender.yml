@@ -31,7 +31,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
-gpu: Adreno 509
+gpu: Adreno 512
 install_method: fastboot_xiaomi
 maintainers:
 - Aaradhay Vijay
