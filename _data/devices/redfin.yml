@@ -74,7 +74,7 @@ screen:
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 128 GB
 vendor: Google
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redbull/-/raw/main/redfin/android-12/vendor_boot.img
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redbull/-/raw/main/redfin/android-13/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
