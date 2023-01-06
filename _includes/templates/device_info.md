@@ -20,7 +20,7 @@
 - [Update to a newer vendor firmware version]({{ path_prefix | append: "/fw_update" | relative_url }})
 {%- endif %}
 - [Update to a newer build of the same PixelExperience version]({{ path_prefix | append: "/update" | relative_url }})
-- [Upgrade to a higher Android version (e.g. Android 11 -> Android 12)]({{ path_prefix | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher Android version (e.g. Android 12 -> Android 13)]({{ path_prefix | append: "/upgrade" | relative_url }})
 
 {% if device.note_title and device.note_title != "" %}
 {% include templates/device_info_note.md %}
