@@ -4,10 +4,14 @@ Starting with Android 12, you must re-partition the device for PixelExperience t
 {% include alerts/warning.html content="Your data will be lost, please do a backup." %}
 
 If you want to revert to the stock partition table, kindly flash the official Google factory image:
-    [Pixel 2 Official Factory Image](https://developers.google.com/android/images#walleye)
+    * [Pixel 2 Official Factory Image](https://developers.google.com/android/images#walleye)
 
-1. Download the following zip:
-    * [Pixel 2](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2.zip)
+1. Download the following zip for PixelExperience 13 and upwards:
+    * [Product Partiton Extended - Pixel 2](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2-extended.zip)
+
+For versions below PixelExperience 13, the following zip is downloaded:
+    * [Product Partition - Pixel 2](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_wahoo/-/raw/main/productpartition-pixel2.zip)
+
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
 3. Sideload the `.zip` package:
