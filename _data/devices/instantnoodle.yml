@@ -5,8 +5,8 @@ battery:
   tech: Li-Po
 before_install: needs_specific_android_fw
 before_install_args:
-  version: 12
-before_install_custom: ab_copy_partitions
+  ships_fw: true
+  version: 13
 before_recovery_install: instantnoodle
 bluetooth:
   profiles:
