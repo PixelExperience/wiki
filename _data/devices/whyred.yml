@@ -18,7 +18,7 @@ codename: whyred
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - twelve
 - twelve_plus
@@ -33,7 +33,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 509
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Abdul Sakil Mondal
 name: Redmi Note 5 Global/Pro
 network:
 - 2G GSM
@@ -62,5 +63,7 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 / 64 / 128 GB eMMC 5.1 flash storage
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
