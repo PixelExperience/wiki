@@ -12,7 +12,7 @@ So, you've decided you want to contribute to PixelExperience. Awesome! This page
 
 To work with the source code, you can check the following links:
 
-- [Build for your device]({{ site.baseurl }}/help/building/)
+- [Build for your device](/devices) - Simply click on your device and click the "Build for yourself" link
 - [How to import the sources to Android Studio / IntelliJ]({{ site.baseurl }}/help/import-android-studio/)
 - [How to submit a patch]({{ site.baseurl }}/help/submit-patch/)
 
