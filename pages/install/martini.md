@@ -5,4 +5,4 @@ folder: install
 permalink: /devices/martini/install/
 device: martini
 ---
-{% include templates/device_install.md %}
+{% include templates/device_specific/device_install_martini.md %}
