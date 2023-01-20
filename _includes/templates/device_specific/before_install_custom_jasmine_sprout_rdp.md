@@ -25,7 +25,7 @@ For PixelExperience, you must flash the `super_empty.img` to make your device co
 
 {% include alerts/note.html content="These steps needs to be done only once, and for first time installation only" %}
 
-To flash Super_Empty.img head over to [THIS](https://github.com/PixelExperience-Devices/device_xiaomi_jasmine_sprout/releases/download/v1.0.0/super_empty.img) link and download the `super_empty.img`.
+To flash Super_Empty.img head over to [THIS](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_jasmine_sprout/-/raw/main/android-13/super_empty.img?inline=false) link and download the `super_empty.img`.
 1. Boot up PixelExperience recovery
 2. Go to "Advanced" -> "Enter fastboot"
    {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older PixelExperience recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
