@@ -18,10 +18,8 @@ cpu_cores: '8'
 cpu_freq: 6 x 2.0 GHz + 2 x 2.05 GHz
 custom_recovery_link: https://t.me/PixelExperienceRosemaryChat/11954
 custom_unlock_cmd: python mtk da seccfg unlock
-deprecated: true
-deprecated_versions:
-- thirteen
-- thirteen_plus
+deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.3 mm (0.33 in)
   height: 160.5 mm (6.32 in)
@@ -34,7 +32,8 @@ has_recovery_partition: false
 install_method: fastboot_xiaomi_virtual_ab
 is_ab_device: true
 is_unlockable: true
-maintainers: []
+maintainers:
+- windowz414
 models:
 - M2101K7Bxx
 - 22087RA4DI
@@ -82,5 +81,7 @@ soc: Mediatek MT6785
 storage: 64/128 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
