@@ -41,7 +41,7 @@ install_method: fastboot_realme
 maintainers: []
 models:
 - Realme 5,Realme 5i,Realme 5s
-name: 5 Series (5/5s/5i)
+name: 5 / 5s / 5i
 network:
 - 2G GSM
 - 3G UMTS

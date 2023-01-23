@@ -30,7 +30,7 @@ maintainers:
 - Himanshu Tyagi
 models:
 - RM6785
-name: 6/7
+name: 6 / 7
 network:
 - 2G GSM
 - 3G UMTS

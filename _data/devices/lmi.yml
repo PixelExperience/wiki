@@ -42,7 +42,7 @@ models:
 - M2004J11G
 - M2001J11C
 - M2001J11E
-name: Poco F2 Pro
+name: POCO F2 Pro
 network:
 - 2G GSM
 - 2G CDMA

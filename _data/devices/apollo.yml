@@ -37,7 +37,7 @@ gpu: Adreno 650
 install_method: fastboot_xiaomi
 maintainers:
 - Henrique Pereira
-name: Mi 10T/Mi 10T Pro/Redmi K30S
+name: Mi 10T / Mi 10T Pro / Redmi K30S
 network:
 - 2G GSM
 - 2G CDMA

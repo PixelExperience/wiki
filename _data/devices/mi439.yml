@@ -33,7 +33,7 @@ gpu: Adreno 505
 install_method: fastboot_xiaomi
 maintainers:
 - shield44
-name: Redmi 8/8A/8A Dual
+name: Redmi 8 / 8A / 8A Dual
 network:
 - 2G GSM
 - 3G UMTS

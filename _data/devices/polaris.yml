@@ -33,7 +33,7 @@ gpu: Adreno 630
 install_method: fastboot_xiaomi
 maintainers:
 - Chenyang Zhong
-name: Mi Mix 2s
+name: Mi MIX 2S
 network:
 - 2G GSM
 - 2G CDMA

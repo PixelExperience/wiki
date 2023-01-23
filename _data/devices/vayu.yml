@@ -31,7 +31,7 @@ gpu: Adreno 640
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Alisson Grizotti
-name: Poco X3 Pro
+name: POCO X3 Pro
 network:
 - 2G GSM
 - 2G CDMA

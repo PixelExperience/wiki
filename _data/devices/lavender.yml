@@ -35,7 +35,7 @@ gpu: Adreno 512
 install_method: fastboot_xiaomi
 maintainers:
 - Aaradhay Vijay
-name: Redmi Note 7/7S
+name: Redmi Note 7 / 7S
 network:
 - 2G GSM
 - 3G UMTS

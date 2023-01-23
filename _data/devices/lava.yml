@@ -39,7 +39,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: ARM Mali-G52 MC2
 install_method: fastboot_xiaomi
 maintainers: []
-name: Redmi 9 Prime / Poco M2
+name: Redmi 9 Prime / POCO M2
 network:
 - 2G GSM
 - 3G UMTS

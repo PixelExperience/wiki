@@ -33,7 +33,7 @@ gpu: Adreno 506
 install_method: fastboot_xiaomi
 maintainers:
 - Nalinish Ranjan
-name: Redmi Note 4/4X
+name: Redmi Note 4 / 4X
 network:
 - 2G GSM
 - 3G UMTS

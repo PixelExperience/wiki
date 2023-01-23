@@ -40,7 +40,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 618
 install_method: fastboot_xiaomi
 maintainers: []
-name: Redmi K30/Poco X2
+name: Redmi K30 / POCO X2
 network:
 - 2G GSM
 - 2G CDMA

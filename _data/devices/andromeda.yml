@@ -35,7 +35,7 @@ gpu: Adreno 640
 install_method: fastboot_xiaomi
 maintainers:
 - Nicholas Magill
-name: Mi Mix 3 5G
+name: Mi MIX 3 5G
 network:
 - 2G GSM
 - 2G CDMA

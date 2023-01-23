@@ -35,7 +35,7 @@ gpu: Adreno 509
 install_method: fastboot_xiaomi
 maintainers:
 - Abdul Sakil Mondal
-name: Redmi Note 5 Global/Pro
+name: Redmi Note 5 Global / Pro
 network:
 - 2G GSM
 - 3G UMTS

@@ -35,7 +35,7 @@ gpu: Adreno 640
 install_method: fastboot_xiaomi
 maintainers:
 - Jorge Lucas
-name: Redmi K20 Pro/Mi 9T Pro
+name: Redmi K20 Pro / Mi 9T Pro
 network:
 - 2G GSM
 - 2G CDMA

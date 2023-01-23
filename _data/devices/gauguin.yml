@@ -45,7 +45,7 @@ models:
 - Redmi Note 9 Pro 5G
 - Xiaomi Mi 10i
 - Xiaomi Mi 10T Lite
-name: Redmi Note 9 Pro 5G/Mi 10i/Mi 10T Lite
+name: Redmi Note 9 Pro 5G / Mi 10i / Mi 10T Lite
 network:
 - 2G GSM
 - 2G CDMA
