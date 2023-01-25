@@ -16,8 +16,6 @@ codename: rosemary
 cpu: Cortex-A55 & Cortex-A76
 cpu_cores: '8'
 cpu_freq: 6 x 2.0 GHz + 2 x 2.05 GHz
-custom_recovery_link: https://t.me/PixelExperienceRosemaryChat/11954
-custom_unlock_cmd: python mtk da seccfg unlock
 deprecated: false
 deprecated_versions: []
 dimensions:
@@ -71,7 +69,6 @@ release:
 - 2207117BPG: 2022-09-06
 required_bootloader:
 - 12.5.16.0.RKLMIXM
-- 13.x.x.x.SKLMIXM
 screen:
   density: 428
   resolution: 1080x2340
@@ -79,7 +76,6 @@ screen:
   technology: AMOLED
 soc: Mediatek MT6785
 storage: 64/128 GB
-uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
