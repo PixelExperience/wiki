@@ -16,7 +16,7 @@ codename: surya
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - twelve
 - eleven
@@ -30,7 +30,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 618
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- CHRISL7
 name: POCO X3
 network:
 - 2G GSM
@@ -66,5 +67,7 @@ sdcard:
 soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128 GB
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac
