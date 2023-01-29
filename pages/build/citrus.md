@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Build for chime
+title: Build for citrus
 folder: build
-permalink: /devices/chime/build/
-device: chime
+permalink: /devices/citrus/build/
+device: citrus
 ---
 {% include templates/device_build.md %}
