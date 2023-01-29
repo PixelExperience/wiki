@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: Info about chime
+title: Info about citrus
 folder: info
 layout: deviceinfo
-permalink: /devices/chime/
-device: chime
+permalink: /devices/citrus/
+device: citrus
 ---
 {% include templates/device_info.md %}

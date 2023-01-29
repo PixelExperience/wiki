@@ -15,8 +15,6 @@ cameras:
 - flash: None
   info: 2 MP (macro)
 - flash: None
-  info: 8 MP (ultrawide, Redmi 9T)
-- flash: None
   info: 8 MP
 codename: chime
 cpu: Kryo 260
@@ -38,7 +36,7 @@ install_method: fastboot_xiaomi
 is_ab_device: false
 maintainers:
 - Alif Fathur
-name: POCO M3 / Redmi 9T / Redmi 9T NFC / Redmi 9 Power
+name: POCO M3
 network:
 - 2G GSM
 - 2G CDMA
