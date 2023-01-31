@@ -72,7 +72,7 @@ screen:
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_venus/-/raw/twelve/android-12/vendor_boot.img
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_venus/-/raw/thirteen/android-13/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
