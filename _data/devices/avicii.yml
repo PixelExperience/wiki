@@ -42,6 +42,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - Akshay Kakatkar
+- Philipp Albrecht
 name: Nord
 network:
 - 2G GSM
