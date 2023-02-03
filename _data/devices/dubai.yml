@@ -34,7 +34,7 @@ gpu: Adreno 642L
 install_method: fastboot_motorola
 is_ab_device: true
 maintainers:
-- mukul2259
+- Mukul Dhir
 name: Moto Edge 30
 network:
 - 2G GSM
