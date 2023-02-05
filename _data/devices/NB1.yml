@@ -64,7 +64,6 @@ screen:
   technology: IPS LCD
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
-uses_custom_recovery: true
 vendor: Nokia
 versions:
 - thirteen
