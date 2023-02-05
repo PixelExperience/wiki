@@ -22,7 +22,6 @@ codename: begonia
 cpu: Helio G90T
 cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz & 6 x 2.0 GHz
-custom_recovery_link: https://sourceforge.net/projects/begonia-oss/files/TWRP-Dynamic/Dynamic-TWRP-Begonia-23-12-21.img/download
 deprecated: true
 deprecated_versions:
 - thirteen
@@ -73,7 +72,6 @@ sdcard:
   sizeMax: 512 GB
 soc: Mediatek Helio G90T
 storage: 64/128/256 GB
-uses_custom_recovery: true
 vendor: Xiaomi
 versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

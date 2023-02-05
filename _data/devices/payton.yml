@@ -67,7 +67,6 @@ sdcard:
   sizeMax: 256 GB
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 32/64/128 GB
-uses_custom_recovery: true
 vendor: Motorola
 versions:
 - thirteen
