@@ -33,7 +33,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 630
-install_method: fastboot_nexus
+install_method: fastboot_fajita
 is_ab_device: true
 maintainers: []
 name: 6T
