@@ -3,10 +3,7 @@ battery:
   capacity: 3700
   removable: false
   tech: Li-Po
-before_install: needs_specific_android_fw
-before_install_args:
-  version: 11
-before_install_custom: ab_copy_partitions
+before_install: fajita
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -22,6 +19,7 @@ codename: fajita
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
+custom_recovery_link: https://sourceforge.net/projects/sn-roms/files/TWRP/TWRP-3.7.0_12-fajita-2.img/download
 deprecated: false
 deprecated_versions: []
 dimensions:
@@ -31,7 +29,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 630
-install_method: fastboot_nexus
+install_method: fastboot_fajita
 is_ab_device: true
 maintainers:
 - snnbyyds114514
@@ -61,6 +59,7 @@ screen:
   technology: Optic AMOLED
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 128/256 GB UFS2.1
+uses_custom_recovery: true
 vendor: OnePlus
 versions:
 - thirteen
