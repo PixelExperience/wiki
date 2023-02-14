@@ -34,6 +34,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Adreno 509
 install_method: fastboot_zenfone
 maintainers:
+- Anand S
 - Vivek
 name: Zenfone Max Pro M1
 network:
