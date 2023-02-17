@@ -13,6 +13,7 @@
 ## Temporarily booting a custom recovery using `fastboot`
 {% include alerts/note.html content="This is temporary because the recovery is part of the OS and will be replaced once you install PixelExperience. It is not optional, though!" %}
 {% else %}
+{%- assign is_pe_recovery = true %}
 ## Booting a custom recovery using `fastboot`
 {% endif %}
 
@@ -21,6 +22,7 @@
 {% if device.uses_custom_recovery %}
 1. Download the [custom recovery]({{ custom_recovery_link }}).
 {% else %}
+{%- assign is_pe_recovery = true %}
 1. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 {% endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
@@ -61,3 +63,4 @@ fastboot flash boot <recovery_filename>.img
     * {{ device.recovery_boot }}
     {%- endif %}
 {% endif %}
+{%- include snippets/recovery_logo_note.md %}

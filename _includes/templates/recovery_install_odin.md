@@ -38,6 +38,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 2. Download the [custom recovery]({{ custom_recovery_link }}).
     {% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
 {% else %}
+{%- assign is_pe_recovery = true %}
 2. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 3. Rename the downloaded image to "recovery.img", open a Command Prompt in the folder where the file was downloaded, and TAR the file by running `tar -cvf recovery.tar recovery.img`.
     {% include alerts/tip.html content="Make sure to not accidentally name the file `recovery.img.img` when file name extensions are hidden." %}
@@ -65,3 +66,4 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 13. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
+{%- include snippets/recovery_logo_note.md %}

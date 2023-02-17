@@ -57,6 +57,7 @@ heimdall print-pit
 1. Download the [custom recovery]({{ custom_recovery_link }}).
 {% include alerts/tip.html content="Ensure you download the `.img` file and not the `.tar` or `.tar.md5` versions." %}
 {% else %}
+{%- assign is_pe_recovery = true %}
 1. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 {% endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
@@ -74,3 +75,4 @@ heimdall flash --RECOVERY <recovery_filename>.img --no-reboot
 6. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the stock ROM will overwrite the custom recovery with the stock recovery, and you'll need to flash it again." %}
+{%- include snippets/recovery_logo_note.md %}

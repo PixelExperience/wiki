@@ -10,6 +10,7 @@
 {% if device.uses_custom_recovery %}
 1. Download the [custom recovery]({{ custom_recovery_link }}).
 {% else %}
+{%- assign is_pe_recovery = true %}
 1. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 {% endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
@@ -52,3 +53,4 @@ fastboot flash recovery <recovery_filename>.img
       {% include alerts/note.html content="If you can't power down the device, try long-pressing the key-combination (if any was used in the instructions above) until the device reboots and follow the instructions above" %}
     {%- endif %}
 {% endif %}
+{%- include snippets/recovery_logo_note.md %}
