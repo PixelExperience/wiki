@@ -1,0 +1,70 @@
+architecture: arm64
+battery:
+- 4:
+    capacity: 6000
+    removable: false
+    tech: Li-Po
+- 4 Plus:
+    capacity: 8620
+    removable: false
+    tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP + aptX HD
+  spec: '5'
+cameras:
+- flash: None
+  info: 13 MP f/2.0
+- flash: None
+  info: 5 MP f/2.0
+codename: clover
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+deprecated: false
+deprecated_versions: []
+dimensions:
+  depth: 7.9 mm (0.31 in)/8.0 mm (0.31 in)(Plus)
+  height: 120.3 mm (4.74 in)/149.1 mm (5.87 in)(Plus)
+  width: 200.2 mm (7.88in)/245.6 mm (9.67 in)(Plus)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
+gpu: Adreno 512
+install_method: fastboot_xiaomi
+maintainers:
+- Alcatraz33
+name: Mi PAD 4(Plus)
+network:
+- 2G GSM(Plus or LTE model)
+- 2G CDMA(Plus or LTE model)
+- 3G UMTS(Plus or LTE model)
+- 4G LTE(Plus or LTE model)
+peripherals:
+- Fingerprint reader(Plus)
+- Accelerometer
+- Barometer
+- Gyroscope
+- Hall effect sensor
+- Light sensor
+- Proximity sensor
+- Compass
+- GNSS(Plus)
+ram: 3/4 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
+release: 2018-06
+screen:
+  density: 283/224(Plus)
+  resolution: 1920x1200
+  size: 8.0 inches(185.6 cm2)/10.1 inches(95.8 cm2)(Plus)
+  technology: IPS LCD
+sdcard:
+  sizeMax: 256 GB (hybrid SIM slot)
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 32/64/128(Plus) GB eMMC5.1
+vendor: Xiaomi
+versions:
+- thirteen
+- thirteen_plus
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
