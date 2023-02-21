@@ -57,10 +57,11 @@ To do this, sideload the copy-partitions-20210323_1922.zip package by doing the 
 {%- endif %}
 
 ## Initializing Dynamic partitions
+You can acquire more information about dynamic partitions [here](https://source.android.google.cn/docs/core/ota/dynamic_partitions/implement)
 
 {% include alerts/warning.html content="Dynamic partitions must be initialized when installing for the first time, so the process to do so is described below." %}
 1. Download [this](https://sourceforge.net/projects/sn-roms/files/PixelExperience-13/fajita/super_empty.img/download) `super_empty.img` file.
-2. Power off the device, and boot it into bootloader mode
+2. Power off the device, and boot it into `bootloader` mode
 3. Flash PixelExperience Recovery:
 ```
 fastboot flash boot <recovery_filename>.img
@@ -74,7 +75,7 @@ fastboot erase odm_b
 fastboot erase vendor_a
 fastboot erase vendor_b
 ```
-5. Now reboot into recovery
+5. Now reboot into `recovery` and enter `fastbootd mode`
 
 6. Initialize the retrofit super partitions for each slot:
 ```
@@ -84,4 +85,4 @@ fastboot wipe-super super_empty.img
 fastboot set_active other
 ```
 
-7. Choose Enter recovery to return to recovery
+7. Choose `Enter recovery` to return to `recovery`
