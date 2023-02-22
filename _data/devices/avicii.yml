@@ -5,6 +5,11 @@ battery:
   capacity: 4115
   removable: false
   tech: Li-Po
+before_install: needs_specific_android_fw
+before_install_args:
+  ships_fw: true
+  version: 12
+before_recovery_install: avicii
 bluetooth:
   profiles:
   - A2DP + aptX HD
