@@ -3,6 +3,7 @@ battery:
   capacity: 4500
   removable: false
   tech: Li-Po
+before_recovery_install: vendor_boot
 bluetooth:
   profiles:
   - A2DP
@@ -66,6 +67,7 @@ screen:
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB
 vendor: Xiaomi
+vendor_boot_download_link : https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_munch/-/raw/thirteen/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
