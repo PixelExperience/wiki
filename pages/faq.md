@@ -10,7 +10,29 @@ permalink: help/faq/
    - You are attempting to migrate from an unofficial build to official PixelExperience. _A full data wipe is needed if you are coming from something other than an official build of PixelExperience._
    - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install PixelExperience again_. This information should be listed on the device's wiki page.
    - Your recovery is outdated. _Flash the newest available version of the recommended recovery image for your device_.
- - If your error still persists after confirming these are not causing your issue, ask someone for help on [our Telegram group](https://t.me/pixelexperiencechat) and provide a recovery log.
+   - If nothing else works, it is highly probably that the recovery provided by Pixel Experience for your phone (the Pixel 2 XL (Taimen) is an example), does not properly install the partitioning module. Fortunately, TWRP does.
+     This procedure for installing Pixel Experience works in this case:
+		Download TWRP.
+	    Download PE recovery.
+	    Download Pixel Experience.
+	    Download the repartition script from the install instructions.
+	    Reboot into bootloader.
+	    fastboot flash boot_a [TWRP recovery path]
+	    fastboot flash boot_b [PE recovery path]
+	    fastboot --set-active=a
+	    fastboot reboot recovery
+	TWRP should open. Click on Advanced, then on ADB Sideload. Swipe to start.
+	    On the PC, run adb sideload [Repartition ZIP path].
+	    In TWRP, go back, click Reboot, and Bootloader. Accept the warning.
+	    On PC, run fastboot --set-active=b
+	    On phone, reboot to recovery mode
+	PE recovery should open.
+	    Run a factory reset.
+	    Go back.
+	    Apply update -> Apply from ADB.
+	    adb sideload [PE ZIP path]
+	    Reboot to system.
+ - If your error still persists after confirming the above are not causing your issue, ask someone for help on [our Telegram group](https://t.me/pixelexperiencechat) and provide a recovery log.
 
 ## My device _is_ officially supported, but there's no zips for it on the download page. Where are they?
  - Be patient. Maintainers have busy lives, and sometimes an issue is holding it back. Please do not ask for ETAs.
