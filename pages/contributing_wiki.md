@@ -4,7 +4,7 @@ title: Contributing to the wiki
 folder: meta
 permalink: help/contributing/wiki/
 ---
-So, you've decided you want to edit the wiki. Awesome! This page will show you how to get started. Please follow the instructions that are most appropriate for you.
+So, you've decided to edit the wiki. Awesome! This page will show you how to get started. Please follow the instructions to write your first line.
 
 ## Cloning the wiki
 
