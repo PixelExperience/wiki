@@ -31,7 +31,7 @@ gpu: Adreno 618
 install_method: fastboot_xiaomi
 maintainers:
 - Pulkit Agarwal
-name: Redmi Note 10 Pro
+name: Redmi Note 10 Pro / Pro Max
 network:
 - 2G GSM
 - 2G CDMA
