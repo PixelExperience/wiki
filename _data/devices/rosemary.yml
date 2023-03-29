@@ -36,7 +36,7 @@ models:
 - M2101K7xx
 - 22087RA4DI
 - 2207117BPG
-name: Redmi Note 10S / 11 SE / POCO M5s
+name: Redmi Note 10S / 11 SE
 network:
 - 2G GSM
 - 2G CDMA
