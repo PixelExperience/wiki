@@ -35,7 +35,6 @@ install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
 - PixelBoot
-- ReallySnow
 name: Pixel 3 XL
 network:
 - 2G GSM
