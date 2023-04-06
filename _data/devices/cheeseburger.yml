@@ -31,7 +31,8 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
 install_method: fastboot_nexus
-maintainers: []
+maintainers:
+- Aditya Singh
 name: '5'
 network:
 - 2G GSM
@@ -60,7 +61,8 @@ screen:
   technology: Optic AMOLED
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
-uses_custom_recovery: true
 vendor: OnePlus
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
