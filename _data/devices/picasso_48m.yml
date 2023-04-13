@@ -12,7 +12,7 @@ bluetooth:
   spec: '5.1'
 cameras:
 - flash: Dual LED (dual tone)
-  info: 64 MP (Main)
+  info: 48 MP (Main)
 - flash: None
   info: 8 MP (UltraWide)
 - flash: None
@@ -21,15 +21,11 @@ cameras:
   info: 2 MP (Depth)
 - flash: None
   info: 16 MP
-codename: picasso
+codename: picasso_48m
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz & 1 x 2.2 GHz & 6 x 1.8 Ghz
 deprecated: false
-deprecated_versions:
-- twelve
-- eleven
-- eleven_plus
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 165.3 mm (6.51 in)
@@ -40,8 +36,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 620
 install_method: fastboot_xiaomi
 models:
-- Redmi K30 5G
-name: Redmi K30 5G
+- Redmi K30i 5G
+name: Redmi K30i 5G
 network:
 - 2G GSM
 - 2G CDMA
