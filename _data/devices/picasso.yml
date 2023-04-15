@@ -39,6 +39,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 620
 install_method: fastboot_xiaomi
+maintainers:
+- Kagura Rinko
 models:
 - Redmi K30 5G
 name: Redmi K30 5G
@@ -69,6 +71,7 @@ screen:
 soc: Qualcomm SM7250 Snapdragon 765G 5G
 storage: 64/128/256 GB
 vendor: Xiaomi
+versions:
+- thirteen
+- thirteen_plus
 wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
-maintainers: [Kagura Rinko]
-versions: []

@@ -26,6 +26,7 @@ cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz & 1 x 2.2 GHz & 6 x 1.8 Ghz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.8 mm (0.35 in)
   height: 165.3 mm (6.51 in)
@@ -35,6 +36,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 620
 install_method: fastboot_xiaomi
+maintainers:
+- Kagura Rinko
 models:
 - Redmi K30i 5G
 name: Redmi K30i 5G
@@ -65,6 +68,7 @@ screen:
 soc: Qualcomm SM7250 Snapdragon 765G 5G
 storage: 64/128/256 GB
 vendor: Xiaomi
+versions:
+- thirteen
+- thirteen_plus
 wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
-maintainers: [Kagura Rinko]
-versions: []
