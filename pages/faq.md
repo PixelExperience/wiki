@@ -69,7 +69,7 @@ permalink: help/faq/
  - Because all maintainers are volunteers doing this in their free time, and someone happened to love this device enough to bring it up and properly support it.
 
 ## Where are guides so I can port PixelExperience to my unsupported device?
- - There are none
+ - There are none.
  - See what other, similar devices did to get them to work.
 
 ## Can you help me with _this_ mod/software?
