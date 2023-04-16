@@ -22,7 +22,7 @@ dimensions:
   width: 132.6 mm (5.22 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
     Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-gpu: PowerVR GX6250
+gpu: PowerVR Series 6
 install_method: fastboot_xiaomi
 maintainers:
 - John-zhan
