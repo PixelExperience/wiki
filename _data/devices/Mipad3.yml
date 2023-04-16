@@ -13,7 +13,7 @@ cameras:
 - flash: None
   info: 5 MP
 codename: mipad3
-cpu: Mediatek MT8176
+cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 3 x 2.1 GHz + 3 x 1.7 GHz
 dimensions:
