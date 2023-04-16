@@ -154,7 +154,6 @@ There are some optional properties which you might not need, but in case you do,
 * `carrier`: If the device was released for a specific carrier, the name of that carrier.
 * `custom_recovery_link`: A custom recovery link in case no official recovery exists for the specific device or it doesn't work properly.
 * `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`.
-* `format_on_upgrade`: Used if the device needs to wiped on major PixelExperience version due to unfixable device specific issues.
 * `is_ab_device`: Used if the device has an A/B partition scheme.
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
 * `required_bootloader`: Specify the bootloader versions which are required to install PixelExperience. Example:

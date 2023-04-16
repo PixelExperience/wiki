@@ -12,10 +12,6 @@
 
 ## Manually upgrading PixelExperience
 
-{%- unless device.format_on_upgrade %}
-{% include alerts/note.html content="Following these instructions will **not** wipe your data. It is, however, recommended to save important data before doing so, anyway!" %}
-{%- endunless %}
-
 {% include alerts/warning.html content="You must do a factory reset before upgrading, so consider backing up your internal storage." %}
 
 {%- unless device.is_ab_device %}

@@ -405,9 +405,6 @@ properties:
   download_boot:
     "$id": "/properties/download_boot"
     type: string
-  format_on_upgrade:
-    "$id": "/properties/format_on_upgrade"
-    type: boolean
   gpu:
     "$id": "/properties/gpu"
     enum:
