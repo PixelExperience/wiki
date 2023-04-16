@@ -1,0 +1,56 @@
+architecture: arm64
+battery:
+    capacity: 6600
+    removable: false
+    tech: Li-Po
+bluetooth:
+  profiles:
+  - A2DP
+  spec: 4.1 + LE
+cameras:
+- flash: None
+  info: 13 MP
+- flash: None
+  info: 5 MP
+codename: mipad3
+cpu: Mediatek MT8176
+cpu_cores: '6'
+cpu_freq: 3 x 2.1 GHz + 3 x 1.7 GHz
+dimensions:
+  depth: 7 mm (0.28 in)
+  height: 200.4 mm (7.89 in)
+  width: 132.6 mm (5.22 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+    Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: PowerVR GX6250
+install_method: fastboot_xiaomi
+maintainers:
+- John-zhan
+models:
+- 3
+name: Mi PAD 3
+peripherals:
+- Motion Coprocessor
+- Accelerometer
+- Gesture sensor
+- Gyroscope
+- Proximity sensor
+- Compass
+- Barometer
+- Hall effect sensor
+- RGB ambient light
+- Infrared sensor
+- GPS
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+    Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+release: 2017-04
+screen:
+  density: 326
+  resolution: 1536x2048
+  size: 180.34 mm (7.1 in)
+  technology: IPS LCD
+soc: Mediatek MT8176
+storage: 64 GB
+vendor: xiaomi
+wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct
