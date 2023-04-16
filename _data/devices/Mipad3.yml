@@ -53,4 +53,7 @@ screen:
 soc: Mediatek MT8176
 storage: 64 GB
 vendor: Xiaomi
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct
