@@ -34,7 +34,6 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 512
 install_method: fastboot_xiaomi
 maintainers:
-- Aaradhay Vijay
 - Alif Fathur
 name: Mi 8 Lite
 network:
