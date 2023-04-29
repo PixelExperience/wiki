@@ -1,39 +1,14 @@
-## Flashing FBE ROM Guide
+## Flashing RETROFIT ROM Guide
 
-{% include alerts/warning.html content="Follow the following guide to install PixelExperience 13 on mido.
-Note: This in a FBE build so follow the guide given below or you will be stucked."%}
-
-1. Clean Flash 
-• Clean flash is mandatory: you are required to backup all of your existing data to your computer or your preferred cloud service and avoid using nandroid backup.
-
-2. Flash TWRP
-• Flash the new TWRP Recovery made by Zeelog : (Mandatory) due to various changes in fstab file and encryption implementation, you are required to flash the new TWRP of which the link is undermentioned 
-
-[Link](https://github.com/zeelog/device_mido_twrp/releases/download/2.0/twrp_3.7.0_12-0-mido.img) 
-
-3. Wipe and format Device (Both are different)
-• After you flash and boot into the new TWRP recovery, format data and reboot to the recovery again. 
-Now, wipe all the partitions (i.e. system, vendor, data, internal storage). Wiping Internal might throw an error because of missing /data/media/ which is okay, reboot to recovery again.  
-This format data and wiping of other partitions is required only once every clean flash.
-NB : encryption is now enabled by default and that is why a clean flash would cost you a data format.
-
-4. Flash ROM
-*To use internal storage for transferring files from PC 
-
-From TWRP > tap Advanced > Terminal > run command:
-```
-mkdir -p /data/media/0/
-```
-
-• Copy the latest releases PixelExperience Android 13 rom to your internal storage/otg media/sd card etc. 
-Flash the ROM using the usual method.
-
-6. Go Back 
-If you want to go back to the previous ver of Android. 
-You need to flash your old recovery and Wipe and Format device ,Flash ROM again.
-
-=============================================
-
-* FOR Video Guide: https://t.me/LOSRN4/284718
-
-=============================================
+* How To Flash Using AOSP Recovery
+1. Download the AOSP Recovery from the PE website
+2. Copy the recovery to PC/laptop
+3. Connect your device with PC/laptop (USB debugging should be turned on)
+4. Reboot to fastboot 
+5. Flash the recovery
+6. Boot to recovery 
+7. Format data using the recovery
+8. On the device, select “Advanced”, “ADB Sideload”, then swipe to begin sideload.
+9. On the PC/laptop, sideload the package using: adb sideload filename.zip
+10. Format data
+11. Reboot to system

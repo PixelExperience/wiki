@@ -17,7 +17,6 @@ codename: mido
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-custom_recovery_link: https://sourceforge.net/projects/nranjan-17/files/FBE%20Recovery/twrp_3.7.0_12-0-mido.img/download
 deprecated: false
 deprecated_versions:
 - eleven
