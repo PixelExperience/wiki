@@ -37,6 +37,9 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 {% if device.uses_custom_recovery %}
 2. Download the [custom recovery]({{ custom_recovery_link }}).
     {% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
+{% else if device.uses_tar_flag %}
+{%- assign is_pe_recovery = true %}
+2. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
 {% else %}
 {%- assign is_pe_recovery = true %}
 2. Download the [PixelExperience Recovery](https://download.pixelexperience.org/{{ device.codename }}). Simply download the latest recovery file.
