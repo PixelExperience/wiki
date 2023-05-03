@@ -75,6 +75,7 @@ soc: Qualcomm SM7125 Snapdragon 720G
 storage: 128/256 GB
 tree: android_device_samsung_a52q
 type: phone
+uses_tar_flag: true
 vendor: Samsung
 vendor_short: samsung
 versions:
