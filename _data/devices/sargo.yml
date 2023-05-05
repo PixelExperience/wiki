@@ -34,7 +34,6 @@ gpu: Adreno 615
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- PixelBoot
 - ExactExampl
 name: Pixel 3A
 network:
