@@ -35,7 +35,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 660
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
-- Flower sea
+- Flower Sea
 name: Mi 11 Pro
 network:
 - 2G GSM
@@ -72,7 +72,7 @@ screen:
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_venus/-/raw/thirteen/android-13/vendor_boot.img
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_mars/-/raw/thirteen/android-13/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
