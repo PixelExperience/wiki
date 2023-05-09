@@ -31,7 +31,7 @@ codename: RMX1971
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - twelve
 - twelve_plus
@@ -46,7 +46,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 616
 install_method: fastboot_realme
 maintainers:
-- Anil Shebin
+- AnilShebin
 models:
 - RMX1971
 name: 5 Pro
