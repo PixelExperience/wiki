@@ -1,6 +1,22 @@
 architecture: arm64
 battery:
-- A0001:
+- LE2120:
+    capacity: 4500
+    removable: False
+    tech: Li-Po
+- LE2121:
+    capacity: 4500
+    removable: False
+    tech: Li-Po
+- LE2123:
+    capacity: 4500
+    removable: False
+    tech: Li-Po
+- LE2124:
+    capacity: 4500
+    removable: False
+    tech: Li-Po
+- LE2127:
     capacity: 4500
     removable: False
     tech: Li-Po
