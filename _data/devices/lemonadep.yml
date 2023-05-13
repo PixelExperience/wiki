@@ -69,7 +69,7 @@ peripherals:
 - USB OTG
 - Wi-Fi Display
 ram: 8/12 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2021-03-20
 screen:
   density: 525
