@@ -1,0 +1,84 @@
+architecture: arm64
+battery:
+- A0001:
+    capacity: 4500
+    removable: False
+    tech: Li-Po
+before_install_custom: ab_copy_partitions
+before_recovery_install: dtbo_and_vendor_boot
+bluetooth:
+  Profiles:
+  - A2DP, LE, aptX HD
+  spec: '5.2'
+cameras:
+- flash: Dual LED (dual tone)
+  info: 48 MP (wide)
+- flash: Dual LED (dual tone)
+  info: 8 MP (telephoto)
+- flash: Dual LED (dual tone)
+  info: 50 MP (ultrawide)
+- flash: None
+  info: 16 MP (front)
+codename: lemonadep
+cpu: Kryo 680
+cpu_cores: '8'
+cpu_freq: 1x2.84 GHz & 3x2.42GHz & 4x1.80GHz
+custom_unlock_cmd: fastboot oem unlock
+dimensions:
+  depth: 8.7 mm (0.34 in)
+  height: 163.2 mm (6.43 in)
+  width: 73.6 mm (2.90 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 660
+install_method: fastboot_unlocked
+is_ab_device: true
+maintainers: []
+models:
+- LE2121
+- LE2125
+- LE2123
+- LE2120
+- LE2127
+name: 9 Pro
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+- 5G NR
+peripherals:
+- A-GPS
+- Accelerometer
+- Compass
+- DP over USB-C
+- Dual SIM
+- Dual front speakers
+- Fingerprint reader
+- BeiDou
+- Galileo
+- GLONASS
+- GPS
+- Gyroscope
+- Hall effect sensor
+- Light sensor
+- NFC
+- Pedometer
+- Proximity sensor
+- Qi wireless charging
+- Qi reverse wireless charging
+- USB OTG
+- Wi-Fi Display
+ram: 8/12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+release: 2021-03-20
+screen:
+  density: 525
+  resolution: 1440x3216
+  size: 170.18 mm (6.7 in)
+  technology: LTPO Fluid2 AMOLED
+soc: Qualcomm SM8350 Snapdragon 888 5G (5nm)
+storage: 128/256 GB
+uses_custom_recovery: true
+vendor: OnePlus
+versions: []
+wifi: 802.11 a/b/g/n/ac/6, dual-band, Wi-FI Direct, DLNA
