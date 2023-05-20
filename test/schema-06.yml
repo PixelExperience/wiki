@@ -493,6 +493,7 @@ properties:
     - fastboot_xiaomi_virtual_ab
     - fastboot_zenfone
     - fastboot_martini
+    - fastboot_enchilada
     - fastboot_fajita
     - heimdall
     - odin
