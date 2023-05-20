@@ -3,10 +3,7 @@ battery:
   capacity: 3300
   removable: false
   tech: Li-Po
-before_install: needs_specific_android_fw
-before_install_args:
-  version: 11
-before_install_custom: ab_copy_partitions
+before_install: enchilada
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -32,7 +29,7 @@ dimensions:
   width: 75.3 mm (2.96 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 630
-install_method: fastboot_nexus
+install_method: fastboot_enchilada
 is_ab_device: true
 maintainers: []
 name: '6'
