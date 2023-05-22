@@ -3,7 +3,7 @@ battery:
   capacity: 3000
   removable: false
   tech: Li-Ion
-before_install_custom: ab_copy_partitions
+before_install_custom: beckham
 bluetooth:
   profiles:
   - A2DP + aptX HD
