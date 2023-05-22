@@ -29,11 +29,11 @@ yes, you can either sideload by adb or install from sdcard renaming magisk.apk t
 
 2- Why the hell use the retrofited system?
 Our system partition is small. Retrofited system allow us to ship all the pixel goodies
-reference here
+reference [here](https://source.android.com/devices/tech/ota/dynamic_partitions).
 
 3- How do I go back to the old schema:
 Easy as you converted:
-- Pick any rom with a/b schema (eg lineage or PE 11)
+- Pick any rom with a/b schema (eg lineageOS or PE 12)
 - Reboot recovery
 - Format data
 - Flash a/b zip
