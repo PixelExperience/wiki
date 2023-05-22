@@ -6,7 +6,7 @@ battery:
 before_install: needs_specific_android_fw
 before_install_args:
   version: 9
-before_install_custom: ab_copy_partitions
+before_install_custom: evert
 bluetooth:
   profiles:
   - A2DP
