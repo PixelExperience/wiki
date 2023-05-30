@@ -3,7 +3,7 @@ battery:
   capacity: 4250
   removable: false
   tech: Li-Po
-before_recovery_install: vendor_boot
+before_recovery_install: dtbo_and_vendor_boot
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -32,6 +32,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
+dtbo_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_renoir/-/raw/thirteen/dtbo.img
 gpu: Adreno 642
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
@@ -67,10 +68,10 @@ screen:
   resolution: 1080x2400
   size: 160.5 mm (6.55 in)
   technology: 90Hz Super AMOLED
-soc: Qualcomm SM7350-AB Snapdragon 780
+soc: Qualcomm SM7350-AB Snapdragon 780G
 storage: 64/128/256 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_renoir/-/raw/twelve/twelve/vendor_boot.img
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_renoir/-/raw/thirteen/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
