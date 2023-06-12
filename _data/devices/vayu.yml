@@ -28,8 +28,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
 gpu: Adreno 640
-install_method: fastboot_xiaomi_virtual_ab
 has_recovery_partition: true
+install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Alisson Grizotti
 name: POCO X3 Pro
