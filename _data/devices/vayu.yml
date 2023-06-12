@@ -29,6 +29,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 640
 install_method: fastboot_xiaomi_virtual_ab
+has_recovery_partition: true
 maintainers:
 - Alisson Grizotti
 name: POCO X3 Pro
