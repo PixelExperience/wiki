@@ -3,6 +3,7 @@ battery:
   capacity: 3400
   removable: false
   tech: Li-Ion
+before_install_custom: chiron
 bluetooth:
   profiles:
   - A2DP
@@ -63,7 +64,6 @@ screen:
   technology: IPS LCD
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128/256 GB
-uses_custom_recovery: true
 vendor: Xiaomi
 versions:
 - thirteen
