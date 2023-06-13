@@ -35,7 +35,7 @@ gpu: Adreno 642L
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Shubham Das
-name: Xiaomi 11 Lite NE 5G
+name: 11 Lite NE 5G
 network:
 - 2G GSM
 - 2G CDMA
