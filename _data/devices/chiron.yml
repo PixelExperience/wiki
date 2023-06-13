@@ -16,7 +16,7 @@ codename: chiron
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-deprecated: true
+deprecated: false
 deprecated_versions: []
 dimensions:
   depth: 7.7 mm (0.30 in)
@@ -27,8 +27,9 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 540
 install_method: fastboot_xiaomi
-maintainers: []
-name: Mi Mix 2
+maintainers:
+- x0x00044
+name: Mi MIX 2
 network:
 - 2G GSM
 - 2G CDMA
@@ -64,5 +65,7 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128/256 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
