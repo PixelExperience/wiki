@@ -33,7 +33,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 630
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Sajid Shahriar
 name: POCO F1
 network:
 - 2G GSM
