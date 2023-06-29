@@ -53,7 +53,7 @@ peripherals:
 - IR camera
 - FM radio
 ram: 6/8 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: Turn off the device, and hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "POCO" logo appears on the screen, then release.
 release: 2018-08
 screen:
