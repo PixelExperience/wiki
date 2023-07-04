@@ -1,0 +1,65 @@
+architecture: arm64
+battery:
+  capacity: 3000
+  removable: false
+  tech: Li-Ion
+before_install_custom: PL2
+bluetooth:
+  profiles:
+  - A2DP
+  - A2DP + aptX
+  - A2DP + aptX HD
+  spec: '5'
+cameras:
+- flash: LED
+  info: 16 MP
+- flash: None
+  info: 8 MP
+codename: PL2
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+deprecated: false
+dimensions:
+  depth: 8.60 mm (0.33 in)
+  height: 148.80 mm (5.85 in)
+  width: 75.80 mm (2.98 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and connect to a computer.
+gpu: Adreno 508
+install_method: fastboot_PL2
+is_ab_device: true
+has_recovery_partition: false
+maintainers:
+- ARINDAM BHATTACHARJEE
+name: Nokia 6.1 (2018)
+network:
+- 2G GSM
+- 2G CDMA
+- 3G UMTS
+- 4G LTE
+peripherals:
+- Dual SIM
+- Fingerprint reader
+- Accelerometer
+- Gyroscope
+- Proximity sensor
+- Compass
+- NFC
+- Hall effect sensor
+- Sensor hub
+- Light sensor
+ram: 3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect to a computer.
+release: 2018-05
+screen:
+  density: 432
+  resolution: 1080x1920
+  size: 139 mm (5.5 in)
+  technology: IPS LCD
+soc: Qualcomm SDM660 Snapdragon 630
+storage: 32/64 GB eMMC 5.1
+uses_custom_recovery: true
+vendor: Nokia
+versions:
+- thirteen
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

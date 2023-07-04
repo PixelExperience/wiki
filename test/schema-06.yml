@@ -486,6 +486,7 @@ properties:
     - fastboot_nexus
     - fastboot_NB1
     - fastboot_oppo
+    - fastboot_PL2
     - fastboot_sony
     - fastboot_realme
     - fastboot_unlocked
