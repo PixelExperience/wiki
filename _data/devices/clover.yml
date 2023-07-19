@@ -42,7 +42,7 @@ maintainers:
 models:
 - 4
 - 4 Plus
-name: Mi PAD 4(Plus)
+name: Mi Pad 4 / 4 Plus
 network:
 - 2G GSM
 - 2G CDMA
@@ -60,7 +60,7 @@ peripherals:
 - GLONASS
 ram: 3/4 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
+  Keep holding both buttons until the "Mi" logo appears on the screen, then release.
 release:
 - 4: 2018-06
 - 4 Plus: 2018-08
