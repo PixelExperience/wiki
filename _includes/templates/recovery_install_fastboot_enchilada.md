@@ -62,11 +62,16 @@ You can acquire more information about dynamic partitions [here](https://source.
 {% include alerts/warning.html content="Dynamic partitions must be initialized when installing for the first time, so the process to do so is described below." %}
 1. Download [this](https://sourceforge.net/projects/sn-roms/files/PixelExperience-13/enchilada/super_empty.img/download) `super_empty.img` file.
 2. Power off the device, and boot it into `bootloader` mode
-3. Flash PixelExperience Recovery:
+3. Flash vbmeta from [here](https://sourceforge.net/projects/sn-roms/files/PixelExperience-13/enchilada/vbmeta.img/download):
+```
+fastboot flash vbmeta_a vbmeta.img
+fastboot flash vbmeta_b vbmeta.img
+```
+4. Flash PixelExperience Recovery:
 ```
 fastboot flash boot <recovery_filename>.img
 ```
-4. Erase the old android partitions with the following:
+5. Erase the old android partitions with the following:
 ```
 fastboot erase system_a
 fastboot erase system_b
@@ -75,9 +80,9 @@ fastboot erase odm_b
 fastboot erase vendor_a
 fastboot erase vendor_b
 ```
-5. Now reboot into `recovery` and enter `fastbootd mode`
+6. Now reboot into `recovery` and enter `fastbootd mode`
 
-6. Initialize the retrofit super partitions for each slot:
+7. Initialize the retrofit super partitions for each slot:
 ```
 fastboot wipe-super super_empty.img
 fastboot set_active other
@@ -85,4 +90,4 @@ fastboot wipe-super super_empty.img
 fastboot set_active other
 ```
 
-7. Choose `Enter recovery` to return to `recovery`
+8. Choose `Enter recovery` to return to `recovery`
