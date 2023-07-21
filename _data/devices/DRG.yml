@@ -22,18 +22,20 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8 mm (0.31 in)
   height: 147.20 mm (5.80 in)
   width: 71 mm (2.80 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and connect to a computer.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and connect
+  to a computer.
 gpu: Adreno 509
+has_recovery_partition: false
 install_method: fastboot_DRG
 is_ab_device: true
-has_recovery_partition: false
 maintainers:
-- ARINDAM BHATTACHARJEE
-name: Nokia 6.1 Plus
+- Arindam Bhattacharjee
+name: 6.1 Plus
 network:
 - 2G GSM
 - 2G CDMA
@@ -50,7 +52,8 @@ peripherals:
 - Sensor hub
 - Light sensor
 ram: 4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect to a computer.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  to a computer.
 release: 2018-07
 screen:
   density: 432
