@@ -7,7 +7,7 @@ before_install: needs_specific_android_fw
 before_install_args:
   version: 12
 before_install_custom: ab_copy_partitions
-before_recovery_install: dtbo_and_vendor_boot
+before_recovery_install: dre
 bluetooth:
   profiles:
   - A2DP + aptX HD
@@ -29,7 +29,6 @@ dimensions:
   width: 74.9 mm (2.95 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
-dtbo_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_dre/-/raw/thirteen/13/dtbo.img
 firmware_update: firmware_update_oneplus_sm4350
 gpu: Adreno 619
 image: dre.png
@@ -76,7 +75,6 @@ screen:
 soc: Qualcomm SM4350 Snapdragon 480
 storage: 64 GB UFS 2.1
 vendor: OnePlus
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_dre/-/raw/thirteen/13/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
