@@ -10,7 +10,7 @@ bluetooth:
   spec: '5.2'
 cameras:
 - flash: LED
-  info: 108P (wide)
+  info: 108 MP (wide)
 - flash: LED
   info: 8 MP (ultrawide)
 - flash: LED
