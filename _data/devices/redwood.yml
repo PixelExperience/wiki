@@ -35,7 +35,7 @@ gpu: Adreno 642L
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
 - Kartik Lashkare
-name: POCO X5 Pro 5G / Redmi Note 12 Pro Speed
+name: X5 Pro 5G
 network:
 - 2G GSM
 - 2G CDMA
