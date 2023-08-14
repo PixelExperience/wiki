@@ -18,8 +18,10 @@ codename: mi439
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.95 GHz + 4 x 1.45 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -31,8 +33,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 505
 install_method: fastboot_xiaomi
-maintainers:
-- shield44
+maintainers: []
 name: Redmi 8 / 8A / 8A Dual
 network:
 - 2G GSM
@@ -60,7 +61,5 @@ soc: Qualcomm SDM439 Snapdragon 439
 storage: 32/64 GB
 uses_custom_recovery: true
 vendor: Xiaomi
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
