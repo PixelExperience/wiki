@@ -68,7 +68,7 @@ release:
 - 22087RA4DI: 2022-08-31
 - 2207117BPG: 2022-09-06
 required_bootloader:
-- 12.5.16.0.RKLMIXM
+- 12.5.19.0.RKLINXM
 screen:
   density: 428
   resolution: 1080x2340
