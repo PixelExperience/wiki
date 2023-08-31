@@ -21,8 +21,10 @@ cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.5 GHz + 3 x 2.4 GHz + 4 x 1.9 GHz
 custom_unlock_cmd: fastboot flashing unlock
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- thirteen
+- thirteen_plus
 dimensions:
   depth: 8.3 mm (0.33 in)
   height: 159.2 mm (6.27 in)
@@ -31,8 +33,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 642L
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- x0x00044
+maintainers: []
 name: Phone (1)
 network:
 - 2G GSM
@@ -69,7 +70,5 @@ screen:
 soc: Qualcomm SM7325-AE Snapdragon 778G+
 storage: 128/256 GB
 vendor: Nothing
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
