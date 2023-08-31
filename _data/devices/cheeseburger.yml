@@ -18,8 +18,10 @@ codename: cheeseburger
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 - eleven
@@ -31,8 +33,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
 install_method: fastboot_nexus
-maintainers:
-- Aditya Singh
+maintainers: []
 name: '5'
 network:
 - 2G GSM
@@ -62,7 +63,5 @@ screen:
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
 vendor: OnePlus
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
