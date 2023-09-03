@@ -48,19 +48,29 @@ peripherals:
 - A-GPS
 - Accelerometer
 - Barometer
-- Color spectrum sensor
 - Compass
 - Dual SIM
+- Dual-frequency GNSS
+- Dual speakers
 - Fingerprint reader
+- BeiDou
+- Galileo
 - GLONASS
 - GPS
+- NAVIC
+- SBAS
+- QZSS
 - Gyroscope
 - IR blaster
+- Infrared sensor
 - Light sensor
 - NFC
-- Proximity sensor
+- Ultrasound proximity sensor
+- Qi wireless charging
+- Qi reverse wireless charging
 - USB OTG
-ram: 8/12 GB
+- Wi-Fi Display
+ram: 8/12GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2021-3-29
