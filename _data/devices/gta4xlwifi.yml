@@ -22,8 +22,8 @@ dimensions:
   depth: 7.0 mm (0.28 in)
   height: 244.5 mm (9.63 in)
   width: 154.3 mm (6.7 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
-  + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>
+  + <kbd>Plug In USB</kbd>.
 gpu: ARM Mali-G72 MP3
 install_method: heimdall
 maintainers:
