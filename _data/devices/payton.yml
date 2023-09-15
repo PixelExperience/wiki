@@ -22,8 +22,10 @@ codename: payton
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -34,8 +36,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 508
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- ExactExampl
+maintainers: []
 name: Moto X4
 network:
 - 2G GSM
@@ -68,7 +69,5 @@ sdcard:
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 32/64/128 GB
 vendor: Motorola
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot

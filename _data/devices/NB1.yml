@@ -21,8 +21,9 @@ codename: NB1
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
 - twelve
 dimensions:
   depth: 7.9 mm (0.31 in)
@@ -34,8 +35,7 @@ gpu: Adreno 540
 has_recovery_partition: false
 install_method: fastboot_NB1
 is_ab_device: true
-maintainers:
-- emufan
+maintainers: []
 name: '8'
 network:
 - 2G GSM
@@ -65,6 +65,5 @@ screen:
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
 vendor: Nokia
-versions:
-- thirteen
+versions: []
 wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot

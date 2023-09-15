@@ -3,40 +3,39 @@ battery:
   capacity: 5000
   removable: false
   tech: Li-Po
-before_recovery_install: vendor_boot
+before_recovery_install: dtbo_and_vendor_boot
 bluetooth:
   profiles:
   - A2DP + aptX HD
   spec: '5.2'
 cameras:
 - flash: LED
-  info: 50 MP (main)
+  info: 108 MP (wide)
 - flash: LED
-  info: 8 MP (periscope telephoto)
+  info: 8 MP (ultrawide)
 - flash: LED
-  info: 13 MP (ultrawide)
+  info: 2 MP (macro)
 - flash: None
-  info: 20 MP (front)
-codename: mars
-cpu: Kryo 680
+  info: 16 MP
+codename: redwood
+cpu: Kryo 670
 cpu_cores: '8'
-cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
+cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz + 4 x 1.9 GHz
 deprecated: false
-deprecated_versions:
-- twelve
-- twelve_plus
+deprecated_versions: []
 dimensions:
-  depth: 8.5 mm (0.33 in)
-  height: 164.3 mm (6.46 in)
-  width: 74.6 mm (2.94 in)
+  depth: 7.9 mm (0.31 in)
+  height: 162.9 mm (6.41 in)
+  width: 76 mm (2.99 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
-gpu: Adreno 660
+dtbo_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redwood/-/raw/thirteen/dtbo.img
+gpu: Adreno 642L
 install_method: fastboot_xiaomi_virtual_ab
 maintainers:
-- Flower Sea
-name: Mi 11 Pro
+- Kartik Lashkare
+name: POCO X5 Pro 5G / Redmi Note 12 Pro Speed Edition
 network:
 - 2G GSM
 - 2G CDMA
@@ -47,43 +46,33 @@ network:
 peripherals:
 - A-GPS
 - Accelerometer
-- Barometer
 - Compass
 - Dual SIM
-- Dual-frequency GNSS
-- Dual speakers
 - Fingerprint reader
-- BeiDou
-- Galileo
 - GLONASS
 - GPS
-- NAVIC
-- SBAS
-- QZSS
 - Gyroscope
 - IR blaster
-- Infrared sensor
 - Light sensor
-- NFC
 - Ultrasound proximity sensor
-- Qi wireless charging
-- Qi reverse wireless charging
+- NFC
 - USB OTG
-- Wi-Fi Display
-ram: 8/12GB LPDDR5
+ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release: 2021-3-29
+release: 2023-02-07
 screen:
-  density: 515
-  resolution: 1440x3200
-  size: 172.97 mm (6.81 in)
+  density: 365
+  resolution: 1080x2400
+  size: 160.5 mm (6.55 in)
   technology: 120Hz Super AMOLED
-soc: Qualcomm SM8350 Snapdragon 888
+sdcard:
+  sizeMax: 2 TB
+soc: Qualcomm SM7325 Snapdragon 778G
 storage: 128/256 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_mars/-/raw/thirteen/android-13/vendor_boot.img
+vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redwood/-/raw/thirteen/vendor_boot.img
 versions:
 - thirteen
 - thirteen_plus
-wifi: 802.11 a/b/g/n/ac/6e, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

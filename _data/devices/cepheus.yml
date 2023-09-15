@@ -20,8 +20,10 @@ codename: cepheus
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1x2.84 GHz + 3x2.42 GHz + 4x1.79 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -33,8 +35,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 640
 install_method: fastboot_xiaomi
-maintainers:
-- Evasi0n Xiao
+maintainers: []
 name: Mi 9
 network:
 - 2G GSM
@@ -67,7 +68,5 @@ screen:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128/256 GB
 vendor: Xiaomi
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
