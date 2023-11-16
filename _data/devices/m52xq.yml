@@ -1,7 +1,7 @@
 architecture: arm64
 battery:
   capacity: 5000
-  removable: False
+  removable: false
   tech: Li-Ion
 before_install: needs_specific_android_fw
 before_install_args:
@@ -24,11 +24,13 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
 current_branch: 20
 deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 7.4 mm (0.29 in)
   height: 164.2 mm (6.46 in)
   width: 76.4 mm (3.01 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_sm7325
 gpu: Adreno 642L
 image: m52xq.png
@@ -41,7 +43,7 @@ models:
 - SM-M526BR
 - SM-M526B/DS
 - SM-M526BR/DS
-name: Galaxy M52 5G
+name: M52 5G
 network:
 - 2G GSM
 - 3G UMTS
@@ -56,7 +58,8 @@ peripherals:
 - Gyroscope
 - Proximity sensor
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>
+  while the device is connected to a PC via USB cable.
 release: 2021
 screen:
   density: 393
