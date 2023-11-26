@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: How to connect to adb over wifi
 folder: how-tos
-permalink: help/adb-over-wifi
+permalink: help/adb-over-wifi/
 tags:
  - how-to
 ---

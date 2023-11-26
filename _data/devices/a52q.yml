@@ -6,7 +6,7 @@ battery:
 before_install: needs_specific_android_fw
 before_install_args:
   version: 13
-before_recovery_install: samsung_sm7125
+before_recovery_install: samsung_qcom
 bluetooth:
   profiles:
   - A2DP
@@ -35,6 +35,7 @@ dimensions:
   width: 75.1 mm (2.96 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_sm7125
 gpu: Adreno 618
 image: a52q.png
 install_method: odin
@@ -65,7 +66,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2021
 screen:
   density: 407
-  resolution: 1080x2800
+  resolution: 1080x2400
   size: 165.1 mm (6.5 in)
   technology: Super AMOLED
 sdcard:
