@@ -63,7 +63,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2021
 screen:
   density: 393
-  resolution: 1080x2800
+  resolution: 1080x2400
   size: 170.18 mm (6.7 in)
   technology: Super AMOLED
 sdcard:
