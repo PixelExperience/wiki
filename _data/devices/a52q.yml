@@ -35,6 +35,7 @@ dimensions:
   width: 75.1 mm (2.96 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_sm7125
 gpu: Adreno 618
 image: a52q.png
 install_method: odin
