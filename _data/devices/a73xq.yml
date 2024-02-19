@@ -25,8 +25,10 @@ cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
 current_branch: 20
-deprecated: false
-deprecated_versions: []
+deprecated: true
+deprecated_versions:
+- thirteen
+- thirteen_plus
 dimensions:
   depth: 7.6 mm (0.30 in)
   height: 163.7 mm (6.44 in)
@@ -38,8 +40,7 @@ gpu: Adreno 642L
 image: a73xq.png
 install_method: odin
 kernel: android_kernel_samsung_sm7325
-maintainers:
-- Simon1511
+maintainers: []
 models:
 - SM-A736B
 name: A73 5G
@@ -75,7 +76,5 @@ type: phone
 uses_recovery_tar: true
 vendor: Samsung
 vendor_short: samsung
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac/ax

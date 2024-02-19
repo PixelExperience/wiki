@@ -18,8 +18,10 @@ codename: tissot
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -32,8 +34,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers:
-- Abhinav Gupta
+maintainers: []
 name: Mi A1
 network:
 - 2G GSM
@@ -65,7 +66,5 @@ sdcard:
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 vendor: Xiaomi
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac
