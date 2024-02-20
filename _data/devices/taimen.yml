@@ -18,10 +18,8 @@ cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
 custom_unlock_cmd: fastboot flashing unlock
-deprecated: true
+deprecated: false
 deprecated_versions:
-- thirteen
-- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -32,7 +30,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 540
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- jro1979oliver
 name: Pixel 2 XL
 network:
 - 2G GSM
@@ -67,5 +66,7 @@ screen:
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 vendor: Google
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

@@ -19,10 +19,8 @@ codename: PL2
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
-deprecated: true
-deprecated_versions:
-- thirteen
-- thirteen_plus
+deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8.60 mm (0.33 in)
   height: 148.80 mm (5.85 in)
@@ -33,7 +31,8 @@ gpu: Adreno 508
 has_recovery_partition: false
 install_method: fastboot_PL2
 is_ab_device: true
-maintainers: []
+maintainers:
+- Arindam Bhattacharjee
 name: '6.1'
 network:
 - 2G GSM
@@ -64,5 +63,7 @@ soc: Qualcomm SDM660 Snapdragon 630
 storage: 32/64 GB eMMC 5.1
 uses_custom_recovery: true
 vendor: Nokia
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

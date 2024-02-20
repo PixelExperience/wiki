@@ -21,10 +21,8 @@ codename: DRG
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
-deprecated: true
-deprecated_versions:
-- thirteen
-- thirteen_plus
+deprecated: false
+deprecated_versions: []
 dimensions:
   depth: 8 mm (0.31 in)
   height: 147.20 mm (5.80 in)
@@ -35,7 +33,8 @@ gpu: Adreno 509
 has_recovery_partition: false
 install_method: fastboot_DRG
 is_ab_device: true
-maintainers: []
+maintainers:
+- Arindam Bhattacharjee
 name: 6.1 Plus
 network:
 - 2G GSM
@@ -65,5 +64,7 @@ soc: Qualcomm SDM660 Snapdragon 636
 storage: 32/64 GB eMMC 5.1
 uses_custom_recovery: true
 vendor: Nokia
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

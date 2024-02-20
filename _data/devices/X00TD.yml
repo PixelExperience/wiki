@@ -18,10 +18,8 @@ codename: X00TD
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
-- thirteen
-- thirteen_plus
 - twelve
 - twelve_plus
 - eleven
@@ -35,7 +33,9 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   release.
 gpu: Adreno 509
 install_method: fastboot_zenfone
-maintainers: []
+maintainers:
+- Anand S
+- Vivek
 name: Zenfone Max Pro M1
 network:
 - 2G GSM
@@ -62,5 +62,7 @@ sdcard:
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 vendor: ASUS
-versions: []
+versions:
+- thirteen
+- thirteen_plus
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot
