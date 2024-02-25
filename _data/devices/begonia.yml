@@ -22,8 +22,10 @@ codename: begonia
 cpu: Helio G90T
 cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz & 6 x 2.0 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -35,8 +37,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: ARM Mali-G76 MC4
 install_method: fastboot_xiaomi
-maintainers:
-- Zinadin Zidan
+maintainers: []
 name: Redmi Note 8 Pro
 network:
 - 2G GSM
@@ -72,7 +73,5 @@ sdcard:
 soc: Mediatek Helio G90T
 storage: 64/128/256 GB
 vendor: Xiaomi
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

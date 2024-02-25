@@ -17,8 +17,10 @@ codename: beckham
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
-deprecated: false
+deprecated: true
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -29,8 +31,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 509
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers:
-- jro1979oliver
+maintainers: []
 models:
 - XT1929-2
 - XT1929-3
@@ -67,7 +68,5 @@ sdcard:
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 GB, 64 GB, 128 GB
 vendor: Motorola
-versions:
-- thirteen
-- thirteen_plus
+versions: []
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
