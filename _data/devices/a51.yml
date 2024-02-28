@@ -24,9 +24,7 @@ cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz & 4 x 1.7 GHz
 deprecated: true
-deprecated_versions:
-- thirteen
-- thirteen_plus
+deprecated_versions: []
 dimensions:
   depth: 7.9 mm (0.31 in)
   height: 158.5 mm (6.24 in)
