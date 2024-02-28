@@ -20,7 +20,7 @@ codename: guacamole
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - thirteen
 - thirteen_plus
@@ -36,7 +36,8 @@ firmware_update: firmware_update_oneplus_sm8150
 gpu: Adreno 640
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Rajan Palaniya
 models:
 - GM1910
 - GM1911
@@ -70,5 +71,6 @@ screen:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 vendor: OnePlus
-versions: []
+versions:
+- fourteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
