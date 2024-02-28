@@ -17,7 +17,7 @@ codename: mojito
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - thirteen
 - thirteen_plus
@@ -33,7 +33,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 612
 install_method: fastboot_xiaomi_virtual_ab
 is_ab_device: true
-maintainers: []
+maintainers:
+- Zinadin Zidan
 name: Redmi Note 10
 network:
 - 2G GSM
@@ -70,5 +71,6 @@ soc: Qualcomm SDM678 Snapdragon 678
 storage: 128 GB
 vendor: Xiaomi
 vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_mojito/-/raw/thirteen/android-13/vendor_boot.img
-versions: []
+versions:
+- fourteen
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

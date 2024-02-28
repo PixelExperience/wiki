@@ -27,6 +27,7 @@ cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
 current_branch: 19.1
 deprecated: true
 deprecated_versions:
+- fourteen
 - thirteen
 - thirteen_plus
 - twelve
