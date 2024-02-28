@@ -22,7 +22,7 @@ codename: evert
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - thirteen
 - thirteen_plus
@@ -36,7 +36,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 508
 install_method: fastboot_motorola
 is_ab_device: true
-maintainers: []
+maintainers:
+- jro1979oliver
 models:
 - XT1926-2
 - XT1926-3
@@ -77,5 +78,6 @@ sdcard:
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64/128 GB
 vendor: Motorola
-versions: []
+versions:
+- fourteen
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
