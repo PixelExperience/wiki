@@ -17,7 +17,7 @@ codename: munch
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - thirteen
 - thirteen_plus
@@ -30,7 +30,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   release.
 gpu: Adreno 650
 install_method: fastboot_xiaomi_virtual_ab
-maintainers: []
+maintainers:
+- Jayanth Kandula
 name: POCO F4 / Redmi K40S
 network:
 - 2G GSM
@@ -69,5 +70,6 @@ soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB
 vendor: Xiaomi
 vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_munch/-/raw/thirteen/vendor_boot.img
-versions: []
+versions:
+- fourteen
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
