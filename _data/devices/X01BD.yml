@@ -18,7 +18,7 @@ codename: X01BD
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - thirteen
 - thirteen_plus
@@ -33,7 +33,8 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   release.
 gpu: Adreno 512
 install_method: fastboot_zenfone
-maintainers: []
+maintainers:
+- Gaurav
 name: Zenfone Max Pro M2
 network:
 - 2G GSM
@@ -60,5 +61,6 @@ sdcard:
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64 GB
 vendor: ASUS
-versions: []
+versions:
+- fourteen
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot
