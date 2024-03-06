@@ -20,7 +20,7 @@ You will not be able to use TWRP at all, it will leave your device in an unusabl
  - If you don't have it installed, download PixelExperience recovery [here](https://download.pixelexperience.org/lake).
 
 2-You need to install retrofit zip to convert your device, this step only need to be run once per device.
-  Download [here](https://mega.nz/file/zR02mZoa#y16UYOkcNcUx8lI2QMo38agFa0Ytow3eVmr2MNdOM0o).
+  Download [here](https://mega.nz/file/PNdySahI#4vGD7V42VyVJt5jYQy8q4DBA6Bi5AG2nOwV13HRVRxs).
 
 3- Go to PixelExperience recovery and format your data, then sideload or install from sdcard previosly downloaded retrofit.zip. Format your data and reboot to recovery.
 

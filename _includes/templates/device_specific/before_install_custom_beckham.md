@@ -21,7 +21,7 @@ You will not be able to use TWRP at all, it will leave your device in an unusabl
  - If you don't have it installed, download PixelExperience recovery [here](https://download.pixelexperience.org/beckham).
 
 2-You need to install retrofit zip to convert your device, this step only need to be run once per device.
-  Download [here](https://mega.nz/file/DAU1hABZ#0CjaYVAYntkIjKN2R_6qtCSKCKvIoPh1lDtXyrl0_gM).
+  Download [here](https://mega.nz/file/7AsynayK#j9D_-JA7krHThFd-oiklV9BdcV3geZGdWfZ-J7R6Usc).
 
 3- Go to PixelExperience recovery and format your data, then sideload or install from sdcard previosly downloaded retrofit.zip. Format your data and reboot to recovery.
 
