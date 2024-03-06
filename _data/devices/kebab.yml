@@ -21,7 +21,7 @@ codename: kebab
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
 - thirteen
 - thirteen_plus
@@ -38,7 +38,8 @@ gpu: Adreno 650
 has_recovery_partition: true
 install_method: fastboot_nexus
 is_ab_device: true
-maintainers: []
+maintainers:
+- Eliermi Cunha
 name: 8T
 network:
 - 2G GSM
@@ -67,5 +68,6 @@ screen:
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.1
 vendor: OnePlus
-versions: []
+versions:
+- fourteen
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
