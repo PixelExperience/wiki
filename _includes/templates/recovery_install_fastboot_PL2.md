@@ -1,6 +1,4 @@
-{%- assign device = site.data.devices[page.device] -%}
-
-## Unlocking the bootloader
+## Unlocking the Bootloader [1/4] :
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
@@ -36,10 +34,5 @@ Now you can use the previously generated OTP to unlock the bootloader of your de
     4. Click on the "BEGIN UNLOCK" button.
     5. Wait for the process to complete and follow the instructions shown in the output window.
     6. Your device should prompt you for unlock. Use the volume keys to accept the unlock
-    
-    {% include alerts/note.html content="The tool will try to automatically unlock the device in fastboot mode. However, sometimes that can fail. Please put the device to fastboot mode manually if that happens." %}
 
-{% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{% endif %}
+6. Once the device bootloader unlocked follow up with the next steps.
