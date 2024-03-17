@@ -5,7 +5,7 @@ battery:
   tech: Li-Ion
 before_install: needs_specific_android_fw
 before_install_args:
-  version: '13/14'
+  version: 13/14
 before_recovery_install: samsung_qcom
 bluetooth:
   profiles:
