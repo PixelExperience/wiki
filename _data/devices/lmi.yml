@@ -24,6 +24,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 deprecated: true
 deprecated_versions:
+- fourteen
 - thirteen
 - thirteen_plus
 - twelve
