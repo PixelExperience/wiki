@@ -22,9 +22,8 @@ codename: lmi
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-deprecated: true
+deprecated: false
 deprecated_versions:
-- fourteen
 - thirteen
 - thirteen_plus
 - twelve
@@ -39,7 +38,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 650
 image: lmi.png
 install_method: fastboot_xiaomi
-maintainers: []
+maintainers:
+- Abd AlRahman NSR
 models:
 - M2004J11G
 - M2001J11C
@@ -88,5 +88,6 @@ storage: 128/256/512 GB
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: []
+versions:
+- fourteen
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
