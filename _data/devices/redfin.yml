@@ -27,6 +27,8 @@ current_branch: 18.1
 custom_unlock_cmd: fastboot flashing unlock
 deprecated: false
 deprecated_versions:
+- thirteen
+- thirteen_plus
 - twelve
 - twelve_plus
 dimensions:
@@ -38,7 +40,7 @@ gpu: Adreno 620
 install_method: fastboot_nexus
 is_ab_device: true
 maintainers:
-- Henrique Silva
+- jro1979oliver
 name: Pixel 5
 network:
 - 2G GSM
@@ -76,6 +78,5 @@ storage: 128 GB
 vendor: Google
 vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_redbull/-/raw/main/redfin/android-13/vendor_boot.img
 versions:
-- thirteen
-- thirteen_plus
+- fourteen
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
