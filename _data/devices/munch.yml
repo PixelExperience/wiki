@@ -69,7 +69,7 @@ screen:
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_munch/-/raw/thirteen/vendor_boot.img
+vendor_boot_download_link: https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_munch/thirteen/vendor_boot.img
 versions:
 - fourteen
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
