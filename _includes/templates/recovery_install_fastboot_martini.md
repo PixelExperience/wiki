@@ -45,9 +45,9 @@ fastboot flashing unlock
 
 {% include alerts/warning.html content="This device needs `boot` `vendor_boot` and `dtbo` from stock rom before flashing the rom,so the process to do so is described below." %}
 
-1. Download [this](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_martini/-/raw/main/android-13/boot.img?inline=false) `boot.img` file.
-2. Download [this](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_martini/-/raw/main/android-13/vendor_boot.img?inline=false) `vendor_boot.img` file.
-3. Download [this](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_martini/-/raw/main/android-13/dtbo.img?inline=false) `dtbo.img` file.
+1. Download [this](https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_martini/main/android-13/boot.img) `boot.img` file.
+2. Download [this](https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_martini/main/android-13/vendor_boot.img) `vendor_boot.img` file.
+3. Download [this](https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_martini/main/android-13/dtbo.img) `dtbo.img` file.
 4. Power off the device, and boot it into bootloader mode:
     * {{ device.download_boot }}
 5. Flash a the downloaded images to your device by typing:

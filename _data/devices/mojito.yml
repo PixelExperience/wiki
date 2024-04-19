@@ -70,7 +70,7 @@ sdcard:
 soc: Qualcomm SDM678 Snapdragon 678
 storage: 128 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_mojito/-/raw/thirteen/android-13/vendor_boot.img
+vendor_boot_download_link: https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_mojito/thirteen/android-13/vendor_boot.img
 versions:
 - fourteen
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

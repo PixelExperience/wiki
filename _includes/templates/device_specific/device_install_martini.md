@@ -93,7 +93,7 @@ There are no recovery installation instructions for this discontinued device.
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 
 Note:- If you get error 7 while sideloading:
-1. Download [super_empty.img](https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_martini/-/raw/main/android-13/super_empty.img?inline=false).
+1. Download [super_empty.img](https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_martini/main/android-13/super_empty.img).
 2. Reboot to fastbootD 
 3. Use command `fastboot wipe-super super_empty.img`
 4. Now you can sideload rom, Don’t forget to format data after sideloading.

@@ -32,7 +32,7 @@ dimensions:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
   release.
-dtbo_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_lisa/-/raw/thirteen/dtbo.img
+dtbo_download_link: https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_lisa/thirteen/dtbo.img
 gpu: Adreno 642L
 install_method: fastboot_xiaomi_virtual_ab
 maintainers: []
@@ -72,6 +72,6 @@ sdcard:
 soc: Qualcomm SM7325 Snapdragon 778G
 storage: 128/256 GB
 vendor: Xiaomi
-vendor_boot_download_link: https://gitlab.pixelexperience.org/android/vendor-blobs/wiki_blobs_lisa/-/raw/thirteen/vendor_boot.img
+vendor_boot_download_link: https://wiki-blobs-dl.pixelexperience.org/wiki_blobs_lisa/thirteen/vendor_boot.img
 versions: []
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
